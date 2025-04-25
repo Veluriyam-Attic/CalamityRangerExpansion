@@ -1,0 +1,1823 @@
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+TooltipChanges: {
+	PreText: "[c/FF6666:「Ranger Expansion」: ]"
+
+	Calamity: {
+		#暴政之终
+		TyrannysEnd: Ignores defence and damage reduction
+		#迫击炮弹
+		MortarRound: Deals 1 damage only
+		#橡胶迫击炮弹
+		RubberMortarRound: Deals 1 damage only
+		#异象纳米枪
+		TheAnomalysNanogun: The left-click lazer won't lower your damage
+		#神圣空尖弹
+		HallowPointRoundLine1: Deals 125% damage in evil biomes
+		HallowPointRoundLine2: Deals extra damage equals to 50% of enemy contact damage in the Hallow
+		#海伯里斯弹
+		HyperiusBulletLine1: Velocity is raised to 135%
+		HyperiusBulletLine2: 60% chance to fire lesser bullets
+		#血炎箭
+		BloodfireArrow: Guaranteed 1 hp recovery on hit
+		#血炎弹
+		BloodfireBullet: Guaranteed 1 hp recovery on hit
+		#绝路Prime
+		RubicoPrime: Raised attack speed
+		#满弹霰弹枪
+		BulletFilledShotgun: Raised attack speed
+		#天堂之风搭配星流箭降低伤害
+		HeavenlyGale: Lowers damage when used with Kaleidoscopic Phantasmagoria before defeating Calamitas
+	}
+
+	#派对弹
+	Vanilla.PartyBullet: Deals 1 damage only in pre-hardmode
+}
+
+RecipeGroup: {
+	Arrow: Any Arrow（Vanilla、Calamity、This Mod）
+	Bullet: any Bullet（Vanilla、Calamity、This Mod）
+	Gel: Any Gel（Vanilla、Calamity，This Mod）
+}
+
+Buffs: {
+	AstralArrowPBuff: {
+		DisplayName: Stellar Ward
+		Description:
+			'''
+			“A star falls...
+			wait, is that the [c/FFA500:Sun] and [c/87CEFF:Moon]？”
+			'''
+	}
+
+	PerennialArrowEBuff: {
+		DisplayName: 永恒箭Buff
+		Description: This doesn't require translation，BYD粒子特效用的
+	}
+
+	PolterplasmArrowEDeBuff2: {
+		DisplayName: 悲死者的怨念
+		Description: This doesn't require translation
+	}
+
+	PolterplasmArrowEDeBuff: {
+		DisplayName: 灵质箭停滞
+		Description: This doesn't require translation
+	}
+
+	AstralBulletEBuff: {
+		DisplayName: 炫星弹的星星
+		Description: This doesn't require translation
+	}
+
+	PerennialBulletPBuff: {
+		DisplayName: Perennial Strength
+		Description: Defence empowered!
+	}
+
+	EffulgentFeatherBulletPBuff: {
+		DisplayName: Faraday Cage
+		Description: Bzzzzzt
+	}
+
+	PolterplasmBulletFlowerPBuff: {
+		DisplayName: Postmortem Charge
+		Description: Run, run, run, till it's done, done, done...
+	}
+
+	WulfrimArrowEDebuff: {
+		DisplayName: Wulfrim shock
+		Description: I'm sparking!
+	}
+
+	DivineGeodeArrowPBuff: {
+		DisplayName: Godess' Purification
+		Description: You won't be the next Icarus
+	}
+
+	UelibloomArrowEBuff: {
+		DisplayName: 龙蒿箭
+		Description: This doesn't require translation，BYD这是写特效用的
+	}
+
+	AuricArrowPBuff: {
+		DisplayName: Draconic soul
+		Description: Raises your damage!
+	}
+
+	DestructionBulletDestruction: {
+		DisplayName: 血清弹Destruction
+		Description: This doesn't require translation，吗，我也不知道
+	}
+
+	DestructionBulletPoisonIvy: {
+		DisplayName: 血清弹PoisonIvy
+		Description: This doesn't require translation，吗，我也不知道
+	}
+
+	PerennialGelPBuff: {
+		DisplayName: Perennial Embrace
+		Description:
+			'''
+			increase life regen
+			Ever blossoming
+			'''
+	}
+
+	CosmosGelEDebuff: {
+		DisplayName: 宇宙凝胶Debuff
+		Description: This doesn't require translation，每秒减血
+	}
+
+	PolarisBuff: {
+		DisplayName: North Star's Guidance
+		Description: Slightly increases life regen
+	}
+
+	PlagueGelEDebuff: {
+		DisplayName: 强化瘟疫
+		Description: This doesn't require translation，每秒减血
+	}
+
+	BlindBirdCryEDebuff: {
+		DisplayName: 逆反之规
+		Description: This doesn't require translation，减少命中的敌人的伤害
+	}
+
+	KaleidoscopeBuff: {
+		DisplayName: Kaleidoscope Buff
+		Description: Mods.CalamityRangerExtra.Buffs.KaleidoscopeBuff.Description
+	}
+
+	ScoriaBulletPBuff: {
+		Description: Mods.CalamityRangerExtra.Buffs.ScoriaBulletPBuff.Description
+		DisplayName: Scoria Bullet P Buff
+	}
+}
+
+Arrows: {
+	APreHardMode: {
+		AerialiteArrow: {
+			DisplayName: Hurricane Arrow
+			Tooltip:
+				'''
+				Summons wirlwinds on hit
+				Wirlwinds home in after a moment.
+				'''
+		}
+
+		WulfrimArrow: {
+			DisplayName: Wulfrim Arrow
+			Tooltip:
+				'''
+				Relaeses sparks on hit.
+				“Worthy of Draedon's creations...”
+				'''
+		}
+
+		PrismArrow: {
+			DisplayName: Prism Arrow
+			Tooltip:
+				'''
+				Unaffected by gravity in water, but falls faster in air.
+				“Because Archimedes said so.”
+				'''
+		}
+	}
+
+	BPrePlantera: {
+		StarblightSootArrow: {
+			DisplayName: Star Speckled Arrow
+			Tooltip:
+				'''
+				Inflicts Astral Infection
+				Sprays stars on use
+				“Witness the creation of life.”
+				'''
+		}
+	}
+
+	CPreMoodLord: {
+		AstralArrow: {
+			DisplayName: Astral Arrow
+			Tooltip:
+				'''
+				Gives the「[c/CAE1FF:Stellar Ward]」effect on hit
+				Summons the [c/FFA500:Sun] and [c/87CEFF:Moon] around the player
+				Arrows that go through the [c/FFA500:Sun] explode in nuclear fusion
+				Arrows that go through the [c/87CEFF:Moon] gain powerful homing
+				Only works on this arrow
+				“A star in the palm of your hand.”
+				'''
+		}
+
+		LifeAlloyArrow: {
+			DisplayName: Life Arrow
+			Tooltip:
+				'''
+				The cumulative creation of three different forces...
+				“One is All and All is One. ”
+				'''
+		}
+
+		PerennialArrow: {
+			DisplayName: Perennial Arrow
+			Tooltip:
+				'''
+				Sticks into enemies and blossoms into a jungle flower
+				Deals continuous damage
+				Heals the player after some time
+				“Medics and gardeners would kill for this. ”
+				'''
+		}
+
+		ScoriaArrow: {
+			DisplayName: Scoria Arrow
+			Tooltip:
+				'''
+				Flies extermely slow
+				Explodes on hit, then drops down
+				Releases homing magma on death
+				“Rumbling with the force of a volcano. ”
+				'''
+		}
+
+		PlagueArrow: {
+			DisplayName: Plague Arrow
+			Tooltip:
+				'''
+				Gains homing if you have the Wither Blossoms
+				Inflicts Plague
+				“Their love transcends the 4th wall.”
+				'''
+		}
+	}
+
+	DPreDog: {
+		DivineGeodeArrow: {
+			DisplayName: Divine Geode Arrow
+			Tooltip:
+				'''
+				Blow your enemies apart with holy power!
+				Grants the Goddess' Purification buff
+				Which greately lengthens your flight time.
+				“Divine flames will no longer ignite your wings...”
+				'''
+		}
+
+		EffulgentFeatherArrow: {
+			DisplayName: Effulgent Arrow
+			Tooltip:
+				'''
+				Streaks forward in a tesla electromagnetic field
+				Pierces infinitely
+				“The Flash.”
+				'''
+		}
+
+		PolterplasmArrow: {
+			DisplayName: Polterplasm Arrow
+			Tooltip:
+				'''
+				Chance to release a shriek and deal huge damage
+				Most of the time it just does nothing tho
+				“It deals psychic damage to you, too.”
+				'''
+		}
+
+		UelibloomArrow: {
+			DisplayName: Uelibloom Arrow
+			Tooltip:
+				'''
+				Releases homing leaves and life lights on hit
+				Leaves grow into thorned vines
+				“Don't try to figure out the biologicals...”
+				'''
+		}
+
+		ToothArrow: {
+			DisplayName: Abyssal Slicer
+			Tooltip:
+				'''
+				Ignores defence and damage reduction
+				Deals true damage
+				“Armor? What's that?”
+				'''
+		}
+	}
+
+	EAfterDog: {
+		AuricArrow: {
+			DisplayName: Auric Arrow
+			Tooltip:
+				'''
+				Releases an electromagnetic explosion on hit
+				Small chance to spawn a ball of living flame where the player is
+				It will chase enemies and explode
+				Then drops an item that boosts damage
+				“This is the boon of the gods. ”
+				'''
+		}
+
+		MiracleMatterArrow: {
+			DisplayName: Kaleidoscopic Phantasmagoria
+			Tooltip:
+				'''
+				Explodes when an enemy is near
+				Releases homing energy bolts on death
+				The Witch doesn't like this...
+				Best not to use this with Heaven's Wind against her.
+				Try something else!
+				“Shine brighter than the stars in the sky.”
+				'''
+		}
+
+		EndothermicEnergyArrow: {
+			DisplayName: Endothermic Arrow
+			Tooltip:
+				'''
+				Flies on hit and rains down icicles
+				“For the Rock Emperor!”
+				'''
+		}
+	}
+}
+
+Ammunition: {
+	APreHardMode: {
+		AerialiteBullet: {
+			DisplayName: Aerialite Bullet
+			Tooltip:
+				'''
+				Has a slight recoil
+				Recoil lessens when player is moving at high speeds
+				Sucks lesser enemies in on hit
+				“May the winds guide you.”
+				'''
+		}
+
+		WulfrimBullet: {
+			DisplayName: Wulfrim Bullet
+			Tooltip:
+				'''
+				Powerful at point-blank range
+				Effectiveness greatly affected by distance
+				“Come 'ere! I've got somethin' to show ya.”
+				'''
+		}
+
+		TinkleshardBullet: {
+			DisplayName: Prism Round
+			Tooltip:
+				'''
+				Splites into prism shards on hit
+				“Aqua affinity.”
+				'''
+		}
+	}
+
+	BPrePlantera: {
+		CryonicBullet: {
+			DisplayName: Cryonic Bullet
+			Tooltip:
+				'''
+				Marks enemies and make them take more damage
+				Shoots icicles midair
+				“Winter is here.”
+				'''
+		}
+
+		StarblightSootBullet: {
+			DisplayName: Blight Star Round
+			Tooltip:
+				'''
+				Marks enemies
+				When a marked enemy dies, an astral field will appear
+				Enemies in the field share all damage they take with other enemies
+				“A dying star's last breath.”
+				'''
+		}
+	}
+
+	CPreMoodLord: {
+		AstralBullet: {
+			DisplayName: Astral Bullet
+			Tooltip:
+				'''
+				Stars and comets will bombard the struck enemy
+				They deal 250% base damage
+				Gradually increases frequency				
+				“The whole universe blinks for you.”
+				'''
+		}
+
+		PerennialBullet: {
+			DisplayName: Perennial Bullet
+			Tooltip:
+				'''
+				Successive hits will raise the player's defence, up to +20
+				Inflicts Venom
+				“Brave the storm.”
+				'''
+		}
+
+		ScoriaBullet: {
+			DisplayName: Scoria Bullet
+			Tooltip:
+				'''
+				Explodes and gives the player stackable speed and damage boost
+				“A good warmup.”
+				'''
+		}
+
+		PlagueBullet: {
+			Tooltip:
+				'''
+				Deals 220% damage if the enemy is affected by the Plague
+				If not, deal 75% damage
+				“Effective on rats”
+				'''
+			DisplayName: Plague Plated Bullet
+		}
+	}
+
+	DPreDog: {
+		UelibloomBullet: {
+			DisplayName: Uelibloom Bullet
+			Tooltip:
+				'''
+				Releases powerful homing life lights
+				“What brings creation can also bring destruction.”
+				'''
+		}
+
+		PolterplasmBullet: {
+			DisplayName: Polterplasm Bullet
+			Tooltip:
+				'''
+				Summons homing polterplasmic spirits on hit
+				which gives the player the Postmortem Charge buff
+				The buff grants a powerful dash
+				“Fast and furious!...and dead.”
+				'''
+		}
+
+		EffulgentFeatherBullet: {
+			DisplayName: Effulgent Bullet
+			Tooltip:
+				'''
+				Gives the Farady Cage buff
+				Electrifies nearby enemies
+				“Physics.”
+				'''
+		}
+
+		DivineGeodeBullet: {
+			DisplayName: Divine Geode Bullet
+			Tooltip:
+				'''
+				Lowers enemy defence by 10. Not stackable.
+				Has a 5% chance of healing the enemy in Expert mode or above.
+				“sus.”
+				'''
+		}
+
+		ToothBullet: {
+			Tooltip:
+				'''
+				Deals 0.75% more damage with each 1 point of defence the enemy has
+				Capped at 75%
+				“Piercing rounds loaded!”
+				'''
+			DisplayName: Abyssal Piercer
+		}
+	}
+
+	EAfterDog: {
+		AuricBulet: {
+			DisplayName: Auric Bullet
+			Tooltip:
+				'''
+				On hit, releases Auric orbs that orbit their point of origin
+				“The Parade of Light.”
+				'''
+		}
+
+		MiracleMatterBullet: {
+			DisplayName: Exo Round
+			Tooltip:
+				'''
+				Deals no damage on the initial hit
+				Pierces, then flies erratically and agressively homes in
+				'''
+		}
+
+		EndothermicEnergyBullet: {
+			DisplayName: Endothermic Bullet
+			Tooltip:
+				'''
+				Splits into more projectiles on hit and inflicts Ice Age
+				Hitting water will freeze it into ice
+				“You know, there's a simpler way than parting the sea...”
+				'''
+		}
+	}
+}
+
+Gel: {
+	APreHardMode: {
+		GeliticGel: {
+			DisplayName: Duality Gel
+			Tooltip:
+				'''
+				Inflicts Slimed
+				Inflicts Boiling Flesh and Brain Rot in evil biomes
+				Inflicts Holy Fire in the Hallow
+				“The colors, duke, the colors!”
+				'''
+		}
+
+		HurricaneGel: {
+			DisplayName: Prism Gel
+			Tooltip:
+				'''
+				Decreases attack speed by 10%
+				Sprays prism shards on hit
+				“Like when you put a rock into a snowball...”
+				'''
+		}
+
+		WulfrimGel: {
+			DisplayName: Wulfrim Gel
+			Tooltip:
+				'''
+				Deals an additional 5 damage every second
+				“Doubles as lubricant.”
+				'''
+		}
+
+		AerialiteGel: {
+			DisplayName: Aero Gel
+			Tooltip:
+				'''
+				Fires a cloud every 5 seconds for great damage
+				Will also push the player back when it happens
+				“The Great Sage has come!”
+				'''
+		}
+	}
+
+	BPrePlantera: {
+		CryonicGel: {
+			DisplayName: Cryonic Gel
+			Tooltip:
+				'''
+				Lowers enemy defence by 30. Does not stack.
+				“Feel the cold creep inside your armor.”
+				'''
+		}
+
+		StarblightSootGel: {
+			DisplayName: Startuner Gel
+			Tooltip:
+				'''
+				Increase ranged damage guadually
+				Stacks up to 60%
+				Loses the buff after 5 seconds of not hitting enemies or swiching weapons
+				“Full perfect!”
+				'''
+		}
+	}
+
+	CPreMoodLord: {
+		AstralGel: {
+			DisplayName: Astralite Gel
+			Tooltip:
+				'''
+				Inflicts Astral Infection
+				Stays in place for 2 seconds before dissapearing
+				Deals low damage while staying in place
+				“The！World！”
+				'''
+		}
+
+		PerennialGel: {
+			DisplayName: Perennial Gel
+			Tooltip:
+				'''
+				Boosts health regen by 3
+				“Vitalized blood”
+				'''
+		}
+
+		ScoriaGel: {
+			DisplayName: Scoria Gel
+			Tooltip:
+				'''
+				Marks enemies
+				Marked enemies explode into bouncing fireballs on death
+				“Did you just put that inside them?”
+				'''
+		}
+
+		LifeAlloyGel: {
+			DisplayName: Life Gel
+			Tooltip:
+				'''
+				Shoots orbs of light on hit
+				“Looks like they have some uses besides finding chests!”
+				'''
+		}
+
+		LivingShardGel: {
+			DisplayName: Living Shard Gel
+			Tooltip:
+				'''
+				2% chance on hit to spawn a living shard
+				The shard will home in on the player, healing health
+				While dealing high damage to any enemy it touches
+				“Dunno, I think Life Fruits are better.”
+				'''
+		}
+
+		PlagueGel: {
+			Tooltip:
+				'''
+				Inflicts a stronger version of the Plague in the jungle
+				Deals more damage
+				“Leave it to me.”
+				'''
+			DisplayName: Virus Gelatin Petri-can
+		}
+	}
+
+	DPreDog: {
+		UelibloomGel: {
+			DisplayName: Uelibloom Gel
+			Tooltip:
+				'''
+				Summons life lights from all over on hit
+				“How dare you!”
+				'''
+		}
+
+		BloodstoneCoreGel: {
+			DisplayName: Blood Gel
+			Tooltip:
+				'''
+				Heals you on hit
+				“The Dummy's Guide to Healing - Book Three”
+				'''
+		}
+
+		DivineGeodeGel: {
+			DisplayName: Divine Gel
+			Tooltip:
+				'''
+				Inflicts Holy Fire for a long duration
+				Pierces Infinitely
+				Explodes on hit
+				“One roasted DoG, coming right up!”
+				'''
+		}
+
+		EffulgentFeatherGel: {
+			DisplayName: Effulgent Gel
+			Tooltip:
+				'''
+				Releases sparks on hit
+				“Static!”
+				'''
+		}
+
+		PolterplasmGel: {
+			DisplayName: Polterplasm Gel
+			Tooltip:
+				'''
+				Dungeon spirits within gives this slight homing!
+				“Kamikaze spirits. Soga.”
+				'''
+		}
+
+		UnholyEssenceGel: {
+			DisplayName: Unholy Gel
+			Tooltip:
+				'''
+				Inflicts Holy Fire
+				“We will purge the world.”
+				'''
+		}
+
+		ToothGel: {
+			DisplayName: Abyssal Coagulator
+			Tooltip:
+				'''
+				Decreases enemy defence by 30. Does not stack.
+				“Congeal, freeze, shatter.”
+				'''
+		}
+	}
+
+	EAfterDog: {
+		CosmosGel: {
+			DisplayName: Cosmic Gel
+			Tooltip:
+				'''
+				Lures in mini cosmos eaters to chase afer your enemies
+				“More delicious than regular gel!”
+				'''
+		}
+
+		AuricGel: {
+			DisplayName: Auric Gel
+			Tooltip:
+				'''
+				Every 2 seconds, summon a total of 10 Auric lightning bolts
+				They deal 75% damage each
+				“Struck gold.”
+				'''
+		}
+
+		MiracleMatterGel: {
+			DisplayName: Miracle Gel
+			Tooltip:
+				'''
+				Inflicts Miracle Blight for 5s
+				On hit, calls down a lightning bolt for 200% damage
+				Only one bolt can exist at a time
+				“Each of them is enough to power an entire aircraft carrier.”
+				'''
+		}
+
+		EndothermicEnergyGel: {
+			DisplayName: Endothermic Gel
+			Tooltip:
+				'''
+				Does not pierce
+				Deals extremely high damage
+				“To put it bluntly, it's liquid nitrogen.”
+				'''
+		}
+	}
+}
+
+DeveloperItems: {
+	MaoMaoChong: {
+		MaoMaoChong: {
+			DisplayName: Capoo
+			Tooltip:
+				'''
+				Meow!
+				Bounces off tiles and enemies
+				“Bugcat? Bugcat!”
+				'''
+		}
+
+		MaoMaoChongPROJ.DisplayName: Capoo
+	}
+
+	ShadowsArrow: {
+		ShadowsArrow: {
+			DisplayName: Demonshade Arrow
+			Tooltip:
+				'''
+				Splits into random arrows
+				“What the hell did you eat for breakfast?”
+				'''
+		}
+
+		ShadowsArrowPROJ.DisplayName: Demonshade Arrow
+		SAPortalPROJ.DisplayName: S A Portal P R O J
+	}
+
+	AllTheBirds: {
+		AllTheBirds: {
+			DisplayName: All the Birds
+			Tooltip:
+				'''
+				Flies in curves
+				Will hit, no matter what
+				“A whole bunch of them.”
+				'''
+		}
+
+		AllTheBirdsPROJ.DisplayName: All the Birds
+	}
+
+	GrapeShot: {
+		GrapeShot: {
+			DisplayName: Grapeshot
+			Tooltip:
+				'''
+				Explodes into shards
+				After 50 hits, gain a Storm Count, capped at 10
+				Storm Counts increases the number of shards
+				Lose Storm Counts by 1 per second when you stop attacking
+				“We need Mindbreak Trap”
+				'''
+		}
+
+		GrapeShotPROJ.DisplayName: Grapeshot
+		GrapeShotPROJSPIT.DisplayName: Grapeshot
+	}
+
+	Pyroblast: {
+		Pyroblast: {
+			DisplayName: Pyroblast
+			Tooltip:
+				'''
+				Fires an array of unique explosive projectiles
+				Empowers after firing for 5 seconds, and fires lazers and rockets
+				Keep firing to strengthen these attacks
+				Swiching weapons will cause you to lose all buildup
+				Right click to fire 8 lingt bombs that orbit the player
+				Homes in on enemies after a while
+				“Blow them to pieces!”
+				'''
+		}
+
+		PyroblastPROJ.DisplayName: Pyroblast
+		PyroblastRocket.DisplayName: Pyroblast Rocket
+		PyroblastRocketEXP.DisplayName: Explosion
+		PyroblastSolarBeam.DisplayName: Solar beam
+	}
+
+	ExplodingRabbit: {
+		ExplodingRabbit: {
+			DisplayName: High-Explosive Bunny
+			Tooltip:
+				'''
+				Explodes and launches enemies into the air!
+				“That's one dynamic rabbit.”
+				'''
+		}
+	}
+
+	TheGoldenFire: {
+		TheGoldenFire: {
+			DisplayName: Lamp of Illusion
+			Tooltip: "[Stage]"
+			TooltipS0:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅰ]
+				            [c/FFD700: The vicissitudes of life, the wheel of history rolls forward...]
+				            [c/FFD700: Even after a long time has passed, they still fear you!]
+				            [c/FFD700: A bloody eye has been sent to spy on you]
+				            [c/D00000: Will you choose to continue to endure, or raise your sword of rebellion high and shout to the sky?]
+				            [c/CB0000: "I have seen that God has abandoned this world"]
+				'''
+			TooltipS1S:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
+				            [c/FFD700: The former rulers have fallen to such a pitiful state]
+				            [c/FFD700: The once fierce battles have become but a fleeting moment]
+				            [c/FFD700: In a world where good and evil are reversed, those who share the same plight find solace in each other]
+				            [c/FFD700: Let go of the old grudges!]
+				            [c/FFD700: Now, that bloody brain seeks revenge for its brother!]
+				            [c/FFD700: The threat is here, don't dwell in the past]
+				            [c/D00000: Will you step up to resolve all this?]
+				'''
+			TooltipS1F:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
+				            [c/FFD700: The former rulers have fallen to such a pitiful state]
+				            [c/FFD700: The once fierce battles have become but a fleeting moment]
+				            [c/FFD700: In a world where good and evil are reversed, those who share the same plight find solace in each other]
+				            [c/FFD700: Let go of the old grudges!]
+				            [c/FFD700: Now, that black python seeks revenge for its brother!]
+				            [c/FFD700: The threat is here, don't dwell in the past]
+				            [c/D00000: Will you step up to resolve all this?]
+				'''
+			TooltipS2S:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
+				[c/FFD700: Your actions have offended the lord who rules over Crimson]
+				            [c/FFD700: A lord is merely a puppet tied to the top of the hierarchy]
+				            [c/FFD700: And a puppet who cannot control their own destiny]
+				            [c/FFD700: Attempt to destroy its eyes and ears in the land of Crimson]
+				            [c/FFD700: This might be the best way to set it free]
+				            [c/FFD700: The path of betraying the lord and straying from the righteous way, the farther you go, the more tragic it becomes...]
+				            [c/D00000: Will you go and end this tragedy?]
+				'''
+			TooltipS2F:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
+				[c/FFD700: Your actions have offended the lord who rules over Corruption]
+				            [c/FFD700: A lord is merely a puppet tied to the top of the hierarchy]
+				            [c/FFD700: And a puppet who cannot control their own destiny]
+				            [c/FFD700: Attempt to destroy its eyes and ears in the land of Corruption]
+				            [c/FFD700: This might be the best way to set it free]
+				            [c/FFD700: The path of betraying the lord and straying from the righteous way, the farther you go, the more tragic it becomes...]
+				            [c/D00000: Will you go and end this tragedy?]
+				'''
+			TooltipS3:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅳ]
+				[c/FFD700: To survive amidst the turmoil of the world]
+				            [c/FFD700: A former wanderer fled to an ancient ruin]
+				            [c/FFD700: Starving and withered, he left behind only hollow bones]
+				            [c/FFD700: Gradually, he became an earthbound spirit of this place]
+				            [c/FFD700: Until a fugitive tailor arrived here]
+				            [c/FFD700: The tailor wished to open this place up, providing a home for the homeless]
+				            [c/FFD700: The wanderer did not approve of the tailor's actions]
+				            [c/FFD700: The tailor ultimately bore the wanderer's curse and forcibly opened the ruin]
+				            [c/FFD700: Now, the tailor guards the entrance of the ruin]
+				            [c/D00000: Will you venture to uncover the secrets of the skeleton soldiers?]
+				'''
+			TooltipS4:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅴ]
+				[c/FFD700: Absurdity! This is sheer absurdity!]
+				            [c/FFD700: To elevate a slime to the status of a deity?]
+				            [c/FFD700: The ever-growing fanatical beliefs of people are gradually transforming this slime...]
+				            [c/FFD700: The purer of heart seek extremes under the oppression of reality...]
+				            [c/D00000: Will you allow such a thing to occur?]
+				'''
+			TooltipS5:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅵ]
+				            [c/FFD700: Billions of flesh converge here]
+				            [c/FFD700: They come to Hell, seeking only more filth and corruption]
+				            [c/FFD700: The ancient spirits of light and dark]
+				            [c/FFD700: A star has fallen from the heavens!]
+				            [c/FFD700: The Sunken Sea trembles in fear...]
+				            [c/FFD700: I shall usher Night into the grave]
+				            [c/FFD700: And you, Light, shall reach out to the future]
+				            [c/D00000: Just like that cruel angel]
+				            [c/D00000: Young one! Become a myth!]
+				'''
+			TooltipS6:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅶ]
+				            [c/FFD700: The mechanical creations of Draedon bring endless headaches]
+				            [c/FFD700: They were troublesome thousands of years ago, and remain so today, without any improvement]
+				            [c/FFD700: Now, these mechanical monstrosities are wreaking havoc upon the land]
+				            [c/D00000: Defeat them one by one!]
+				            [c/D00000: Or, summon your courage and unleash a fiery Mecha Mayhem!]
+				'''
+			TooltipS7:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅷ]
+				[c/FFD700: Merely one of the failed clones of The Brimstone Witch]
+				            [c/FFD700: It is not worthy of your fear]
+				            [c/FFD700: Life shall evolve through death, and thus be reborn]
+				            [c/D00000: Seize the moment before another clone succeeds in its experiment]
+				            [c/D00000: Strike it down now! Unleash your power upon this failed creation!]
+				'''
+			TooltipS8:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅸ]
+				[c/FFD700: Sprouting from the farmland, a misshapen monster flower creeping deep within the jungle]
+				            [c/FFD700: It is not the fault of the people to cultivate upon the divine soil]
+				            [c/FFD700: The cunning of the gods has birthed this monster]
+				            [c/FFD700: The world is chaotic, neither fair nor reasonable]
+				            [c/FFD700: This flower has henceforth sealed off the jungle]
+				            [c/FFD700: The people have lost their land]
+				            [c/D00000: Will you dare to destroy this monster flower for the sake of the people?]
+				'''
+			TooltipS9:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅹ]
+				[c/FFD700:As if by fate]
+				            [c/FFD700:Shortly after the birth of the terrifying flower]
+				            [c/FFD700:In the depths of the jungle, mutations occur continuously]
+				            [c/FFD700:The people dare not venture forth, cowed by the power of the flower within]
+				            [c/FFD700:After you vanquish that monster, a key appears in your hand]
+				            [c/FFD700:Guiding you to the former forbidden zone, to unlock the dust-laden secrets]
+				            [c/D00000:Will you tear away the last veil of shame from the Lihzahrd?]
+				'''
+			TooltipS10:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅺ]
+				[c/FFD700:Cast aside after losing all its worth]
+				            [c/FFD700:It became known as the Lunatic Cultist]
+				            [c/FFD700:Yet, the deeds of this mortal remain unforgettable]
+				            [c/FFD700:Even in abandonment, its faith in the bright moon never wavered]
+				            [c/FFD700:Wandering the world, it chanced upon your battle with the wanderer]
+				            [c/FFD700:After your departure, it swiftly took over this place]
+				            [c/FFD700:It holds the only means to contact the moon]
+				            [c/FFD700:Only by embracing cruelty can one hope to retain their own gentleness]
+				            [c/CB0000:Will you slay this one???]
+				'''
+			TooltipS11:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅻ]
+				[c/FFD700:Tonight's moon is harsh and cold, like a chilling blade, illuminating the face of the dying]
+				            [c/FFD700:The Moon Lord cares not for the][c/CB0000:demise]
+				            [c/CB0000:But, does the death of this one affect you?]
+				            [c/FFD700:Now, celestial beings have invaded]
+				            [c/FFD700:When the world trembles, how can you turn a blind eye?]
+				            [c/FFD700:You cannot let the death of this one affect you now!]
+				            [c/FFD700:Only through the darkest of nights can one gaze upon the dawn's light]
+				            [c/D00000:Summon your fiercest flames and repel the invaders!]
+				'''
+			TooltipS12:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅢ]
+				[c/FFD700:The demise of the Moon Lord has drawn the gaze of the universe...]
+				            [c/FFD700:You cannot comprehend, for the countless changes of this planet have never been noticed by others.]
+				            [c/FFD700:And the moon of this planet!]
+				            [c/FFD700:The master of the moon has been defeated!]
+				            [c/FFD700:Yet this has drawn great attention!]
+				            [c/FFD700:Defeating the Unholy Lord may be the easiest task now.]
+				            [c/FFD700:Here lies too much history, too many secrets.]
+				            [c/FFD700:But fear not, no matter how long the road, the Lamp of Illusion will always be by your side...]
+				            [c/D00000:Will the rewards ahead be more enticing, or will they be a deeper abyss of pain?]
+				'''
+			TooltipS13:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅣ]
+				[c/FFD700: Cosmic beings have come here and placed many restrictions on you.]
+				            [c/FFD700: They seal ruins, monitor the skies, and guard the underworld.]
+				            [c/FFD700: They follow that colossal interstellar worm.]
+				            [c/D00000: If you want to drive away the enemies of the universe, this is the path you must take...]
+				'''
+			TooltipS14:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅤ]
+				[c/FFD700: The entrance of void has caused many skeleton soldiers in the ruins to perish.]
+				            [c/FFD700: The souls of these grievance-laden dead have accumulated more and more.]
+				            [c/FFD700: Eventually, they have become the vengeful beast-souls you see now.]
+				            [c/FFD700: Is endless revenge just?]
+				            [c/FFD700: You don't know.]
+				            [c/D00000: Will you allow the skeleton soldiers to rest in peace?]
+				'''
+			TooltipS15:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅥ]
+				[c/FFD700:A cosmic giant worm]
+				            [c/FFD700:Countless adjectives such as arrogant, untamed, and powerful must surely fit it]
+				            [c/FFD700:Civilization is built upon the bones and dying words of generations]
+				            [c/FFD700:If you do not advance, then you cannot progress]
+				            [c/D00000:Attempt to hunt and slay this giant worm]
+				'''
+			TooltipS16:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅦ]
+				[c/FFD700:Amidst endless darkness and solitude]
+				            [c/FFD700:Constantly reminiscing about past love and hope]
+				            [c/FFD700:Yet, her soul gradually loses its golden hue]
+				            [c/FFD700:In the end, the dragon slayer becomes the dragon...]
+				            [c/D00000:Embark on the quest to slay the treacherous dragon]
+				'''
+			TooltipS17:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅧ]
+				            [c/FFD700: What remain now are Draedon and The Brimstone Witch]
+
+				                [c/9F9F9F: Draedon, an excellent craftsman]
+				                [c/FFD700: But he is completely a beast without morality]
+				                [c/FFD700: Humanity? Sympathy? You can't see any of them from him!]
+				                [c/FFA500: Calamitas, a wizard of doom]
+				                [c/FFD700: Once upon a time, she was also a lovely girl]
+				                [c/FFD700: Now she has become a complete witch]
+
+				            [c/D00000: Please give a performance with them]
+				'''
+			TooltipS18:
+				'''
+				            Do you remember?
+				            The glory of the past, and the figure that dominated the earth-shaking reforms?
+				            The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				            [c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+
+				            [c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅨ]
+				[c/FFD700: The Chaos Elemental is not a creature of this world]
+				            [c/FFD700: Unable to contain their power, they stumbled upon this realm by chance]
+				            [c/FFD700: For some inexplicable reason, the sole living being amidst the icy chill of the frigid spring responds greatly to their presence]
+				            [c/D00000: It is thy duty to unravel this final mystery]
+				'''
+			TooltipS19:
+				'''
+				[c/FF0000: Wilt thou continue thy journey forward?]
+				            [c/FF0000: I am a believer in fate, and if such is fate's decree, then I harbor no complaints.]
+
+				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Finale]
+				[c/FFD700: To bid farewell to the past is to embrace the future.]
+				            [c/FFD700: Henceforth, stars shall shine brightly, for I have walked among them.]
+				            [c/FFD700: Henceforth, flowers shall bloom resplendently, for I have never truly left.]
+				            [c/CB0000: "And today, even the gods shall bow before me."]
+				'''
+		}
+
+		TheGoldenFirePROJ.DisplayName: Lamp of Illusion
+		TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
+	}
+
+	ShadowsBullet: {
+		ShadowsBullet: {
+			DisplayName: Demonshade Bullet
+			Tooltip:
+				'''
+				Splits into random bullets
+				“Oh my pccccccc!”
+				'''
+		}
+
+		ShadowsBulletPROJ.DisplayName: Demonshade Bullet
+	}
+
+	DiffuseNovaArc: {
+		DiffuseNovaArc: {
+			DisplayName: Diffuse Nova Arc
+			Tooltip:
+				'''
+				Charges up and rapidly fires Nova Bolts
+				If fully charged, fires a destructive Nova Wave
+				If doubly charged, fires even more bolts
+				'''
+		}
+	}
+
+	ChineseChess: {
+		Pao: {
+			Pao: {
+				DisplayName: Pao
+				Tooltip:
+					'''
+					Deals little damage on the initial hit
+					Then teleports forward and explodes voilently
+					“You need something in between.”
+					'''
+			}
+
+			PaoPROJ.DisplayName: Pao
+		}
+
+		Che: {
+			Che: {
+				DisplayName: Ju
+				Tooltip:
+					'''
+					Smashes through enemies and pierces infinitely
+					“Unstoppable Juggernaut”
+					'''
+			}
+
+			ChePROJ.DisplayName: Ju
+		}
+	}
+
+	BlindBirdCry: {
+		BlindBirdCry: {
+			Tooltip:
+				'''
+				Fowl flit, chitter and sway
+				And spurn solitude to cacophony.
+				I sing, I cry, in fleeting ecstasy
+				Care not be it ramble or heresy.
+				Fame, splendor, a gilded cage
+				Soul a-flight, for freedom I wage.
+				No grandest hall, nor highest rise
+				On moonlit winds I embrace mine stage.
+				'''
+			DisplayName: Cry of the Blind Bird
+		}
+
+		BlindBirdCryCrods.DisplayName: Cry of the Blind Bird
+		BlindBirdCryINVPROJ.DisplayName: Cry of the Blind Bird
+	}
+
+	BrassBeast: {
+		BrassBeast: {
+			DisplayName: Brass Beast
+			Tooltip:
+				'''
+				Left click to fire a stream of steam and scald enemies
+				Right click to expel a heat explosion
+				Deals damage to all enemies around you
+				Abilities limited by Moon Lord
+				“The beast is angered.”
+				'''
+		}
+
+		BrassBeastHeavySmoke.DisplayName: Steam
+		BrassBeastPROJ.DisplayName: Brass Beast
+	}
+
+	Pyrogeist: {
+		Pyrogeist: {
+			DisplayName: Pyrogeist
+			Tooltip:
+				'''
+				Emits flames and ghastly wails. Chance to fire an explosive wraith.
+				“The residents of a remote and desolate world found geists to be a highly efficient fuel.”
+				'''
+		}
+
+		PyrogeistPROJ.DisplayName: Pyrogeist
+	}
+
+	GlitchArrow: {
+		GlitchArrow: {
+			DisplayName: Glitch Arrow
+			Tooltip:
+				'''
+				It seems we have a "little" problem
+				Think you kan fix it?
+				'''
+		}
+
+		GlitchArrowPROJ.DisplayName: Glitch Arrow
+	}
+
+	NorthStar.ChargedBlast2PS.DisplayName: 北极星之佑
+
+	TenderElegy: {
+		TenderElegy: {
+			Tooltip:
+				'''
+				    First Visit to the Red Cliff
+				   In the autumn of the year Renxu, at the time of the full moon in the seventh month, I went by boat with some friends
+				to the Red Cliff. There was a fresh, gentle breeze, but the water was unruffled. I raised my winecup to drink to my 
+				friends, and we chanted the poem on the bright moon, singing the stanza about the fair maid.Soon the moon rose above the
+				eastern mountain, hovering between the Dipper and the Cowherd. The river stretched white, sparkling as if with dew, its
+				glimmering water merging with the sky. We let our craft drift over the boundless expanse of water, feeling as free as if
+				we were riding the wind bound for some unknown destination, as light as if we had left the human world and become 
+				winged immortals. 
+				   Drinking, we became very merry; and we sang a song, beating time on the side of the boat. This was the song:
+				‘Our rudder and oars, redolent of cassia and orchids;
+				Strike the moon's reflection, cleaving the glimmering water;’
+				But my heart is far away,Longing for my dear one under a different sky.One friend, who was a good flutist, played an
+				accompaniment to this song. The notes rang out nostalgic, mournful and plaintive, trailing on and on like a thread of
+				gossamer, arousing the serpents lurking in dark caverns, drawing tears from a widow in her lonely boat. 
+				   Sad at heart, I sat up straight to ask my friend why the music was so mournful.
+				He replied, “Didn't Cao Cao describe ascene like this in his poem: 'The moon is bright, the stars are scattered, the
+				crows fly south...?' And isn't this the place where he was defeated by Zhou Yu? See how the mountains and streams 
+				intertwine, and how darkly imposing they are with Xiakou to the west and Wuchang to the east. When Cao Cao took Jingzhou 
+				by storm and conquered Jiangling, then advanced eastward along the river, his battleships stretched for a thousand li, 
+				his armies' pennons and banners filled the sky. When he offered a libation of wine on the river and lance in hand chanted
+				his poem, he was the hero of his times. But where is he now? We are mere fishermen and woodcutters, keeping company with
+				fish and prawns and befriending deer. We sail our skiff, frail as a leaf, and toast each other by drinking wine from a 
+				gourd. We are nothing but insects who live in this world but one day, mere specks of grain in the vastness of the ocean. I
+				am grieved because our life is so transient, and envy the mighty river which flows on forever. I long to clasp winged 
+				fairies and roam freely, or to embrace the bright moon for all eternity. But knowing that this cannot be attained at once,
+				I give vent to my feelings in these notes which pass with the sad breeze.”
+				   Then I asked him, “Have you considered the water and the moon? Water flows away but is never lost; the moon waxes and 
+				wanes, but neither increases nor diminished. If you look at its changing aspect, the universe passes in the twinkling of 
+				an eye; but if you look at its changeless aspect, all creatures including ourselves are imperishable. What reason have you 
+				to envy other things? Besides, everything in this universe has its owner; and if it does not belong to me nor a tiny speck
+				can I take. The sole exceptions are the cool breeze on the river, the bright moon over the hills. These serve as music to 
+				our ears, as colour to our eyes; these we can take freely and enjoy forever; these are inexhaustible treasures supplied by
+				the Creator, and things in which we can delight together.
+				   My friend was pleased and laughed. Then we rinsed our cups and filled them with wine again. When we had finished the 
+				dishes, and cups and plates lay about us in disorder, we stretched out in the boat and did not notice the coming of dawn in the east.
+				'''
+			DisplayName: Tender Elegy, Lonely Song
+		}
+
+		TenderElegyBeil.DisplayName: Tender Elegy Beil
+		TenderElegyPROJ.DisplayName: Tender Elegy P R O J
+		TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
+
+		TenderElegyi: {
+			DisplayName: Tender Elegy
+			Tooltip: 
+				'''
+				a common bow with high damage
+				Can be enchanted
+				'''
+		}
+	}
+
+	AllinOneBulletBox: {
+		AllinOneBulletBox: {
+			Tooltip: ""
+			DisplayName: Allin One Bullet Box
+		}
+
+		AOBB2_PROJ.DisplayName: A O B B2_ P R O J
+		AOBB1_PROJ.DisplayName: A O B B1_ P R O J
+		AOBB3_PROJ.DisplayName: A O B B3_ P R O J
+		AOBB3_Stay.DisplayName: A O B B3_ Stay
+		AOBB4_Lazer.DisplayName: A O B B4_ Lazer
+		AOBB4_PROJ.DisplayName: A O B B4_ P R O J
+		AOBB5_PROJ.DisplayName: A O B B5_ P R O J
+	}
+}
+
+Configs: {
+	CREsConfigs: {
+		DisplayName: Ranger Expansion Configs
+
+		EnableSpecialEffects: {
+			Label: Special Effects
+			Tooltip:
+				'''
+				Make special effects visible/invisible
+				Some special effects are not affected
+				'''
+		}
+
+		EnableAmmoChecking: {
+			Label: Ammo Checking
+			Tooltip:
+				'''
+				Displays the ammo you're currently using on the left corner
+				(Doesn't work yet)
+				'''
+		}
+	}
+}
+
+Items: {
+	TestDASH: {
+		Tooltip: Grants the effects of Postmortem Dash
+		DisplayName: Test Dash
+	}
+
+	AuricArrowNPCDrop: {
+		Tooltip: Picking this up will multiply your damage by 1.4 for a short while
+		DisplayName: Auric Boon
+	}
+
+	TenderElegy: {
+		DisplayName: Tender Elegy
+		Tooltip: ""
+	}
+
+	TheLetter: {
+		Tooltip: ""
+		DisplayName: The Letter
+	}
+}
+
+Weapons: {
+	RE: {
+		PhotovisceratorRE: {
+			Tooltip:
+				'''
+				Just Photoviscerator
+				But it can get the special effects of gels from this mod now!
+				'''
+			DisplayName: Photoviscerator Reconstructed
+		}
+	}
+}
+
+WeaponToAMMO: {
+	Arrow: {
+		MonstrousArrow: {
+			MonstrousArrow: {
+				DisplayName: Monstrous Arrow
+				Tooltip:
+					'''
+					Heals you on hit
+					“You make my heart beat.”
+					'''
+			}
+
+			MonstrousArrowPROJ.DisplayName: Monstrous Arrow
+			EtherealArrowPROJ.DisplayName: Annihilation Arrow
+		}
+
+		PlasmaDriveCorePrototypeArrow: {
+			PlasmaDriveCorePrototypeArrow: {
+				DisplayName: SHPA
+				Tooltip:
+					'''
+					Releases a small plasma explosion on hit
+					“What did you just fire?!”
+					'''
+			}
+
+			PlasmaDriveCorePrototypeArrowEXP.DisplayName: SHPA爆炸
+			PlasmaDriveCorePrototypeArrowPROJ.DisplayName: SHPA
+		}
+
+		Terratoarrow: {
+			Terratoarrow: {
+				DisplayName: Terratoarrow
+				Tooltip:
+					'''
+					Flies fast and splits into homing bolts after a while
+					Striking an enemy before it splits deals more damage
+					“An old legend...”
+					'''
+			}
+
+			TerratoarrowPROJ.DisplayName: Terratoarrow
+			TerratoarrowSlash.DisplayName: Terratoarrow
+			TerratoarrowSPIT.DisplayName: Terratoarrow
+		}
+
+		TheDrill: {
+			TheDrill: {
+				DisplayName: Gilded Omnidrill
+				Tooltip:
+					'''
+					Can break blocks
+					Doesn't work when a boss is alive or when you have Creative Shock
+					Right click to erase al drills from existence
+					“Tired of clearing out arenas by hand?”
+					'''
+			}
+
+			TheDrillPROJ.DisplayName: Gilded Omnidrill
+		}
+
+		TimeLeaper: {
+			TimeLeaper: {
+				DisplayName: Time Leaper
+				Tooltip:
+					'''
+					Appears at mouse position
+					Flies toward the player, pierces infinitely
+					Heals the player, but also damages the player depending on how many enemies it hit
+					You may be killed by it
+					“To be or not to be...”
+					'''
+			}
+
+			TimeLeaperPROJ.DisplayName: Time Leaper
+		}
+
+		TNTArrow: {
+			TNTArrow: {
+				DisplayName: TNT Arrow
+				Tooltip:
+					'''
+					Explodes into sparks on hit
+					Calls down grenedes from the sky
+					“A barbaric mix of medieval and modern technology”
+					'''
+			}
+
+			TNTArrowPROJ.DisplayName: TNT Arrow
+		}
+
+		EtherealArrow: {
+			EtherealArrow: {
+				DisplayName: Annihilation Arrow
+				Tooltip:
+					'''
+					Dodge, aim and shoot!
+					The number of your minion slots will affect how quickly it homes
+					The number of your sentry slots will affect its damage
+					“Are those flags, or over-speed fines?”
+					'''
+			}
+		}
+	}
+
+	Bullet: {
+		ApoctosisMagicBullet: {
+			ApoctosisMagicBullet: {
+				Tooltip:
+					'''
+					Each bullet costs 5 mana
+					Each 1 point of remaining mana you have provides 0.5% more damage
+					“You think I am Mage, but I am Ranger da!”
+					'''
+				DisplayName: Apoctosis Bullet
+			}
+
+			ApoctosisMagicBulletPROJ.DisplayName: Apoctosis Bullet
+		}
+
+		DestructionBullet: {
+			DestructionBullet: {
+				DisplayName: Destruction Bullet
+				Tooltip:
+					'''
+					Creates a small alchemical explosion and inflict a variety of debuffs
+					“So I broke a green tube, so what? Why are you running away?”
+					'''
+			}
+
+			DestructionBulletEXP.DisplayName: alchemical explosion
+			DestructionBulletPROJ.DisplayName: Destruction Bullet
+		}
+
+		NorthStar: {
+			TheNorthStar: {
+				Tooltip:
+					'''
+					Fires a lazer, accumulating energy as it hits
+					After 50 successful hits, fires splitting beams
+					After another 50 successful hits, the beams home in
+					“Throw your bullets away. This is much better.”
+					'''
+				DisplayName: The North Star
+			}
+
+			PolarStarO.DisplayName: The North Star
+		}
+
+		OrichalcumBullet: {
+			OrichalcumBullet: {
+				Tooltip:
+					'''
+					Summons Orichalcum petals on hit
+					“It was so good.”
+					'''
+				DisplayName: Orichalcum Bullet
+			}
+
+			OrichalcumBulletPROJ.DisplayName: Orichalcum Bullet
+		}
+
+		TheEmpty: {
+			TheEmpty: {
+				DisplayName: Empty
+				Tooltip:
+					'''
+					Change enemies' size when hit
+					Works on bosses
+					“May crash the game.”
+					'''
+			}
+
+			TheEmptyPROJ.DisplayName: Empty
+		}
+
+		YuanZiDan: {
+			YuanZiDan: {
+				DisplayName: Particle
+				Tooltip:
+					'''
+					Ricochets between enemies, multiplying damage by 1.25 on each hit
+					The power of mocroatomics and quantum mechanics
+					“It's light enough!”
+					'''
+			}
+
+			YuanZiDanPROJ.DisplayName: Particle
+		}
+
+		AdamantiteAcceleratorBullet: {
+			AdamantiteAcceleratorBulletPROJ.DisplayName: Adamantite Amplifier
+
+			AdamantiteAcceleratorBullet: {
+				DisplayName: Adamantite Amplifier (Boxed)
+				TooltipNormal:
+					'''
+					Starts at a slow speed but guadually accelerates
+					Damage scales with speed
+					“A portable particle collider is a surprisingly potent weapon.”
+					'''
+				Tooltip: "[HavePLA]"
+				TooltipHavePLA:
+					'''
+					Starts at a slow speed but guadually accelerates
+					Damage scales with speed
+					“Have I seen you before?”
+					'''
+			}
+		}
+	}
+}
+
+NPCs.AuricArrowNPC.DisplayName: Fireball
+
+Projectiles: {
+	PolterplasmArrowINV.DisplayName: Polterplasm
+	StarblightSootBulletArea.DisplayName: Starblight field
+	Rogue.ScoriaBulletFlameburst.DisplayName: Scoria explosion
+
+	CPreMoodLord: {
+		LifeAlloyArrowPROJSPLIT.DisplayName: Life alloy arrow
+		LivingShardGelHealPROJ.DisplayName: Life shard
+		ScoriaGelFireBall.DisplayName: Fireball
+	}
+
+	APreHardMode: {
+		AerialiteGelCloud.DisplayName: Cloud
+		HurricaneGelSplit.DisplayName: Crystal shard
+	}
+
+	EAfterDog: {
+		AuricGelLighting.DisplayName: Auric lightning
+		CosmosGelEater.DisplayName: praise to DoG!
+		MiracleMatterGelLighting.DisplayName: Miracle lightning
+	}
+
+	Melee.WulfrimSpark.DisplayName: electric spark
+	NewWeapons.EAfterDog.AuricArrowNPC.DisplayName: fireball
+	TenderElegyBeil.DisplayName: Tender Elegy Beil
+	PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+}
+
+Projectile: {
+	APreHardMode: {
+		AerialiteBulletPROJ.DisplayName: Aerialite Bullet
+		TinkleshardBulletPROJ.DisplayName: Tinkleshard Bullet
+		TinkleshardBulletSPIT.DisplayName: Prism Shard
+		WulfrimBulletPROJ.DisplayName: Wulfrim Bullet
+		AerialiteArrowPROJ.DisplayName: Aerialite Arrow
+		AerialiteArrowWIND.DisplayName: Wirlwind
+		PrismArrowPROJ.DisplayName: Prism Arrow
+		AerialiteGelCloud.DisplayName: Cloud
+		HurricaneGelSplit.DisplayName: Crystal shard
+		BloodBeadsArrowPROJ.DisplayName: Blood Beads Arrow
+	}
+
+	BPrePlantera: {
+		CryonicBulletFragment.DisplayName: Icicle
+		CryonicBulletPROJ.DisplayName: Cryonic Bullet
+		StarblightSootBulletPROJ.DisplayName: Starblight Soot Bullet
+		StarblightSootArrowPROJ.DisplayName: Starblight Soot Arrow
+		StarblightSootArrowSpark.DisplayName: Particle
+	}
+
+	CPreMoodLord: {
+		AstralBulletPROJ.DisplayName: Astral Bullet
+		AstralBulletSTAR.DisplayName: Comet
+		PerennialBulletPROJ.DisplayName: Perennial Bullet
+		PlagueBulletPROJ.DisplayName: Plague Bullet
+		ScoriaBulletPROJ.DisplayName: Scoria Bullet
+		WulfrimArrowPROJ.DisplayName: Wulfrim Arrow
+		AstralArrowMOON.DisplayName: MOON
+		AstralArrowPROJ.DisplayName: Astral Arrow
+		AstralArrowSUN.DisplayName: SUN
+		LifeAlloyArrowPROJ.DisplayName: Life Alloy Arrow
+		PerennialArrowFlower.DisplayName: Jungle flower
+		PerennialArrowPROJ.DisplayName: Perennial Arrow
+		PlagueArrowPROJ.DisplayName: Plague Arrow
+		ScoriaArrowFireball.DisplayName: Fireball
+		ScoriaArrowPROJ.DisplayName: Scoria Arrow
+		ScoriaBulletFlameburst.DisplayName: Explosion
+		LivingShardGelHealPROJ.DisplayName: Life shard
+		ScoriaGelFireBall.DisplayName: Fireball
+		CoreofCalamityArrowPROJ.DisplayName: Coreof Calamity Arrow P R O J
+		DropThing.DisplayName: Drop Thing
+	}
+
+	DPreDog: {
+		DivineGeodeBulletPROJ.DisplayName: Divine Geode Bullet
+		EffulgentFeatherBulletAREA.DisplayName: Faraday Cage
+		EffulgentFeatherBulletPROJ.DisplayName: Effulgent Feather Bullet
+		PolterplasmBulletFlower.DisplayName: Polterplasm Bullet Flower
+		PolterplasmBulletPROJ.DisplayName: Polterplasm Bullet
+		ToothBulletPROJ.DisplayName: Tooth Bullet
+		UelibloomBulletLEAF.DisplayName: Leaf
+		UelibloomBulletPROJ.DisplayName: Uelibloom Bullet
+		DivineGeodeArrowEXP.DisplayName: Divine explosion
+		DivineGeodeArrowPROJ.DisplayName: Divine Geode Arrow
+		EffulgentFeatherArrowAura.DisplayName: Electric field
+		EffulgentFeatherArrowPROJ.DisplayName: Effulgent Feather Arrow
+		PolterplasmArrowPROJ.DisplayName: Polterplasm Arrow
+		PolterplasmArrowsSoul.DisplayName: Soul
+		ToothArrowPROJ.DisplayName: Tooth Arrow
+		UelibloomArrowLeaf.DisplayName: Leaf
+		UelibloomArrowLight.DisplayName: Lifelight
+		UelibloomArrowPROJ.DisplayName: Uelibloom Arrow
+		UelibloomArrowVine.DisplayName: Vines
+		ExplodingRabbitPROJ.DisplayName: High-explosive bunny
+	}
+
+	EAfterDog: {
+		AuricBuletBALL.DisplayName: Auric orb
+		AuricBuletPROJ.DisplayName: Auric bullet
+		EndothermicEnergyBulletPROJ.DisplayName: Endothermic Bullet
+		EndothermicEnergyBulletSPIT.DisplayName: Endothermic Split Bullet
+		MiracleMatterBulletPROJ.DisplayName: Miracle Matter Bullet
+		AuricArrowPROJ.DisplayName: Auric Arrow
+		EndothermicEnergyArrowPROJ.DisplayName: Endothermic Arrow
+		EndothermicEnergyArrowSPLIT.DisplayName: Icicle
+		MiracleMatterArrowFire.DisplayName: Light ball
+		MiracleMatterArrowPROJ.DisplayName: Kaleidoscopic Phantasmagoria
+		AuricArrowBALL.DisplayName: Auric ball
+		AuricGelLighting.DisplayName: Auric lightning
+		CosmosGelEater.DisplayName: praise to DoG!
+		MiracleMatterGelLighting.DisplayName: Miracle lightning
+		CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
+		CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
+		CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
+	}
+}

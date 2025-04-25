@@ -1,0 +1,27 @@
+[h1]欢迎游玩YuBell's Calamity Ranger Expansion[Stable](虞悖的灾厄射手拓展[稳定版])！[/h1]
+
+[h1]Mod介绍[/h1]
+
+本Mod是一款以[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072&searchtext=Calamity+Mod]Calamity Mod[/url]的射手流程为主体，添加了大量全新的流程内的射手弹药的Mod
+弹药主要包括各类矿石锭对应材料、敌方掉落物对应材料和一些物品转化弹药
+同时对小部分[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072&searchtext=Calamity+Mod]Calamity Mod[/url]和Terraria原版的物品进行了修改
+
+[h1]Mod功能[/h1]
+对于不喜欢对[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072&searchtext=Calamity+Mod]Calamity Mod[/url]和Terraria原版的物品锁进行的修改的玩家可以在”设置 - 模组配置 - YuBell's Calamity Ranger Expansion[Beta]”中选择性关闭，默认为开启状态
+对于不喜欢本Mod中的一些特效玩家也可以在上述位置处选择性关闭，默认为开启状态
+
+[h1]关于Mod[/h1]
+Mod平衡并未经过极其严谨的测试，如有超模请加反馈群进行反馈
+如有意向参与平衡测试，请QQ联系虞悖[QQ:3412615165 or Steam好友]来沟通
+如果您有意向进行多语言内置，也请联系虞悖[QQ:3412615165 or Steam好友]来沟通
+
+[h1]反馈与建议[/h1]
+QQ群:909428503
+在线文档:[url=https://docs.qq.com/doc/DUGxUTHJuc2JBb0Zz]点击以跳转[/url]
+反馈邮箱:3412615165@qq.com
+开源库:[url=https://github.com/Veluriyam-Attic/CalamityRangerExtra]点击以跳转[/url]
+
+[h1]致谢[/h1]
+主要开发者: 剃刀刃台风  虞悖  至尊永冻
+贡献者: zjm  蓝幽  Tailccc  梯子  Q群管家
+以及众多平衡测试员
