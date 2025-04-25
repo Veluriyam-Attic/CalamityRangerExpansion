@@ -9,7 +9,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
 {
     public class NeverGonnaGiveYouTenderElegy : ModSystem
     {
-        public override void PostUpdateItems()
+        public override void PostSetupContent()
         {
             // 确保 CalamityMod 存在，避免崩溃
             if (ModLoader.TryGetMod("CalamityMod", out Mod calamityMod))

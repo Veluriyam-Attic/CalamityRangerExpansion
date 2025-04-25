@@ -181,11 +181,11 @@ Buffs: {
 
 	KaleidoscopeBuff: {
 		DisplayName: Kaleidoscope Buff
-		Description: Mods.CalamityRangerExtra.Buffs.KaleidoscopeBuff.Description
+		Description: Mods.CalamityRangerExpansion.Buffs.KaleidoscopeBuff.Description
 	}
 
 	ScoriaBulletPBuff: {
-		Description: Mods.CalamityRangerExtra.Buffs.ScoriaBulletPBuff.Description
+		Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
 		DisplayName: Scoria Bullet P Buff
 	}
 }
@@ -1295,6 +1295,7 @@ DeveloperItems: {
 
 	BlindBirdCry: {
 		BlindBirdCry: {
+			DisplayName: Cry of the Blind Bird
 			Tooltip:
 				'''
 				Fowl flit, chitter and sway
@@ -1306,7 +1307,6 @@ DeveloperItems: {
 				No grandest hall, nor highest rise
 				On moonlit winds I embrace mine stage.
 				'''
-			DisplayName: Cry of the Blind Bird
 		}
 
 		BlindBirdCryCrods.DisplayName: Cry of the Blind Bird
@@ -1407,7 +1407,7 @@ DeveloperItems: {
 
 		TenderElegyi: {
 			DisplayName: Tender Elegy
-			Tooltip: 
+			Tooltip:
 				'''
 				a common bow with high damage
 				Can be enchanted
@@ -1472,20 +1472,36 @@ Items: {
 	}
 
 	TheLetter: {
-		Tooltip: ""
-		DisplayName: The Letter
+		Tooltip:
+			'''
+			Hi! This is Yu Bell 
+			I am the author of this mod
+			It is currently not very balanced and I apologize for that.
+			About this mod:
+			Due to my own irresponsibility the mod remains about half-finished
+			Most of the code is done by 「剃刀刃台风」
+			Do not bring their issues into this
+			It also has nothing to do with 「Calamity Ranger Expansion」by「承影_chengying」
+			I just made this because I like rangers
+			If there are bugs I haven't noticed, please contact me
+			All in all, thanks for playing!
+
+			*This letter is worth 100 platinum because I hate grinding for money :)
+			**Don't roast me too badly
+			'''
+		DisplayName: Yu Bell's Letter
 	}
 }
 
 Weapons: {
 	RE: {
 		PhotovisceratorRE: {
+			DisplayName: Photoviscerator Reconstructed
 			Tooltip:
 				'''
 				Just Photoviscerator
 				But it can get the special effects of gels from this mod now!
 				'''
-			DisplayName: Photoviscerator Reconstructed
 		}
 	}
 }

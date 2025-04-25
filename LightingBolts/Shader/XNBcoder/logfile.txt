@@ -324,7 +324,7 @@ Message at 2025/3/11 13:11:49: Processing ScanlineShader.fx with Microsoft.Xna.F
 Message at 2025/3/11 13:11:49: Compiling ScanlineShader.xnb
 Message at 2025/3/11 13:11:49: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 13:11:49: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 2025/3/11 13:11:49: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 2025/3/11 13:11:49: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 2025/3/11 13:11:49: Compiling TailFirst.xnb
 Message at 2025/3/11 13:11:49: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 13:11:49: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -385,7 +385,7 @@ Message at 2025/3/11 14:05:37: Processing ScanlineShader.fx with Microsoft.Xna.F
 Message at 2025/3/11 14:05:37: Compiling ScanlineShader.xnb
 Message at 2025/3/11 14:05:37: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 14:05:37: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 2025/3/11 14:05:37: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 2025/3/11 14:05:37: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 2025/3/11 14:05:37: Compiling TailFirst.xnb
 Message at 2025/3/11 14:05:37: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 14:05:37: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -446,11 +446,11 @@ Message at 2025/3/11 14:09:48: Processing ScanlineShader.fx with Microsoft.Xna.F
 Message at 2025/3/11 14:09:48: Compiling ScanlineShader.xnb
 Message at 2025/3/11 14:09:48: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 14:09:48: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 2025/3/11 14:09:48: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 2025/3/11 14:09:48: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 2025/3/11 14:09:48: Compiling TailFirst.xnb
 Message at 2025/3/11 14:09:48: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 14:09:48: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 2025/3/11 14:09:48: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 2025/3/11 14:09:48: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 2025/3/11 14:09:48: Compiling TailSecond.xnb
 Message at 2025/3/11 14:09:48: Importing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 2025/3/11 14:09:48: Processing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -508,7 +508,7 @@ Message at 3/11/2025 5:57:20 PM: Processing ScanlineShader.fx with Microsoft.Xna
 Message at 3/11/2025 5:57:20 PM: Compiling ScanlineShader.xnb
 Message at 3/11/2025 5:57:20 PM: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 5:57:20 PM: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 5:57:20 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 5:57:20 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 5:57:20 PM: Compiling TailFirst.xnb
 Message at 3/11/2025 5:57:20 PM: Importing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 5:57:20 PM: Processing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -518,7 +518,7 @@ Message at 3/11/2025 5:57:20 PM: Processing TailModern.fx with Microsoft.Xna.Fra
 Message at 3/11/2025 5:57:20 PM: Compiling TailModern.xnb
 Message at 3/11/2025 5:57:20 PM: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 5:57:20 PM: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 5:57:20 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 5:57:20 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 5:57:20 PM: Compiling TailSecond.xnb
 Message at 3/11/2025 5:57:20 PM: Importing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 5:57:20 PM: Processing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -579,7 +579,7 @@ Message at 3/11/2025 7:26:41 PM: Processing ScanlineShader.fx with Microsoft.Xna
 Message at 3/11/2025 7:26:41 PM: Compiling ScanlineShader.xnb
 Message at 3/11/2025 7:26:41 PM: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:26:41 PM: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:26:41 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:26:41 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:26:41 PM: Compiling TailFirst.xnb
 Message at 3/11/2025 7:26:41 PM: Importing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:26:41 PM: Processing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -589,14 +589,14 @@ Message at 3/11/2025 7:26:41 PM: Processing TailModern.fx with Microsoft.Xna.Fra
 Message at 3/11/2025 7:26:41 PM: Compiling TailModern.xnb
 Message at 3/11/2025 7:26:41 PM: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:26:41 PM: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:26:41 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:26:41 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:26:41 PM: Compiling TailSecond.xnb
 Message at 3/11/2025 7:26:41 PM: Importing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:26:41 PM: Processing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
 Message at 3/11/2025 7:26:41 PM: Compiling TailTechnology.xnb
 Message at 3/11/2025 7:26:41 PM: Importing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:26:41 PM: Processing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:26:41 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:26:41 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:26:41 PM: Compiling TrailFrostCrystal.xnb
 Message at 3/11/2025 7:26:41 PM: Importing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:26:41 PM: Processing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -654,7 +654,7 @@ Message at 3/11/2025 7:33:19 PM: Processing ScanlineShader.fx with Microsoft.Xna
 Message at 3/11/2025 7:33:19 PM: Compiling ScanlineShader.xnb
 Message at 3/11/2025 7:33:19 PM: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:33:19 PM: Compiling TailFirst.xnb
 Message at 3/11/2025 7:33:19 PM: Importing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -664,19 +664,19 @@ Message at 3/11/2025 7:33:19 PM: Processing TailModern.fx with Microsoft.Xna.Fra
 Message at 3/11/2025 7:33:19 PM: Compiling TailModern.xnb
 Message at 3/11/2025 7:33:19 PM: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:33:19 PM: Compiling TailSecond.xnb
 Message at 3/11/2025 7:33:19 PM: Importing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
 Message at 3/11/2025 7:33:19 PM: Compiling TailTechnology.xnb
 Message at 3/11/2025 7:33:19 PM: Importing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:33:19 PM: Compiling TrailFrostCrystal.xnb
 Message at 3/11/2025 7:33:19 PM: Importing TrailGhostlyPhantom.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing TrailGhostlyPhantom.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
-Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:33:19 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:33:19 PM: Compiling TrailGhostlyPhantom.xnb
 Message at 3/11/2025 7:33:19 PM: Importing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:33:19 PM: Processing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -734,7 +734,7 @@ Message at 3/11/2025 7:36:39 PM: Processing ScanlineShader.fx with Microsoft.Xna
 Message at 3/11/2025 7:36:39 PM: Compiling ScanlineShader.xnb
 Message at 3/11/2025 7:36:39 PM: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:39 PM: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:36:39 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:36:39 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:36:39 PM: Compiling TailFirst.xnb
 Message at 3/11/2025 7:36:39 PM: Importing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:39 PM: Processing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -744,23 +744,23 @@ Message at 3/11/2025 7:36:39 PM: Processing TailModern.fx with Microsoft.Xna.Fra
 Message at 3/11/2025 7:36:39 PM: Compiling TailModern.xnb
 Message at 3/11/2025 7:36:39 PM: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:39 PM: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:36:40 PM: Compiling TailSecond.xnb
 Message at 3/11/2025 7:36:40 PM: Importing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:40 PM: Processing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
 Message at 3/11/2025 7:36:40 PM: Compiling TailTechnology.xnb
 Message at 3/11/2025 7:36:40 PM: Importing TrailBlazingFlame.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:40 PM: Processing TrailBlazingFlame.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailBlazingFlame.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailBlazingFlame.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:36:40 PM: Compiling TrailBlazingFlame.xnb
 Message at 3/11/2025 7:36:40 PM: Importing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:40 PM: Processing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:36:40 PM: Compiling TrailFrostCrystal.xnb
 Message at 3/11/2025 7:36:40 PM: Importing TrailGhostlyPhantom.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:40 PM: Processing TrailGhostlyPhantom.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
-Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:36:40 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:36:40 PM: Compiling TrailGhostlyPhantom.xnb
 Message at 3/11/2025 7:36:40 PM: Importing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:36:40 PM: Processing WormShader.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -818,7 +818,7 @@ Message at 3/11/2025 7:38:26 PM: Processing ScanlineShader.fx with Microsoft.Xna
 Message at 3/11/2025 7:38:26 PM: Compiling ScanlineShader.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TailFirst.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailFirst.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:38:26 PM: Compiling TailFirst.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TailMagic.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
@@ -828,23 +828,23 @@ Message at 3/11/2025 7:38:26 PM: Processing TailModern.fx with Microsoft.Xna.Fra
 Message at 3/11/2025 7:38:26 PM: Compiling TailModern.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TailSecond.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TailSecond.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:38:26 PM: Compiling TailSecond.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TailTechnology.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
 Message at 3/11/2025 7:38:26 PM: Compiling TailTechnology.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TrailBlazingFlame.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TrailBlazingFlame.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailBlazingFlame.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailBlazingFlame.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:38:26 PM: Compiling TrailBlazingFlame.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TrailFrostCrystal.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailFrostCrystal.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:38:26 PM: Compiling TrailFrostCrystal.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TrailGhostlyPhantom.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TrailGhostlyPhantom.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor
-Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
-Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExtra\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+Warning at 3/11/2025 7:38:26 PM: Warning compiling D:\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\LightingBolts\Shader\XNBcoder\Effects\TrailGhostlyPhantom.fx: warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 Message at 3/11/2025 7:38:26 PM: Compiling TrailGhostlyPhantom.xnb
 Message at 3/11/2025 7:38:26 PM: Importing TrailWarpDistortion.fx with Microsoft.Xna.Framework.Content.Pipeline.EffectImporter
 Message at 3/11/2025 7:38:26 PM: Processing TrailWarpDistortion.fx with Microsoft.Xna.Framework.Content.Pipeline.Processors.EffectProcessor

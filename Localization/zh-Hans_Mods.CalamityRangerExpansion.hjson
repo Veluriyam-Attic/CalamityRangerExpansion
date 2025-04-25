@@ -181,11 +181,11 @@ Buffs: {
 
 	KaleidoscopeBuff: {
 		// DisplayName: Kaleidoscope Buff
-		// Description: Mods.CalamityRangerExtra.Buffs.KaleidoscopeBuff.Description
+		// Description: Mods.CalamityRangerExpansion.Buffs.KaleidoscopeBuff.Description
 	}
 
 	ScoriaBulletPBuff: {
-		// Description: Mods.CalamityRangerExtra.Buffs.ScoriaBulletPBuff.Description
+		// Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
 		// DisplayName: Scoria Bullet P Buff
 	}
 }
@@ -1281,6 +1281,7 @@ DeveloperItems: {
 
 	BlindBirdCry: {
 		BlindBirdCry: {
+			DisplayName: 无目鸟啼鸣
 			Tooltip:
 				'''
 				引吭清呖图一快，半文不白乐满怀
@@ -1288,7 +1289,6 @@ DeveloperItems: {
 				名缰利锁偏不爱，生性逍遥贪自在
 				九重云台却嫌窄，风月舒喉谢款待
 				'''
-			DisplayName: 无目鸟啼鸣
 		}
 
 		BlindBirdCryCrods.DisplayName: 无目鸟啼鸣
@@ -1371,8 +1371,8 @@ DeveloperItems: {
 
 		TenderElegyi: {
 			DisplayName: 柔情挽歌
-			Tooltip:  
-				''' 
+			Tooltip:
+				'''
 				一把诉说着悲怆的弓
 				可以被死灵炼注
 				'''
@@ -1440,6 +1440,9 @@ Items: {
 			'''
 			嗨! 我是虞悖
 			本Mod是「虞悖的灾厄射手拓展」
+
+			>>质量并不高<<
+
 			关于Mod平衡不是很好，如果有人愿意来重新调整平衡的话我很欢喜
 			我想说一些Mod的历史
 			由于我的不负责任，本Mod基本上在半烂尾状态
@@ -1461,12 +1464,12 @@ Items: {
 Weapons: {
 	RE: {
 		PhotovisceratorRE: {
+			DisplayName: 星火解离者重置版
 			Tooltip:
 				'''
 				左键射出激光和交叉追踪炸弹，右键直接射出追踪炸弹
 				该版本的星火解离者可以享受本模组的凝胶加成，而原灾的不行
 				'''
-			DisplayName: 星火解离者重置版
 		}
 	}
 }

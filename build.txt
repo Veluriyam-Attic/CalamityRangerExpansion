@@ -1,6 +1,6 @@
-displayName = YuBell's Calamity Ranger Expansion[Beta]
+displayName = YuBell's Calamity Ranger Expansion[Stable]
 author = 虞悖&至尊永冻&剃刀刃台风
-version = 0.2.0.76
+version = 0.1.0.1
 modReferences = CalamityMod
 sortAfter = CalamityMod
 hideCode = true

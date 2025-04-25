@@ -10,7 +10,7 @@ Content内的其他文件夹为废案内容
 ChangeWeaponDamage：本模组以及某些弹幕对一些敌人的减伤和增伤
 RedoCALAAmmo：更改原版或原灾的一些弹幕，包括增强与削弱
 RedoCALAItem：更改原版或原灾的一些物品，包括增强与削弱
-CalamityRangerExtra：废案
+CalamityRangerExpansion：废案
 
 开源仓库：
-https://github.com/Veluriyam-Attic/CalamityRangerExtra
+https://github.com/Veluriyam-Attic/CalamityRangerExpansion

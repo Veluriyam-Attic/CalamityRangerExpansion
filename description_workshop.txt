@@ -21,7 +21,7 @@ Mod平衡并未经过极其严谨的测试，如有超模请加反馈群进行�
 QQ群:909428503
 在线文档:[url=https://docs.qq.com/doc/DUGxUTHJuc2JBb0Zz]点击以跳转[/url]
 反馈邮箱:3412615165@qq.com
-开源库:[url=https://github.com/Veluriyam-Attic/CalamityRangerExtra]点击以跳转[/url]
+开源库:[url=https://github.com/Veluriyam-Attic/CalamityRangerExpansion]点击以跳转[/url]
 
 [h1]致谢[/h1]
 主要开发者: 剃刀刃台风  虞悖  至尊永冻
@@ -45,7 +45,7 @@ Untested balance
 QQ Group:909428503
 Online document:[url=https://docs.qq.com/doc/DUGxUTHJuc2JBb0Zz] Click [/url]
 Feedback Email:3412615165@qq.com
-Source Code:[url=https://github.com/Veluriyam-Attic/CalamityRangerExtra] Click [/url]
+Source Code:[url=https://github.com/Veluriyam-Attic/CalamityRangerExpansion] Click [/url]
 
 [h1]Thanks[/h1]
 Main Dev: 剃刀刃台风  虞悖  至尊永冻
