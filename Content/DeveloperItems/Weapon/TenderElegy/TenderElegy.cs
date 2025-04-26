@@ -20,7 +20,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
         {
             Item.width = 60;
             Item.height = 60;
-            Item.damage = 500;
+            Item.damage = 666;
             Item.DamageType = DamageClass.Ranged;
             Item.useTime = Item.useAnimation = 3;
             Item.useStyle = ItemUseStyleID.Shoot;

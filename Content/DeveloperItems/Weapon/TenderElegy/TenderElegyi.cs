@@ -1,4 +1,4 @@
-﻿using CalamityMod.Items.Weapons.Ranged;
+using CalamityMod.Items.Weapons.Ranged;
 using CalamityMod.Items;
 using CalamityMod.Rarities;
 using Microsoft.Xna.Framework;
@@ -27,9 +27,10 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
         {
             Item.width = 60;
             Item.height = 60;
-            Item.damage = 500;
+            Item.damage = 333;
             Item.DamageType = DamageClass.Ranged;
-            Item.useTime = Item.useAnimation = 7;
+            Item.useTime = 10;
+            Item.useAnimation = 7;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.knockBack = 2f;
             Item.UseSound = SoundID.Item5;
