@@ -273,7 +273,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             // 击败了原初夜灵巨龙
             if (DownedBossSystem.downedPrimordialWyrm)
             {
-                finalDamage = 1145;
+                finalDamage = 11451;
                 finalShootSpeed = 20f;
                 finalKnockBack = 2.2f;
                 currentStage = 19;

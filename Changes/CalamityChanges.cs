@@ -174,11 +174,7 @@ namespace CalamityRangerExpansion.Changes
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {
-            if (DownedBossSystem.downedExoMechs && DownedBossSystem.downedCalamitas)
-            {
-
-            }
-            else
+            if (!DownedBossSystem.downedExoMechs && DownedBossSystem.downedCalamitas)
             {
                 var line = (new TooltipLine(Mod, "IDHeavenlyGale", Language.GetTextValue("Mods.CalamityRangerExpansion.TooltipChanges.PreText") + Language.GetTextValue("Mods.CalamityRangerExpansion.TooltipChanges.Calamity.HeavenlyGale")));
                 tooltips.Add(line);

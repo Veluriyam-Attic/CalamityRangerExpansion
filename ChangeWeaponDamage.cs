@@ -17,6 +17,7 @@ using Terraria.GameContent;
 using CalamityMod;
 using CalamityMod.Items.Weapons.Ranged;
 using CalamityMod.CalPlayer.DrawLayers;
+using Terraria.DataStructures;
 
 namespace CalamityRangerExpansion
 {
@@ -56,12 +57,21 @@ namespace CalamityRangerExpansion
 
     public class ArterialAssaultFix : GlobalProjectile
     {
-        public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
+        //public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
+        //{
+        //    Player player = Main.LocalPlayer;
+        //    if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type)
+        //    {
+        //        projectile.damage = 0;
+        //    }
+        //}
+
+        public override void OnSpawn(Projectile projectile, IEntitySource source)
         {
             Player player = Main.LocalPlayer;
-            if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type)
+            if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type && source is EntitySource_ItemUse_WithAmmo)
             {
-                damageDone = 0;
+                projectile.damage = 0;
             }
         }
     }
