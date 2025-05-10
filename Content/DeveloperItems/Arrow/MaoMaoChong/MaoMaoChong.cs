@@ -39,6 +39,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
             Recipe recipe = CreateRecipe(999);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupArrow", 999);
             recipe.AddIngredient(ItemID.LunarBar, 1);
+            recipe.AddIngredient(ItemID.LicenseCat, 1);
             recipe.AddCondition(Condition.DownedMoonLord);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

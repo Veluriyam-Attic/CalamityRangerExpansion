@@ -16,6 +16,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
         {
             ItemID.Sets.ShimmerTransformToItem[Type] = ModContent.ItemType<TenderElegyi>();
         }
+
         public override void SetDefaults()
         {
             Item.width = 60;
@@ -35,7 +36,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
             Item.rare = ModContent.RarityType<HotPink>();
             Item.Calamity().devItem = true;
         }
-
         public override Vector2? HoldoutOffset() => new Vector2(-17, 0);
 
         //public override bool Shoot(Player player, Terraria.DataStructures.EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)

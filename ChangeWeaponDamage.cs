@@ -13,6 +13,10 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityRangerExpansion.Content.Arrows.DPreDog.EffulgentFeatherArrow;
 using CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow;
+using Terraria.GameContent;
+using CalamityMod;
+using CalamityMod.Items.Weapons.Ranged;
+using CalamityMod.CalPlayer.DrawLayers;
 
 namespace CalamityRangerExpansion
 {
@@ -22,6 +26,7 @@ namespace CalamityRangerExpansion
 
         public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref NPC.HitModifiers modifiers)
         {
+
             // 检查是否为 神明吞噬者
             if ((npc.type == ModContent.NPCType<DevourerofGodsHead>() || npc.type == ModContent.NPCType<DevourerofGodsBody>() || npc.type == ModContent.NPCType<DevourerofGodsTail>()))
             {
@@ -47,5 +52,17 @@ namespace CalamityRangerExpansion
             base.ModifyHitByProjectile(npc, projectile, ref modifiers);
         }
 
+    }
+
+    public class ArterialAssaultFix : GlobalProjectile
+    {
+        public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            Player player = Main.LocalPlayer;
+            if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type)
+            {
+                damageDone = 0;
+            }
+        }
     }
 }

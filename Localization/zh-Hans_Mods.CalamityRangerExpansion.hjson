@@ -63,6 +63,8 @@ TooltipChanges: {
 		BulletFilledShotgun: 提高攻击速度
 		#天堂之风搭配星流箭降低伤害
 		HeavenlyGale: 未击败至尊女巫，灾厄时搭配幻光斑景使用降低伤害
+		#使用血殒时伤害修改为0
+		ArterialAssault: 使用时弹幕伤害无伤害
 	}
 
 	#派对弹

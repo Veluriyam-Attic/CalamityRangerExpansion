@@ -68,6 +68,18 @@ namespace CalamityRangerExpansion.Changes
         }
     }
     #endregion
+    #region 血殒
+    public class IDArterialAssault : GlobalItem
+    {
+        public override bool AppliesToEntity(Item entity, bool lateInstantiation) => entity.type == ModContent.ItemType<ArterialAssault>();
+
+        public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
+        {
+            var line = (new TooltipLine(Mod, "IDArterialAssault", Language.GetTextValue("Mods.CalamityRangerExpansion.TooltipChanges.PreText") + Language.GetTextValue("Mods.CalamityRangerExpansion.TooltipChanges.Calamity.ArterialAssault")));
+            tooltips.Add(line);
+        }
+    }
+    #endregion
     #region 异象纳米枪*捐赠物品提示
     public class IDTheAnomalysNanogun : GlobalItem
     {

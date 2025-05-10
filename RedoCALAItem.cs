@@ -38,8 +38,10 @@ namespace CalamityRangerExpansion
 
         public override void SetDefaults(Item item)
         {
-            // 检查是否是 迫击炮 或 橡胶迫击炮
-            if (item.type == ModContent.ItemType<MortarRound>() || item.type == ModContent.ItemType<RubberMortarRound>())
+            // 检查是否是 迫击炮 或 橡胶迫击炮 血陨
+            if (
+                //item.type == ModContent.ItemType<ArterialAssault>() ||
+                item.type == ModContent.ItemType<MortarRound>() || item.type == ModContent.ItemType<RubberMortarRound>())
             {
                 item.damage = 1; // 将基础面板伤害降为 1
             }

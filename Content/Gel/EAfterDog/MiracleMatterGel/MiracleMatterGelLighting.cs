@@ -12,6 +12,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Utilities;
 using Terraria;
+using Terraria.DataStructures;
 
 namespace CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel
 {

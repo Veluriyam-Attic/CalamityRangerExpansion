@@ -24,7 +24,7 @@ namespace CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel
             if (source is EntitySource_ItemUse_WithAmmo ammoSource && ammoSource.AmmoItemIdUsed == ModContent.ItemType<MiracleMatterGel>())
             {
                 IsMiracleMatterGelInfused = true;
-                projectile.damage = (int)(projectile.damage * 0.05f); // 减少 95% 伤害
+                projectile.damage = (int)(projectile.damage * 0.2f); // 减少 95% 伤害
                 projectile.netUpdate = true;
             }
             base.OnSpawn(projectile, source);
@@ -52,7 +52,7 @@ namespace CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel
                         lightningSpawnPosition,
                         lightningShootVelocity,
                         ModContent.ProjectileType<MiracleMatterGelLighting>(),
-                        (int)(projectile.damage / 0.11 * 2.0), // 200% 伤害
+                        (int)(0.8 * projectile.damage / 0.2 ),
                         0f,
                         projectile.owner
                     );
