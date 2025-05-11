@@ -52,12 +52,15 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
                 Projectile.velocity *= 0.95f;
 
             // 在 60 帧后停止
-            if (Time >= 60)
+            if (Time == 60)
             {
                 Projectile.velocity = Vector2.Zero; // 速度归零
                 isStatic = true; // 进入时间暂停状态
                 Projectile.timeLeft = 180; // 让它仍然存在 180 帧
+                // 不要判>=，要不然每帧都会重新变为180剩余时间
             }
+            
+
 
             // 在时间暂停状态，降低伤害
             if (isStatic)
@@ -144,6 +147,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Main.spriteBatch.SetBlendState(BlendState.AlphaBlend);
 
             return false;
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            Projectile.Kill();
         }
     }
 }

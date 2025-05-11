@@ -263,14 +263,14 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             // 击败了 巨械+终灾 的全部2者
             if (DownedBossSystem.downedExoMechs && DownedBossSystem.downedCalamitas)
             {
-                finalDamage = 888;
+                finalDamage = 8848;
                 finalShootSpeed = 20f;
                 finalKnockBack = 2.1f;
                 currentStage = 18;
                 finalUseTime = 1;
             }
 
-            // 击败了原初夜灵巨龙
+            // 击败了始源妖龙
             if (DownedBossSystem.downedPrimordialWyrm)
             {
                 finalDamage = 11451;
@@ -314,7 +314,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 
         public override void HoldItem(Player player) => player.Calamity().mouseRotationListener = true;
 
-        public static readonly Dictionary<int, Color> GelColors = new Dictionary<int, Color>
+        public static  Dictionary<int, Color> GelColors = new Dictionary<int, Color>
         {
             { ItemID.Gel, Color.Gold }, // 原版凝胶
             { ModContent.ItemType<AerialiteGel>(), Color.LightSkyBlue }, // 模组中的天蓝色凝胶
@@ -322,7 +322,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             { ModContent.ItemType<HurricaneGel>(), Color.Blue }, // 棱镜凝胶
             { ModContent.ItemType<WulfrimGel>(), new Color(153, 255, 102) }, // 钨钢凝胶
             { ModContent.ItemType<CryonicGel>(), Color.LightSkyBlue }, // 寒元凝胶
-            { ModContent.ItemType<StarblightSootGel>(), Color.Orange }, // 调星凝胶
+            { ModContent.ItemType<StarblightSootGel>(), new Color(208,163,230) }, // 调星凝胶
             { ModContent.ItemType<AstralGel>(), Color.AliceBlue }, // 幻星凝胶
             { ModContent.ItemType<LifeAlloyGel>(), Color.SpringGreen }, // 生命合金凝胶
             { ModContent.ItemType<LivingShardGel>(), Color.ForestGreen }, // 生命碎片凝胶
@@ -354,7 +354,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
                 // 获取对应的颜色
                 if (!GelColors.TryGetValue(ammoType, out Color fireColor))
                 {
-                    fireColor = Color.Gold; // 默认颜色
+                    Color readonlyFireColor = Color.Gold;
+                    fireColor = readonlyFireColor; // 默认颜色
                 }
 
                 // 发射火焰弹幕并传递颜色
@@ -365,12 +366,14 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 
                     if (Main.projectile[projID].ModProjectile is TheGoldenFirePROJ fireProj)
                     {
-                        fireProj.FireColor = fireColor;
+                        Color ReadonlyFireColor = fireColor;
+                        fireProj.FireColor = ReadonlyFireColor;
                     }
                 }
 
                 // 生成粒子特效
-                GenerateFireParticles(position, fireColor);
+                //GenerateFireParticles(position, fireColor);
+                // byd和尿尿一样，不删是人？
             }
             return false;
         }

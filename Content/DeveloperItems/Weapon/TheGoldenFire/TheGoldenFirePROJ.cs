@@ -41,8 +41,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Projectile.penetrate = -1;
             Projectile.MaxUpdates = 4;
             Projectile.timeLeft = Lifetime; // 24 effectively
-            Projectile.usesIDStaticNPCImmunity = true;
-            Projectile.idStaticNPCHitCooldown = 8;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = 8;
         }
 
         public override void AI()
@@ -85,6 +85,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
                 dust.noGravity = true;
                 dust.fadeIn = 0.5f;
             }
+
+            
         }
         #region 旧代码
         // Expanding hitbox
@@ -198,5 +200,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
         //}
         #endregion
 
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            Projectile.damage /= 5;
+        }
     }
 }
