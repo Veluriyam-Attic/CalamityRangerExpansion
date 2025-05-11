@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System;
 using CalamityMod.Items.Ammo;
 using CalamityMod.Items.Weapons.DraedonsArsenal;
+using CalamityMod.NPCs.PrimordialWyrm;
 #endregion
 
 
@@ -182,4 +183,15 @@ namespace CalamityRangerExpansion.Changes
         }
     }
     #endregion
+
+    public class CheckDownedPrimordialWyrm : GlobalNPC
+    {
+        public override void OnKill(NPC npc)
+        {
+            if(npc.type == ModContent.NPCType<PrimordialWyrmHead>())
+            {
+                DownedBossSystem.downedPrimordialWyrm = true;
+            }
+        }
+    }
 }

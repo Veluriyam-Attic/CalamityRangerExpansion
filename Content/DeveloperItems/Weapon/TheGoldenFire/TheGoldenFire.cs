@@ -39,6 +39,7 @@ using CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel;
 using CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel;
 using CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel;
 using CalamityMod.Projectiles.Ranged;
+using Terraria.Utilities.Terraria.Utilities;
 #endregion
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
@@ -89,197 +90,145 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 
             // 从早到晚检测击败的最晚敌人
 
-            // 击败了 克苏鲁之眼
-            if (NPC.downedBoss1)
-            {
-                finalDamage = 13;
-                finalShootSpeed = 3.5f;
-                finalKnockBack = 0.5f;
-                currentStage = 1;
-                finalUseTime = 5;
-            }
+            //NPC.SetEventFlagCleared(Ref DownedBossSystem.downedPrimordialWyrm, -1);
 
-            // 击败了 世吞或克脑 中的一个
-            if (NPC.downedBoss2)
+            bool[] DownNum =
             {
-                finalDamage = 17;
-                finalShootSpeed = 5.5f;
-                finalKnockBack = 0.6f;
-                currentStage = 2;
-                finalUseTime = 5;
-            }
+                NPC.downedBoss1,//克眼
+                NPC.downedBoss2,//世吞/克脑
+                    DownedBossSystem.downedHiveMind || //腐巢
+                    DownedBossSystem.downedPerforator,//宿主
+                NPC.downedBoss3,//骷髅王
+                DownedBossSystem.downedSlimeGod,//史神
+                Main.hardMode,//肉山
+                    NPC.downedMechBoss1 && //机械三王
+                    NPC.downedMechBoss2 && 
+                    NPC.downedMechBoss3,
+                DownedBossSystem.downedCalamitasClone,//灾影
+                NPC.downedPlantBoss,//世花
+                NPC.downedGolemBoss,//石巨人
+                NPC.downedAncientCultist,//拜月教
+                NPC.downedMoonlord,//月总
+                DownedBossSystem.downedProvidence,//亵渎天神
+                    DownedBossSystem.downedSignus && //西格纳斯
+                    DownedBossSystem.downedStormWeaver && //风编
+                    DownedBossSystem.downedCeaselessVoid,//无尽虚空
+                DownedBossSystem.downedPolterghast,//幽花
+                DownedBossSystem.downedDoG,//神吞
+                DownedBossSystem.downedYharon,//犽戎
+                    DownedBossSystem.downedExoMechs && //星流
+                    DownedBossSystem.downedCalamitas,//女巫
+                DownedBossSystem.downedPrimordialWyrm,//始源妖龙
+                false
+            };
 
-            // 击败了 腐巢意志或血肉宿主 中的一个
-            if (DownedBossSystem.downedHiveMind || DownedBossSystem.downedPerforator)
+            int[] Damage =
             {
-                finalDamage = 18;
-                finalShootSpeed = 6f;
-                finalKnockBack = 0.6f;
-                currentStage = 3;
-                finalUseTime = 5;
-            }
+                8,
+                13,
+                17,
+                18,
+                19,
+                23,
+                43,
+                58,
+                65,
+                77,
+                112,
+                248,
+                252,
+                261,
+                270,
+                666,
+                721,
+                8848,
+                11451
+            };
 
-            // 击败了 骷髅王
-            if (NPC.downedBoss3)
+            float[] ShootSpeed =
             {
-                finalDamage = 19;
-                finalShootSpeed = 6.5f;
-                finalKnockBack = 0.6f;
-                currentStage = 4;
-                finalUseTime = 5;
-            }
+                3.5f,
+                5.5f,
+                6f,
+                6.5f,
+                7f,
+                8f,
+                8f,
+                8f,
+                8f,
+                8f,
+                10f,
+                14f,
+                14f,
+                14f,
+                14f,
+                16f,
+                16f,
+                20f,
+                20f
+            };
 
-            // 击败了 史莱姆之神
-            if (DownedBossSystem.downedSlimeGod)
+            float[] KnockBack =
             {
-                finalDamage = 23;
-                finalShootSpeed = 7f;
-                finalKnockBack = 0.9f;
-                currentStage = 5;
-                finalUseTime = 4;
+                0.5f,
+                0.6f,
+                0.6f,
+                0.6f,
+                0.9f,
+                1f,
+                1f,
+                1f,
+                1f,
+                1f,
+                1f,
+                1.5f,
+                1.6f,
+                1.7f,
+                1.8f,
+                1.9f,
+                2f,
+                2.1f,
+                2.2f,
+            };
 
-            }
+            int[] UseTime = 
+            { 
+                5,
+                5,
+                5,
+                5,
+                4,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+            };
 
-            // 进入困难模式（击败肉山）
-            if (Main.hardMode)
+            for (int i = 0; i <= 19; i++)
             {
-                finalDamage = 43;
-                finalShootSpeed = 8f;
-                finalKnockBack = 1.0f;
-                currentStage = 6;
-                finalUseTime = 2;
+                if (DownNum[i])
+                {
+                    finalDamage = Damage[i];
+                    finalShootSpeed = ShootSpeed[i];
+                    finalKnockBack = KnockBack[i];
+                    finalUseTime = UseTime[i];
+                }
+                else
+                {
+                    currentStage = i;
+                    break;
+                }
             }
-
-            // 击败了 双子魔眼+机械蠕虫+机械骷髅王 的全部3者
-            if (NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3)
-            {
-                finalDamage = 58;
-                finalShootSpeed = 8f;
-                finalKnockBack = 1f;
-                currentStage = 7;
-                finalUseTime = 2;
-            }
-
-            // 击败了 灾厄之影
-            if (DownedBossSystem.downedCalamitasClone)
-            {
-                finalDamage = 65;
-                finalShootSpeed = 8f;
-                finalKnockBack = 1f;
-                currentStage = 8;
-                finalUseTime = 2;
-            }
-            
-            // 击败了 世纪之花
-            if (NPC.downedPlantBoss)
-            {
-                finalDamage = 77;
-                finalShootSpeed = 8f;
-                finalKnockBack = 1f;
-                currentStage = 9;
-                finalUseTime = 2;
-            }
-
-            // 击败了 石巨人
-            if (NPC.downedGolemBoss)
-            {
-                finalDamage = 112;
-                finalShootSpeed = 8f;
-                finalKnockBack = 1f;
-                currentStage = 10;
-                finalUseTime = 2;
-            }
-
-            // 击败了 拜月教邪教徒
-            if (NPC.downedAncientCultist)
-            {
-                finalDamage = 122;
-                finalShootSpeed = 10f;
-                finalKnockBack = 1f;
-                currentStage = 11;
-                finalUseTime = 1;
-            }
-
-            // 击败了 月球领主
-            if (NPC.downedMoonlord)
-            {
-                finalDamage = 248;
-                finalShootSpeed = 14f;
-                finalKnockBack = 1.5f;
-                currentStage = 12;
-                finalUseTime = 1;
-            }
-
-            // 击败了 亵渎天神
-            if (DownedBossSystem.downedProvidence)
-            {
-                finalDamage = 252;
-                finalShootSpeed = 14f;
-                finalKnockBack = 1.6f;
-                currentStage = 13;
-                finalUseTime = 1;
-            }
-
-            // 击败了 西格纳斯+风暴编织者+无尽虚空 的全部三者
-            if (DownedBossSystem.downedSignus && DownedBossSystem.downedStormWeaver && DownedBossSystem.downedCeaselessVoid)
-            {
-                finalDamage = 261;
-                finalShootSpeed = 14f;
-                finalKnockBack = 1.7f;
-                currentStage = 14;
-                finalUseTime = 1;
-            }
-
-            // 击败了 花灵
-            if (DownedBossSystem.downedPolterghast)
-            {
-                finalDamage = 270;
-                finalShootSpeed = 14f;
-                finalKnockBack = 1.8f;
-                currentStage = 15;
-                finalUseTime = 1;
-            }
-
-            // 击败了 神明吞噬者
-            if (DownedBossSystem.downedDoG)
-            {
-                finalDamage = 666;
-                finalShootSpeed = 16f;
-                finalKnockBack = 1.9f;
-                currentStage = 16;
-                finalUseTime = 1;
-            }
-
-            // 击败了 龙
-            if (DownedBossSystem.downedYharon)
-            {
-                finalDamage = 721;
-                finalShootSpeed = 16f;
-                finalKnockBack = 2.0f;
-                currentStage = 17;
-                finalUseTime = 1;
-            }
-
-            // 击败了 巨械+终灾 的全部2者
-            if (DownedBossSystem.downedExoMechs && DownedBossSystem.downedCalamitas)
-            {
-                finalDamage = 8848;
-                finalShootSpeed = 20f;
-                finalKnockBack = 2.1f;
-                currentStage = 18;
-                finalUseTime = 1;
-            }
-
-            // 击败了始源妖龙
-            if (DownedBossSystem.downedPrimordialWyrm)
-            {
-                finalDamage = 11451;
-                finalShootSpeed = 20f;
-                finalKnockBack = 2.2f;
-                currentStage = 19;
-                finalUseTime = 1;
-            }
-
 
             // 设置最终的伤害倍率
             damage.Base = finalDamage;

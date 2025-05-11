@@ -18,8 +18,8 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
         public bool canDash = false; // 冲刺开关
         private bool isDashing = false;
         private int dashCooldown = 0;
-        private const int dashCooldownMax = 60; // 冲刺冷却时间
-        private const float dashSpeed = 20f; // 冲刺速度
+        private const int dashCooldownMax = 20; // 冲刺冷却时间
+        private const float dashSpeed = 40f; // 冲刺速度
         private int dnaParticleTimer = 0; // 控制粒子生成的计时器
         private int spikeParticleTimer = 0; // 控制尖刺特效生成的计时器
         private enum DashDirection
@@ -101,7 +101,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
             isDashing = true;
             dashCooldown = dashCooldownMax;
             dnaParticleTimer = 0;
-            Player.immuneTime = 30; // 设置无敌时间
+            Player.immuneTime = 60; // 设置无敌时间
 
             // 冲刺方向基于玩家面向方向
             Player.velocity = new Vector2(Player.direction, 0).SafeNormalize(Vector2.Zero) * dashSpeed;
