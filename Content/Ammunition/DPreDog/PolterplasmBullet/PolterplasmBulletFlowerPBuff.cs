@@ -22,7 +22,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
         public override void Update(Player player, ref int buffIndex)
         {
             // 打开冲刺功能
-            player.GetModPlayer<PolterplasmBulletDASH>().canDash = true;
+            //player.GetModPlayer<PolterplasmBulletDASH>().canDash = true;
         }
     }
 }

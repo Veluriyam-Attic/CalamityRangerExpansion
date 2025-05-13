@@ -12,13 +12,13 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
     public class DashManager : ModPlayer
     {
-        public override void ResetEffects()
-        {
-            if (Player.GetModPlayer<PolterplasmBulletDASH>().canDash)
-            {
-                Player.Calamity().DashID = PolterplasmBulletDASH.ID;
-            }
-        }
+        //public override void ResetEffects()
+        //{
+        //    if (Player.GetModPlayer<PolterplasmBulletDASH>().canDash)
+        //    {
+        //        Player.Calamity().DashID = PolterplasmBulletDASH.ID;
+        //    }
+        //}
 
         #region 旧代码
 
