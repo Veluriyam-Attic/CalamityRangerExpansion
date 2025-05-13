@@ -41,8 +41,18 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Projectile.penetrate = -1;
             Projectile.MaxUpdates = 4;
             Projectile.timeLeft = Lifetime; // 24 effectively
-            Projectile.usesLocalNPCImmunity = true;
-            Projectile.localNPCHitCooldown = 8;
+
+            if (true)
+            {
+                Projectile.usesIDStaticNPCImmunity = true;
+                Projectile.idStaticNPCHitCooldown = 8;
+            }
+            else
+            {
+                Projectile.usesLocalNPCImmunity = true;
+                Projectile.localNPCHitCooldown = 8;
+            }
+
         }
 
         public override void AI()
@@ -203,6 +213,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             Projectile.damage /= 5;
+            Projectile.damage *= 3;
+            // 0.6倍即最多2.5倍原伤害
         }
     }
 }
