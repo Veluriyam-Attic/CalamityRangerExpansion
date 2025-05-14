@@ -32,7 +32,6 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
             CalamityPlayer modplayer = player.Calamity();
 
             modplayer.DashID = YuDash.ID;
-            //player.dashType = 0;
         }
     }
 }
