@@ -47,7 +47,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
                 }
                 else
                 {
-                    Time = 90;
+                    Time = 91;
                 }
             }
         }
