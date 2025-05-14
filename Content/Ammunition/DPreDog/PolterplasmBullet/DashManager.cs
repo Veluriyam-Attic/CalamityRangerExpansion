@@ -4,21 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CalamityMod;
+using CalamityMod.CalPlayer;
 using CalamityMod.CalPlayer.Dashes;
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.ModLoader.Core;
 
 namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
-    public class DashManager : ModPlayer
+    public class DashManager : ModSystem
     {
-        public override void ResetEffects()
-        {
-            if (Player.GetModPlayer<PolterplasmBulletDASH>().canDash)
-            {
-                Player.Calamity().DashID = PolterplasmBulletDASH.ID;
-            }
-        }
+        //public override void ResetEffects()
+        //{
+        //    if (Player.GetModPlayer<PolterplasmBulletDASH>().canDash)
+        //    {
+        //        Player.Calamity().DashID = PolterplasmBulletDASH.ID;
+        //    }
+        //}
 
         #region 旧代码
 
@@ -41,5 +43,11 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
         //    return new DefaultDash();
         //}
         #endregion
+
+        public override void Load()
+        {
+            
+            PlayerDashManager.TryAddDash(new YuDash());
+        }
     }
 }
