@@ -1,10 +1,5 @@
 ﻿using CalamityMod;
 using CalamityMod.CalPlayer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -13,10 +8,6 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
     public class TestDASH : ModItem
     {
-        public override void SetStaticDefaults()
-        {
-
-        }
 
         public override void SetDefaults()
         {

@@ -1,19 +1,10 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Events;
-using CalamityMod.World;
-using CalamityMod;
+﻿using CalamityMod;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
-using CalamityMod.NPCs.Bumblebirb;
 using CalamityMod.Particles;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire

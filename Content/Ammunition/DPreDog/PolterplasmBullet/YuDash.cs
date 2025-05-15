@@ -1,11 +1,8 @@
-using CalamityMod;
 using CalamityMod.CalPlayer.Dashes;
-using CalamityMod.Cooldowns;
 using CalamityMod.Enums;
-using CalamityMod.Graphics.Renderers;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Terraria;
+using Terraria.Enums;
 
 namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
@@ -28,13 +25,14 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 
         public override void OnDashEffects(Player player)
         {
-            player.immuneTime = 90;
+            player.immuneTime = 10;
             Time = 0;
             //player.AddCooldown(cooldownID, CalamityUtils.SecondsToFrames(cooldown));
         }
 
         public override void MidDashEffects(Player player, ref float dashSpeed, ref float dashSpeedDecelerationFactor, ref float runSpeedDecelerationFactor)
         {
+            YuDashPlayer.YuLastDash++;
             Time++;
             int DustType1 = 20;
             int DustNum = 5;
@@ -49,6 +47,10 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
                 {
                     Time = 90;
                 }
+            }
+            if(YuDashPlayer.YuLastDash >= YuDashPlayer.YuDashCD)
+            {
+                YuDashPlayer.YuLastDash = 0;
             }
         }
     }
