@@ -41,13 +41,13 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
             int[] dust = new int[DustNum-1];
             for (int i = 0; i < DustNum-1; i++)
             {
-                if(Time <= 90)
+                if(Time < 90)
                 {
                     Dust.NewDust(player.position, player.width, player.height, DustType1, player.velocity.X / 2, player.velocity.Y / 2, 1, new Color(140, 159, 255), 1);
                 }
                 else
                 {
-                    Time = 91;
+                    Time = 90;
                 }
             }
         }
