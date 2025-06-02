@@ -37,6 +37,7 @@
 #If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
 TooltipChanges: {
 	PreText: "[c/FF6666:「Ranger Expansion」: ]"
+	Fabstaff: Fabstaff
 
 	Calamity: {
 		#暴政之终

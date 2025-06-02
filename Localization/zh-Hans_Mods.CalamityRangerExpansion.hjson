@@ -37,6 +37,7 @@
 #If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
 TooltipChanges: {
 	PreText: "[c/FF6666:「射手拓展更改」: ]"
+	Fabstaff: 绝学法杖
 
 	Calamity: {
 		#暴政之终

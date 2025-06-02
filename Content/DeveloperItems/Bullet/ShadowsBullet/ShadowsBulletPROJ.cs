@@ -63,7 +63,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.ShadowsBullet
             ModContent.ProjectileType<ClaretCannonProj>(),
             ModContent.ProjectileType<ArcherfishShot>(),
             ModContent.ProjectileType<CorinthPrimeAirburstGrenade>(),
-            ModContent.ProjectileType<HighExplosivePeanutShell>(),
+            //ModContent.ProjectileType<HighExplosivePeanutShell>(),
             ModContent.ProjectileType<ShockblastRound>(),
             ModContent.ProjectileType<EmesisGore>(),
             ModContent.ProjectileType<AMRShot>(),
@@ -220,14 +220,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.ShadowsBullet
                 }
             }
         }
-
-
-
-
-
-
-
-
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 16;

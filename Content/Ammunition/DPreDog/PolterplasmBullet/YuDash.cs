@@ -25,7 +25,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 
         public override void OnDashEffects(Player player)
         {
-            player.immuneTime = 10;
+            player.immuneTime = 30;
             Time = 0;
             //player.AddCooldown(cooldownID, CalamityUtils.SecondsToFrames(cooldown));
         }

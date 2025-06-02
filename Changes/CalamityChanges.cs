@@ -15,6 +15,9 @@ using System;
 using CalamityMod.Items.Ammo;
 using CalamityMod.Items.Weapons.DraedonsArsenal;
 using CalamityMod.NPCs.PrimordialWyrm;
+using CalamityMod.Items.Weapons.Magic;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria.GameContent;
 #endregion
 
 
@@ -191,6 +194,23 @@ namespace CalamityRangerExpansion.Changes
             if(npc.type == ModContent.NPCType<PrimordialWyrmHead>())
             {
                 DownedBossSystem.downedPrimordialWyrm = true;
+            }
+        }
+    }
+
+
+    // 删除傻逼Dom添加的变性药水
+    public class FuckLGBT : ModSystem
+    {
+        public override void PostAddRecipes()
+        {
+            for (int FuckDom = 0; FuckDom < Recipe.numRecipes; FuckDom++)
+            {
+                Recipe recipe = Main.recipe[FuckDom];
+                if(recipe.HasResult(ModContent.ItemType<CalamityMod.Items.Weapons.Magic.Sylvestaff>()) && recipe.HasIngredient(ItemID.GenderChangePotion))
+                {
+                    recipe.RemoveIngredient(ItemID.GenderChangePotion);
+                }
             }
         }
     }
