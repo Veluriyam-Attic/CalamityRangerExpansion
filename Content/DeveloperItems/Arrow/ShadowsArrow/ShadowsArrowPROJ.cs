@@ -15,6 +15,7 @@ using CalamityMod.Projectiles.Ranged;
 using CalamityMod.Projectiles.Typeless;
 using CalamityMod.Items.Ammo;
 using CalamityMod.Projectiles.Magic;
+using CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow;
 
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
@@ -94,11 +95,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
         };
         private static readonly string[] CustomModProjectiles = new string[]
         {
-            "AerialiteArrowPROJ","BloodBeadsArrowPROJ","PurifiedGelArrowPROJ",
+            "AerialiteArrowPROJ","BloodBeadsArrowPROJ","PrismArrowPROJ","WulfrimArrowPROJ",            
             "StarblightSootArrowPROJ",
-            "AstralArrowPROJ","LifeAlloyArrowPROJ","PerennialArrowPROJ","ScoriaArrowPROJ",
-            "DivineGeodeArrowPROJ","EffulgentFeatherArrowPROJ","PolterplasmArrowPROJ","UelibloomArrowPROJ",
-            "AuricArrowPROJ", "MiracleMatterArrowPROJ"
+            "AstralArrowPROJ","LifeAlloyArrowPROJ","PerennialArrowPROJ","PlagueArrowPROJ","ScoriaArrowPROJ",
+            "DivineGeodeArrowPROJ","EffulgentFeatherArrowPROJ","PolterplasmArrowPROJ","ToothArrowPROJ","UelibloomArrowPROJ",
+            "AuricArrowPROJ", "EndothermicEnergyArrowPROJ", "MiracleMatterArrowPROJ"
         };
         private bool hasTeleported = false; // 是否已经进行过初始传送
 

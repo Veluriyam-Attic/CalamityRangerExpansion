@@ -186,16 +186,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
             //    dust.noGravity = true; // 粒子无重力
             //    dust.scale = 1.5f; // 粒子大小
             //}
-        }
-        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
-        {
-            Player player = Main.player[Projectile.owner];
-            float manaBonus = player.statMana * 0.005f; // 每点魔力提升 0.5% 的伤害
-            modifiers.FinalDamage *= 1f + manaBonus; // 应用伤害倍率
-        }
 
-        public override void OnKill(int timeLeft)
-        {
             // 检查是否启用了特效
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
             {
@@ -219,7 +210,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
                         Vector2 position = startPoint + direction * (j / 15f) * 2 * sideLength;
                         Dust dust = Dust.NewDustPerfect(
                             position,
-                            DustID.SomethingRed, // 粒子特效编号
+                            DustID.RedTorch, // 粒子特效编号
                             Vector2.Zero
                         );
                         dust.noGravity = true;
@@ -245,7 +236,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
                         Vector2 position = startPoint + direction * (j / 10f) * 2 * rotatedSideLength;
                         Dust dust = Dust.NewDustPerfect(
                             position,
-                            DustID.SomethingRed, // 粒子特效编号
+                            DustID.RedStarfish, // 粒子特效编号
                             Vector2.Zero
                         );
                         dust.noGravity = true;
@@ -253,6 +244,17 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
                     }
                 }
             }
+        }
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
+        {
+            Player player = Main.player[Projectile.owner];
+            float manaBonus = player.statMana * 0.005f; // 每点魔力提升 0.5% 的伤害
+            modifiers.FinalDamage *= 1f + manaBonus; // 应用伤害倍率
+        }
+
+        public override void OnKill(int timeLeft)
+        {
+          
         }
     }
 }

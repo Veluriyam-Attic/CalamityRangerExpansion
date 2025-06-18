@@ -116,7 +116,10 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet
             // 检查是否启用了特效
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
             {
-                LightingBoltsSystem.Spawn_GreenShimmerPath(Projectile.Center, Main.player[Projectile.owner]);
+                if (Main.rand.NextFloat() < 0.3f) // 30% 概率执行
+                {
+                    LightingBoltsSystem.Spawn_GreenShimmerPath(Projectile.Center, Main.player[Projectile.owner]);
+                }
 
                 // 创建叶子形状的粒子特效
                 int leafCount = 12; // 每个叶子的粒子数量
@@ -133,8 +136,14 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet
                         float x = progress * leafLength; // 沿叶子长度方向的分布
                         float y = (float)Math.Sin(angleOffset) * leafWidth * (0.5f - Math.Abs(progress - 0.5f)); // 曲线形状
 
-                        Vector2 position = Projectile.Center + new Vector2(x, y);
-                        Vector2 velocity = (position - Projectile.Center).SafeNormalize(Vector2.Zero) * Main.rand.NextFloat(2f, 4f);
+                        Vector2 offset = new Vector2(x, y);
+
+                        // ❗将偏移根据当前弹幕的朝向旋转，使叶子形粒子总是朝向弹幕前方
+                        offset = offset.RotatedBy(Projectile.velocity.ToRotation());
+
+                        Vector2 position = Projectile.Center + offset;
+                        Vector2 velocity = offset.SafeNormalize(Vector2.Zero) * Main.rand.NextFloat(2f, 4f);
+
 
                         Dust dust = Dust.NewDustPerfect(
                             position,

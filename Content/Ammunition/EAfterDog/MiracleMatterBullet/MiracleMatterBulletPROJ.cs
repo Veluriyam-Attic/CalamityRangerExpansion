@@ -284,7 +284,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.MiracleMatterBull
             // 检查是否启用了特效
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
             {
-                GameShaders.Misc["CalamityMod:TrailStreak"].SetShaderTexture(ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/Trails/FabstaffStreak"));
+                GameShaders.Misc["CalamityMod:TrailStreak"].SetShaderTexture(ModContent.Request<Texture2D>("CalamityMod/ExtraTextures/Trails/SylvestaffStreak"));
                 Vector2 overallOffset = Projectile.Size * 0.5f;
                 overallOffset += Projectile.velocity * 1.4f;
                 int numPoints = 46;

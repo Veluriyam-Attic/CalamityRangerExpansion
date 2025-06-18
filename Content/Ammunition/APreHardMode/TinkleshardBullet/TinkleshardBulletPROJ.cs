@@ -90,14 +90,14 @@ namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBul
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            target.AddBuff(ModContent.BuffType<Eutrophication>(), 300); // 富营养化
+            //target.AddBuff(ModContent.BuffType<Eutrophication>(), 300); // 富营养化
         }
 
 
         public override void OnKill(int timeLeft)
         {
             // 播放音效
-            Terraria.Audio.SoundEngine.PlaySound(SoundID.Item27, Projectile.Center);
+            SoundEngine.PlaySound(SoundID.Item27, Projectile.Center);
 
             // 发射 4 发弹幕
             for (int i = 0; i < 4; i++)
