@@ -13,6 +13,7 @@ using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Items.Weapons.Ranged;
 using CalamityMod.Items;
 using CalamityMod.Rarities;
+using Terraria.Audio;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 {
@@ -58,7 +59,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
                 Item.useTime = Item.useAnimation = 90; // 使用时间
                 Item.shoot = ModContent.ProjectileType<BrassBeastHeavySmoke>();
                 Item.shootSpeed = 10f; // 弹幕速度
-                Item.UseSound = SoundID.Item38; // 播放右键音效
+                //Item.UseSound = SoundID.Item38; // 播放右键音效
+                SoundEngine.PlaySound(new SoundStyle("CalamityRangerExpansion/Sound/ATWEX"), player.Center);
+
                 Item.noUseGraphic = false; // 显示武器
             }
             else // 左键逻辑
