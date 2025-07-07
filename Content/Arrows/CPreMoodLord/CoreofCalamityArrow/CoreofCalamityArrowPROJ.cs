@@ -61,6 +61,52 @@ namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.CoreofCalamityArro
 
             // Lighting - 添加天蓝色光源，光照强度为 0.49
             Lighting.AddLight(Projectile.Center, Color.LightSkyBlue.ToVector3() * 0.49f);
+
+
+
+
+
+
+
+
+
+
+
+
         }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            base.OnHitNPC(target, hit, damageDone);
+        }
+
+
+
+
+        public override OnKill(int timeLeft)
+        {
+            base.OnKill(timeLeft);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
