@@ -59,8 +59,19 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
                 Item.useTime = Item.useAnimation = 90; // 使用时间
                 Item.shoot = ModContent.ProjectileType<BrassBeastHeavySmoke>();
                 Item.shootSpeed = 10f; // 弹幕速度
+                
                 //Item.UseSound = SoundID.Item38; // 播放右键音效
-                SoundEngine.PlaySound(new SoundStyle("CalamityRangerExpansion/Sound/ATWEX"), player.Center);
+                SoundStyle antitankSound = new SoundStyle("CalamityRangerExpansion/Sound/新反坦克炮")
+                {
+                    Volume = 2f // 默认是 1f，这里改为 2 倍音量
+                };
+
+                SoundEngine.PlaySound(antitankSound, player.Center);
+
+                // 屏幕震动效果
+                float shakePower = 25f; // 震动强度
+                float distanceFactor = Utils.GetLerpValue(1000f, 0f, player.Distance(Main.LocalPlayer.Center), true); // 距离衰减
+                Main.LocalPlayer.Calamity().GeneralScreenShakePower = Math.Max(Main.LocalPlayer.Calamity().GeneralScreenShakePower, shakePower * distanceFactor);
 
                 Item.noUseGraphic = false; // 显示武器
             }

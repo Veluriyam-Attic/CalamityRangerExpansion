@@ -83,7 +83,7 @@ namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.CoreofCalamityArro
 
 
 
-        public override OnKill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             base.OnKill(timeLeft);
         }

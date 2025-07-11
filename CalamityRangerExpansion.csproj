@@ -8,13 +8,10 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
-	  <AdditionalFiles Remove="LightingBolts\Shader\FXandXNB\**" />
-	  <Compile Remove="LightingBolts\Shader\FXandXNB\**" />
-	  <EmbeddedResource Remove="LightingBolts\Shader\FXandXNB\**" />
-	  <None Remove="LightingBolts\Shader\FXandXNB\**" />
-	</ItemGroup>
-	<ItemGroup>
-	  <AdditionalFiles Remove="LightingBolts\Shader\FirstShader.fx" />
+	  <AdditionalFiles Remove="LightingBolts\Shader\**" />
+	  <Compile Remove="LightingBolts\Shader\**" />
+	  <EmbeddedResource Remove="LightingBolts\Shader\**" />
+	  <None Remove="LightingBolts\Shader\**" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Content\Ammunition\AAA示范弹幕（方便复制用）.txt" />
@@ -277,43 +274,6 @@
 	  <None Remove="Content\凝胶\霁云凝胶\霁云凝胶.png" />
 	  <None Remove="Content\凝胶\霁云凝胶\霁云凝胶_DeBuff.png" />
 	  <None Remove="LightingBolts\Metaballs\ShadowAmmoLayer.png" />
-	  <None Remove="lightingbolts\shader\DistortionShader.fx" />
-	  <None Remove="LightingBolts\Shader\DistortShader.fx" />
-	  <None Remove="lightingbolts\shader\EdgeGlowShader.fx" />
-	  <None Remove="lightingbolts\shader\EnchantmentShader.fx" />
-	  <None Remove="LightingBolts\Shader\FirstShader.fx" />
-	  <None Remove="lightingbolts\shader\GlassRefractionShader.fx" />
-	  <None Remove="LightingBolts\Shader\GlitchBlocksShader.fx" />
-	  <None Remove="LightingBolts\Shader\HGTShader.fx" />
-	  <None Remove="LightingBolts\Shader\KaleidoscopeBuff.png" />
-	  <None Remove="lightingbolts\shader\RainbowShader.fx" />
-	  <None Remove="lightingbolts\shader\SecondShader.fx" />
-	  <None Remove="LightingBolts\Shader\TailMagic.fx" />
-	  <None Remove="LightingBolts\Shader\TailModern.fx" />
-	  <None Remove="LightingBolts\Shader\TailTechnology.fx" />
-	  <None Remove="lightingbolts\shader\ThirdShader.fx" />
-	  <None Remove="LightingBolts\Shader\TrailModernShader教学版本.txt" />
-	  <None Remove="LightingBolts\Shader\XNBcoder\Effects\ArtAttackTrail.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\AuroraWaveShader.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\CyberNeonGlow.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\FireBurnShader.fx" />
-	  <None Remove="LightingBolts\Shader\XNBcoder\Effects\GrayscaleShader.fx" />
-	  <None Remove="LightingBolts\Shader\XNBcoder\Effects\KaleidoscopeScreenShader.fx" />
-	  <None Remove="LightingBolts\Shader\XNBcoder\Effects\KaleidoscopeShader.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\LiquidFlowShader.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\MagnifyDistortionShader.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\PixelationShader.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\ScanlineShader.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\TailFirst.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\TailSecond.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\TrailBlazingFlame.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\TrailFrostCrystal.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\TrailGhostlyPhantom.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\TrailWarpDistortion.fx" />
-	  <None Remove="lightingbolts\shader\xnbcoder\effects\WormShader.fx" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Compile Include="LightingBolts\Shader\222\FirstShader.fx" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Reference Include="CalamityMod">
