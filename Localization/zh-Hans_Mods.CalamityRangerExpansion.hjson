@@ -190,6 +190,11 @@ Buffs: {
 		// Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
 		// DisplayName: Scoria Bullet P Buff
 	}
+
+	Glock17EDebuff: {
+		// DisplayName: Glock17 E Debuff
+		// Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
+	}
 }
 
 Arrows: {
@@ -1394,6 +1399,15 @@ DeveloperItems: {
 		// AOBB4_Lazer.DisplayName: A O B B4_ Lazer
 		// AOBB4_PROJ.DisplayName: A O B B4_ P R O J
 		// AOBB5_PROJ.DisplayName: A O B B5_ P R O J
+	}
+
+	Glock17: {
+		// Glock17Proj.DisplayName: Glock17 Proj
+
+		Glock17: {
+			// Tooltip: ""
+			// DisplayName: Glock17
+		}
 	}
 }
 

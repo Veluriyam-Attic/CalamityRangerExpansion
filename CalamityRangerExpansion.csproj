@@ -113,6 +113,12 @@
 	  <None Remove="Content\DeveloperItems\Gel\魔影凝胶.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\AlloyRailgun\AlloyRailgun.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\AlloyRailgun\AlloyRailgunHold.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17a.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17b.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17c.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17EDebuff.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17Proj.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\PyroblastRocketScorpio.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TenderElegy\TenderElegyi.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TheGoldenFire\FireProj.png" />
