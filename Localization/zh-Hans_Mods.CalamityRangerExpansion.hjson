@@ -1373,7 +1373,7 @@ DeveloperItems: {
 		}
 
 		TenderElegyBeil.DisplayName: Tender Elegy Beil
-		// TenderElegyPROJ.DisplayName: Tender Elegy P R O J
+		TenderElegyPROJ.DisplayName: Tender Elegy P R O J
 		// TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
 
 		TenderElegyi: {
