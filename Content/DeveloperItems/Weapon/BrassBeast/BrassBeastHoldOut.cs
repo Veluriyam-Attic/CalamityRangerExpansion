@@ -51,7 +51,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 
         private void ShootProjectile(Player player)
         {
-            Vector2 direction = (Main.MouseWorld - Projectile.Center).SafeNormalize(Vector2.UnitX);
+            //Vector2 direction = (Main.MouseWorld - Projectile.Center).SafeNormalize(Vector2.UnitX);
+            Vector2 direction = Vector2.UnitX.RotatedBy(Projectile.rotation);
+
             Projectile.NewProjectile(
                 Projectile.GetSource_FromThis(),
                 GunTipPosition,
