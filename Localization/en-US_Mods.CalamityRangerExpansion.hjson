@@ -1244,6 +1244,11 @@ DeveloperItems: {
 
 		TheGoldenFirePROJ.DisplayName: Lamp of Illusion
 		TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
+
+		TheGoldenFireNoGrow: {
+			DisplayName: The Golden Fire No Grow
+			Tooltip: ""
+		}
 	}
 
 	ShadowsBullet: {
