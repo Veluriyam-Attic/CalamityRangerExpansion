@@ -1249,6 +1249,8 @@ DeveloperItems: {
 			DisplayName: The Golden Fire No Grow
 			Tooltip: ""
 		}
+
+		TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 	}
 
 	ShadowsBullet: {
@@ -1450,6 +1452,22 @@ DeveloperItems: {
 			DisplayName: Glock17
 		}
 	}
+
+	R36: {
+		R36: {
+			DisplayName: R36-Eruptor
+			Tooltip:
+				'''
+				"Peace is only one cartridge away."
+				Standard-issue urban pacification device approved by Super Earth.
+				Capable of neutralizing all hostiles — including uncooperative citizens.
+				[c/FFA500:Shoots an explosive round that fractures into neutral shrapnel.]
+				[c/808080:Friendly fire? That's a training issue.]
+				'''
+		}
+
+		R36Proj.DisplayName: R36 Proj
+	}
 }
 
 Configs: {
@@ -1513,6 +1531,11 @@ Items: {
 			**Don't roast me too badly
 			'''
 		DisplayName: Yu Bell's Letter
+	}
+
+	R36: {
+		DisplayName: R36
+		Tooltip: ""
 	}
 }
 
@@ -1770,6 +1793,7 @@ Projectiles: {
 	NewWeapons.EAfterDog.AuricArrowNPC.DisplayName: fireball
 	TenderElegyBeil.DisplayName: Tender Elegy Beil
 	PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+	R36Proj.DisplayName: R36 Proj
 }
 
 Projectile: {

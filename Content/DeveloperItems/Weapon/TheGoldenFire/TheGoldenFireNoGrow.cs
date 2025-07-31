@@ -52,7 +52,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Item.damage = 12;
             Item.DamageType = DamageClass.Ranged;
             Item.useAnimation = 5;
-            Item.shoot = ModContent.ProjectileType<TheGoldenFirePROJ>();
+            Item.shoot = ModContent.ProjectileType<TheGoldenFirePROJGrow>();
             Item.knockBack = 6.5f;
             Item.shootSpeed = 5f;
             Item.useTime = 5;
@@ -126,7 +126,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
                     Vector2 adjustedVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(5f));
                     int projID = Projectile.NewProjectile(source, position, adjustedVelocity, type, damage, knockback, player.whoAmI);
 
-                    if (Main.projectile[projID].ModProjectile is TheGoldenFirePROJ fireProj)
+                    if (Main.projectile[projID].ModProjectile is TheGoldenFirePROJGrow fireProj)
                     {
                         Color ReadonlyFireColor = fireColor;
                         fireProj.FireColor = ReadonlyFireColor;

@@ -1234,6 +1234,8 @@ DeveloperItems: {
 			// DisplayName: The Golden Fire No Grow
 			// Tooltip: ""
 		}
+
+		// TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 	}
 
 	ShadowsBullet: {
@@ -1414,6 +1416,22 @@ DeveloperItems: {
 			// DisplayName: Glock17
 		}
 	}
+
+	R36: {
+		R36: {
+			DisplayName: R36-爆裂铳
+			Tooltip:
+				'''
+				“和平只差一发子弹。”
+				超级地球批准的标准城市安保装置。
+				可有效中和所有敌意目标——包括不愿配合的公民。
+				[c/FFA500:射出爆炸弹，分裂出中立破片]
+				[c/808080:误伤？那是训练问题。]
+				'''
+		}
+
+		// R36Proj.DisplayName: R36 Proj
+	}
 }
 
 Configs: {
@@ -1484,6 +1502,11 @@ Items: {
 			这是个很敏感的Mod，希望大家能多给一些宽恕
 			'''
 		DisplayName: 虞悖的信
+	}
+
+	R36: {
+		// DisplayName: R36
+		// Tooltip: ""
 	}
 }
 
@@ -1741,6 +1764,7 @@ Projectiles: {
 	NewWeapons.EAfterDog.AuricArrowNPC.DisplayName: 火球
 	// TenderElegyBeil.DisplayName: Tender Elegy Beil
 	// PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+	// R36Proj.DisplayName: R36 Proj
 }
 
 Projectile: {
