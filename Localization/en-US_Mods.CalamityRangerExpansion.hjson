@@ -1468,6 +1468,8 @@ DeveloperItems: {
 
 		R36Proj.DisplayName: R36 Proj
 	}
+
+	SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
 }
 
 Configs: {
@@ -1535,6 +1537,11 @@ Items: {
 
 	R36: {
 		DisplayName: R36
+		Tooltip: ""
+	}
+
+	SG225IE: {
+		DisplayName: S G225 I E
 		Tooltip: ""
 	}
 }

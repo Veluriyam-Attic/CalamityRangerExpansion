@@ -121,6 +121,8 @@
 	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17Proj.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\PyroblastRocketScorpio.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\R36\R36.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\SG225IE\SG225IEProj.png" />
+	  <None Remove="Content\DeveloperItems\Weapon\SG225IE\高然破裂者【这个不好】.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TenderElegy\TenderElegyi.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TheGoldenFire\FireProj.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TheGoldenFire\TheGoldenFire - 复制.png" />

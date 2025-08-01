@@ -6,6 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Particles;
+using Terraria.DataStructures;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 {
@@ -33,8 +34,10 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Projectile.MaxUpdates = 4;
             Projectile.timeLeft = Lifetime; // 24 effectively
             Projectile.usesLocalNPCImmunity = true;
-
-
+            Projectile.localNPCHitCooldown = 150;
+         }
+        public override void OnSpawn(IEntitySource source)
+        {
             // 根据击败Boss情况动态设定CD（初始为150）
             Projectile.localNPCHitCooldown = 150;
 
@@ -67,9 +70,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             // 最低CD限制，防止负值
             if (Projectile.localNPCHitCooldown < 1)
                 Projectile.localNPCHitCooldown = 1;
-
         }
-
         public override void AI()
         {
             Time++;
