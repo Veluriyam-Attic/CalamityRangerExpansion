@@ -41,7 +41,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
             Projectile.hostile = false;
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.penetrate = 1; // 可击中次数
-            Projectile.timeLeft = 300;
+            Projectile.timeLeft = 150;
             Projectile.ignoreWater = true;
             Projectile.tileCollide = true;
             Projectile.extraUpdates = 4; // 可调节飞行平滑度
@@ -85,41 +85,45 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
             // 调整旋转方向
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver4;
 
-            // ✨LineParticle 闪光拖尾（暗金调，夸张数量）
-            for (int i = 0; i < 2; i++)
+            if (Projectile.timeLeft < 148)
             {
-                Vector2 posOffset = Main.rand.NextVector2Circular(8f, 8f);
-                Vector2 vel = -Projectile.velocity * Main.rand.NextFloat(0.2f, 0.9f);
-                Color color = Main.rand.NextBool() ? Color.DarkGoldenrod : Color.Orange * 0.8f;
-                LineParticle spark = new LineParticle(Projectile.Center + posOffset, vel, false, 5, 1.8f, color);
-                GeneralParticleHandler.SpawnParticle(spark);
-            }
+                // ✨LineParticle 闪光拖尾（暗金调，夸张数量）
+                for (int i = 0; i < 2; i++)
+                {
+                    Vector2 posOffset = Main.rand.NextVector2Circular(8f, 8f);
+                    Vector2 vel = -Projectile.velocity * Main.rand.NextFloat(0.2f, 0.9f);
+                    Color color = Main.rand.NextBool() ? Color.DarkGoldenrod : Color.Orange * 0.8f;
+                    LineParticle spark = new LineParticle(Projectile.Center + posOffset, vel, false, 5, 1.8f, color);
+                    GeneralParticleHandler.SpawnParticle(spark);
+                }
 
-            // 🔥SparkParticle 能量轨迹（类似巨龙之火风格）
-            if (Main.rand.NextBool(1))
-            {
-                SparkParticle trail = new SparkParticle(
-                    Projectile.Center,
-                    Projectile.velocity * 0.2f,
-                    false,
-                    60,
-                    1.2f,
-                    Color.OrangeRed * 0.8f
-                );
-                GeneralParticleHandler.SpawnParticle(trail);
-            }
+                // 🔥SparkParticle 能量轨迹（类似巨龙之火风格）
+                if (Main.rand.NextBool(1))
+                {
+                    SparkParticle trail = new SparkParticle(
+                        Projectile.Center,
+                        Projectile.velocity * 0.2f,
+                        false,
+                        60,
+                        1.2f,
+                        Color.OrangeRed * 0.8f
+                    );
+                    GeneralParticleHandler.SpawnParticle(trail);
+                }
 
-            // 🌪Dust 特效（具有数学规律的环绕轨迹）
-            float angleOffset = Main.GlobalTimeWrappedHourly * 10f;
-            for (int i = 0; i < 2; i++)
-            {
-                float angle = angleOffset + MathHelper.TwoPi * i / 2f;
-                Vector2 offset = angle.ToRotationVector2() * 12f;
-                Vector2 dustPos = Projectile.Center + offset;
-                Dust dust = Dust.NewDustPerfect(dustPos, DustID.Torch, -offset.SafeNormalize(Vector2.Zero) * 0.3f);
-                dust.scale = 1.3f;
-                dust.noGravity = true;
+                // 🌪Dust 特效（具有数学规律的环绕轨迹）
+                float angleOffset = Main.GlobalTimeWrappedHourly * 10f;
+                for (int i = 0; i < 2; i++)
+                {
+                    float angle = angleOffset + MathHelper.TwoPi * i / 2f;
+                    Vector2 offset = angle.ToRotationVector2() * 12f;
+                    Vector2 dustPos = Projectile.Center + offset;
+                    Dust dust = Dust.NewDustPerfect(dustPos, DustID.Torch, -offset.SafeNormalize(Vector2.Zero) * 0.3f);
+                    dust.scale = 1.3f;
+                    dust.noGravity = true;
+                }
             }
+        
         }
 
 

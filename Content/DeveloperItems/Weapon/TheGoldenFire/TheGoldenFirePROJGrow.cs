@@ -38,6 +38,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
          }
         public override void OnSpawn(IEntitySource source)
         {
+            Projectile.damage = (int)(Projectile.damage * 0.1f);
             // 根据击败Boss情况动态设定CD（初始为150）
             Projectile.localNPCHitCooldown = 150;
 
