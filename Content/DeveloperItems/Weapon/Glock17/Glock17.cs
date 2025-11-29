@@ -87,6 +87,15 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
         }
 
 
+
+
+
+
+
+
+
+
+
         public new string LocalizationCategory => "DeveloperItems.Glock17";
         public override void SetDefaults()
         {

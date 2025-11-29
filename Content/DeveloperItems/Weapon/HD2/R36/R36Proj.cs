@@ -12,7 +12,7 @@ using Terraria;
 using CalamityMod.Particles;
 using CalamityMod.Projectiles.Typeless;
 
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     internal class R36Proj : ModProjectile, ILocalizedModType
     {
@@ -123,7 +123,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
                     dust.noGravity = true;
                 }
             }
-        
+
         }
 
 

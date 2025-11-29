@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Terraria.ModLoader;
 using Terraria;
 
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     internal class R36ProjChange : GlobalProjectile
     {

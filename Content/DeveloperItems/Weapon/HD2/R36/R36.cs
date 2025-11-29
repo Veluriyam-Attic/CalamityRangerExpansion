@@ -7,7 +7,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     public class R36 : ModItem, ILocalizedModType
     {
@@ -117,7 +117,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
             Vector2 itemSize = new Vector2(Item.width, Item.height);
             Vector2 itemOrigin = new Vector2(-5, 6);
 
-            CalamityMod.CalamityUtils.CleanHoldStyle(player, itemRotation, itemPosition, itemSize, itemOrigin);
+            CalamityUtils.CleanHoldStyle(player, itemRotation, itemPosition, itemSize, itemOrigin);
             base.UseStyle(player, heldItemFrame);
         }
 
@@ -130,7 +130,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
 
             if (animProgress < 0.5f)
             {
-                rotation += -0.45f * (float)System.Math.Pow((0.5f - animProgress) / 0.5f, 2) * player.direction;
+                rotation += -0.45f * (float)Math.Pow((0.5f - animProgress) / 0.5f, 2) * player.direction;
             }
 
             player.SetCompositeArmFront(true, Player.CompositeArmStretchAmount.Full, rotation);
@@ -139,7 +139,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
             if (animProgress > 0.5f)
             {
                 float backArmRotation = rotation + 0.52f * player.direction;
-                Player.CompositeArmStretchAmount stretch = ((float)System.Math.Sin(MathHelper.Pi * (animProgress - 0.5f) / 0.36f)).ToStretchAmount();
+                Player.CompositeArmStretchAmount stretch = ((float)Math.Sin(MathHelper.Pi * (animProgress - 0.5f) / 0.36f)).ToStretchAmount();
                 player.SetCompositeArmBack(true, stretch, backArmRotation);
             }
         }

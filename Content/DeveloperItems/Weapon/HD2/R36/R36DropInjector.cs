@@ -12,7 +12,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.NPCs.NormalNPCs;
 
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.R36
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     internal class R36DropInjector : GlobalNPC
     {
