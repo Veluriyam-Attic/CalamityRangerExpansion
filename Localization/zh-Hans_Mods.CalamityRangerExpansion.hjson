@@ -1424,7 +1424,11 @@ DeveloperItems: {
 		// Glock17Proj.DisplayName: Glock17 Proj
 
 		Glock17: {
-			Tooltip: 命中后降低目标防御力
+			Tooltip: 
+				'''
+				击败血肉墙后，增加伤害且可以削减敌人防御
+				击败月亮领主后，再次增加伤害并且可以发射额外弹幕
+				'''
 			DisplayName: 玲珑小姐姐的Glock17
 		}
 	}

@@ -1460,7 +1460,11 @@ DeveloperItems: {
 		Glock17Proj.DisplayName: Glock17 Proj
 
 		Glock17: {
-			Tooltip: Decrease target defense on hit
+			Tooltip: 
+				'''
+				After you defeated WoF,increase weapon damage and decrease target defense on hit
+				After you defeated ML,increase weapon damage again and can fire extra projectile
+				'''
 			DisplayName: Miss Veluriyam's Glock17
 		}
 	}
