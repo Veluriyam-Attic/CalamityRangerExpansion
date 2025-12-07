@@ -8,7 +8,6 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Weapons.Ranged;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.DiffuseNovaArc;
 
 namespace CalamityRangerExpansion
 {

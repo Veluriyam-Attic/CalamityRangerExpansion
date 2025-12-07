@@ -97,10 +97,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.ShadowsBullet
         };
         public static readonly string[] CustomModProjectiles = new string[]
         {
-            "CryonicBulletPROJ", "StarblightSootBulletPROJ",
-            "AstralBulletPROJ", "PerennialBulletPROJ", "ScoriaBulletPROJ",
-            "DivineGeodeBulletPROJ","PolterplasmBulletPROJ","UelibloomBulletPROJ",
-            "AuricBuletPROJ", "MiracleMatterBulletPROJ"
+            "AerialiteBulletPROJ","TinkleshardBulletPROJ","WulfrimBulletPROJ",
+            "CryonicBulletPROJ","StarblightSootBulletPROJ",
+            "AstralBulletPROJ", "PerennialBulletPROJ", "PlagueBulletPROJ", "ScoriaBulletPROJ",
+            "DivineGeodeBulletPROJ","EffulgentFeatherBulletPROJ","PolterplasmBulletPROJ","ToothBulletPROJ","UelibloomBulletPROJ",
+            "AuricBuletPROJ","EndothermicEnergyBulletPROJ", "MiracleMatterBulletPROJ"
         };
 
         public override void SetDefaults()

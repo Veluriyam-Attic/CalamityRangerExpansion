@@ -15,7 +15,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Terraria.GameContent;
 using Terraria.Graphics.Shaders;
 using CalamityMod.Graphics.Primitives;
-using CalamityRangerExpansion.LightingBolts.Shader;
+//using CalamityRangerExpansion.LightingBolts.Shader;
 
 namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBullet
 {
@@ -75,28 +75,28 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
 
 
 
-            // **确保 Shader 存在**
-            Effect shader = ShaderGames.DistortionShader;
-            if (shader == null) return true;
+            //// **确保 Shader 存在**
+            //Effect shader = ShaderGames.DistortionShader;
+            //if (shader == null) return true;
 
-            // **设置 Shader 变量**
-            shader.Parameters["uTime"].SetValue(Main.GlobalTimeWrappedHourly);
-            shader.Parameters["uDistortionStrength"].SetValue(0.1f); // 扭曲强度
+            //// **设置 Shader 变量**
+            //shader.Parameters["uTime"].SetValue(Main.GlobalTimeWrappedHourly);
+            //shader.Parameters["uDistortionStrength"].SetValue(0.1f); // 扭曲强度
 
-            // **应用 Shader**
-            Main.spriteBatch.End();
-            Main.spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.LinearClamp, DepthStencilState.Default, RasterizerState.CullNone, shader, Main.GameViewMatrix.TransformationMatrix);
+            //// **应用 Shader**
+            //Main.spriteBatch.End();
+            //Main.spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.LinearClamp, DepthStencilState.Default, RasterizerState.CullNone, shader, Main.GameViewMatrix.TransformationMatrix);
 
 
 
-            // **绘制本体**
-            Texture2D texture = TextureAssets.Projectile[Projectile.type].Value;
-            Vector2 origin = texture.Size() * 0.5f;
-            Vector2 drawPosition = Projectile.Center - Main.screenPosition;
-            Main.spriteBatch.Draw(texture, drawPosition, null, Projectile.GetAlpha(lightColor), Projectile.rotation, origin, Projectile.scale, SpriteEffects.None, 0f);
+            //// **绘制本体**
+            //Texture2D texture = TextureAssets.Projectile[Projectile.type].Value;
+            //Vector2 origin = texture.Size() * 0.5f;
+            //Vector2 drawPosition = Projectile.Center - Main.screenPosition;
+            //Main.spriteBatch.Draw(texture, drawPosition, null, Projectile.GetAlpha(lightColor), Projectile.rotation, origin, Projectile.scale, SpriteEffects.None, 0f);
 
-            Main.spriteBatch.End(); // 结束 Shader 渲染
-            Main.spriteBatch.Begin(); // 重新启用普通渲染
+            //Main.spriteBatch.End(); // 结束 Shader 渲染
+            //Main.spriteBatch.Begin(); // 重新启用普通渲染
 
             return false;
         }
@@ -186,16 +186,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
             //    dust.noGravity = true; // 粒子无重力
             //    dust.scale = 1.5f; // 粒子大小
             //}
-        }
-        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
-        {
-            Player player = Main.player[Projectile.owner];
-            float manaBonus = player.statMana * 0.005f; // 每点魔力提升 0.5% 的伤害
-            modifiers.FinalDamage *= 1f + manaBonus; // 应用伤害倍率
-        }
 
-        public override void OnKill(int timeLeft)
-        {
             // 检查是否启用了特效
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
             {
@@ -219,7 +210,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
                         Vector2 position = startPoint + direction * (j / 15f) * 2 * sideLength;
                         Dust dust = Dust.NewDustPerfect(
                             position,
-                            DustID.SomethingRed, // 粒子特效编号
+                            DustID.RedTorch, // 粒子特效编号
                             Vector2.Zero
                         );
                         dust.noGravity = true;
@@ -245,7 +236,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
                         Vector2 position = startPoint + direction * (j / 10f) * 2 * rotatedSideLength;
                         Dust dust = Dust.NewDustPerfect(
                             position,
-                            DustID.SomethingRed, // 粒子特效编号
+                            DustID.RedStarfish, // 粒子特效编号
                             Vector2.Zero
                         );
                         dust.noGravity = true;
@@ -253,6 +244,17 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBull
                     }
                 }
             }
+        }
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
+        {
+            Player player = Main.player[Projectile.owner];
+            float manaBonus = player.statMana * 0.005f; // 每点魔力提升 0.5% 的伤害
+            modifiers.FinalDamage *= 1f + manaBonus; // 应用伤害倍率
+        }
+
+        public override void OnKill(int timeLeft)
+        {
+          
         }
     }
 }

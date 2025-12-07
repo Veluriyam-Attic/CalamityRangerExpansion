@@ -158,36 +158,22 @@ namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBul
             }
             Time++;
         }
-
-        //public override bool OnTileCollide(Vector2 oldVelocity)
-        //{
-        //    // 计算反射角度
-        //    if (Projectile.velocity.X != oldVelocity.X) Projectile.velocity.X = -oldVelocity.X;
-        //    if (Projectile.velocity.Y != oldVelocity.Y) Projectile.velocity.Y = -oldVelocity.Y;
-        //    return false;
-        //}
-
         public ref float Time => ref Projectile.ai[1];
 
         public override bool? CanDamage() => Time >= 5f; // 初始时不造成伤害，直到帧数达到 X
-
-
-
 
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
         {
 
         }
+
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
 
         }
 
-
         public override void OnKill(int timeLeft)
         {
-
-
 
         }
 

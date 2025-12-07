@@ -191,6 +191,11 @@ Buffs: {
 		// Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
 		// DisplayName: Scoria Bullet P Buff
 	}
+
+	Glock17EDebuff: {
+		// DisplayName: Glock17 E Debuff
+		// Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
+	}
 }
 
 DonorItem: {
@@ -1235,7 +1240,14 @@ DeveloperItems: {
 		}
 
 		TheGoldenFirePROJ.DisplayName: 虞金引焱
-		// TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
+		TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
+
+		TheGoldenFireNoGrow: {
+			// DisplayName: The Golden Fire No Grow
+			// Tooltip: ""
+		}
+
+		// TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 	}
 
 	ShadowsBullet: {
@@ -1379,8 +1391,8 @@ DeveloperItems: {
 			DisplayName: 柔情挽歌，孑然独曲
 		}
 
-		// TenderElegyBeil.DisplayName: Tender Elegy Beil
-		// TenderElegyPROJ.DisplayName: Tender Elegy P R O J
+		TenderElegyBeil.DisplayName: Tender Elegy Beil
+		TenderElegyPROJ.DisplayName: Tender Elegy P R O J
 		// TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
 
 		TenderElegyi: {
@@ -1407,6 +1419,36 @@ DeveloperItems: {
 		// AOBB4_PROJ.DisplayName: A O B B4_ P R O J
 		// AOBB5_PROJ.DisplayName: A O B B5_ P R O J
 	}
+
+	Glock17: {
+		// Glock17Proj.DisplayName: Glock17 Proj
+
+		Glock17: {
+			// Tooltip: ""
+			// DisplayName: Glock17
+		}
+	}
+
+	R36: {
+		R36: {
+			DisplayName: R36-爆裂铳
+			Tooltip:
+				'''
+				“和平只差一发子弹”
+				超级地球批准的特等城市安保装置
+				可有效中和所有敌意目标
+				[c/FF3C3C:包括不愿配合的城镇公民]
+				[c/FFA500:消耗两发子弹射出爆裂弹，分裂出大量中立破片]
+				[c/808080:误伤？那是缺乏足够训练 欢迎重回泽格马乐土重新体验绝地潜兵的优质训练]
+				[c/00BFFF:非常适合散播管理式民主]
+				[c/DDCC88:使用该武器击杀10名敌人自动视为加入绝地潜兵]
+				'''
+		}
+
+		// R36Proj.DisplayName: R36 Proj
+	}
+
+	// SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
 }
 
 Configs: {
@@ -1477,6 +1519,16 @@ Items: {
 			这是个很敏感的Mod，希望大家能多给一些宽恕
 			'''
 		DisplayName: 虞悖的信
+	}
+
+	R36: {
+		// DisplayName: R36
+		// Tooltip: ""
+	}
+
+	SG225IE: {
+		// DisplayName: S G225 I E
+		// Tooltip: ""
 	}
 }
 
@@ -1634,7 +1686,7 @@ WeaponToAMMO: {
 					射出不穿透的激光，击中敌人时积攒能量
 					命中50次后升级自身弹幕，释放分裂光束
 					继续命中50次后升到最高级以获得强追踪
-					“也许你会想起曾经的那位传奇，即便他如今早已不复存在”
+					“松 鼠 撅 鱼”
 					'''
 				DisplayName: 北极星之佑
 			}
@@ -1734,6 +1786,7 @@ Projectiles: {
 	NewWeapons.EAfterDog.AuricArrowNPC.DisplayName: 火球
 	// TenderElegyBeil.DisplayName: Tender Elegy Beil
 	// PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+	// R36Proj.DisplayName: R36 Proj
 }
 
 Projectile: {

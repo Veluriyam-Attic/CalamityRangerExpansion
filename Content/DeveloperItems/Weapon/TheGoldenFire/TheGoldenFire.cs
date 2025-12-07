@@ -1,6 +1,5 @@
 ﻿#region using太多了
 using CalamityMod.Items.Weapons.Ranged;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.Pyroblast;
 using System;
 using System.Collections.Generic;
 using System.Linq;

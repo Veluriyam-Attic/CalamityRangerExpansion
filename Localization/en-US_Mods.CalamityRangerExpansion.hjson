@@ -191,6 +191,11 @@ Buffs: {
 		Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
 		DisplayName: Scoria Bullet P Buff
 	}
+
+	Glock17EDebuff: {
+		DisplayName: Glock17 E Debuff
+		Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
+	}
 }
 
 DonorItem: {
@@ -1251,6 +1256,13 @@ DeveloperItems: {
 
 		TheGoldenFirePROJ.DisplayName: Lamp of Illusion
 		TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
+
+		TheGoldenFireNoGrow: {
+			DisplayName: The Golden Fire No Grow
+			Tooltip: ""
+		}
+
+		TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 	}
 
 	ShadowsBullet: {
@@ -1443,6 +1455,36 @@ DeveloperItems: {
 		AOBB4_PROJ.DisplayName: A O B B4_ P R O J
 		AOBB5_PROJ.DisplayName: A O B B5_ P R O J
 	}
+
+	Glock17: {
+		Glock17Proj.DisplayName: Glock17 Proj
+
+		Glock17: {
+			Tooltip: ""
+			DisplayName: Glock17
+		}
+	}
+
+	R36: {
+		R36: {
+			DisplayName: R36-Eruptor
+			Tooltip:
+				'''
+				"Peace is just one shot away."
+				A Super Earth-certified urban security device of exceptional class.
+				Capable of efficiently neutralizing all hostile threats.
+				[c/FF3C3C:Including uncooperative town residents.]
+				[c/FFA500:Fires a burst grenade consuming 2 rounds, dispersing a cloud of neutral shrapnel.]
+				[c/808080:Friendly fire? That’s just insufficient training. You’re welcome to revisit ZEGEMA PARADISE for an elite Helldiver refresher.]
+				[c/00BFFF:Ideal for spreading managed democracy.]
+				[c/DDCC88:Killing 10 enemies with this weapon automatically enlists you into the Helldivers.]
+				'''
+		}
+
+		R36Proj.DisplayName: R36 Proj
+	}
+
+	SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
 }
 
 Configs: {
@@ -1506,6 +1548,16 @@ Items: {
 			**Don't roast me too badly
 			'''
 		DisplayName: Yu Bell's Letter
+	}
+
+	R36: {
+		DisplayName: R36
+		Tooltip: ""
+	}
+
+	SG225IE: {
+		DisplayName: S G225 I E
+		Tooltip: ""
 	}
 }
 
@@ -1763,6 +1815,7 @@ Projectiles: {
 	NewWeapons.EAfterDog.AuricArrowNPC.DisplayName: fireball
 	TenderElegyBeil.DisplayName: Tender Elegy Beil
 	PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+	R36Proj.DisplayName: R36 Proj
 }
 
 Projectile: {

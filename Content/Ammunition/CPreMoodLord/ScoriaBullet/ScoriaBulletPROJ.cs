@@ -125,7 +125,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
             // 检查是否启用了特效
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
             {
-                LightingBoltsSystem.Spawn_ExpandingOrangeRing(Projectile.Center);
+                //LightingBoltsSystem.Spawn_ExpandingOrangeRing(Projectile.Center);
 
                 // 抛射橙色粒子特效
                 int particleCount = Main.rand.Next(10, 16); // 随机生成 10 到 15 个粒子

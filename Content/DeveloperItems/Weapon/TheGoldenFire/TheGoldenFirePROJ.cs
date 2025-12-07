@@ -32,17 +32,18 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Projectile.penetrate = -1;
             Projectile.MaxUpdates = 4;
             Projectile.timeLeft = Lifetime; // 24 effectively
-
-            if (true)
-            {
-                Projectile.usesIDStaticNPCImmunity = true;
-                Projectile.idStaticNPCHitCooldown = 8;
-            }
-            else
-            {
-                Projectile.usesLocalNPCImmunity = true;
-                Projectile.localNPCHitCooldown = 8;
-            }
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = 60;
+            //if (true)
+            //{
+            //    Projectile.usesIDStaticNPCImmunity = true;
+            //    Projectile.idStaticNPCHitCooldown = 8;
+            //}
+            //else
+            //{
+            //    Projectile.usesLocalNPCImmunity = true;
+            //    Projectile.localNPCHitCooldown = 8;
+            //}
 
         }
 

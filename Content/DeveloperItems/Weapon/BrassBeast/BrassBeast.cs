@@ -13,6 +13,7 @@ using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Items.Weapons.Ranged;
 using CalamityMod.Items;
 using CalamityMod.Rarities;
+using Terraria.Audio;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 {
@@ -54,16 +55,29 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
         {
             if (player.altFunctionUse == 2) // 右键逻辑
             {
-                Item.damage = 215; // 右键攻击倍率
+                //Item.damage = 215; // 右键攻击倍率
                 Item.useTime = Item.useAnimation = 90; // 使用时间
                 Item.shoot = ModContent.ProjectileType<BrassBeastHeavySmoke>();
                 Item.shootSpeed = 10f; // 弹幕速度
-                Item.UseSound = SoundID.Item38; // 播放右键音效
+                
+                //Item.UseSound = SoundID.Item38; // 播放右键音效
+                SoundStyle antitankSound = new SoundStyle("CalamityRangerExpansion/Sound/新反坦克炮")
+                {
+                    Volume = 2f // 默认是 1f，这里改为 2 倍音量
+                };
+
+                SoundEngine.PlaySound(antitankSound, player.Center);
+
+                // 屏幕震动效果
+                float shakePower = 25f; // 震动强度
+                float distanceFactor = Utils.GetLerpValue(1000f, 0f, player.Distance(Main.LocalPlayer.Center), true); // 距离衰减
+                Main.LocalPlayer.Calamity().GeneralScreenShakePower = Math.Max(Main.LocalPlayer.Calamity().GeneralScreenShakePower, shakePower * distanceFactor);
+
                 Item.noUseGraphic = false; // 显示武器
             }
             else // 左键逻辑
             {
-                Item.damage = 120; // 原始伤害
+                //Item.damage = 120; // 原始伤害
                 Item.useTime = Item.useAnimation = 30; // 左键时间
                 Item.shoot = ModContent.ProjectileType<BrassBeastHoldOut>();
                 Item.shootSpeed = 15f;
@@ -78,70 +92,99 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
         {
             Vector2 mouseDirection = (Main.MouseWorld - player.MountedCenter).SafeNormalize(Vector2.UnitX);
 
-            if (player.altFunctionUse == 2) // 右键逻辑
-            {
-                // 发射x发 BrassBeastHeavySmoke
-                for (int i = 0; i < 1; i++)
-                {
-                    // 在鼠标方向上随机扩散30度以内
-                    //Vector2 randomSpread = mouseDirection.RotatedByRandom(MathHelper.ToRadians(30)) * 10f;
-                    //Projectile.NewProjectile(
-                    //    source,
-                    //    player.MountedCenter,
-                    //    randomSpread,
-                    //    ModContent.ProjectileType<BrassBeastHeavySmoke>(),
-                    //    damage,
-                    //    knockback,
-                    //    player.whoAmI
-                    //);
+            //if (player.altFunctionUse == 2) // 右键逻辑
+            //{
+            //    // 发射x发 BrassBeastHeavySmoke
+            //    for (int i = 0; i < 1; i++)
+            //    {
+            //        // 在鼠标方向上随机扩散30度以内
+            //        //Vector2 randomSpread = mouseDirection.RotatedByRandom(MathHelper.ToRadians(30)) * 10f;
+            //        //Projectile.NewProjectile(
+            //        //    source,
+            //        //    player.MountedCenter,
+            //        //    randomSpread,
+            //        //    ModContent.ProjectileType<BrassBeastHeavySmoke>(),
+            //        //    damage,
+            //        //    knockback,
+            //        //    player.whoAmI
+            //        //);
 
-                    Projectile.NewProjectile(
-                        source,
-                        player.MountedCenter,
-                        mouseDirection * 10f, // 取消扩散，直接朝向鼠标方向
-                        ModContent.ProjectileType<BrassBeastHeavySmoke>(),
-                        damage,
-                        knockback,
-                        player.whoAmI
-                    );
-                }
+            //        Projectile.NewProjectile(
+            //            source,
+            //            player.MountedCenter,
+            //            mouseDirection * 10f, // 取消扩散，直接朝向鼠标方向
+            //            ModContent.ProjectileType<BrassBeastHeavySmoke>(),
+            //            damage,
+            //            knockback,
+            //            player.whoAmI
+            //        );
+            //    }
 
-                //// 发射15发玩家当前的子弹
-                //Item heldItem = player.HeldItem;
-                //if (player.HasAmmo(heldItem))
-                //{
-                //    for (int i = 0; i < 15; i++)
-                //    {
-                //        if (player.PickAmmo(heldItem, out int ammoProjectile, out float shootSpeed, out int ammoDamage, out float ammoKnockback, out int ammoType))
-                //        {
-                //            Vector2 randomSpread = mouseDirection.RotatedByRandom(MathHelper.ToRadians(30)) * shootSpeed;
-                //            Projectile.NewProjectile(
-                //                source,
-                //                player.MountedCenter,
-                //                randomSpread,
-                //                ammoProjectile,
-                //                ammoDamage,
-                //                ammoKnockback,
-                //                player.whoAmI
-                //            );
-                //        }
-                //    }
-                //}
-            }
-            else // 左键逻辑
+            //    //// 发射15发玩家当前的子弹
+            //    //Item heldItem = player.HeldItem;
+            //    //if (player.HasAmmo(heldItem))
+            //    //{
+            //    //    for (int i = 0; i < 15; i++)
+            //    //    {
+            //    //        if (player.PickAmmo(heldItem, out int ammoProjectile, out float shootSpeed, out int ammoDamage, out float ammoKnockback, out int ammoType))
+            //    //        {
+            //    //            Vector2 randomSpread = mouseDirection.RotatedByRandom(MathHelper.ToRadians(30)) * shootSpeed;
+            //    //            Projectile.NewProjectile(
+            //    //                source,
+            //    //                player.MountedCenter,
+            //    //                randomSpread,
+            //    //                ammoProjectile,
+            //    //                ammoDamage,
+            //    //                ammoKnockback,
+            //    //                player.whoAmI
+            //    //            );
+            //    //        }
+            //    //    }
+            //    //}
+            //}
+            //else // 左键逻辑
+            //{
+            //    // 发射 BrassBeastHoldOut，方向实时指向鼠标
+            //    Projectile.NewProjectileDirect(
+            //        source,
+            //        player.MountedCenter,
+            //        mouseDirection * 15f, // 根据鼠标方向确定速度
+            //        ModContent.ProjectileType<BrassBeastHoldOut>(),
+            //        damage,
+            //        knockback,
+            //        player.whoAmI
+            //    );
+            //}
+
+            // 获取经过装备与buff加成之后的伤害基础值
+            int baseDamage = player.GetWeaponDamage(Item);
+
+            if (player.altFunctionUse == 2) // 右键：2倍伤害
             {
-                // 发射 BrassBeastHoldOut，方向实时指向鼠标
-                Projectile.NewProjectileDirect(
+                int actualDamage = (int)(baseDamage * 2.0f); // 🚨关键！不是固定数字
+                Projectile.NewProjectile(
                     source,
                     player.MountedCenter,
-                    mouseDirection * 15f, // 根据鼠标方向确定速度
-                    ModContent.ProjectileType<BrassBeastHoldOut>(),
-                    damage,
+                    mouseDirection * 10f,
+                    ModContent.ProjectileType<BrassBeastHeavySmoke>(),
+                    actualDamage,
                     knockback,
                     player.whoAmI
                 );
             }
-
+            else // 左键：正常伤害
+            {
+                int actualDamage = baseDamage;
+                Projectile.NewProjectileDirect(
+                    source,
+                    player.MountedCenter,
+                    mouseDirection * 15f,
+                    ModContent.ProjectileType<BrassBeastHoldOut>(),
+                    actualDamage,
+                    knockback,
+                    player.whoAmI
+                );
+            }
             return false;
         }
 
