@@ -193,6 +193,17 @@ Buffs: {
 	}
 }
 
+DonorItem: {
+	STAR: {
+		DisplayName: 星屑磁弹
+		Tooltip: 
+		'''
+		我我想想吧，我不知道要写什么东西
+		但总之就是咕唧呱唧然后嘟嘟哒嘟嘟哒的
+		'''
+	}
+}
+
 Arrows: {
 	APreHardMode: {
 		AerialiteArrow: {
@@ -1726,6 +1737,10 @@ Projectiles: {
 }
 
 Projectile: {
+	STARProj.DisplayName: 星屑磁弹
+	STAROnSpawn.DisplayName: S T A R On Spawn
+	IronDust.DisplayName: 铁屑
+
 	APreHardMode: {
 		AerialiteBulletPROJ.DisplayName: 天蓝弹
 		TinkleshardBulletPROJ.DisplayName: 棱晶弹

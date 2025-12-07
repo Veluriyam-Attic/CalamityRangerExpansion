@@ -193,6 +193,17 @@ Buffs: {
 	}
 }
 
+DonorItem: {
+	STAR: {
+		DisplayName: Stardust Bullet
+		Tooltip: 
+		'''
+		Let me think.....I don't know to write what
+		Anyway,duduududdadadaduudda
+		'''
+	}
+}
+
 Arrows: {
 	APreHardMode: {
 		AerialiteArrow: {
@@ -1755,6 +1766,10 @@ Projectiles: {
 }
 
 Projectile: {
+	STARProj.DisplayName: Star Dust Bullet
+	STAROnSpawn.DisplayName: S T A R On Spawn
+	IronDust.DisplayName: Star Dust
+	
 	APreHardMode: {
 		AerialiteBulletPROJ.DisplayName: Aerialite Bullet
 		TinkleshardBulletPROJ.DisplayName: Tinkleshard Bullet
