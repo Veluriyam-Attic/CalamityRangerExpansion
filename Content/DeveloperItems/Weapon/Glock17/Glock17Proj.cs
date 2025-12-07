@@ -111,7 +111,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 
             // 🔥 Stage 2+：附加 Glock17EDebuff
             if (Stage >= 2)
-                target.AddBuff(ModContent.BuffType<Glock17EDebuff>(), 300); // 5秒
+                target.AddBuff(ModContent.BuffType<Glock17EDebuff>(), 900); // 15s
 
             // 🌕 Stage 3：命中后额外从目标头顶射下一发追击弹
             if (Stage >= 3 && Main.myPlayer == Projectile.owner && target.CanBeChasedBy())

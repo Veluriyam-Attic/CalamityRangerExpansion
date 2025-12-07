@@ -201,11 +201,11 @@ Buffs: {
 DonorItem: {
 	STAR: {
 		DisplayName: Stardust Bullet
-		Tooltip: 
-		'''
-		Let me think.....I don't know to write what
-		Anyway,duduududdadadaduudda
-		'''
+		Tooltip:
+			'''
+			Let me think.....I don't know to write what
+			Anyway,duduududdadadaduudda
+			'''
 	}
 }
 
@@ -1460,8 +1460,8 @@ DeveloperItems: {
 		Glock17Proj.DisplayName: Glock17 Proj
 
 		Glock17: {
-			Tooltip: ""
-			DisplayName: Glock17
+			Tooltip: Decrease target defense on hit
+			DisplayName: Miss Veluriyam's Glock17
 		}
 	}
 
@@ -1816,13 +1816,16 @@ Projectiles: {
 	TenderElegyBeil.DisplayName: Tender Elegy Beil
 	PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
 	R36Proj.DisplayName: R36 Proj
+	IronDust.DisplayName: Iron Dust
+	STAROnSpawn.DisplayName: S T A R On Spawn
+	STARProj.DisplayName: S T A R Proj
 }
 
 Projectile: {
 	STARProj.DisplayName: Star Dust Bullet
 	STAROnSpawn.DisplayName: S T A R On Spawn
 	IronDust.DisplayName: Star Dust
-	
+
 	APreHardMode: {
 		AerialiteBulletPROJ.DisplayName: Aerialite Bullet
 		TinkleshardBulletPROJ.DisplayName: Tinkleshard Bullet

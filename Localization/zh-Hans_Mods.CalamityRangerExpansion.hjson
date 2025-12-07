@@ -201,11 +201,11 @@ Buffs: {
 DonorItem: {
 	STAR: {
 		DisplayName: 星屑磁弹
-		Tooltip: 
-		'''
-		我我想想吧，我不知道要写什么东西
-		但总之就是咕唧呱唧然后嘟嘟哒嘟嘟哒的
-		'''
+		Tooltip:
+			'''
+			我我想想吧，我不知道要写什么东西
+			但总之就是咕唧呱唧然后嘟嘟哒嘟嘟哒的
+			'''
 	}
 }
 
@@ -1424,8 +1424,8 @@ DeveloperItems: {
 		// Glock17Proj.DisplayName: Glock17 Proj
 
 		Glock17: {
-			// Tooltip: ""
-			// DisplayName: Glock17
+			Tooltip: 命中后降低目标防御力
+			DisplayName: 玲珑小姐姐的Glock17
 		}
 	}
 
@@ -1787,6 +1787,9 @@ Projectiles: {
 	// TenderElegyBeil.DisplayName: Tender Elegy Beil
 	// PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
 	// R36Proj.DisplayName: R36 Proj
+	// IronDust.DisplayName: Iron Dust
+	// STAROnSpawn.DisplayName: S T A R On Spawn
+	// STARProj.DisplayName: S T A R Proj
 }
 
 Projectile: {

@@ -36,32 +36,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
                 return TextureA;
         }
 
-
-
-
-
-        public override void UpdateInventory(Player player)
-        {
-            if (NPC.downedMoonlord)
-            {
-                Item.SetNameOverride("玲珑Glock·终焰形态"); // 可选
-                Item.width = 74;
-                Item.height = 38;
-            }
-            else if (Main.hardMode)
-            {
-                Item.SetNameOverride("玲珑Glock·扩容形态");
-                Item.width = 68;
-                Item.height = 32;
-            }
-            else
-            {
-                Item.SetNameOverride(null); // 恢复原名
-                Item.width = 60;
-                Item.height = 24;
-            }
-        }
-
         public override bool PreDrawInInventory(SpriteBatch spriteBatch, Vector2 position, Rectangle frame, Color drawColor, Color itemColor, Vector2 origin, float scale)
         {
             Texture2D tex = GetTextureByStage();
@@ -86,22 +60,27 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
                 return ModContent.Request<Texture2D>("CalamityRangerExpansion/Content/DeveloperItems/Weapon/Glock17/Glock17a").Value;
         }
 
-
-
-
-
-
-
-
-
-
-
+        public override void ModifyWeaponDamage(Player player, ref StatModifier damage)
+        {
+            if (NPC.downedMoonlord)
+            {
+                Item.damage = 302;
+                Item.width = 74;
+                Item.height = 38;
+            }
+            else if (Main.hardMode)
+            {
+                Item.damage = 133;
+                Item.width = 68;
+                Item.height = 32;
+            }
+        }
         public new string LocalizationCategory => "DeveloperItems.Glock17";
         public override void SetDefaults()
         {
             Item.width = 60;
             Item.height = 24;
-            Item.damage = 24;
+            Item.damage = 8;
             Item.DamageType = DamageClass.Ranged;
             Item.useTime = Item.useAnimation = 15;
             Item.useStyle = ItemUseStyleID.Shoot;
@@ -115,6 +94,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
             Item.shootSpeed = 13f;
             Item.useAmmo = AmmoID.Bullet;
             Item.Calamity().canFirePointBlankShots = true;
+            Item.Calamity().donorItem = true;
+            
         }
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {

@@ -10,7 +10,7 @@ namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
     {
         public Texture2D tex;
 
-        public override string Texture => "CalamityRangerExpansion/Content/DonorItem/StarDustBullet/STATS";
+        public override string Texture => "CalamityRangerExpansion/Content/DonorItem/StarDustBullet/STARS";
 
         public override void SetDefaults()
         {
