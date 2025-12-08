@@ -183,18 +183,18 @@ Buffs: {
 	}
 
 	KaleidoscopeBuff: {
-		// DisplayName: Kaleidoscope Buff
-		// Description: Mods.CalamityRangerExpansion.Buffs.KaleidoscopeBuff.Description
+		DisplayName: Kaleidoscope Buff
+		Description: Mods.CalamityRangerExpansion.Buffs.KaleidoscopeBuff.Description
 	}
 
 	ScoriaBulletPBuff: {
-		// Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
-		// DisplayName: Scoria Bullet P Buff
+		Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
+		DisplayName: Scoria Bullet P Buff
 	}
 
 	Glock17EDebuff: {
-		// DisplayName: Glock17 E Debuff
-		// Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
+		DisplayName: Glock17 E Debuff
+		Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
 	}
 }
 
@@ -826,7 +826,7 @@ DeveloperItems: {
 		}
 
 		ShadowsArrowPROJ.DisplayName: 魔影箭
-		// SAPortalPROJ.DisplayName: S A Portal P R O J
+		SAPortalPROJ.DisplayName: S A Portal P R O J
 	}
 
 	AllTheBirds: {
@@ -1243,11 +1243,11 @@ DeveloperItems: {
 		TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
 
 		TheGoldenFireNoGrow: {
-			// DisplayName: The Golden Fire No Grow
-			// Tooltip: ""
+			DisplayName: The Golden Fire No Grow
+			Tooltip: ""
 		}
 
-		// TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
+		TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 	}
 
 	ShadowsBullet: {
@@ -1393,7 +1393,7 @@ DeveloperItems: {
 
 		TenderElegyBeil.DisplayName: Tender Elegy Beil
 		TenderElegyPROJ.DisplayName: Tender Elegy P R O J
-		// TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
+		TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
 
 		TenderElegyi: {
 			DisplayName: 柔情挽歌
@@ -1407,24 +1407,24 @@ DeveloperItems: {
 
 	AllinOneBulletBox: {
 		AllinOneBulletBox: {
-			// Tooltip: ""
-			// DisplayName: Allin One Bullet Box
+			Tooltip: ""
+			DisplayName: Allin One Bullet Box
 		}
 
-		// AOBB2_PROJ.DisplayName: A O B B2_ P R O J
-		// AOBB1_PROJ.DisplayName: A O B B1_ P R O J
-		// AOBB3_PROJ.DisplayName: A O B B3_ P R O J
-		// AOBB3_Stay.DisplayName: A O B B3_ Stay
-		// AOBB4_Lazer.DisplayName: A O B B4_ Lazer
-		// AOBB4_PROJ.DisplayName: A O B B4_ P R O J
-		// AOBB5_PROJ.DisplayName: A O B B5_ P R O J
+		AOBB2_PROJ.DisplayName: A O B B2_ P R O J
+		AOBB1_PROJ.DisplayName: A O B B1_ P R O J
+		AOBB3_PROJ.DisplayName: A O B B3_ P R O J
+		AOBB3_Stay.DisplayName: A O B B3_ Stay
+		AOBB4_Lazer.DisplayName: A O B B4_ Lazer
+		AOBB4_PROJ.DisplayName: A O B B4_ P R O J
+		AOBB5_PROJ.DisplayName: A O B B5_ P R O J
 	}
 
 	Glock17: {
-		// Glock17Proj.DisplayName: Glock17 Proj
+		Glock17Proj.DisplayName: Glock17 Proj
 
 		Glock17: {
-			Tooltip: 
+			Tooltip:
 				'''
 				击败血肉墙后，增加伤害且可以削减敌人防御
 				击败月亮领主后，再次增加伤害并且可以发射额外弹幕
@@ -1449,10 +1449,10 @@ DeveloperItems: {
 				'''
 		}
 
-		// R36Proj.DisplayName: R36 Proj
+		R36Proj.DisplayName: R36 Proj
 	}
 
-	// SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
+	SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
 }
 
 Configs: {
@@ -1491,8 +1491,8 @@ Items: {
 	}
 
 	TenderElegy: {
-		// DisplayName: Tender Elegy
-		// Tooltip: ""
+		DisplayName: Tender Elegy
+		Tooltip: ""
 	}
 
 	TheLetter: {
@@ -1526,13 +1526,22 @@ Items: {
 	}
 
 	R36: {
-		// DisplayName: R36
-		// Tooltip: ""
+		DisplayName: R36
+		Tooltip: ""
 	}
 
 	SG225IE: {
-		// DisplayName: S G225 I E
-		// Tooltip: ""
+		DisplayName: S G225 I E
+		Tooltip: ""
+	}
+
+	DragonFangs: {
+		DisplayName: 龙獠
+		Tooltip: 
+				'''
+				+100 盔甲穿透
+				命中时施加龙焰减益
+				'''
 	}
 }
 
@@ -1788,12 +1797,12 @@ Projectiles: {
 
 	Melee.WulfrimSpark.DisplayName: 电火花
 	NewWeapons.EAfterDog.AuricArrowNPC.DisplayName: 火球
-	// TenderElegyBeil.DisplayName: Tender Elegy Beil
-	// PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
-	// R36Proj.DisplayName: R36 Proj
-	// IronDust.DisplayName: Iron Dust
-	// STAROnSpawn.DisplayName: S T A R On Spawn
-	// STARProj.DisplayName: S T A R Proj
+	TenderElegyBeil.DisplayName: Tender Elegy Beil
+	PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+	R36Proj.DisplayName: R36 Proj
+	IronDust.DisplayName: Iron Dust
+	STAROnSpawn.DisplayName: S T A R On Spawn
+	STARProj.DisplayName: S T A R Proj
 }
 
 Projectile: {
@@ -1811,7 +1820,7 @@ Projectile: {
 		PrismArrowPROJ.DisplayName: 棱晶箭
 		AerialiteGelCloud.DisplayName: 筋斗云
 		HurricaneGelSplit.DisplayName: 水晶碎片
-		// BloodBeadsArrowPROJ.DisplayName: Blood Beads Arrow
+		BloodBeadsArrowPROJ.DisplayName: Blood Beads Arrow
 	}
 
 	BPrePlantera: {
@@ -1841,8 +1850,8 @@ Projectile: {
 		ScoriaBulletFlameburst.DisplayName: 熔渣弹爆炸
 		LivingShardGelHealPROJ.DisplayName: 生命碎片
 		ScoriaGelFireBall.DisplayName: 火球
-		// CoreofCalamityArrowPROJ.DisplayName: Coreof Calamity Arrow P R O J
-		// DropThing.DisplayName: Drop Thing
+		CoreofCalamityArrowPROJ.DisplayName: Coreof Calamity Arrow P R O J
+		DropThing.DisplayName: Drop Thing
 	}
 
 	DPreDog: {
@@ -1883,8 +1892,8 @@ Projectile: {
 		AuricGelLighting.DisplayName: 闪电
 		CosmosGelEater.DisplayName: 神明吞噬者
 		MiracleMatterGelLighting.DisplayName: 闪电
-		// CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
-		// CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
-		// CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
+		CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
+		CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
+		CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
 	}
 }
