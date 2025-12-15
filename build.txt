@@ -1,8 +1,6 @@
-displayName = YuBell's Calamity Ranger Expansion[Stable]
+displayName = YuBell's Calamity Ranger Expansion[Reborn]
 author = 虞悖&至尊永冻&剃刀刃台风
 version = 0.1.0.14
-modReferences = CalamityMod
-waekReferences = Fargowiltas
 sortAfter = CalamityMod
 hideCode = true
 hideSource = true
