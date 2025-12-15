@@ -1,0 +1,16 @@
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.csproj.AssemblyReference.cache
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.GeneratedMSBuildEditorConfig.editorconfig
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.AssemblyInfoInputs.cache
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.AssemblyInfo.cs
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.csproj.CoreCompileInputs.cache
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.sourcelink.json
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\bin\Debug\net8.0\CalamityRangerExpansion.deps.json
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\bin\Debug\net8.0\CalamityRangerExpansion.dll
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\bin\Debug\net8.0\CalamityRangerExpansion.pdb
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\bin\Debug\net8.0\VeluriyamLib.dll
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\bin\Debug\net8.0\VeluriyamLib.pdb
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\Calamity.D0B40D42.Up2Date
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.dll
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\refint\CalamityRangerExpansion.dll
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\CalamityRangerExpansion.pdb
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\CalamityRangerExpansion\obj\Debug\net8.0\ref\CalamityRangerExpansion.dll

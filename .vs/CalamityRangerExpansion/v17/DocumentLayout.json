@@ -3,12 +3,13 @@
   "WorkspaceRootPath": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityRangerExpansion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}|CalamityRangerExpansion.csproj|e:\\user\\administrator\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityrangerexpansion\\content\\developeritems\\weapon\\glock17\\glock17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}|CalamityRangerExpansion.csproj|solutionrelative:content\\developeritems\\weapon\\glock17\\glock17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9414FED2-6303-466B-BA38-1974D5EA84EE}|..\\VeluriyamLib\\VeluriyamLib.csproj|e:\\user\\administrator\\documents\\my games\\terraria\\tmodloader\\modsources\\veluriyamlib\\content\\core\\veluriyamplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}|CalamityRangerExpansion.csproj|e:\\user\\administrator\\documents\\my games\\terraria\\tmodloader\\modsources\\calamityrangerexpansion\\content\\developeritems\\weapon\\thegoldenfire\\thegoldenfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}|CalamityRangerExpansion.csproj|solutionrelative:content\\developeritems\\weapon\\thegoldenfire\\thegoldenfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9414FED2-6303-466B-BA38-1974D5EA84EE}|..\\VeluriyamLib\\VeluriyamLib.csproj|e:\\user\\administrator\\documents\\my games\\terraria\\tmodloader\\modsources\\veluriyamlib\\content\\core\\veluriyamglobalitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9414FED2-6303-466B-BA38-1974D5EA84EE}|..\\VeluriyamLib\\VeluriyamLib.csproj|e:\\user\\administrator\\documents\\my games\\terraria\\tmodloader\\modsources\\veluriyamlib\\content\\core\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,29 +22,46 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TheGoldenFire.cs",
-              "DocumentMoniker": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityRangerExpansion\\Content\\DeveloperItems\\Weapon\\TheGoldenFire\\TheGoldenFire.cs",
-              "RelativeDocumentMoniker": "Content\\DeveloperItems\\Weapon\\TheGoldenFire\\TheGoldenFire.cs",
-              "ToolTip": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityRangerExpansion\\Content\\DeveloperItems\\Weapon\\TheGoldenFire\\TheGoldenFire.cs",
-              "RelativeToolTip": "Content\\DeveloperItems\\Weapon\\TheGoldenFire\\TheGoldenFire.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:56:23.993Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Glock17.cs",
-              "DocumentMoniker": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityRangerExpansion\\Content\\DeveloperItems\\Weapon\\Glock17\\Glock17.cs",
-              "RelativeDocumentMoniker": "Content\\DeveloperItems\\Weapon\\Glock17\\Glock17.cs",
-              "ToolTip": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CalamityRangerExpansion\\Content\\DeveloperItems\\Weapon\\Glock17\\Glock17.cs",
-              "RelativeToolTip": "Content\\DeveloperItems\\Weapon\\Glock17\\Glock17.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAwFIAAAAbAAAAAAAAAA==",
+              "Title": "VeluriyamPlayer.cs",
+              "DocumentMoniker": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VeluriyamLib\\Content\\Core\\VeluriyamPlayer.cs",
+              "RelativeDocumentMoniker": "..\\VeluriyamLib\\Content\\Core\\VeluriyamPlayer.cs",
+              "ToolTip": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VeluriyamLib\\Content\\Core\\VeluriyamPlayer.cs",
+              "RelativeToolTip": "..\\VeluriyamLib\\Content\\Core\\VeluriyamPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T14:52:34.3Z",
+              "WhenOpened": "2025-12-15T08:32:46.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeluriyamGlobalItem.cs",
+              "DocumentMoniker": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VeluriyamLib\\Content\\Core\\VeluriyamGlobalItem.cs",
+              "RelativeDocumentMoniker": "..\\VeluriyamLib\\Content\\Core\\VeluriyamGlobalItem.cs",
+              "ToolTip": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VeluriyamLib\\Content\\Core\\VeluriyamGlobalItem.cs",
+              "RelativeToolTip": "..\\VeluriyamLib\\Content\\Core\\VeluriyamGlobalItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:32:16.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VeluriyamLib\\Content\\Core\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "..\\VeluriyamLib\\Content\\Core\\GlobalUsing.cs",
+              "ToolTip": "E:\\User\\Administrator\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VeluriyamLib\\Content\\Core\\GlobalUsing.cs",
+              "RelativeToolTip": "..\\VeluriyamLib\\Content\\Core\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:32:08.314Z",
               "EditorCaption": ""
             }
           ]

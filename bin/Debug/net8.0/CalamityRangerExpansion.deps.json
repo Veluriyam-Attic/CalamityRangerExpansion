@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CalamityRangerExpansion/1.0.0": {
+        "dependencies": {
+          "VeluriyamLib": "1.0.0"
+        },
+        "runtime": {
+          "CalamityRangerExpansion.dll": {}
+        }
+      },
+      "VeluriyamLib/1.0.0": {
+        "runtime": {
+          "VeluriyamLib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalamityRangerExpansion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VeluriyamLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

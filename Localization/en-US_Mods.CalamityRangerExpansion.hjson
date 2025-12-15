@@ -1,2 +1,8 @@
-# This file will automatically update with entries for new content after a build and reload.
+Items: {
+	WulfrimArrow: {
+		DisplayName: Wulfrim Arrow
+		Tooltip: ""
+	}
+}
 
+Projectiles.WulfrimArrowProjectile.DisplayName: Wulfrim Arrow Projectile
