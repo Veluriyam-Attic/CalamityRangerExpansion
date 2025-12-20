@@ -34,7 +34,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
             Item.Calamity().devItem = true;
 
 
-            Item.UseSound = new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/R36/爆裂铳开火")
+            Item.UseSound = new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/R36/爆裂铳开火")
             {
                 Volume = 1.0f,
                 Pitch = 0f

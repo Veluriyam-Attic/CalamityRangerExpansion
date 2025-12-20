@@ -1438,10 +1438,9 @@ DeveloperItems: {
 			DisplayName: R36-爆裂铳
 			Tooltip:
 				'''
-				“和平只差一发子弹”
-				超级地球批准的特等城市安保装置
-				可有效中和所有敌意目标
-				[c/FF3C3C:包括不愿配合的城镇公民]
+				[c/FFB347:“和平只差一发子弹”]
+				[c/808080:超级地球批准的特等城市安保装置]
+				[c/FF3C3C:可有效中和所有敌意目标，包括不愿配合的城镇公民]
 				[c/FFA500:消耗两发子弹射出爆裂弹，分裂出大量中立破片]
 				[c/808080:误伤？那是缺乏足够训练 欢迎重回泽格马乐土重新体验绝地潜兵的优质训练]
 				[c/00BFFF:非常适合散播管理式民主]
@@ -1452,7 +1451,54 @@ DeveloperItems: {
 		R36Proj.DisplayName: R36 Proj
 	}
 
-	SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
+	SG225IE: {
+		SG225IEProj.DisplayName: S G225 I E Proj
+
+		SG225IEEDebuff: {
+			// DisplayName: S G225 I E E Debuff
+			// Description: Mods.CalamityRangerExpansion.DeveloperItems.SG225IE.SG225IEEDebuff.Description
+		}
+
+		SG225IE: {
+			DisplayName: SG225IE-高燃破裂者
+			Tooltip:
+				'''
+				[c/FFB347:“为民主投送更持久的热情”]
+				[c/808080:超级地球认证的低维护燃烧散布装置]
+				[c/FFA500:散射多发火焰弹，具备无限贯穿能力]
+				[c/AAAAAA:直接伤害已被优化至更利于持续作战的水平]
+				[c/FF6A00:命中同一目标次数越多，灼烧越显著——直到其自愿停止抵抗]
+				[c/FF3C3C:对密集敌群的效果尤为“令人信服”--包括同样密集的友军编队]
+				[c/00BFFF:非常适合在战场上推广管理式民主的长期施政]
+				[c/808080:若目标仍能行动，请继续投送热情；若你无法分辨敌我，请继续投送热情]
+				'''
+		}
+	}
+
+	LAS17: {
+		LAS17PDebuff: {
+			// DisplayName: L A S17 P Debuff
+			// Description: Mods.CalamityRangerExpansion.DeveloperItems.LAS17.LAS17PDebuff.Description
+		}
+
+		LAS17: {
+			DisplayName: LAS17-双刃镰刀
+			Tooltip:
+				'''
+				[c/FFB347:“热力学一直都是解决方案的一部分”]
+				[c/808080:超级地球批准的高性能能量切割平台]
+				[c/AAAAAA:本型号已完全移除所有散热装置，以消除不必要的性能妥协]
+				[c/FFA500:持续使用将逐步提升热量等级，每一级都会显著增强伤害与穿透力]
+				[c/FF8C00:当热值达到第三阶段，使用者可能出现行动效率下降]
+				[c/FF3C3C:当热值达到第四阶段，使用者将被视为可接受的热源]
+				[c/DD2222:第五阶段下，热量将以最高效率转化为作战与附带伤害]
+				[c/808080:所有不良反应均表明武器正处于最佳工作状态]
+				[c/00BFFF:非常适合愿意为自由持续升温的绝地潜兵]
+				'''
+		}
+
+		// LAS17Proj.DisplayName: L A S17 Proj
+	}
 }
 
 Configs: {
@@ -1537,11 +1583,11 @@ Items: {
 
 	DragonFangs: {
 		DisplayName: 龙獠
-		Tooltip: 
-				'''
-				+100 盔甲穿透
-				命中时施加龙焰减益
-				'''
+		Tooltip:
+			'''
+			+100 盔甲穿透
+			命中时施加龙焰减益
+			'''
 	}
 }
 
@@ -1554,6 +1600,13 @@ Weapons: {
 				左键射出激光和交叉追踪炸弹，右键直接射出追踪炸弹
 				该版本的星火解离者可以享受本模组的凝胶加成，而原灾的不行
 				'''
+		}
+	}
+
+	EAfterDog: {
+		LAS17: {
+			// DisplayName: L A S17
+			// Tooltip: ""
 		}
 	}
 }
@@ -1895,5 +1948,14 @@ Projectile: {
 		CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
 		CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
 		CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
+	}
+
+	// FOldOnes.LAS17Proj.DisplayName: L A S17 Proj
+}
+
+ModBuff: {
+	LAS17PDebuff: {
+		// DisplayName: L A S17 P Debuff
+		// Description: Mods.CalamityRangerExpansion.ModBuff.LAS17PDebuff.Description
 	}
 }

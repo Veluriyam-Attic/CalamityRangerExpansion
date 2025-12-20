@@ -298,11 +298,9 @@
 	  <Folder Include="Content\Arrows\CPreMoodLord\AstralArrow\废案\" />
 	  <Folder Include="Content\Arrows\EAfterDog\AuricArrow\废弃\" />
 	  <Folder Include="Content\DeveloperItems\Gel\新文件夹\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\HD2\LAS17\" />
 	  <Folder Include="Content\DeveloperItems\Weapon\HD2\VG70\" />
 	  <Folder Include="Content\DeveloperItems\Weapon\Pyroblast\新文件夹\" />
 	  <Folder Include="Content\DeveloperItems\Weapon\HD2\AR32\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\HD2\SG8P\" />
 	  <Folder Include="Content\DeveloperItems\Weapon\新文件夹\" />
 	</ItemGroup>
 	<ItemGroup>

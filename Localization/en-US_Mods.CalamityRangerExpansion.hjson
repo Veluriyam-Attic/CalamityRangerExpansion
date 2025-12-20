@@ -1488,7 +1488,33 @@ DeveloperItems: {
 		R36Proj.DisplayName: R36 Proj
 	}
 
-	SG225IE.SG225IEProj.DisplayName: S G225 I E Proj
+	SG225IE: {
+		SG225IEProj.DisplayName: S G225 I E Proj
+
+		SG225IEEDebuff: {
+			DisplayName: S G225 I E E Debuff
+			Description: Mods.CalamityRangerExpansion.DeveloperItems.SG225IE.SG225IEEDebuff.Description
+		}
+
+		SG225IE: {
+			DisplayName: S G225 I E
+			Tooltip: ""
+		}
+	}
+
+	LAS17: {
+		LAS17PDebuff: {
+			DisplayName: L A S17 P Debuff
+			Description: Mods.CalamityRangerExpansion.DeveloperItems.LAS17.LAS17PDebuff.Description
+		}
+
+		LAS17: {
+			DisplayName: L A S17
+			Tooltip: ""
+		}
+
+		LAS17Proj.DisplayName: L A S17 Proj
+	}
 }
 
 Configs: {
@@ -1566,11 +1592,11 @@ Items: {
 
 	DragonFangs: {
 		DisplayName: Dragon Fangs
-		Tooltip: 
-				'''
-				Increase armor penetration 100
-				when you hit ememy will inflect Dragon Fire debuff
-				'''
+		Tooltip:
+			'''
+			Increase armor penetration 100
+			when you hit ememy will inflect Dragon Fire debuff
+			'''
 	}
 }
 
@@ -1583,6 +1609,13 @@ Weapons: {
 				Just Photoviscerator
 				But it can get the special effects of gels from this mod now!
 				'''
+		}
+	}
+
+	EAfterDog: {
+		LAS17: {
+			DisplayName: L A S17
+			Tooltip: ""
 		}
 	}
 }
@@ -1924,5 +1957,14 @@ Projectile: {
 		CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
 		CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
 		CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
+	}
+
+	FOldOnes.LAS17Proj.DisplayName: L A S17 Proj
+}
+
+ModBuff: {
+	LAS17PDebuff: {
+		DisplayName: L A S17 P Debuff
+		Description: Mods.CalamityRangerExpansion.ModBuff.LAS17PDebuff.Description
 	}
 }
