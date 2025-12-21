@@ -1,18 +1,19 @@
 ﻿using CalamityMod;
+using CalamityMod.Buffs.DamageOverTime;
+using CalamityMod.Particles;
+using CalamityMod.Projectiles.Typeless;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Terraria;
+using Terraria.Audio;
 using Terraria.DataStructures;
+using Terraria.Graphics.Renderers;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Typeless;
-using Terraria.Audio;
-using Terraria.Graphics.Renderers;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
 {
@@ -35,7 +36,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
         }
         public override Color? GetAlpha(Color lightColor)
         {
-            return new Color(50, 255, 50, Projectile.alpha);
+            return new Color(255, 60, 60, Projectile.alpha);
         }
         public override void SetDefaults()
         {
@@ -52,7 +53,19 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
             Projectile.localNPCHitCooldown = 14; // 无敌帧冷却时间为14帧
         }
 
-
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
+        {
+            // 原版与模组灼烧
+            target.AddBuff(BuffID.OnFire, 300);          // 燃烧
+            target.AddBuff(BuffID.CursedInferno, 300);   // 咒火
+            target.AddBuff(BuffID.Daybreak, 300);        // 破晓
+            target.AddBuff(ModContent.BuffType<HolyFlames>(), 300); // 神圣之火
+        }
+        public override void ModifyHitPlayer(Player target, ref Player.HurtModifiers modifiers)
+        {
+            // 直接将本次命中伤害限制为 1
+            modifiers.SetMaxDamage(1);
+        }
         public override void OnSpawn(IEntitySource source)
         {
 
@@ -61,6 +74,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
 
         public override void AI()
         {
+            // 玩家伤害判定窗口
+            Projectile.hostile = Projectile.timeLeft <= 270;
+
             // 额外更新时，AI 每帧会被调用多次；这里用 numUpdates 只在“主帧”做一次衰减和重特效
             bool mainFrame = Projectile.numUpdates == 0;
 
@@ -194,18 +210,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
                 GeneralParticleHandler.SpawnParticle(spark);
             }
 
-            // 烟雾：向上喷射，略带“扭曲感”
-            Particle smokeH = new HeavySmokeParticle(
-                target.Center + new Vector2(0, -10),
-                new Vector2(0, -1) * 5f,
-                Color.Gray,
-                30,
-                Projectile.scale * Main.rand.NextFloat(0.7f, 1.3f),
-                1.0f,
-                MathHelper.ToRadians(2f),
-                true
-            );
-            GeneralParticleHandler.SpawnParticle(smokeH);
+        
         }
 
 

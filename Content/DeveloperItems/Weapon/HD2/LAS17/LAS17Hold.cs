@@ -1,16 +1,17 @@
 ﻿using CalamityMod.Particles;
 using CalamityMod.Projectiles.BaseProjectiles;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Terraria;
 using Terraria.Audio;
+using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 {
@@ -19,21 +20,79 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
         public new string LocalizationCategory => "DeveloperItems.LAS17";
         public override string Texture => "CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/LAS17/LAS17";
         public override int AssociatedItemID => ModContent.ItemType<LAS17>();
-        public override Vector2 GunTipPosition => Projectile.Center + Vector2.UnitX.RotatedBy(Projectile.rotation) * (Projectile.width * 0.5f + 10f);
+        public override Vector2 GunTipPosition => Projectile.Center + Vector2.UnitX.RotatedBy(Projectile.rotation) * (Projectile.width * 0.5f + 5f);
         public override float MaxOffsetLengthFromArm => 55f;
 
         private int frameCounter = 0;
         private int stage = 0;
         private int stageTimer = 0;
         private const int MaxStage = 5;
-        private const int FireInterval = 4;
         private const int StageUpTime = 180; // 每180帧（3秒）升级一次
-        private const int StageCooldownSpeed = 12; // 冷却时每帧倒退多少tick
         private float chargeProgress = 0f;
+        private int spawnDelay = 15;
+
+        private int stageOutlineTimer = 0;
+        private const int StageOutlineDuration = 24; // 总时长（线性上升 + 下降）
+
 
         public override void HoldoutAI()
         {
             Player player = Main.player[Projectile.owner];
+
+            // =========================
+            // 启动缓冲期（15 帧不攻击）
+            // =========================
+            if (spawnDelay > 0)
+            {
+                // 第 1 帧：启动音效 + 收缩光环 + 内收辉光点
+                if (spawnDelay == 15)
+                {
+                    // 启动音效
+                    SoundEngine.PlaySound(SoundID.Item69, Projectile.Center);
+
+                    //// =========================
+                    //// ① 往内收缩的圆形冲击波（核心仪式感）
+                    //// =========================
+                    //Particle shrinkingPulse = new DirectionalPulseRing(
+                    //    GunTipPosition,
+                    //    Vector2.Zero,              // 静止，仅做缩放
+                    //    Color.Purple,              // 紫色能量环
+                    //    new Vector2(1f, 1f),       // 圆形
+                    //    Main.rand.NextFloat(6f, 10f), // 初始半径（大）
+                    //    0.15f,                     // 最终收缩到很小
+                    //    3f,                        // 扩散范围
+                    //    10                          // 生命周期
+                    //);
+                    //GeneralParticleHandler.SpawnParticle(shrinkingPulse);
+
+                    //// =========================
+                    //// ② 辉光球：向内坠落的能量点（少量但有秩序）
+                    //// =========================
+                    //int orbCount = 6;
+                    //for (int i = 0; i < orbCount; i++)
+                    //{
+                    //    // 在一个小圆环上生成，然后“看起来像往中心塌缩”
+                    //    Vector2 offset = Main.rand.NextVector2CircularEdge(18f, 18f);
+
+                    //    GlowOrbParticle orb = new GlowOrbParticle(
+                    //        GunTipPosition + offset, // 起始在外圈
+                    //        -offset * 0.15f,            // 速度指向中心（内收）
+                    //        false,
+                    //        5,
+                    //        Main.rand.NextFloat(0.85f, 1.05f),
+                    //        Color.Red,
+                    //        true,
+                    //        false,
+                    //        true
+                    //    );
+                    //    GeneralParticleHandler.SpawnParticle(orb);
+                    //}
+                }
+
+
+                spawnDelay--;
+                return;
+            }
 
             // 若未持有该武器，则重置
             if (player.HeldItem.type != AssociatedItemID)
@@ -46,7 +105,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             stageTimer++;
 
             // 射击逻辑
-            if (frameCounter >= FireInterval)
+            if (frameCounter >= 4)
             {
                 Fire(player);
                 frameCounter = 0;
@@ -72,6 +131,56 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
         }
         public override bool PreDraw(ref Color lightColor)
         {
+            // ===== 阶段升级描边脉冲 =====
+            if (stageOutlineTimer > 0)
+            {
+                Texture2D tex = TextureAssets.Projectile[Projectile.type].Value;
+
+                // 0 → 1 → 0 的线性曲线
+                float half = StageOutlineDuration / 2f;
+                float t = stageOutlineTimer > half
+                    ? (StageOutlineDuration - stageOutlineTimer) / half
+                    : stageOutlineTimer / half;
+
+                float outlineStrength = MathHelper.Lerp(0f, 1.4f, t);
+
+                Color outlineColor = Color.OrangeRed * 0.6f;
+
+                Vector2 origin = tex.Size() * 0.5f;
+                Vector2 basePos = Projectile.Center - Main.screenPosition;
+                float rot = Projectile.rotation + ((Projectile.spriteDirection == -1) ? MathF.PI : 0f);
+                SpriteEffects fx =
+                    ((float)Projectile.spriteDirection * Owner.gravDir == -1f)
+                        ? SpriteEffects.FlipHorizontally
+                        : SpriteEffects.None;
+
+                // 画 4 个方向的描边（十字）
+                Vector2[] offsets =
+                {
+            new Vector2( outlineStrength, 0),
+            new Vector2(-outlineStrength, 0),
+            new Vector2(0,  outlineStrength),
+            new Vector2(0, -outlineStrength),
+        };
+
+                foreach (var off in offsets)
+                {
+                    Main.EntitySpriteDraw(
+                        tex,
+                        basePos + off,
+                        null,
+                        outlineColor,
+                        rot,
+                        origin,
+                        Projectile.scale * Owner.gravDir,
+                        fx
+                    );
+                }
+
+                stageOutlineTimer--;
+            }
+
+
             // 👉我们只要绘制阶段充能条，不影响主视觉
             if (Main.myPlayer == Projectile.owner && stage < MaxStage)
             {
@@ -194,6 +303,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 
         private void TriggerStageEffect(Player player)
         {
+            stageOutlineTimer = StageOutlineDuration;
+
             Vector2 fireDirection = Vector2.UnitX.RotatedBy(Projectile.rotation);
 
             // 🔥1. 火把 Dust 粒子：喷射向前

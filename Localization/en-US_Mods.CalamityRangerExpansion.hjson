@@ -1515,6 +1515,16 @@ DeveloperItems: {
 
 		LAS17Proj.DisplayName: L A S17 Proj
 	}
+
+	VG70: {
+		VG70: {
+			DisplayName: V G70
+			Tooltip: ""
+		}
+
+		VG70Proj.DisplayName: V G70 Proj
+		VG70Hold.DisplayName: V G70 Hold
+	}
 }
 
 Configs: {

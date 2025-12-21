@@ -43,7 +43,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 
                 if (player.statLife <= 0)
                 {
-                    player.KillMe(PlayerDeathReason.ByCustomReason($"{player.name} 忘了更换武器的散热器。"), 10.0, 0);
+                    player.KillMe(PlayerDeathReason.ByCustomReason($"{player.name} 忘了更换散热器"), 10.0, 0);
                 }
             }
 
@@ -114,13 +114,13 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             }
 
             // 5️⃣ 可选 Bloom 光晕（仅高烈度启用）
-            if (FireMode >= 2 && Main.rand.NextBool(4))
+            if (FireMode >= 2 && Main.rand.NextBool(3))
             {
                 Particle bloom = new GenericBloom(
                     center,
                     Vector2.Zero,
                     Color.OrangeRed * 0.4f,
-                    1.8f,
+                    1.1f,
                     40
                 );
                 GeneralParticleHandler.SpawnParticle(bloom);

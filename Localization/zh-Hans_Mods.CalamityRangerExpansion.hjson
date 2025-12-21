@@ -1499,6 +1499,26 @@ DeveloperItems: {
 
 		// LAS17Proj.DisplayName: L A S17 Proj
 	}
+
+	VG70: {
+		VG70: {
+			DisplayName: VG70-变量
+			Tooltip:
+				'''
+				[c/FFB347:“清除那些不稳定的变量”]
+				[c/808080:超级地球批准的多枪管投票火力平台]
+				[c/AAAAAA:七根枪管既定顺序依次发射，确保每一发子弹都拥有发言权]
+				[c/FF3C3C:按下右键让所有枪管同时快速投票两轮，瞬间打出14发高能弹药]
+				[c/DD5555:该过程将产生显著后坐力，并暂时中止进一步民主讨论]
+				[c/808080:冷却期间武器将保持在手中，供使用者反思刚才的决定]
+				[c/00BFFF:非常适合在长时间争论后突然达成高度一致的场合]
+				[c/808080:历史已多次证明此类设计效率低下，但我们仍愿意再试一次]
+				'''
+		}
+
+		// VG70Proj.DisplayName: V G70 Proj
+		// VG70Hold.DisplayName: V G70 Hold
+	}
 }
 
 Configs: {

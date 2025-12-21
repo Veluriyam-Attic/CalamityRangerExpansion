@@ -1,5 +1,6 @@
 ﻿using CalamityMod;
 using CalamityMod.Particles;
+using CalamityMod.Projectiles.Typeless;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
@@ -39,7 +40,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.timeLeft = 500;
             Projectile.penetrate = 2;
-            Projectile.extraUpdates = 3;
+            Projectile.extraUpdates = 2;
             Projectile.usesLocalNPCImmunity = true;
             Projectile.localNPCHitCooldown = 14;
 
@@ -49,12 +50,15 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 
         public override void OnSpawn(IEntitySource source)
         {
-            // localAI[0] = 0 表示“尚未完成初始化”
+            // SHPL 同款初始化标记
             Projectile.localAI[0] = 0f;
         }
 
+
         public override void AI()
-        {
+        {          
+            Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
+
             if (Projectile.alpha > 0)
             {
                 Projectile.alpha -= 25;
@@ -98,7 +102,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
                 penetratedSet = true;
             }
 
-            Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
 
             // 只在主更新帧推进特效节奏
             if (Projectile.numUpdates == 0)
@@ -147,5 +150,148 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 
 
         }
+
+
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            // 高阶段：触发 FuckYou 弹幕（75% 伤害）
+            if (WeaponStage >= 3)
+            {
+                Projectile.NewProjectile(
+                    Projectile.GetSource_FromThis(),
+                    target.Center,
+                    Vector2.Zero,
+                    ModContent.ProjectileType<FuckYou>(),
+                    (int)(Projectile.damage * 0.75f),
+                    Projectile.knockBack,
+                    Projectile.owner
+                );
+            }
+
+
+            Vector2 dir = Projectile.velocity.SafeNormalize(Vector2.UnitX);
+            Vector2 back = -dir;
+
+            // =========================
+            // ① 有序溅射：扇形反向喷射（主视觉）
+            // =========================
+            int orderedCount = 12;
+            float fanHalfAngle = MathHelper.ToRadians(30f); // 扇形角度
+            float baseAngle = back.ToRotation();
+
+            for (int i = 0; i < orderedCount; i++)
+            {
+                float t = orderedCount == 1 ? 0.5f : i / (float)(orderedCount - 1);
+                float angle = baseAngle + MathHelper.Lerp(-fanHalfAngle, fanHalfAngle, t);
+
+                // 中央更强，边缘更弱（有数学秩序）
+                float centerWeight = 1f - Math.Abs(t - 0.5f) * 2f;
+                float speed = MathHelper.Lerp(3f, 8f, centerWeight);
+
+                Vector2 velocity = angle.ToRotationVector2() * speed;
+
+                Dust d = Dust.NewDustPerfect(
+                    target.Center,
+                    267, // 火焰 / 能量系 Dust
+                    velocity,
+                    120,
+                    Color.OrangeRed,
+                    MathHelper.Lerp(1.0f, 1.6f, centerWeight)
+                );
+                d.noGravity = true;
+            }
+
+            // =========================
+            // ② 无序溅射：随机爆散（能量破裂感）
+            // =========================
+            int chaoticCount = 8;
+            for (int i = 0; i < chaoticCount; i++)
+            {
+                Vector2 velocity =
+                    back.RotatedBy(Main.rand.NextFloat(-MathHelper.PiOver2, MathHelper.PiOver2)) *
+                    Main.rand.NextFloat(1.5f, 6f) +
+                    Main.rand.NextVector2Circular(1.2f, 1.2f);
+
+                Dust d = Dust.NewDustPerfect(
+                    target.Center + Main.rand.NextVector2Circular(6f, 6f),
+                    267,
+                    velocity,
+                    150,
+                    Color.Gold,
+                    Main.rand.NextFloat(0.8f, 1.3f)
+                );
+                d.noGravity = true;
+            }
+        }
+
+
+
+        public override void OnKill(int timeLeft)
+        {
+            Vector2 dir = Projectile.velocity.SafeNormalize(Vector2.UnitX);
+            Vector2 back = -dir;
+
+            // =========================
+            // ① 无序扩散：点刺型粒子（向外炸开）
+            // =========================
+            int chaosCount = 10;
+            for (int i = 0; i < chaosCount; i++)
+            {
+                Vector2 v =
+                    back.RotatedBy(Main.rand.NextFloat(-MathHelper.Pi, MathHelper.Pi)) *
+                    Main.rand.NextFloat(2.5f, 6.5f);
+
+                PointParticle spark = new PointParticle(
+                    Projectile.Center + Main.rand.NextVector2Circular(6f, 6f),
+                    v,
+                    false,
+                    15,
+                    Main.rand.NextFloat(0.9f, 1.2f),
+                    Color.Orange
+                );
+                GeneralParticleHandler.SpawnParticle(spark);
+            }
+
+            // =========================
+            // ② 有序释放：辉光球（稳定、干净的能量残留）
+            // =========================
+            int orbCount = 6;
+            for (int i = 0; i < orbCount; i++)
+            {
+                Vector2 offset = Main.rand.NextVector2Circular(4f, 4f);
+
+                GlowOrbParticle orb = new GlowOrbParticle(
+                    Projectile.Center + offset,
+                    Vector2.Zero,
+                    false,
+                    5,
+                    0.9f,
+                    Color.Red,
+                    true,
+                    false,
+                    true
+                );
+                GeneralParticleHandler.SpawnParticle(orb);
+            }
+
+            // =========================
+            // ③ 收尾：细节爆炸（定点、短促、有质感）
+            // =========================
+            Particle explosion = new DetailedExplosion(
+                Projectile.Center,
+                Vector2.Zero,
+                Color.OrangeRed * 0.9f,
+                Vector2.One,
+                Main.rand.NextFloat(-5f, 5f),
+                0f,
+                0.28f,
+                10
+            );
+            GeneralParticleHandler.SpawnParticle(explosion);
+        }
+
+
+
     }
 }
