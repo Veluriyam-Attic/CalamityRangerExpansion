@@ -42,7 +42,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             Projectile.friendly = true;
             Projectile.hostile = false;
             Projectile.DamageType = DamageClass.Ranged;
-            Projectile.penetrate = 1; // 可击中次数
+            Projectile.penetrate = 4; // 可击中次数
             Projectile.timeLeft = 300;
             Projectile.ignoreWater = true;
             Projectile.tileCollide = true;

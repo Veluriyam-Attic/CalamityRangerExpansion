@@ -84,7 +84,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
                 return;
 
             Vector2 muzzle = GunTipPosition;
-            int projectileCount = Main.rand.Next(8, 13); // 8~12 发散射
+            int projectileCount = Main.rand.Next(4, 7);
 
             for (int i = 0; i < projectileCount; i++)
             {

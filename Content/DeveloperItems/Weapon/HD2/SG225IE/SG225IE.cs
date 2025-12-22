@@ -30,6 +30,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
             Item.rare = ItemRarityID.LightRed;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.UseSound = new SoundStyle("CalamityMod/Sounds/Item/DudFire") with { Volume = 0.5f, Pitch = -0.6f };
+            Item.Calamity().devItem = true;
+            Item.Calamity().canFirePointBlankShots = true;
+
         }
 
         public override bool CanUseItem(Player player) => player.ownedProjectileCounts[Item.shoot] == 0;

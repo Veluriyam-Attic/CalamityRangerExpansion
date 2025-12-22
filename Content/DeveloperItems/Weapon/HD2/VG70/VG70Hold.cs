@@ -5,8 +5,10 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using Terraria;
 using Terraria.Audio;
+using Terraria.DataStructures;
 using Terraria.GameContent;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
@@ -84,7 +86,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
                 return;
             }
 
-            if (burstCooldown > 0)
+            if (state != State_Cooldown && burstCooldown > 0)
                 burstCooldown--;
 
             // =========================
@@ -126,6 +128,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             // =========================
             if (state == State_Cooldown)
             {
+                burstCooldown--;
+
                 if (burstCooldown <= 0)
                     state = State_Normal;
 
@@ -163,14 +167,17 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             Projectile.NewProjectile(
                 Projectile.GetSource_FromThis(),
                 spawnPos,
-                dir * speed,
+                dir * speed * 2.2f,
                 projType,
                 damage,
                 kb,
                 Projectile.owner
             );
 
-            SoundEngine.PlaySound(SoundID.Item11, Projectile.Center);
+            SoundEngine.PlaySound(
+                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/VG70/VG70变量普通开火"),
+                Projectile.Center
+            );
         }
 
         // =========================
@@ -191,6 +198,18 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
                 Main.LocalPlayer.Calamity().GeneralScreenShakePower =
                     Math.Max(Main.LocalPlayer.Calamity().GeneralScreenShakePower, shakePower * distFactor);
             }
+
+
+            player.Hurt(
+                PlayerDeathReason.ByCustomReason(
+                    NetworkText.FromLiteral($"{player.name} was liberated by excessive firepower.")
+                ),
+                10,
+                0,
+                dodgeable: false,
+                armorPenetration: int.MaxValue
+            );
+
 
             // 💥 后坐力
             player.velocity += -dir * 5.8f;
@@ -279,7 +298,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
                 Projectile.NewProjectile(
                     Projectile.GetSource_FromThis(),
                     spawnPos,
-                    shootDir * speed,
+                    shootDir * speed * 2.2f,
                     finalProj,
                     (int)(damage * 1.2f),
                     kb,
@@ -287,7 +306,10 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
                 );
             }
 
-            SoundEngine.PlaySound(SoundID.Item38, Projectile.Center);
+            SoundEngine.PlaySound(
+                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/VG70/VG70变量齐射开火"),
+                Projectile.Center
+            );
         }
 
         // =========================
@@ -324,7 +346,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
                 var barBG = ModContent.Request<Texture2D>("CalamityMod/UI/MiscTextures/GenericBarBack").Value;
                 var barFG = ModContent.Request<Texture2D>("CalamityMod/UI/MiscTextures/GenericBarFront").Value;
 
-                float ratio = burstCooldown / 300f;
+                float ratio = burstCooldown / 150f;
 
                 Vector2 pos = player.Center - Main.screenPosition + new Vector2(0, -56f) - barBG.Size() * 0.5f;
                 Rectangle crop = new Rectangle(0, 0, (int)(barFG.Width * ratio), barFG.Height);

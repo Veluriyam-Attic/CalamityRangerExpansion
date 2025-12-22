@@ -35,6 +35,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             Item.channel = true; // 支持长按
             Item.autoReuse = true; // 自动连点
             Item.useAmmo = AmmoID.Bullet;
+            Item.Calamity().devItem = true;
 
             Item.value = CalamityGlobalItem.RarityPinkBuyPrice;
             Item.rare = ItemRarityID.Pink;
