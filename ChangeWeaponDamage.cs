@@ -25,53 +25,41 @@ namespace CalamityRangerExpansion
     {
         public override bool InstancePerEntity => true;
 
+        public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => (entity.type == ModContent.NPCType<DevourerofGodsHead>() || entity.type == ModContent.NPCType<DevourerofGodsBody>() || entity.type == ModContent.NPCType<DevourerofGodsTail>()) && lateInstantiation;
+
         public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref NPC.HitModifiers modifiers)
-        {
-
-            // 检查是否为 神明吞噬者
-            if ((npc.type == ModContent.NPCType<DevourerofGodsHead>() || npc.type == ModContent.NPCType<DevourerofGodsBody>() || npc.type == ModContent.NPCType<DevourerofGodsTail>()))
+        {                
+            // 检查弹幕类型是否为 闪耀金羽箭 以及它的电场
+            if (projectile.type == ModContent.ProjectileType<EffulgentFeatherArrowAura>() ||
+                projectile.type == ModContent.ProjectileType<EffulgentFeatherArrowPROJ>())
             {
-                // 检查弹幕类型是否为 闪耀金羽箭 以及它的电场
-                if (projectile.type == ModContent.ProjectileType<EffulgentFeatherArrowAura>() ||
-                    projectile.type == ModContent.ProjectileType<EffulgentFeatherArrowPROJ>())
-                {
-                    modifiers.SourceDamage *= 0.85f;
-                }
+                modifiers.SourceDamage *= 0.85f;
             }
+        }
 
-            // 检查是否为 神明吞噬者 （仅身体）
-            if ((npc.type == ModContent.NPCType<DevourerofGodsBody>()))
+        public class ChangeDamageDOGbody : GlobalNPC
+        {
+            public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type == ModContent.NPCType<DevourerofGodsBody>() && lateInstantiation;
+
+            public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref NPC.HitModifiers modifiers)
             {
-                // 检查弹幕类型是否为 神圣晶石箭 以及它的爆炸
                 if (projectile.type == ModContent.ProjectileType<DivineGeodeArrowPROJ>() ||
                 projectile.type == ModContent.ProjectileType<DivineGeodeArrowEXP>())
                 {
                     modifiers.SourceDamage *= 5f;
                 }
             }
-
-            base.ModifyHitByProjectile(npc, projectile, ref modifiers);
         }
-
     }
 
     public class ArterialAssaultFix : GlobalProjectile
     {
-        //public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
-        //{
-        //    Player player = Main.LocalPlayer;
-        //    if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type)
-        //    {
-        //        projectile.damage = 0;
-        //    }
-        //}
-
         public override void OnSpawn(Projectile projectile, IEntitySource source)
         {
             Player player = Main.LocalPlayer;
             if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type && source is EntitySource_ItemUse_WithAmmo)
             {
-                projectile.damage = 0;
+                projectile.damage /= 100;
             }
         }
     }

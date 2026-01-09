@@ -6,6 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Particles;
+using Terraria.DataStructures;
 
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 {
@@ -45,6 +46,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             //    Projectile.localNPCHitCooldown = 8;
             //}
 
+        }
+
+        public override void OnSpawn(IEntitySource source)
+        {
+            Projectile.damage /= 10;
         }
 
         public override void AI()
@@ -90,27 +96,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 
             
         }
-        #region 旧代码
-        // Expanding hitbox
-        //public override void ModifyDamageHitbox(ref Rectangle hitbox)
-        //{
-        //    int size = (int)Utils.Remap(Time, 0f, Fadetime, 10f, 40f);
-
-        //    // Shrinks again after fading
-        //    if (Time > Fadetime)
-        //        size = (int)Utils.Remap(Time, Fadetime, Lifetime, 40f, 0f);
-        //    hitbox.Inflate(size, size);
-        //}
-
-        //public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(ModContent.BuffType<GodSlayerInferno>(), 360);
-        //public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
-        //{
-        //    if (Projectile.numHits > 0)
-        //        Projectile.damage = (int)(Projectile.damage * 0.75f);
-        //    if (Projectile.damage < 1)
-        //        Projectile.damage = 1;
-        //}
-        #endregion
 
         public override bool PreDraw(ref Color lightColor)
         {
@@ -153,54 +138,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             }
             return false;
         }
-        #region 旧代码
-        //public override bool PreDraw(ref Color lightColor)
-        //{
-        //    Texture2D fire = Terraria.GameContent.TextureAssets.Projectile[Projectile.type].Value;
-        //    Texture2D mist = ModContent.Request<Texture2D>("CalamityMod/Particles/MediumMist").Value;
-
-        //    // 从 localAI 和 ai 读取颜色值
-        //    Color gelColor = new Color((int)Projectile.localAI[0], (int)Projectile.localAI[1], (int)Projectile.ai[0]);
-
-        //    float length = ((Time > Fadetime - 10f) ? 0.1f : 0.15f);
-        //    float vOffset = Math.Min(Time, 20f);
-        //    float timeRatio = Utils.GetLerpValue(0f, Lifetime, Time);
-        //    float fireSize = Utils.Remap(timeRatio, 0.2f, 0.5f, 0.25f, 1f);
-
-        //    if (timeRatio >= 1f)
-        //        return false;
-
-        //    for (float j = 1f; j >= 0f; j -= length)
-        //    {
-        //        // 动态颜色
-        //        Color fireColor = gelColor * (1f - j) * Utils.GetLerpValue(0f, 0.2f, timeRatio, true);
-
-        //        // 位置与旋转
-        //        Vector2 firePos = Projectile.Center - Main.screenPosition - Projectile.velocity * vOffset * j;
-        //        float mainRot = (-j * MathHelper.PiOver2 - Main.GlobalTimeWrappedHourly * (j + 1f) * 2f / length) * Math.Sign(Projectile.velocity.X);
-        //        float trailRot = MathHelper.PiOver4 - mainRot;
-
-        //        // 绘制拖尾
-        //        Vector2 trailOffset = Projectile.velocity * vOffset * length * 0.5f;
-        //        Main.EntitySpriteDraw(fire, firePos - trailOffset, null, fireColor * 0.25f, trailRot, fire.Size() * 0.5f, fireSize, SpriteEffects.None);
-
-        //        // 绘制主火焰
-        //        Main.EntitySpriteDraw(fire, firePos, null, fireColor, mainRot, fire.Size() * 0.5f, fireSize, SpriteEffects.None);
-
-        //        // 绘制烟雾
-        //        if (MistType > 2 || MistType < 0)
-        //            return false;
-
-        //        Main.spriteBatch.SetBlendState(BlendState.Additive);
-        //        Rectangle frame = mist.Frame(1, 3, 0, MistType);
-        //        Main.EntitySpriteDraw(mist, firePos, frame, Color.Lerp(fireColor, Color.White, 0.3f), mainRot, frame.Size() * 0.5f, fireSize, SpriteEffects.None);
-        //        Main.EntitySpriteDraw(mist, firePos, frame, fireColor, mainRot, frame.Size() * 0.5f, fireSize * 3f, SpriteEffects.None);
-        //        Main.spriteBatch.SetBlendState(BlendState.AlphaBlend);
-        //    }
-
-        //    return false;
-        //}
-        #endregion
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {

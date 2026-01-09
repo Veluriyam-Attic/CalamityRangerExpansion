@@ -255,11 +255,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             list.FindAndReplace("[Stage]", this.GetLocalizedValue(stageKey));
         }
 
-        //public override bool CanUseItem(Player player) => player.ownedProjectileCounts[Item.shoot] == 0;
-
-        //public override bool CanConsumeAmmo(Item ammo, Player player) => player.ownedProjectileCounts[Item.shoot] != 0;
-
-
         public override void HoldItem(Player player) => player.Calamity().mouseRotationListener = true;
 
         public static  Dictionary<int, Color> GelColors = new Dictionary<int, Color>

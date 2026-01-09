@@ -64,8 +64,8 @@ TooltipChanges: {
 		BulletFilledShotgun: 提高攻击速度
 		#天堂之风搭配星流箭降低伤害
 		HeavenlyGale: 未击败至尊女巫，灾厄时搭配幻光斑景使用降低伤害
-		#使用血殒时伤害修改为0
-		ArterialAssault: 使用时弹幕伤害无伤害
+		#使用血殒时伤害修改为百分之一
+		ArterialAssault: 使用时弹幕伤害为原来的百分之一
 	}
 
 	#派对弹
@@ -1424,12 +1424,12 @@ DeveloperItems: {
 		Glock17Proj.DisplayName: Glock17 Proj
 
 		Glock17: {
-			DisplayName: 玲珑小姐姐的Glock17
 			Tooltip:
 				'''
 				击败血肉墙后，增加伤害且可以削减敌人防御
 				击败月亮领主后，再次增加伤害并且可以发射额外弹幕
 				'''
+			DisplayName: 玲珑小姐姐的Glock17
 		}
 	}
 
@@ -1582,7 +1582,6 @@ Items: {
 			关于「承影」的「灾厄射手拓展」也与此无关
 			只是我比较喜欢这个职业，所以想要做这个Mod
 			想骂还是什么的都可以，但是请不要提及本Mod的画师
-			「剃刀刃台风」已经因为历史问题退出泰拉圈，应该不会再参与制作
 			如果有我没看见的相关问题代码，联系我，我也会删掉
 			总之感谢您们的游玩
 			这封信可以售出100铂金币，因为我很不喜欢搞钱:)
