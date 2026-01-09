@@ -39,7 +39,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             base.OnSpawn(source);
 
             // 仅缩放显示尺寸，不影响任何逻辑与碰撞
-            Projectile.scale = 0.75f;
+            Projectile.scale = 1.00f;
         }
 
 
