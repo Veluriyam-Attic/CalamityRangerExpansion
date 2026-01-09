@@ -4,6 +4,7 @@ using Terraria.ModLoader;
 using CalamityMod.Items.Materials;
 using CalamityMod.Items.Accessories;
 using CalamityMod.Buffs.DamageOverTime;
+using VeluriyamLib.Content.Core;
 
 namespace CalamityRangerExpansion.Content.Accessories
 {
@@ -29,24 +30,12 @@ namespace CalamityRangerExpansion.Content.Accessories
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetArmorPenetration<GenericDamageClass>() += 100f;
-            FangsPlayer.EquipedFangs = true;
+            VeluriyamPlayer.OnHitNPCEvent += AddBuff;
         }
-    }
 
-    public class FangsPlayer : ModPlayer
-    {
-        public static bool EquipedFangs = false;
-
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        private void AddBuff(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            if (EquipedFangs)
-            {
-                target.AddBuff(ModContent.BuffType<Dragonfire>(), 120, false);
-            }
-        }
-        public override void ResetEffects()
-        {
-            EquipedFangs = false;
+            target.AddBuff(ModContent.BuffType<Dragonfire>(), 120, false);
         }
     }
 }

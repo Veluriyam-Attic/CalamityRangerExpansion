@@ -16,7 +16,8 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
         public override bool AppliesToEntity(Item entity, bool lateInstantiation)
         {
             // 确保只针对 StarterBag 生效
-            return entity.type == ModContent.ItemType<StarterBag>();
+            // 记得&& lateInstantiation，以确保在物品实例化后应用
+            return entity.type == ModContent.ItemType<StarterBag>() && lateInstantiation;
         }
 
 

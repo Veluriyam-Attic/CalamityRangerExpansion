@@ -189,12 +189,13 @@ namespace CalamityRangerExpansion.Changes
 
     public class CheckDownedPrimordialWyrm : GlobalNPC
     {
+        // 优化了性能
+
+        public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type == ModContent.NPCType<PrimordialWyrmHead>() && lateInstantiation;
+
         public override void OnKill(NPC npc)
         {
-            if(npc.type == ModContent.NPCType<PrimordialWyrmHead>())
-            {
-                DownedBossSystem.downedPrimordialWyrm = true;
-            }
+            DownedBossSystem.downedPrimordialWyrm = true;
         }
     }
 
@@ -207,7 +208,7 @@ namespace CalamityRangerExpansion.Changes
             for (int FuckDom = 0; FuckDom < Recipe.numRecipes; FuckDom++)
             {
                 Recipe recipe = Main.recipe[FuckDom];
-                if(recipe.HasResult(ModContent.ItemType<CalamityMod.Items.Weapons.Magic.Sylvestaff>()) && recipe.HasIngredient(ItemID.GenderChangePotion))
+                if (recipe.HasResult(ModContent.ItemType<CalamityMod.Items.Weapons.Magic.Sylvestaff>()) && recipe.HasIngredient(ItemID.GenderChangePotion))
                 {
                     recipe.RemoveIngredient(ItemID.GenderChangePotion);
                 }
