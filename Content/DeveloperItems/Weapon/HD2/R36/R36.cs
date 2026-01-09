@@ -17,7 +17,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
         {
             Item.width = 80;
             Item.height = 30;
-            Item.damage = 105;
+            Item.damage = 165;
             Item.DamageType = DamageClass.Ranged;
             Item.useTime = Item.useAnimation = 75;
             Item.useStyle = ItemUseStyleID.Shoot;

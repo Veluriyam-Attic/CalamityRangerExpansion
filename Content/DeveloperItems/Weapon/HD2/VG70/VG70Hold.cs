@@ -48,7 +48,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
         }
 
         public Vector2 GunTipPosition =>
-            Projectile.Center + Vector2.UnitX.RotatedBy(Projectile.rotation) * (Projectile.width * 0.5f + 5f);
+            Projectile.Center + Vector2.UnitX.RotatedBy(Projectile.rotation) * (Projectile.width * 1.75f + 5f);
 
         // =========================
         // AI 主逻辑
@@ -70,7 +70,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             Projectile.spriteDirection = faceDir;
 
             Projectile.rotation = dir.ToRotation();
-            Projectile.Center = player.MountedCenter + dir * 36f;
+            Projectile.Center = player.MountedCenter + dir * 72f;
 
             player.SetCompositeArmFront(true, Player.CompositeArmStretchAmount.Full, Projectile.rotation - MathHelper.PiOver2);
 
@@ -140,7 +140,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             // 普通加特林
             // =========================
             fireTimer++;
-            if (fireTimer >= 3)
+            if (fireTimer >= 5)
             {
                 fireTimer = 0;
                 FireNormal(player, dir);
@@ -175,7 +175,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             );
 
             SoundEngine.PlaySound(
-                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/VG70/VG70变量普通开火"),
+                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/VG70/VG70变量普通开火") with { Volume = 3.0f, Pitch = 0.0f },
                 Projectile.Center
             );
         }
@@ -283,9 +283,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             }
 
             // =========================
-            // 25 发散射
+            // 30 发散射
             // =========================
-            for (int i = 0; i < 25; i++)
+            for (int i = 0; i < 30; i++)
             {
                 float spread = MathHelper.ToRadians(Main.rand.NextFloat(-5f, 5f));
                 Vector2 shootDir = dir.RotatedBy(spread);
@@ -307,9 +307,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
             }
 
             SoundEngine.PlaySound(
-                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/VG70/VG70变量齐射开火"),
+                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/VG70/VG70变量连射开火") with { Volume = 3.0f, Pitch = 0.0f },
                 Projectile.Center
             );
+
+
         }
 
         // =========================

@@ -45,7 +45,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
             Projectile.hostile = false;
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.penetrate = -1; // 可击中次数
-            Projectile.timeLeft = 300;
+            Projectile.timeLeft = 100;
             Projectile.ignoreWater = true;
             Projectile.tileCollide = true;
             Projectile.extraUpdates = 4; // 可调节飞行平滑度
@@ -184,7 +184,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
         {
             // ✂️ 每次命中目标后永久降低当前弹幕的伤害乘数
-            Projectile.damage = (int)(Projectile.damage * 0.7f);
+            Projectile.damage = (int)(Projectile.damage * 0.3f);
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {

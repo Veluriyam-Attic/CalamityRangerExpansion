@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria;
 using Terraria.Audio;
+using Terraria.DataStructures;
 using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -33,6 +34,13 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 
         private int stageOutlineTimer = 0;
         private const int StageOutlineDuration = 24; // 总时长（线性上升 + 下降）
+        public override void OnSpawn(IEntitySource source)
+        {
+            base.OnSpawn(source);
+
+            // 仅缩放显示尺寸，不影响任何逻辑与碰撞
+            Projectile.scale = 0.75f;
+        }
 
 
         public override void HoldoutAI()
@@ -48,7 +56,10 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
                 if (spawnDelay == 15)
                 {
                     // 启动音效
-                    SoundEngine.PlaySound(SoundID.Item69, Projectile.Center);
+                    SoundEngine.PlaySound(
+                        new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/LAS17/LAS17启动音效") with { Volume = 7.0f, Pitch = 0.0f },
+                        Projectile.Center
+                    );
 
                     //// =========================
                     //// ① 往内收缩的圆形冲击波（核心仪式感）
@@ -105,7 +116,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             stageTimer++;
 
             // 射击逻辑
-            if (frameCounter >= 4)
+            if (frameCounter >= 5)
             {
                 Fire(player);
                 frameCounter = 0;
@@ -247,7 +258,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             }
 
             // 播放基础音效
-            SoundEngine.PlaySound(SoundID.Item5, Projectile.Center);
+            SoundEngine.PlaySound(
+                new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/LAS17/LAS17开火音效") with { Volume = 3.0f, Pitch = 0.0f },
+                Projectile.Center
+            );
+
 
             // 3级及以上 → 在玩家身上制造橙色旋转重烟，模拟灼烧
             if (stage >= 3)

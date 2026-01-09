@@ -21,7 +21,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
             // 设置武器基本属性
             Item.width = 40; // 弓的宽度
             Item.height = 80; // 弓的高度
-            Item.damage = 300; // 武器伤害
+            Item.damage = 37; // 武器伤害
             Item.DamageType = DamageClass.Ranged; // 伤害类型：远程
             Item.useTime = 5; // 使用时间（5帧）
             Item.useAnimation = 5; // 动画时间（5帧）

@@ -14,7 +14,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
         public new string LocalizationCategory => "DeveloperItems.SG225IE";
         public override void SetDefaults()
         {
-            Item.damage = 26;
+            Item.damage = 15;
             Item.DamageType = DamageClass.Ranged;
             Item.useTime = Item.useAnimation = 36;
             Item.shoot = ModContent.ProjectileType<SG225IEHoldOut>();
