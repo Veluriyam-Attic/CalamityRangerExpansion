@@ -4,12 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet 
 { 
     public class PerennialBulletPBuff : ModBuff, ILocalizedModType
     {
+        public override LocalizedText Description => base.Description.WithFormatArgs(bonus);
+
+        private int bonus = 0;
+
         public new string LocalizationCategory => "Buffs";
         public override void SetStaticDefaults()
         {
@@ -34,6 +39,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBulle
 
             // 动态增加玩家的最大生命值
             player.statLifeMax2 += totalHealthBoost;
+            bonus = totalHealthBoost;
         }
     }
 }

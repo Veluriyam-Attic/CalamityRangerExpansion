@@ -110,12 +110,12 @@ Buffs: {
 
 	PerennialBulletPBuff: {
 		DisplayName: 永恒之力
-		Description: 提升你的防御力！
+		Description: 提升{0}防御力！
 	}
 
 	EffulgentFeatherBulletPBuff: {
 		DisplayName: 法拉第笼
-		Description: 雷公电母助我！
+		Description: AT立场！
 	}
 
 	PolterplasmBulletFlowerPBuff: {
