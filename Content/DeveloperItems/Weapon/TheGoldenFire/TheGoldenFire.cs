@@ -41,8 +41,6 @@ using CalamityMod.Projectiles.Ranged;
 using Terraria.Utilities.Terraria.Utilities;
 #endregion
 
-using B = CalamityRangerExpansion.Balance;
-
 namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 {
     public class TheGoldenFire : ModItem, ILocalizedModType
@@ -69,7 +67,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             Item.autoReuse = true;
             Item.UseSound = SoundID.Item34;
             Item.value = CalamityGlobalItem.RarityHotPinkBuyPrice;
-            Item.rare = -13;
+            Item.rare = ItemRarityID.Master;
             Item.Calamity().devItem = true;
         }
 
@@ -93,38 +91,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 
             //NPC.SetEventFlagCleared(Ref DownedBossSystem.downedPrimordialWyrm, -1);
 
-            bool[] DownNum =
-            {
-                NPC.downedBoss1,//克眼
-                NPC.downedBoss2,//世吞/克脑
-                    DownedBossSystem.downedHiveMind || //腐巢
-                    DownedBossSystem.downedPerforator,//宿主
-                NPC.downedBoss3,//骷髅王
-                DownedBossSystem.downedSlimeGod,//史神
-                Main.hardMode,//肉山
-                    NPC.downedMechBoss1 && //机械三王
-                    NPC.downedMechBoss2 && 
-                    NPC.downedMechBoss3,
-                DownedBossSystem.downedCalamitasClone,//灾影
-                NPC.downedPlantBoss,//世花
-                NPC.downedGolemBoss,//石巨人
-                NPC.downedAncientCultist,//拜月教
-                NPC.downedMoonlord,//月总
-                DownedBossSystem.downedProvidence,//亵渎天神
-                    DownedBossSystem.downedSignus && //西格纳斯
-                    DownedBossSystem.downedStormWeaver && //风编
-                    DownedBossSystem.downedCeaselessVoid,//无尽虚空
-                DownedBossSystem.downedPolterghast,//幽花
-                DownedBossSystem.downedDoG,//神吞
-                DownedBossSystem.downedYharon,//犽戎
-                    DownedBossSystem.downedExoMechs && //星流
-                    DownedBossSystem.downedCalamitas,//女巫
-                DownedBossSystem.downedPrimordialWyrm,//始源妖龙
-                false
-            };
             for (int i = 0; i <= 19; i++)
             {
-                if (DownNum[i])
+                if (B.Weapons.TheGoldenFire.DownNum[i])
                 {
                     finalDamage = B.Weapons.TheGoldenFire.Damage[i];
                     finalShootSpeed = B.Weapons.TheGoldenFire.ShootSpeed[i];

@@ -108,21 +108,6 @@ namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow
                 }
             }
         }
-        #region 旧代码
-
-        // 绘制天蓝色残影效果
-        //public override bool PreDraw(ref Color lightColor)
-        //{
-        //    // 调用自定义的DrawAfterimagesCentered函数，生成天蓝色的残影
-        //    //CalamityUtils.DrawAfterimagesCentered(Projectile, ProjectileID.Sets.TrailingMode[Projectile.type], Color.LightSkyBlue, 2);
-        //    CalamityUtils.DrawAfterimagesCentered(Projectile, ProjectileID.Sets.TrailingMode[Projectile.type], lightColor, 2);
-
-        //    return false;
-        //}
-
-        #endregion
-
-
         public override bool PreDraw(ref Color lightColor)
         {
             // 检查是否启用了特效
