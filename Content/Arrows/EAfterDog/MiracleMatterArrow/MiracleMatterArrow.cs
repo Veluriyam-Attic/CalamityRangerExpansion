@@ -1,19 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Ranged;
-using CalamityMod.Projectiles.Rogue;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
 {
     public class MiracleMatterArrow : ModItem, ILocalizedModType
     {

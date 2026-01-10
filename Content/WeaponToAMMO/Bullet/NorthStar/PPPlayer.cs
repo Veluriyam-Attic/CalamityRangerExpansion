@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
 {
     public class PPPlayer : ModPlayer
     {

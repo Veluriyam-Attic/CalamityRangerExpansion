@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Gel.Pyrogeist
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Gel.Pyrogeist
 {
     internal class Pyrogeist : ModItem, ILocalizedModType
     {

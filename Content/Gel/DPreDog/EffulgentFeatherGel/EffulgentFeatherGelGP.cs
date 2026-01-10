@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Projectiles.Melee;
-using Terraria.ID;
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.EffulgentFeatherGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.EffulgentFeatherGel
 {
     internal class EffulgentFeatherGelGP : GlobalProjectile
     {

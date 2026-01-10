@@ -1,12 +1,4 @@
-﻿using System;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.Graphics.Renderers;
-using Terraria.Graphics.Shaders;
-using Terraria.GameContent;
-
-namespace CalamityRangerExpansion.LightingBolts
+﻿namespace CalamityRangerExpansion.LightingBolts
 {
     internal class LightingBoltsSystem
     {

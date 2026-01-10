@@ -1,7 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow
 {
     public class DivineGeodeArrowPlayer : ModPlayer
     {

@@ -1,18 +1,4 @@
-﻿
-using CalamityMod.Particles;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TimeLeaper
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TimeLeaper
 {
     public class TimeLeaperPROJ : ModProjectile, ILocalizedModType
     {

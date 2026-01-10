@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Terraria.ID;
-using Terraria.Audio;
-using CalamityMod.Projectiles.BaseProjectiles;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 {
     public class BrassBeastHoldOut : BaseGunHoldoutProjectile, ILocalizedModType
     {

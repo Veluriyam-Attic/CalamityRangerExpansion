@@ -1,21 +1,4 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Projectiles.Typeless;
-using Microsoft.Xna.Framework;
-using System;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.Audio;
-using CalamityMod;
-using CalamityMod.Projectiles;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.DataStructures;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityRangerExpansion.LightingBolts;
-using Terraria.GameContent;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet
 {
     public class DivineGeodeBulletPROJ : ModProjectile, ILocalizedModType
     {

@@ -1,17 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System;
-using Terraria;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.GameContent;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
 {
     public class VG70Hold : ModProjectile, ILocalizedModType
     {

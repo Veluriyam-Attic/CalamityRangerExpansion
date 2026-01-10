@@ -1,17 +1,4 @@
-﻿using CalamityMod.Graphics.Primitives;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.Utilities;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Gel.EAfterDog.AuricGel
+﻿namespace CalamityRangerExpansion.Content.Gel.EAfterDog.AuricGel
 {
     internal class AuricGelLighting : ModProjectile, ILocalizedModType
     {

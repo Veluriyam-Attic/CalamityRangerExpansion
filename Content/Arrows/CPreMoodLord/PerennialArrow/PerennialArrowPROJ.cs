@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CalamityMod;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Rogue;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
 {
     public class PerennialArrowPROJ : ModProjectile, ILocalizedModType
     {

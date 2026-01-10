@@ -1,18 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.CREConfigs;
-using Terraria.Audio;
-using Terraria.ModLoader.IO;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TheDrill
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TheDrill
 {
     public class TheDrillPROJ : ModProjectile, ILocalizedModType
     {

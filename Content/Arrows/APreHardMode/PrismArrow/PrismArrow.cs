@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Projectiles.Melee;
-using CalamityMod.Items.Placeables;
-using CalamityMod.Items.Materials;
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow
 {
     internal class PrismArrow : ModItem, ILocalizedModType
     {

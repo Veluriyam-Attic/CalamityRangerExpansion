@@ -1,10 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System.Collections.Generic;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel
+﻿namespace CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel
 {
     internal class CosmosGelEater3Tail : ModProjectile, ILocalizedModType
     {

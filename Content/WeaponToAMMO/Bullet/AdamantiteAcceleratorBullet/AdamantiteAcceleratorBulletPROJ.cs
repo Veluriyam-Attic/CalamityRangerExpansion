@@ -1,19 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.AdamantiteAcceleratorBullet
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.AdamantiteAcceleratorBullet
 {
     internal class AdamantiteAcceleratorBulletPROJ : ModProjectile, ILocalizedModType
     {

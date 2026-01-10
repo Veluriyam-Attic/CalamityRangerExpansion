@@ -1,24 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod.Dusts;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod;
-using Terraria.ID;
-using Terraria.Map;
-using Terraria.Audio;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Particles;
-using CalamityMod.Buffs.DamageOverTime;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow
 {
     public class AstralArrowPROJ : ModProjectile, ILocalizedModType
     {

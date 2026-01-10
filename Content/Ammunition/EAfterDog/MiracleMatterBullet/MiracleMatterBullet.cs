@@ -1,18 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-using CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBullet;
-using CalamityMod.Items.Ammo;
-
-namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.MiracleMatterBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.MiracleMatterBullet
 {
     public class MiracleMatterBullet : ModItem, ILocalizedModType
     {

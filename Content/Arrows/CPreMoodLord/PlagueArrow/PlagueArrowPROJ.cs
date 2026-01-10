@@ -1,22 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Graphics.Primitives;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.Graphics.Shaders;
-using CalamityMod.Projectiles.Summon;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PlagueArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PlagueArrow
 {
     internal class PlagueArrowPROJ : ModProjectile, ILocalizedModType
     {

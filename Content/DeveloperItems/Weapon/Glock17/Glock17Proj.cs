@@ -1,20 +1,4 @@
-﻿using CalamityMod.Particles;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet;
-using CalamityRangerExpansion.CREConfigs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 {
     internal class Glock17Proj : ModProjectile, ILocalizedModType
     {

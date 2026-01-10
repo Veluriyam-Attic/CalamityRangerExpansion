@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel
 {
     public class PerennialGel : ModItem, ILocalizedModType
     {

@@ -1,31 +1,4 @@
-﻿#region using 太多了
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Melee;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Ranged;
-using Terraria.DataStructures;
-using CalamityMod;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using Terraria.Audio;
-using CalamityMod.Graphics.Primitives;
-using Terraria.Graphics.Shaders;
-using CalamityMod.Projectiles.Rogue;
-#endregion
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
 {
     public class MiracleMatterArrowPROJ : ModProjectile, ILocalizedModType
     {

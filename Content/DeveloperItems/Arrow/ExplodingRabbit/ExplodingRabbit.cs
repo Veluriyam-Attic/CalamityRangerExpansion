@@ -1,19 +1,4 @@
-﻿using CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ExplodingRabbit
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ExplodingRabbit
 {
     public class ExplodingRabbit : ModItem, ILocalizedModType
     {

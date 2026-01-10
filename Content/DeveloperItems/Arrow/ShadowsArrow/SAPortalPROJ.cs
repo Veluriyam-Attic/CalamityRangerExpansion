@@ -1,16 +1,4 @@
-﻿using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using Terraria.DataStructures;
-using CalamityRangerExpansion.LightingBolts.Metaballs;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
 {
     internal class SAPortalPROJ : ModProjectile, ILocalizedModType
     {

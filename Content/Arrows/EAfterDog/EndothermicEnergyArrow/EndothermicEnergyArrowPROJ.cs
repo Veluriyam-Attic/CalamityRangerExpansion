@@ -1,18 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Particles;
-using Terraria.Audio;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.EndothermicEnergyArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.EndothermicEnergyArrow
 {
     public class EndothermicEnergyArrowPROJ : ModProjectile, ILocalizedModType
     {

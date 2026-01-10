@@ -1,11 +1,3 @@
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Accessories;
-using CalamityMod.Buffs.DamageOverTime;
-using VeluriyamLib.Content.Core;
-
 namespace CalamityRangerExpansion.Content.Accessories
 {
     public class DragonFangs : ModItem

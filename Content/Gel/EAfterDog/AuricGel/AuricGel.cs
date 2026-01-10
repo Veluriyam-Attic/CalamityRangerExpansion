@@ -1,17 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Terraria.DataStructures;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.EAfterDog.AuricGel
+﻿namespace CalamityRangerExpansion.Content.Gel.EAfterDog.AuricGel
 {
     public class AuricGel : ModItem, ILocalizedModType
     {

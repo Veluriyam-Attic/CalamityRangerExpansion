@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LivingShardGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LivingShardGel
 {
     internal class LivingShardGelGP : GlobalProjectile
     {

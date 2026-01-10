@@ -1,22 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Items.Accessories;
-using CalamityMod.Buffs.StatDebuffs;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet
 {
     public class PerennialBulletPROJ : ModProjectile, ILocalizedModType
     {

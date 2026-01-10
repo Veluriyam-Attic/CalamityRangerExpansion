@@ -1,18 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using Terraria.DataStructures;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.GrapeShot
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.GrapeShot
 {
     public class GrapeShotPROJ : ModProjectile, ILocalizedModType
     {

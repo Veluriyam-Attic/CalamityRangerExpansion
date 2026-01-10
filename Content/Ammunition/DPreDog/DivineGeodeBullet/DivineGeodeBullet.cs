@@ -1,18 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Projectiles.Pets;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet;
-using CalamityMod.Items.Ammo;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet
 {
     public class DivineGeodeBullet : ModItem, ILocalizedModType
     {

@@ -1,11 +1,4 @@
-﻿using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Items.Materials;
-
-
-
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow
 {
     public class AerialiteArrow : ModItem, ILocalizedModType
     {

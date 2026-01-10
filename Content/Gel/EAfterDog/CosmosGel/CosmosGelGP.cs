@@ -1,17 +1,4 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Melee;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel
+﻿namespace CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel
 {
     public class CosmosGelGP : GlobalProjectile
     {

@@ -1,15 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel
 {
     internal class ScoriaGelFireBall : ModProjectile, ILocalizedModType
     {

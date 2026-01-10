@@ -1,20 +1,4 @@
-﻿using CalamityMod.Graphics.Primitives;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Graphics.Shaders;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.Utilities;
-using Terraria;
-using Terraria.DataStructures;
-
-namespace CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel
+﻿namespace CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel
 {
     internal class MiracleMatterGelLighting : ModProjectile, ILocalizedModType
     {

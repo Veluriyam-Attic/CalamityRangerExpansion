@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Gel.APreHardMode.AerialiteGel
+﻿namespace CalamityRangerExpansion.Content.Gel.APreHardMode.AerialiteGel
 {
     public class AerialiteGelPlayer : ModPlayer
     {

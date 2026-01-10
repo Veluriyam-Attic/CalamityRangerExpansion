@@ -1,17 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.Items;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70
 {
     internal class VG70 : ModItem, ILocalizedModType
     {

@@ -1,14 +1,4 @@
-﻿using CalamityMod.Particles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
 {
     internal class BlindBirdCryEDebuff : ModBuff, ILocalizedModType
     {

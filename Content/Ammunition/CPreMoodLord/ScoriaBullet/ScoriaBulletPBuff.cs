@@ -1,7 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
 {
     public class ScoriaBulletPBuff : ModBuff
     {

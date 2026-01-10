@@ -1,10 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.CalPlayer;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
     public class TestDASH : ModItem
     {

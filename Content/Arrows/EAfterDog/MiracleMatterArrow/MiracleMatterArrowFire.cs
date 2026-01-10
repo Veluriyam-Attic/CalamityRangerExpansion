@@ -1,14 +1,4 @@
-﻿using System;
-//using CalamityMod.CalPlayer;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod;
-using CalamityMod.Buffs.DamageOverTime;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
 {
     public class MiracleMatterArrowFire : ModProjectile, ILocalizedModType
     {

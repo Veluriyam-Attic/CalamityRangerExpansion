@@ -1,15 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Typeless;
-using Microsoft.Xna.Framework;
-using System;
-using Terraria;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 {
     internal class LAS17Proj : ModProjectile, ILocalizedModType
     {

@@ -1,17 +1,4 @@
-﻿using CalamityMod.Items.TreasureBags;
-using Humanizer;
-using Mono.Cecil.Cil;
-using MonoMod.Cil;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.GameContent.ItemDropRules;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
 {
     internal class NeverGonnaGiveYouTenderElegyi : GlobalItem
     {

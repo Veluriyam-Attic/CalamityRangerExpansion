@@ -1,16 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel
 {
     internal class PlagueGel : ModItem, ILocalizedModType
     {

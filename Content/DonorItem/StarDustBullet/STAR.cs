@@ -1,8 +1,3 @@
-using CalamityMod;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
 namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet 
 { 
     public class STAR : ModItem , ILocalizedModType

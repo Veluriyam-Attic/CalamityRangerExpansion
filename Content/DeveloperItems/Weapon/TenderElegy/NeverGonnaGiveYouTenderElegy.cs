@@ -1,11 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.Systems;
-using Terraria.ModLoader;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.UI.CalamitasEnchants;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
 {
     public class NeverGonnaGiveYouTenderElegy : ModSystem
     {

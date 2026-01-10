@@ -1,20 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using Terraria.DataStructures;
-using CalamityMod;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Projectiles.Boss;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 {
     public class BrassBeastHeavySmoke : ModProjectile, ILocalizedModType
     {

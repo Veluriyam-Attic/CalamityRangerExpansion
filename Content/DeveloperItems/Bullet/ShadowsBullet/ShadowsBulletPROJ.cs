@@ -1,22 +1,4 @@
-﻿using CalamityMod.Projectiles.Ranged;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityMod.Items.Fishing.BrimstoneCragCatches;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.LightingBolts.Metaballs;
-using Terraria.GameContent;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.ShadowsBullet
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.ShadowsBullet
 {
     public class ShadowsBulletPROJ : ModProjectile, ILocalizedModType
     {

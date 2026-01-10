@@ -1,20 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Terraria.ID;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Ranged;
-using Terraria.Audio;
-using CalamityMod.Projectiles.BaseProjectiles;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
 {
     public class BlindBirdCryHoldOut : BaseGunHoldoutProjectile, ILocalizedModType
     {

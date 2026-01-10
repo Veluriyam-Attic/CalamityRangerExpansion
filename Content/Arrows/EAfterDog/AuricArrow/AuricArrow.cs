@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Rogue;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow
 {
     public class AuricArrow : ModItem, ILocalizedModType
     {

@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Weapons.Rogue;
-using CalamityMod.Items.Tools;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TheDrill
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TheDrill
 {
     public class TheDrill : ModItem, ILocalizedModType
     {

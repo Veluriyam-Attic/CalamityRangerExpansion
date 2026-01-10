@@ -1,21 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Typeless;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.Graphics.Renderers;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
 {
     public class SG225IEProj : ModProjectile, ILocalizedModType
     {

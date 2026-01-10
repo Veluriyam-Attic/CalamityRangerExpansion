@@ -1,15 +1,4 @@
-﻿using CalamityMod.Buffs.Potions;
-using CalamityMod.Buffs.StatDebuffs;
-using CalamityMod.NPCs;
-using CalamityMod.NPCs.AcidRain;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.EffulgentFeatherArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.EffulgentFeatherArrow
 {
     public class EffulgentFeatherArrowAura : ModProjectile, ILocalizedModType
     {

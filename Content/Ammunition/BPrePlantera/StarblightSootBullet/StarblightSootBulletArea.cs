@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using System;
-using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet;
-using CalamityMod.Dusts;
-
-namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
 {
     public class StarblightSootBulletArea : ModProjectile
     {

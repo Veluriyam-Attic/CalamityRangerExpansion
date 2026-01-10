@@ -1,20 +1,4 @@
-﻿using CalamityMod.Projectiles;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.EtherealArrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.EtherealArrow
 {
     internal class EtherealArrowPROJ : ModProjectile, ILocalizedModType
     {

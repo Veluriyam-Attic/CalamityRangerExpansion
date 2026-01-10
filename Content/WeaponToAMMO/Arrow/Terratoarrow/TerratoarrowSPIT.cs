@@ -1,21 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Graphics.Primitives;
-using CalamityMod.Items.Weapons.Melee;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.Graphics.Shaders;
-using CalamityMod.Buffs.StatDebuffs;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
 {
     internal class TerratoarrowSPIT : ModProjectile, ILocalizedModType
     {

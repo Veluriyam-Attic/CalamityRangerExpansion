@@ -1,15 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
 {
     internal class WulfrimArrow : ModItem, ILocalizedModType
     {

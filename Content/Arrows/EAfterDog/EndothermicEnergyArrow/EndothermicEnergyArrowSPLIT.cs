@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.EndothermicEnergyArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.EndothermicEnergyArrow
 {
     public class EndothermicEnergyArrowSPLIT : ModProjectile, ILocalizedModType
     {

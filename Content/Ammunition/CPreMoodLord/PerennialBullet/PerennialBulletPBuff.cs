@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.Localization;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet 
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet 
 { 
     public class PerennialBulletPBuff : ModBuff, ILocalizedModType
     {

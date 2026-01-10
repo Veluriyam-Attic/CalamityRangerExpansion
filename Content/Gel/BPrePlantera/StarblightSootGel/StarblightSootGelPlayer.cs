@@ -1,10 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Terraria.ID;
-using System;
-
-namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel
+﻿namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel
 {
     public class StarblightSootGelPlayer : ModPlayer
     {

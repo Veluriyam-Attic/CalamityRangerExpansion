@@ -1,21 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.CREConfigs;
-using Terraria.DataStructures;
-using Terraria.WorldBuilding;
-using CalamityMod.Particles;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Buffs.StatDebuffs;
-
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow
 {
     internal class PrismArrowPROJ : ModProjectile, ILocalizedModType
     {

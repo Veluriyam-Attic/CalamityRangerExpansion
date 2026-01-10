@@ -1,19 +1,4 @@
-﻿using CalamityMod.Items.Weapons.Magic;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.AdamantiteAcceleratorBullet
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.AdamantiteAcceleratorBullet
 {
     internal class AdamantiteAcceleratorBullet : ModItem, ILocalizedModType
     {

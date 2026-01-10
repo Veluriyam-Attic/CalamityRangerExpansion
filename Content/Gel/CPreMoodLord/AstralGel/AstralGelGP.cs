@@ -1,17 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel
 {
     public class AstralGelGP : GlobalProjectile
     {

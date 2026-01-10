@@ -1,19 +1,4 @@
-﻿using CalamityMod.Items.Weapons.Ranged;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.DraedonMisc;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Magic;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.YuanZiDan
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.YuanZiDan
 {
     public class YuanZiDan : ModItem, ILocalizedModType
     {

@@ -1,10 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using System;
-using CalamityMod.Projectiles.Typeless;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
 {
     public class ScoriaBulletPlayer : ModPlayer
     {

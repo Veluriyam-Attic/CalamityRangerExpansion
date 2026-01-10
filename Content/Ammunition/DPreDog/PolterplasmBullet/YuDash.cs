@@ -1,9 +1,3 @@
-using CalamityMod.CalPlayer.Dashes;
-using CalamityMod.Enums;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.Enums;
-
 namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
 

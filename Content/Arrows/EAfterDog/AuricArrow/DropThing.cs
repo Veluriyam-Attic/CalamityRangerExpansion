@@ -1,15 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow
 {
     internal class DropThing : ModProjectile, ILocalizedModType
     {

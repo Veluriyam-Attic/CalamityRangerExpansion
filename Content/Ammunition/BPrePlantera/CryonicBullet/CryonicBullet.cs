@@ -1,21 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Projectiles.Ranged;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Items.Materials;
-using CalamityMod.NPCs.NormalNPCs;
-using CalamityMod.Projectiles.Pets;
-
-namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet
 {
     public class CryonicBullet : ModItem, ILocalizedModType
     {

@@ -1,19 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Ranged;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
 {
     internal class TerratoarrowPROJ : ModProjectile, ILocalizedModType
     {

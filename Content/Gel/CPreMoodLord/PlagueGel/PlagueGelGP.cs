@@ -1,17 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel
 {
     internal class PlagueGelGP : GlobalProjectile
     {

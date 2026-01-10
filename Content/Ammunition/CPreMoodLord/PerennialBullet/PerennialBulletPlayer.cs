@@ -1,12 +1,3 @@
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Terraria.ModLoader;
-using System;
-using CalamityRangerExpansion.LightingBolts;
-
 namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet
 {
     public class PerennialBulletPlayer : ModPlayer

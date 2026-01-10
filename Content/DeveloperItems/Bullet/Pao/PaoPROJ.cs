@@ -1,21 +1,4 @@
-﻿using CalamityMod.Particles;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Projectiles.Typeless;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.Pao
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.Pao
 {
     public class PaoPROJ : ModProjectile, ILocalizedModType
     {

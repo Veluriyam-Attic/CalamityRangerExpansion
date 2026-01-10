@@ -1,18 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Typeless;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     internal class R36Proj : ModProjectile, ILocalizedModType
     {

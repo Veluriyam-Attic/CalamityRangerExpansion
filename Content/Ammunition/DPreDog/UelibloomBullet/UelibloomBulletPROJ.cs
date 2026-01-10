@@ -1,18 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet
 {
     public class UelibloomBulletPROJ : ModProjectile, ILocalizedModType
     {

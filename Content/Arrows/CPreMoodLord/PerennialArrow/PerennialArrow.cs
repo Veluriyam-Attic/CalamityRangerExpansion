@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Rogue;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
 {
     public class PerennialArrow : ModItem, ILocalizedModType
     {

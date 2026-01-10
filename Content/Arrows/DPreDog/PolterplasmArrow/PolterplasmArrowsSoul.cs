@@ -1,17 +1,4 @@
-﻿using System;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Items.Weapons.Melee;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
 {
     public class PolterplasmArrowsSoul : ModProjectile, ILocalizedModType
     {

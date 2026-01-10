@@ -1,19 +1,4 @@
-﻿using CalamityMod.Particles;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.Che
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.Che
 {
     internal class ChePROJ : ModProjectile, ILocalizedModType
     {

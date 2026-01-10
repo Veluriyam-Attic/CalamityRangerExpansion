@@ -1,11 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
 {
     // 专属灼烧 Buff：只负责“标记存在”
     public class SG225IEEDebuff : ModBuff, ILocalizedModType

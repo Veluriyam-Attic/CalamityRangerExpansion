@@ -1,23 +1,4 @@
-﻿using CalamityMod.Particles;
-using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Buffs.StatDebuffs;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet;
-using CalamityMod.Dusts;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet
 {
     public class AstralBulletPROJ : ModProjectile, ILocalizedModType
     {

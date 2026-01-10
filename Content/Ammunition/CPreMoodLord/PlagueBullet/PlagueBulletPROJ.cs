@@ -1,20 +1,4 @@
-﻿using CalamityMod.Particles;
-using CalamityMod;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Buffs.DamageOverTime;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PlagueBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PlagueBullet
 {
     internal class PlagueBulletPROJ : ModProjectile, ILocalizedModType
     {

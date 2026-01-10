@@ -1,27 +1,4 @@
-﻿#region Using Gay;
-using CalamityMod;
-using CalamityMod.Items.Accessories;
-using System.Collections.Generic;
-using Terraria;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod.Items.Weapons.Ranged;
-using Terraria.UI;
-using System.Linq;
-using System.Threading.Tasks;
-using System;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Weapons.DraedonsArsenal;
-using CalamityMod.NPCs.PrimordialWyrm;
-using CalamityMod.Items.Weapons.Magic;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.GameContent;
-#endregion
-
-
-namespace CalamityRangerExpansion.Changes
+﻿namespace CalamityRangerExpansion.Changes
 {
     #region 暴政之终*捐赠物品提示
     public class IDTyrannysEnd : GlobalItem
@@ -208,7 +185,7 @@ namespace CalamityRangerExpansion.Changes
             for (int FuckDom = 0; FuckDom < Recipe.numRecipes; FuckDom++)
             {
                 Recipe recipe = Main.recipe[FuckDom];
-                if (recipe.HasResult(ModContent.ItemType<CalamityMod.Items.Weapons.Magic.Sylvestaff>()) && recipe.HasIngredient(ItemID.GenderChangePotion))
+                if (recipe.HasResult(ModContent.ItemType<Sylvestaff>()) && recipe.HasIngredient(ItemID.GenderChangePotion))
                 {
                     recipe.RemoveIngredient(ItemID.GenderChangePotion);
                 }

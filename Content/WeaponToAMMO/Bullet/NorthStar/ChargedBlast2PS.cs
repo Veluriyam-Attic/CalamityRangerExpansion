@@ -1,10 +1,3 @@
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.Audio;
-using CalamityMod;
-
 namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar.NorthStar
 {
     public class ChargedBlast2PS : ModProjectile, ILocalizedModType

@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
 {
     internal class BBCGolbalNPCCheck : GlobalNPC
     {

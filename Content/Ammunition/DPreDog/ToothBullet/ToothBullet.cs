@@ -1,18 +1,4 @@
-﻿using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet;
-using CalamityMod.Items.Accessories;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.ToothBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.ToothBullet
 {
     internal class ToothBullet : ModItem, ILocalizedModType
     {

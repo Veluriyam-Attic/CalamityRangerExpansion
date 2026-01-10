@@ -1,15 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.Graphics.Shaders;
-using Terraria.GameContent;
-using CalamityMod.Graphics.Primitives;
-using System;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
 {
     internal class TenderElegyPROJ : ModProjectile, ILocalizedModType
     {

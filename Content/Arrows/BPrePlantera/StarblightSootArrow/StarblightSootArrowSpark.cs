@@ -1,10 +1,4 @@
-﻿using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArrow
 {
     public class StarblightSootArrowSpark : ModProjectile, ILocalizedModType
     {

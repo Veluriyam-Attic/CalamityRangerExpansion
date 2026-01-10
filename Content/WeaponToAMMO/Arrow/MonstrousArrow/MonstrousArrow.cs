@@ -1,19 +1,4 @@
-﻿using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityMod.Projectiles.Melee;
-using CalamityMod.Items.Weapons.Melee;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.MonstrousArrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.MonstrousArrow
 {
     internal class MonstrousArrow : ModItem, ILocalizedModType
     {

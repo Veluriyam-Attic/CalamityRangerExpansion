@@ -1,9 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using System;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel
 {
     public class ScoriaGelGN : GlobalNPC
     {

@@ -1,25 +1,4 @@
-﻿using CalamityMod.NPCs.Bumblebirb;
-using CalamityMod.NPCs.DevourerofGods;
-using CalamityMod.NPCs.ExoMechs.Apollo;
-using CalamityMod.NPCs.ExoMechs.Artemis;
-using CalamityMod.NPCs.ExoMechs.Thanatos;
-using CalamityMod.NPCs.OldDuke;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.EffulgentFeatherArrow;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow;
-using Terraria.GameContent;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.CalPlayer.DrawLayers;
-using Terraria.DataStructures;
-
-namespace CalamityRangerExpansion
+﻿namespace CalamityRangerExpansion
 {
     public class ChangeWeaponDamage : GlobalNPC
     {
@@ -52,15 +31,16 @@ namespace CalamityRangerExpansion
         }
     }
 
-    public class ArterialAssaultFix : GlobalProjectile
+
+    public class ArterialAssaultFix : GlobalItem
     {
-        public override void OnSpawn(Projectile projectile, IEntitySource source)
+        // 多使用AppliesToEntity来减少开销
+        public override bool AppliesToEntity(Item entity, bool lateInstantiation) => entity.type == ModContent.ItemType<ArterialAssault>() && lateInstantiation;
+
+        public override bool Shoot(Item item, Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Player player = Main.LocalPlayer;
-            if (ModContent.ItemType<ArterialAssault>() == player.HeldItem.type && source is EntitySource_ItemUse_WithAmmo)
-            {
-                projectile.damage /= 100;
-            }
+            damage /= 100;
+            return true;
         }
     }
 }

@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
 {
     public class PerennialArrowEBuff : ModBuff
     {

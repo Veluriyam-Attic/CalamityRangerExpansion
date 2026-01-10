@@ -1,17 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel
 {
     public class UelibloomGel : ModItem, ILocalizedModType
     {

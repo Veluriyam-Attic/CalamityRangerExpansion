@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using CalamityMod.Projectiles.Magic;
-using Microsoft.Xna.Framework.Graphics;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
 {
     internal class UelibloomArrowVine : ModProjectile, ILocalizedModType
     {
