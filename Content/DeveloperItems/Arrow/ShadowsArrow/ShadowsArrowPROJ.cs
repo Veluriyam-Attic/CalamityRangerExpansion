@@ -42,7 +42,7 @@
             ModContent.ProjectileType<SporeBomb>(),
             ModContent.ProjectileType<VernalBolt>(),
             ModContent.ProjectileType<BallistaGreatArrow>(),
-            ModContent.ProjectileType<PlagueArrow>(),
+            ModContent.ProjectileType<CalamityMod.Projectiles.Ranged.PlagueArrow>(),
 
             ModContent.ProjectileType<PlanetaryAnnihilationProj>(),
             ModContent.ProjectileType<AstrealArrow>(),

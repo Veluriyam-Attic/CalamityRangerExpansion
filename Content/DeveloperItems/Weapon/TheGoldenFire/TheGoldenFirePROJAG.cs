@@ -1,4 +1,6 @@
-﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
+﻿using FlameParticle = CalamityMod.Particles.FlameParticle;
+
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 {
     internal class TheGoldenFirePROJAG : ModProjectile, ILocalizedModType
     {
