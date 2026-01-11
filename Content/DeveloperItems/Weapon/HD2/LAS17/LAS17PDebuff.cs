@@ -1,16 +1,4 @@
-﻿using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17
 {
     internal class LAS17PDebuff : ModBuff, ILocalizedModType
     {

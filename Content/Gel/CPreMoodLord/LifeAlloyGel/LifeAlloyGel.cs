@@ -1,19 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel;
-using CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel;
-using CalamityMod.Items.Materials;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LifeAlloyGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LifeAlloyGel
 {
     internal class LifeAlloyGel : ModItem, ILocalizedModType
     {

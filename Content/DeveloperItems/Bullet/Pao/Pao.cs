@@ -1,17 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.Pao
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.Pao
 {
     public class Pao : ModItem, ILocalizedModType
     {

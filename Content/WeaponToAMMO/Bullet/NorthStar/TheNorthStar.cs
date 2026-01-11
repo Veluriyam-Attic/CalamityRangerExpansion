@@ -1,20 +1,4 @@
-﻿using CalamityMod.Items.Weapons.Magic;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Ranged;
-using Terraria.DataStructures;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
 {
     internal class TheNorthStar : ModItem, ILocalizedModType
     {

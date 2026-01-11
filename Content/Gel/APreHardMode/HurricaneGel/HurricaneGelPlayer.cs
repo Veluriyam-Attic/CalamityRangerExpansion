@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel
+﻿namespace CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel
 {
     internal class HurricaneGelPlayer : ModPlayer
     {

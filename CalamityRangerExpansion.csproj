@@ -14,7 +14,6 @@
 	  <None Remove="LightingBolts\Shader\**" />
 	</ItemGroup>
 	<ItemGroup>
-	  <None Remove="Content\Ammunition\AAA示范弹幕（方便复制用）.txt" />
 	  <None Remove="Content\Ammunition\APreHardMode\AerialiteBullet\AerialiteBullet.png" />
 	  <None Remove="Content\Ammunition\APreHardMode\AerialiteBullet\AerialiteBulletEBuff.png" />
 	  <None Remove="Content\Ammunition\APreHardMode\AerialiteBullet\AerialiteBulletPROJ.png" />
@@ -62,8 +61,6 @@
 	  <None Remove="Content\Ammunition\EAfterDog\AuricBulet\金源弹.txt" />
 	  <None Remove="Content\Ammunition\EAfterDog\MiracleMatterBullet\AstralBulletEBuff.png" />
 	  <None Remove="Content\Ammunition\EAfterDog\MiracleMatterBullet\星流弹.txt" />
-	  <None Remove="Content\Ammunition\弹幕测试.png" />
-	  <None Remove="Content\Ammunition\弹幕测试_Proje.png" />
 	  <None Remove="Content\Ammunition\星幻子弹.png" />
 	  <None Remove="Content\Ammunition\星幻子弹弹幕.png" />
 	  <None Remove="Content\Ammunition\星流子弹.png" />
@@ -81,8 +78,6 @@
 	  <None Remove="Content\Ammunition\龙蒿子弹弹幕.png" />
 	  <None Remove="Content\Arrows\APreHardMode\AerialiteArrow\AerialiteArrow.png" />
 	  <None Remove="Content\Arrows\APreHardMode\AerialiteArrow\AerialiteArrowWIND.png" />
-	  <None Remove="Content\Arrows\APreHardMode\BloodBeadsArrow\BloodBeadsArrow.png" />
-	  <None Remove="Content\Arrows\APreHardMode\BloodBeadsArrow\血珠箭.txt" />
 	  <None Remove="Content\Arrows\APreHardMode\PrismArrow\PrismArrow.png" />
 	  <None Remove="Content\Arrows\APreHardMode\PurifiedGelArrow\PurifiedGelArrow.png" />
 	  <None Remove="Content\Arrows\APreHardMode\PurifiedGelArrow\纯净凝胶箭.txt" />
@@ -99,14 +94,10 @@
 	  <None Remove="Content\Arrows\DPreDog\ToothArrow.png" />
 	  <None Remove="Content\Arrows\DPreDog\ToothArrow\ToothArrow.png" />
 	  <None Remove="Content\Arrows\EAfterDog\AuricArrow\AuricArrowNPC.png" />
-	  <None Remove="Content\Arrows\EAfterDog\AuricArrow\AuricArrowNPCDrop.png" />
 	  <None Remove="Content\Arrows\EAfterDog\AuricArrow\DropThing.png" />
 	  <None Remove="Content\DeveloperItems\Arrow\ExplodingRabbit\ExplodingRabbit.png" />
-	  <None Remove="Content\DeveloperItems\Arrow\GlitchArrow\GlitchArrow.png" />
-	  <None Remove="Content\DeveloperItems\Arrow\GlitchArrow\木头.png" />
 	  <None Remove="Content\DeveloperItems\Arrow\ShadowsArrow\SAPortalPROJ.png" />
 	  <None Remove="Content\DeveloperItems\Arrow\ShadowsArrow\ShadowsArrow.png" />
-	  <None Remove="Content\DeveloperItems\Bullet\AllinOneBulletBox\AllinOneBulletBox.png" />
 	  <None Remove="Content\DeveloperItems\Bullet\ShadowsBullet\22.png" />
 	  <None Remove="Content\DeveloperItems\Bullet\ShadowsBullet\ShadowsBullet.png" />
 	  <None Remove="Content\DeveloperItems\Gel\Pyrogeist\Pyrogeist.png" />
@@ -154,9 +145,6 @@
 	  <None Remove="Content\Arrows\CPreMoodLord\AstralArrow\AstralArrowSTAR.png" />
 	  <None Remove="Content\Arrows\CPreMoodLord\AstralArrow\AstralArrowSUN.png" />
 	  <None Remove="Content\Arrows\CPreMoodLord\AstralArrow\炫星箭.txt" />
-	  <None Remove="Content\Arrows\CPreMoodLord\CoreofCalamityArrow\CoreofCalamityArrow.png" />
-	  <None Remove="Content\Arrows\CPreMoodLord\CoreofCalamityArrow\CoreofCalamityArrowPROJ.png" />
-	  <None Remove="Content\Arrows\CPreMoodLord\CoreofCalamityArrow\灾劫核心箭.txt" />
 	  <None Remove="Content\Arrows\CPreMoodLord\LifeAlloyArrow\LifeAlloyArrow.png" />
 	  <None Remove="Content\Arrows\CPreMoodLord\LifeAlloyArrow\生命合金箭.txt" />
 	  <None Remove="Content\Arrows\CPreMoodLord\PerennialArrow\永恒箭.txt" />
@@ -214,8 +202,6 @@
 	  <None Remove="Content\WeaponToAMMO\Bullet\OrichalcumBullet\11.png" />
 	  <None Remove="Content\WeaponToAMMO\Bullet\OrichalcumBullet\OrichalcumBulletPROJ.png" />
 	  <None Remove="Content\DeveloperItems\Bullet\ShadowsBullet\ShadowsBulletPROJ.png" />
-	  <None Remove="Content\DeveloperItems\Bullet\SuperCriticalBullet\SuperCriticalBullet.png" />
-	  <None Remove="Content\DeveloperItems\Bullet\SuperCriticalBullet\SuperCriticalBulletPROJ.png" />
 	  <None Remove="Content\WeaponToAMMO\Bullet\OrichalcumBullet\山铜空尖弹.txt" />
 	  <None Remove="Content\WeaponToAMMO\Bullet\TheEmpty\TheEmpty.png" />
 	  <None Remove="Content\WeaponToAMMO\Arrow\TimeLeaper\TimeLeaperPROJ.png" />

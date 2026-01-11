@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using CalamityMod;
-using Terraria.Audio;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
 {
     public class PerennialArrowFlower : ModProjectile, ILocalizedModType
     {

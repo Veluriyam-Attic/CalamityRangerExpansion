@@ -1,20 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
 {
     internal class StarblightSootBulletPROJ : ModProjectile, ILocalizedModType
     {

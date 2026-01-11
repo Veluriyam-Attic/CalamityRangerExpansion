@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Items.Materials;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PlagueArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PlagueArrow
 {
     internal class PlagueArrow : ModItem, ILocalizedModType
     {

@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.DivineGeodeGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.DivineGeodeGel
 {
     internal class DivineGeodeGel : ModItem, ILocalizedModType
     {

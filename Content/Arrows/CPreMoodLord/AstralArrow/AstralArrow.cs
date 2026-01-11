@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Pets;
-using CalamityMod.Projectiles.Rogue;
-using CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArrow;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow
 {
     public class AstralArrow : ModItem, ILocalizedModType
     {

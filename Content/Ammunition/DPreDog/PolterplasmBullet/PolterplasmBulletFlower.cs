@@ -1,20 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using Terraria.GameContent;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
     public class PolterplasmBulletFlower : ModProjectile, ILocalizedModType
     {

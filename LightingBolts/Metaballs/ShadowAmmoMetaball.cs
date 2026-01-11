@@ -1,18 +1,4 @@
-﻿using CalamityMod.Graphics.Metaballs;
-using Microsoft.Xna.Framework.Graphics;
-using ReLogic.Content;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Items.Weapons.Magic;
-
-namespace CalamityRangerExpansion.LightingBolts.Metaballs
+﻿namespace CalamityRangerExpansion.LightingBolts.Metaballs
 {
     internal class ShadowAmmoMetaball : Metaball
     {

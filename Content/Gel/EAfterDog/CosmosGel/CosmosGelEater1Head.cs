@@ -1,15 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel
+﻿namespace CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel
 {
     internal class CosmosGelEater1Head : ModProjectile, ILocalizedModType
     {

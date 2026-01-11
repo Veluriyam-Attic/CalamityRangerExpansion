@@ -1,7 +1,4 @@
-﻿global using B = CalamityRangerExpansion.Balance;
-using CalamityMod;
-using Terraria;
-namespace CalamityRangerExpansion.Balance
+﻿namespace CalamityRangerExpansion.Balance
 {
     internal static class Weapons
     {

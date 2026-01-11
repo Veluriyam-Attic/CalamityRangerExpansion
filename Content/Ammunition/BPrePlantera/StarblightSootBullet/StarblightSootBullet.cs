@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Placeables;
-
-namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
 {
     internal class StarblightSootBullet : ModItem, ILocalizedModType
     {

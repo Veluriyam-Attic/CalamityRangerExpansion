@@ -1,36 +1,4 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Graphics.Metaballs;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.GameContent;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CalamityMod;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Graphics.Metaballs;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.Audio;
-using Terraria.GameContent;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.DataStructures;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.AllTheBirds
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.AllTheBirds
 {
     public class AllTheBirdsPROJ : ModProjectile, ILocalizedModType
     {

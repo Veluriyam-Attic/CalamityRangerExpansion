@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel
+﻿namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel
 {
     public class CryonicGel : ModItem, ILocalizedModType
     {

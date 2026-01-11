@@ -1,21 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CalamityMod;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Summon;
-using CalamityMod.Projectiles.Typeless;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow
 {
     public class ScoriaArrowPROJ : ModProjectile, ILocalizedModType
     {

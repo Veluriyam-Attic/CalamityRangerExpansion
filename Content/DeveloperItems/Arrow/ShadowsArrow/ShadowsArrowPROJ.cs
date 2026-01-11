@@ -1,24 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Accessories;
-using CalamityMod.Projectiles.Ranged;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Projectiles.Magic;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow;
-
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
 {
     public class ShadowsArrowPROJ : ModProjectile, ILocalizedModType
     {

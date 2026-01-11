@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using Terraria.ModLoader.Config;
-
-namespace CalamityRangerExpansion.CREConfigs
+﻿namespace CalamityRangerExpansion.CREConfigs
 {
     public class CREsConfigs : ModConfig
     {
@@ -18,17 +15,5 @@ namespace CalamityRangerExpansion.CREConfigs
         //[Tooltip("在左下角显示现在正在使用的弹药")]
         [DefaultValue(true)]
         public bool EnableAmmoChecking { get; set; }
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

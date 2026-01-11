@@ -1,17 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.CoreofCalamityArrow;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.AllTheBirds
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.AllTheBirds
 {
     public class AllTheBirds : ModItem, ILocalizedModType
     {

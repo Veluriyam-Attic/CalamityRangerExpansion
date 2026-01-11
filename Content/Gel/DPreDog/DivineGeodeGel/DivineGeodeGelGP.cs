@@ -1,19 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod.Projectiles.Ranged;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire;
-
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.DivineGeodeGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.DivineGeodeGel
 {
     internal class DivineGeodeGelGP : GlobalProjectile
     {

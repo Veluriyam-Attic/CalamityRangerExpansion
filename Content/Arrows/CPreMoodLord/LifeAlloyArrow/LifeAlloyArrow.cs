@@ -1,19 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Ranged;
-using CalamityMod.Projectiles.Rogue;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow;
-
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.LifeAlloyArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.LifeAlloyArrow
 {
     public class LifeAlloyArrow : ModItem, ILocalizedModType
     {

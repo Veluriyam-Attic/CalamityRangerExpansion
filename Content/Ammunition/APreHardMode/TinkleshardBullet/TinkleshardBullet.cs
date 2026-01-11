@@ -1,16 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.APreHardMode.WulfrimBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Placeables;
-
-namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBullet
 {
     internal class TinkleshardBullet : ModItem, ILocalizedModType
     {

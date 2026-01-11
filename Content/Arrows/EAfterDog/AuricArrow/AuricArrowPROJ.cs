@@ -1,20 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod;
-using CalamityMod.Projectiles.Typeless;
-using CalamityMod.Projectiles.DraedonsArsenal;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityRangerExpansion.CREConfigs;
-using Terraria.Audio;
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow
 {
     public class AuricArrowPROJ : ModProjectile, ILocalizedModType
     {

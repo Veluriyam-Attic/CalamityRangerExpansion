@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.ToothGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.ToothGel
 {
     internal class ToothGelGP : GlobalProjectile
     {

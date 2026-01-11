@@ -1,10 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet
 {
     internal class EffulgentFeatherBulletPBuff : ModBuff
     {

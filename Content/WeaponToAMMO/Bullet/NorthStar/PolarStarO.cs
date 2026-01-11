@@ -1,13 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using Terraria.Audio;
-using CalamityMod;
-using CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar.NorthStar;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
 {
     public class PolarStarO : ModProjectile, ILocalizedModType
     {

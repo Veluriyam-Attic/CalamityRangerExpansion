@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.GrapeShot
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.GrapeShot
 {
     public class GrapeShotPlayer : ModPlayer
     {

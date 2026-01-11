@@ -1,11 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow
 {
     public class ScoriaArrowFireball : ModProjectile, ILocalizedModType
     {

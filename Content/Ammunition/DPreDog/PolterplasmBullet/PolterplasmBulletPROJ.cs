@@ -1,14 +1,4 @@
-﻿using CalamityMod;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using Terraria.Audio;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 {
     internal class PolterplasmBulletPROJ : ModProjectile, ILocalizedModType
     {

@@ -1,9 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet
 {
     public class AstralBullet : ModItem, ILocalizedModType
     {

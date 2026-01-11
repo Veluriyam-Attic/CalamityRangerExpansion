@@ -1,15 +1,3 @@
-using CalamityMod.Projectiles.Melee;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CalamityMod.Projectiles.Melee;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ModLoader;
-
 namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
 {
     public class WulfrimSpark : ModProjectile, ILocalizedModType, IModType

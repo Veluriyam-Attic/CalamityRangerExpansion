@@ -1,19 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Ammunition.APreHardMode.AerialiteBullet;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.WulfrimBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.WulfrimBullet
 {
     internal class WulfrimBulletPROJ : ModProjectile, ILocalizedModType
     {

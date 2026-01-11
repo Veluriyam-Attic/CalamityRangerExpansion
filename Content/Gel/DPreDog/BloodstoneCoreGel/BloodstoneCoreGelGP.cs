@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.BloodstoneCoreGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.BloodstoneCoreGel
 {
     internal class BloodstoneCoreGelGP : GlobalProjectile
     {

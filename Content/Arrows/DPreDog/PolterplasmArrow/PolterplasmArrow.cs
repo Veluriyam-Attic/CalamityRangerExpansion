@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Rogue;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
 {
     public class PolterplasmArrow : ModItem, ILocalizedModType
     {

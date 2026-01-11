@@ -1,14 +1,4 @@
-﻿using CalamityMod.Projectiles.BaseProjectiles;
-using Microsoft.Xna.Framework;
-using System;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Ranged;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
 {
     internal class SG225IEHoldOut : BaseGunHoldoutProjectile, ILocalizedModType
     {

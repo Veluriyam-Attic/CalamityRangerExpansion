@@ -1,23 +1,4 @@
-﻿using CalamityMod.Particles;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-
-namespace CalamityThrowingSpear.Weapons.NewWeapons.BPrePlantera.TheLastLance
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
 {
     public class PolterplasmArrowINV : ModProjectile
     {

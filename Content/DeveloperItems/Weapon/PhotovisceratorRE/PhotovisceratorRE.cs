@@ -1,25 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.Items;
-using CalamityMod.Projectiles.Ranged;
-using CalamityMod.Rarities;
-using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.PhotovisceratorRE
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.PhotovisceratorRE
 {
     internal class PhotovisceratorRE : ModItem, ILocalizedModType
     {

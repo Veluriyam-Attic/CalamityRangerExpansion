@@ -1,15 +1,4 @@
-﻿using CalamityMod.Items.Ammo;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Weapons.Ranged;
-
-namespace CalamityRangerExpansion
+﻿namespace CalamityRangerExpansion
 {
     internal class RedoCALAItem : GlobalItem // 继承全局物品类
     {
@@ -57,9 +46,6 @@ namespace CalamityRangerExpansion
             {
                 item.useAnimation = 30;
             }
-
-
-
         }
     }
 }

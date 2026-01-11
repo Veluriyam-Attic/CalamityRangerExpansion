@@ -1,6 +1,3 @@
-using Terraria;
-using Terraria.ModLoader;
-
 namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.NorthStar
 {
     public class PolarisBuff : ModBuff

@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
 {
     internal class UelibloomArrowEBuff : ModBuff
     {

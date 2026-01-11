@@ -1,30 +1,4 @@
-﻿#region using太多了
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Melee;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Ranged;
-using Terraria.DataStructures;
-using CalamityMod;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using Terraria.Audio;
-using CalamityMod.Buffs.DamageOverTime;
-#endregion
-
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow
 {
     public class DivineGeodeArrowPROJ : ModProjectile, ILocalizedModType
     {

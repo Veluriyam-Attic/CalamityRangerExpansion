@@ -1,17 +1,4 @@
-﻿using CalamityMod;
-using System;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using CalamityMod.Projectiles.Rogue;
-using CalamityMod.Projectiles.Typeless;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet
 {
     public class ScoriaBulletPROJ : ModProjectile, ILocalizedModType
     {

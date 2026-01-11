@@ -1,18 +1,4 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet
 {
     internal class UelibloomBulletLEAF : ModProjectile, ILocalizedModType
     {

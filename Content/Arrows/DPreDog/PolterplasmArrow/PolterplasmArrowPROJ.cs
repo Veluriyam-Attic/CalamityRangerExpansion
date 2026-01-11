@@ -1,26 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Melee;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Ranged;
-using Terraria.DataStructures;
-using CalamityMod;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityThrowingSpear.Weapons.NewWeapons.BPrePlantera.TheLastLance;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.PolterplasmArrow
 {
     public class PolterplasmArrowPROJ : ModProjectile, ILocalizedModType
     {

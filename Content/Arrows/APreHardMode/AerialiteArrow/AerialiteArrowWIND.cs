@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.Audio;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow
 {
     public class AerialiteArrowWIND : ModProjectile, ILocalizedModType
     {

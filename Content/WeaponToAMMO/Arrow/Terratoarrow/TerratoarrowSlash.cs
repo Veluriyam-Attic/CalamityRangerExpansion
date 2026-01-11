@@ -1,15 +1,4 @@
-﻿using CalamityMod.Particles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
 {
     public class TerratoarrowSlash : ModProjectile, ILocalizedModType
     {

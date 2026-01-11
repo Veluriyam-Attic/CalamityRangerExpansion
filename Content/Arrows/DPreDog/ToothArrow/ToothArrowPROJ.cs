@@ -1,22 +1,4 @@
-﻿using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Graphics.Primitives;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.Graphics.Shaders;
-using CalamityMod.Particles;
-using Terraria.Audio;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.ToothArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.ToothArrow
 {
     internal class ToothArrowPROJ : ModProjectile, ILocalizedModType
     {

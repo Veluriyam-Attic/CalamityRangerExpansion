@@ -1,15 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.AerialiteBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.AerialiteBullet
 {
     internal class AerialiteBullet : ModItem, ILocalizedModType
     {

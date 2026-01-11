@@ -1,19 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Terraria.DataStructures;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Balancing;
-using CalamityMod.Projectiles;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.MonstrousArrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.MonstrousArrow
 {
     internal class MonstrousArrowPROJ : ModProjectile, ILocalizedModType
     {

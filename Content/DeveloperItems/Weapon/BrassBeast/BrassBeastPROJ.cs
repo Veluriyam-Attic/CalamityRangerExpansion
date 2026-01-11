@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 {
     public class BrassBeastPROJ : ModProjectile, ILocalizedModType
     {

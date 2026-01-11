@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
-using CalamityMod;
-using Terraria.ID;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.NPCs.ExoMechs; // 引用 CalamityMod
-
-namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow
 {
     public class MiracleMatterArrowPlayer : ModPlayer
     {        

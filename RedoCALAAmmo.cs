@@ -1,21 +1,4 @@
-﻿using CalamityMod.Projectiles.DraedonsArsenal;
-using CalamityMod.Projectiles.Ranged;
-using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using Terraria.DataStructures;
-
-namespace CalamityRangerExpansion
+﻿namespace CalamityRangerExpansion
 {
     internal class RedoCALAAmmo : GlobalProjectile // 继承全局弹幕类
     {

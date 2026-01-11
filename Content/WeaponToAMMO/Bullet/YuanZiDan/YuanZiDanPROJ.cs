@@ -1,20 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.Audio;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.YuanZiDan
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.YuanZiDan
 {
     public class YuanZiDanPROJ : ModProjectile, ILocalizedModType
     {

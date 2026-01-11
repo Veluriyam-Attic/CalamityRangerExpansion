@@ -1,22 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Melee;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Ranged;
-using Terraria.DataStructures;
-using CalamityMod;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityRangerExpansion.CREConfigs;
+﻿
 
 
 namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow

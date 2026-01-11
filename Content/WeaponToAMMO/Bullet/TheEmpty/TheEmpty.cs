@@ -1,19 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.TheEmpty
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.TheEmpty
 {
     public class TheEmpty : ModItem, ILocalizedModType
     {

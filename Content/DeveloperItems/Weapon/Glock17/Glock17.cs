@@ -1,14 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System;
-using Terraria;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 {
     public class Glock17 : ModItem, ILocalizedModType
     {

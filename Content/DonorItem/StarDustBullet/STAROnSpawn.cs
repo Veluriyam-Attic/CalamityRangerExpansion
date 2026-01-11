@@ -1,11 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using System;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
+﻿namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
 {
     public class STAROnSpawn : ModProjectile
     {

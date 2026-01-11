@@ -1,18 +1,4 @@
-﻿
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Buffs.StatDebuffs;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel
+﻿namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel
 {
     public class CryonicGelGP : GlobalProjectile
     {

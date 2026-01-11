@@ -1,28 +1,4 @@
-﻿using CalamityMod.Items.Ammo;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Particles;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.DataStructures;
-using CalamityMod.NPCs;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet
 {
     public class CryonicBulletPROJ : ModProjectile, ILocalizedModType
     {

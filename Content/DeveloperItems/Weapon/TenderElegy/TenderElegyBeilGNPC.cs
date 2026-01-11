@@ -1,7 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
 {
     public class TenderElegyBeilGNPC : GlobalNPC
     {

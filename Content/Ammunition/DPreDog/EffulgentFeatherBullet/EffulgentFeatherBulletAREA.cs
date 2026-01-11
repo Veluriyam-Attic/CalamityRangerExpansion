@@ -1,16 +1,4 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Buffs.StatDebuffs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet
 {
     internal class EffulgentFeatherBulletAREA : ModProjectile, ILocalizedModType
     {

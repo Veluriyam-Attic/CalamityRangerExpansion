@@ -1,17 +1,4 @@
-﻿using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework.Graphics;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod;
-using Terraria.DataStructures;
-
-namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.AuricBulet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.AuricBulet
 {
     public class AuricBuletBALL : ModProjectile, ILocalizedModType
     {

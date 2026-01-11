@@ -1,21 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Magic;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using Terraria.Audio;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BrassBeast
 {
     public class BrassBeast : ModItem, ILocalizedModType
     {

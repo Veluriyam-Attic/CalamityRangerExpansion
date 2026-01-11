@@ -1,16 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow;
-
-namespace CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel
+﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel
 {
     public class UelibloomGelGP : GlobalProjectile
     {

@@ -1,12 +1,4 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using ReLogic.Content;
-using System;
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
+﻿namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
 {
     public class STARProj : ModProjectile
     {

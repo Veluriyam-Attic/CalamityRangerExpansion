@@ -1,19 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Projectiles.Typeless;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework.Graphics;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ExplodingRabbit
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ExplodingRabbit
 {
     public class ExplodingRabbitPROJ : ModProjectile, ILocalizedModType
     {

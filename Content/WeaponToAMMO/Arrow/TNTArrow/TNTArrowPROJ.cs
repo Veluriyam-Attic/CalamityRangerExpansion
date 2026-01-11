@@ -1,19 +1,4 @@
-﻿using CalamityMod.Projectiles.Rogue;
-using CalamityMod.Projectiles;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TNTArrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TNTArrow
 {
     internal class TNTArrowPROJ : ModProjectile, ILocalizedModType
     {
@@ -55,12 +40,6 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TNTArrow
             {
                 Dust.NewDust(Projectile.position + Projectile.velocity, Projectile.width, Projectile.height, 6, Projectile.velocity.X * 0.5f, Projectile.velocity.Y * 0.5f);
             }
-
-
-         
-
-
-
 
         }
 

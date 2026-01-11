@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Placeables;
-using CalamityMod.Projectiles.Rogue;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArrow
 {
     public class StarblightSootArrow : ModItem, ILocalizedModType
     {

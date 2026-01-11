@@ -1,22 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using System;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Weapons.Magic;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.BlindBirdCry
 {
     public class BlindBirdCry : ModItem, ILocalizedModType
     {

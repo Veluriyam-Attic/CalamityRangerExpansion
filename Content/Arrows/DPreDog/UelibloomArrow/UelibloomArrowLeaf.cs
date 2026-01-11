@@ -1,15 +1,4 @@
-﻿using System;
-using CalamityMod.Buffs.DamageOverTime;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod;
-
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
 {
     public class UelibloomArrowLeaf : ModProjectile, ILocalizedModType
     {

@@ -1,23 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Ranged;
-using CalamityMod.Items.Weapons.Rogue;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Magic;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TimeLeaper
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TimeLeaper
 {
     public class TimeLeaper : ModItem, ILocalizedModType
     {

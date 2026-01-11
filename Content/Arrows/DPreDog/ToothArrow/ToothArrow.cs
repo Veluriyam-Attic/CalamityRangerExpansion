@@ -1,16 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PlagueArrow;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.ToothArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.ToothArrow
 {
     internal class ToothArrow : ModItem, ILocalizedModType
     {

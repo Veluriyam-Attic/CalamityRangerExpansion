@@ -1,14 +1,4 @@
-﻿using CalamityMod.World;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet
 {
     public class AstralBulletPlayer : ModPlayer
     {

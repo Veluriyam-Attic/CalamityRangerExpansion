@@ -1,20 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Ranged;
-using CalamityMod.Items.Weapons.Melee;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
 {
     public class Terratoarrow : ModItem, ILocalizedModType
     {

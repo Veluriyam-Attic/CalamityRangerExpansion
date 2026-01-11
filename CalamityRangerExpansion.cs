@@ -1,81 +1,4 @@
-﻿#region using太多了，折叠了
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.APreHardMode.AerialiteBullet;
-using CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBullet;
-using CalamityRangerExpansion.Content.Ammunition.APreHardMode.WulfrimBullet;
-using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.CryonicBullet;
-using CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.AstralBullet;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PlagueBullet;
-using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.ScoriaBullet;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.ToothBullet;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.UelibloomBullet;
-using CalamityRangerExpansion.Content.Ammunition.EAfterDog.AuricBulet;
-using CalamityRangerExpansion.Content.Ammunition.EAfterDog.EndothermicEnergyBullet;
-using CalamityRangerExpansion.Content.Ammunition.EAfterDog.MiracleMatterBullet;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow;
-using CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.LifeAlloyArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PlagueArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.DivineGeodeArrow;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.EffulgentFeatherArrow;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.ToothArrow;
-using CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow;
-using CalamityRangerExpansion.Content.Arrows.EAfterDog.AuricArrow;
-using CalamityRangerExpansion.Content.Arrows.EAfterDog.EndothermicEnergyArrow;
-using CalamityRangerExpansion.Content.Arrows.EAfterDog.MiracleMatterArrow;
-using CalamityRangerExpansion.Content.Gel.APreHardMode.AerialiteGel;
-using CalamityRangerExpansion.Content.Gel.APreHardMode.GeliticGel;
-using CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel;
-using CalamityRangerExpansion.Content.Gel.APreHardMode.WulfrimGel;
-using CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel;
-using CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.LifeAlloyGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.LivingShardGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.PlagueGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.BloodstoneCoreGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.DivineGeodeGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.EffulgentFeatherGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.PolterplasmGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.ToothGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.UelibloomGel;
-using CalamityRangerExpansion.Content.Gel.DPreDog.UnholyEssenceGel;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.AuricGel;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.CosmosGel;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.EndothermicEnergyGel;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.MiracleMatterGel;
-using CalamityRangerExpansion.Content.Gel.ZBag;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ID;
-using Terraria.Localization;
-using Terraria.ModLoader;
-using Terraria.ModLoader.Default;
-using Terraria.Testing;
-using Terraria.UI;
-
-#endregion
-
-namespace CalamityRangerExpansion
+﻿namespace CalamityRangerExpansion
 {
     public class AnyRecipes : ModSystem
     {
@@ -92,7 +15,7 @@ namespace CalamityRangerExpansion
                 ModContent.ItemType<StarblightSootArrow>(),
                 ModContent.ItemType<AstralArrow>(),
                 ModContent.ItemType<PerennialArrow>(),
-                ModContent.ItemType<PlagueArrow>(),
+                ModContent.ItemType<Content.Arrows.CPreMoodLord.PlagueArrow.PlagueArrow>(),
                 ModContent.ItemType<ScoriaArrow>(),
                 ModContent.ItemType<DivineGeodeArrow>(),
                 ModContent.ItemType<EffulgentFeatherArrow>(),

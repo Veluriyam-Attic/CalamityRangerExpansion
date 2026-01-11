@@ -1,15 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-
-namespace CalamityRangerExpansion.Content.Gel.APreHardMode.WulfrimGel
+﻿namespace CalamityRangerExpansion.Content.Gel.APreHardMode.WulfrimGel
 {
     internal class WulfrimGel : ModItem, ILocalizedModType
     {

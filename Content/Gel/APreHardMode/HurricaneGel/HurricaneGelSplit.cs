@@ -1,10 +1,4 @@
-﻿using CalamityMod;
-using Terraria;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel
+﻿namespace CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel
 {
     public class HurricaneGelSplit : ModProjectile, ILocalizedModType
     {

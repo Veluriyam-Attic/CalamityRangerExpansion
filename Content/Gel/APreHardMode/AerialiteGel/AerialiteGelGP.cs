@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.Gel.APreHardMode.AerialiteGel
+﻿namespace CalamityRangerExpansion.Content.Gel.APreHardMode.AerialiteGel
 {
     internal class AerialiteGelGP : GlobalProjectile
     {

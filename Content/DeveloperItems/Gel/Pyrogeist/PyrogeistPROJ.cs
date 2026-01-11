@@ -1,16 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityRangerExpansion.Content.Gel.EAfterDog.AuricGel;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Gel.Pyrogeist
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Gel.Pyrogeist
 {
     internal class PyrogeistPROJ : ModProjectile, ILocalizedModType
     {

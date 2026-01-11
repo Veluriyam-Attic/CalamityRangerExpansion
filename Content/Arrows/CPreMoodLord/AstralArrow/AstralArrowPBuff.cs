@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.ID;
-using Microsoft.Xna.Framework;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.AstralArrow
 {
     public class AstralArrowPBuff : ModBuff
     {

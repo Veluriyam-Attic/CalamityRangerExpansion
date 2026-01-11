@@ -1,17 +1,4 @@
-﻿using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Buffs.StatDebuffs;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.DestructionBullet
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.DestructionBullet
 {
     public class DestructionBulletEXP : ModProjectile, ILocalizedModType
     {

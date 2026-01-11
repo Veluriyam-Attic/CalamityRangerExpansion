@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Projectiles.Ranged;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel;
-using CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel;
-using CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel;
-
-namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LifeAlloyGel
+﻿namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LifeAlloyGel
 {
     internal class LifeAlloyGelGP : GlobalProjectile
     {

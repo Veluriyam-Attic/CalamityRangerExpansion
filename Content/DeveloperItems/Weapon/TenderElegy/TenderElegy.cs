@@ -1,13 +1,4 @@
-﻿using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Items.Weapons.Ranged;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TenderElegy
 {
     public class TenderElegy : ModItem, ILocalizedModType
     {

@@ -1,15 +1,4 @@
-﻿using CalamityMod.Items.TreasureBags.MiscGrabBags;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ModLoader;
-using Terraria;
-using Terraria.ID;
-using Terraria.GameContent.ItemDropRules;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 {
     internal class NeverGonnaGiveYouTheGoldenFire : GlobalItem
     {

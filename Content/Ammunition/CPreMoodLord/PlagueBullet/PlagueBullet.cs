@@ -1,15 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PerennialBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-
-namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PlagueBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.CPreMoodLord.PlagueBullet
 {
     internal class PlagueBullet : ModItem, ILocalizedModType
     {

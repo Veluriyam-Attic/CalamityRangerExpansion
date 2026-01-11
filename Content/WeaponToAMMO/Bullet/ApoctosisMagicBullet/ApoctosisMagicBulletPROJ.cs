@@ -1,23 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using Terraria.Audio;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.GameContent;
-using Terraria.Graphics.Shaders;
-using CalamityMod.Graphics.Primitives;
-//using CalamityRangerExpansion.LightingBolts.Shader;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBullet
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.ApoctosisMagicBullet
 {
     internal class ApoctosisMagicBulletPROJ : ModProjectile, ILocalizedModType
     {

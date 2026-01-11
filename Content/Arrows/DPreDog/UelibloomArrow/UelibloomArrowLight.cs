@@ -1,29 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ModLoader;
-using Terraria.Graphics.Shaders;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Graphics.Primitives;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.ID;
-using System;
-using CalamityMod.Buffs.DamageOverTime;
-using CalamityMod.Graphics.Primitives;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria;
-using Terraria.Graphics.Shaders;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
 {
     public class UelibloomArrowLight : ModProjectile, ILocalizedModType
     {

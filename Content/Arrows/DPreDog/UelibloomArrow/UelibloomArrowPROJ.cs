@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Particles;
-using CalamityMod;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityMod.Items.Accessories;
-
-namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
 {
     public class UelibloomArrowPROJ : ModProjectile, ILocalizedModType
     {

@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod.Items;
-using CalamityMod;
-using CalamityMod.Items.Materials;
-using CalamityMod.Projectiles.Rogue;
-using CalamityMod.Rarities;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
 {
     public class MaoMaoChong : ModItem, ILocalizedModType
     {

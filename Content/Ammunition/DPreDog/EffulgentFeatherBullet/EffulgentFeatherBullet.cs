@@ -1,15 +1,4 @@
-﻿using CalamityMod.Items.Materials;
-using CalamityRangerExpansion.Content.Ammunition.DPreDog.DivineGeodeBullet;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-
-namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.EffulgentFeatherBullet
 {
     internal class EffulgentFeatherBullet : ModItem, ILocalizedModType
     {

@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.DestructionBullet
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.DestructionBullet
 {
     public class DestructionBulletDestruction : ModBuff, ILocalizedModType
     {

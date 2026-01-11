@@ -1,17 +1,4 @@
-﻿using CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Materials;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-using CalamityMod.Items.Placeables;
-
-namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel
+﻿namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel
 {
     internal class StarblightSootGel : ModItem, ILocalizedModType
     {

@@ -1,20 +1,4 @@
-﻿using CalamityMod.Items.Weapons.Ranged;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-using CalamityMod.Tiles.Furniture.CraftingStations;
-
-namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.EndothermicEnergyBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.EndothermicEnergyBullet
 {
     public class EndothermicEnergyBullet : ModItem, ILocalizedModType
     {

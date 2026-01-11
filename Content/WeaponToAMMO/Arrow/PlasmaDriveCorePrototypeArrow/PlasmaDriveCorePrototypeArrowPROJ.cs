@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using System;
-using System.IO;
-using CalamityMod.Projectiles.Magic;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.PlasmaDriveCorePrototypeArrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.PlasmaDriveCorePrototypeArrow
 {
     public class PlasmaDriveCorePrototypeArrowPROJ : ModProjectile, ILocalizedModType
     {

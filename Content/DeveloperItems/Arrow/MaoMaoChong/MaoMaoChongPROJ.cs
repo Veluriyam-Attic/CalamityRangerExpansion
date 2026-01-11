@@ -1,31 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.Audio;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Terraria.Audio;
-using CalamityRangerExpansion.CREConfigs;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.GameContent;
-using CalamityMod.Graphics.Primitives;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
 {
     public class MaoMaoChongPROJ : ModProjectile, ILocalizedModType
     {
@@ -64,61 +37,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
         // 可以去参考一下原版的502号弹幕逻辑（在弹幕文件里面）
         public override bool PreDraw(ref Color lightColor)
         {
-            #region 旧代码
-
-            // 取消默认的拖尾绘制逻辑
-            // CalamityUtils.DrawAfterimagesCentered(Projectile, ProjectileID.Sets.TrailingMode[Projectile.type], lightColor, 1);
-
-            //// 使用彩虹色拖尾逻辑进行替换
-            //float num105 = Main.DiscoR / 255f; // 获取红色成分并进行归一化
-            //float num106 = Main.DiscoG / 255f; // 获取绿色成分并进行归一化
-            //float num107 = Main.DiscoB / 255f; // 获取蓝色成分并进行归一化
-
-            //Lighting.AddLight(Projectile.Center, num105, num106, num107);
-
-            //// 绘制更大的拖尾效果，通过遍历弹幕历史位置
-            //Texture2D value84 = TextureAssets.Projectile[Projectile.type].Value; // 获取弹幕的纹理
-            //Vector2 origin22 = new Vector2(value84.Width / 2, 0f); // 设定纹理的绘制原点
-            //Vector2 vector75 = new Vector2(Projectile.width, Projectile.height) / 2f; // 计算弹幕的中心位置
-            //Color white3 = Color.White;
-            //white3.A = 200; // 设置更高的透明度，保持拖尾更鲜明
-
-            //// 遍历历史位置以生成拖尾
-            //for (int num316 = Projectile.oldPos.Length - 1; num316 > 0; num316--)
-            //{
-            //    Vector2 vector76 = Projectile.oldPos[num316] + vector75; // 计算历史位置的中心
-            //    if (!(vector76 == vector75)) // 确保绘制位置正确
-            //    {
-            //        Vector2 vector77 = Projectile.oldPos[num316 - 1] + vector75; // 获取下一个历史位置
-            //                                                                     // 调整旋转角度，增加或减少 90 度
-            //        float rotation27 = (vector77 - vector76).ToRotation(); // 原始旋转角度
-            //        rotation27 += MathHelper.PiOver2; // 额外旋转 90 度
-
-            //        Vector2 scale7 = new Vector2(2f, Vector2.Distance(vector76, vector77) / value84.Height * 1.5f); // 增大缩放比例，使拖尾更粗更长
-            //        Color color82;
-
-            //        // 使用 4 种不同的颜色进行循环变化
-            //        switch (num316 % 4)
-            //        {
-            //            case 0:
-            //                color82 = Color.Red;
-            //                break;
-            //            case 1:
-            //                color82 = Color.Green;
-            //                break;
-            //            case 2:
-            //                color82 = Color.Blue;
-            //                break;
-            //            default:
-            //                color82 = Color.Yellow;
-            //                break;
-            //        }
-            //        color82 *= (1f - (float)num316 / Projectile.oldPos.Length); // 逐渐降低透明度，生成渐变效果
-            //        Main.EntitySpriteDraw(value84, vector76 - Main.screenPosition, null, color82, rotation27, origin22, scale7, SpriteEffects.None, 0);
-            //    }
-            //}
-
-            #endregion
 
             return false; // 不使用默认的绘制逻辑
         }
@@ -151,55 +69,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
             // Lighting - 将光源颜色更改为偏黑的深蓝色，光照强度为 0.55
             Lighting.AddLight(Projectile.Center, new Vector3(0.1f, 0.1f, 0.5f) * 0.55f);
 
-            #region 旧代码
-
-            // 动画处理
-            //Projectile.frameCounter++;
-            //if (Projectile.frameCounter > 4) // 控制帧切换速度
-            //{
-            //    Projectile.frame++;
-            //    Projectile.frameCounter = 0;
-            //}
-            //if (Projectile.frame >= Main.projFrames[Projectile.type]) // 循环到第一帧
-            //{
-            //    Projectile.frame = 0;
-            //}
-
-            //    // 检查是否启用了特效
-            //    if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
-            //    {
-            //        // 彩虹颜色数组，包含 7 种颜色
-            //        Color[] rainbowColors = new Color[]
-            //        {
-            //Color.Red,
-            //Color.Orange,
-            //Color.Yellow,
-            //Color.Green,
-            //Color.Blue,
-            //Color.Indigo,
-            //Color.Violet
-            //        };
-
-            //        // 在飞行路径上生成白色电能粒子特效
-            //        int particleCount = 1; // 控制每帧生成的粒子数量
-            //        for (int i = 0; i < particleCount; i++)
-            //        {
-            //            float angle = Main.rand.NextFloat(0, MathHelper.TwoPi); // 随机角度
-            //            float distance = Main.rand.NextFloat(2f, 10f); // 控制粒子生成的随机偏移范围
-            //            Vector2 spawnPosition = Projectile.Center + distance * new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle));
-            //            Vector2 velocity = Vector2.Normalize(spawnPosition - Projectile.Center) * Main.rand.NextFloat(0.5f, 1.5f); // 随机速度
-
-            //            // 随机选择一个彩虹颜色
-            //            Color randomRainbowColor = rainbowColors[Main.rand.Next(rainbowColors.Length)];
-
-            //            // 创建电能粒子特效并染色为随机彩虹颜色
-            //            Dust dust = Dust.NewDustPerfect(spawnPosition, DustID.Electric, velocity, 150, randomRainbowColor, Main.rand.NextFloat(0.8f, 1.5f));
-            //            dust.noGravity = true; // 使粒子不受重力影响
-            //            dust.fadeIn = 1f;
-            //        }
-            //    }
-
-            #endregion
 
         }
 
@@ -247,18 +116,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.MaoMaoChong
             return false;
         }
 
-        public override void OnKill(int timeLeft)
-        {
-            #region 旧代码
-
-            //// 在弹幕消失时释放深蓝色粒子特效
-            //for (int i = 0; i < 15; i++)
-            //{
-            //    Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.BlueTorch, Projectile.velocity.X * 0.5f, Projectile.velocity.Y * 0.5f, 150, default, 2.2f);
-            //}
-
-            #endregion
-        }
 
         private void GenerateRainbowElectricParticles(Vector2 position, int particleCount)
         {

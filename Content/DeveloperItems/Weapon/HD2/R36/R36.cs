@@ -1,13 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using Terraria;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     public class R36 : ModItem, ILocalizedModType
     {

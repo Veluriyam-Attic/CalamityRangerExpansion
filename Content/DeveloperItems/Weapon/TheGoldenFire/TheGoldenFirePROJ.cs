@@ -1,14 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using System;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using Terraria.DataStructures;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
 {
     public class TheGoldenFirePROJ : ModProjectile, ILocalizedModType
     {

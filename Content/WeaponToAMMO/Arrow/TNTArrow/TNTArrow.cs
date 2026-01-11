@@ -1,21 +1,4 @@
-﻿using CalamityMod.Items.Ammo;
-using CalamityMod.Items.Materials;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod;
-using CalamityMod.Items.Weapons.Melee;
-using System.Threading;
-using CalamityMod.Items.Weapons.Rogue;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TNTArrow
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TNTArrow
 {
     internal class TNTArrow : ModItem, ILocalizedModType
     {

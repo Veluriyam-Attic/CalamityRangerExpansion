@@ -1,13 +1,4 @@
-﻿using CalamityMod;
-using CalamityMod.Projectiles.Ranged;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.Audio;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE
 {
     public class SG225IE : ModItem, ILocalizedModType
     {

@@ -1,18 +1,4 @@
-﻿using CalamityMod.Items.Accessories;
-using CalamityMod.Items.Weapons.Melee;
-using CalamityMod.Items.Weapons.Summon;
-using CalamityMod.NPCs.AcidRain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.GameContent.ItemDropRules;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.NPCs.NormalNPCs;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36
 {
     internal class R36DropInjector : GlobalNPC
     {

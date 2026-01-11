@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using CalamityMod.Items;
-using CalamityMod.Rarities;
-using CalamityMod;
-
-namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.GrapeShot
+﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Bullet.GrapeShot
 {
     public class GrapeShot : ModItem, ILocalizedModType
     {

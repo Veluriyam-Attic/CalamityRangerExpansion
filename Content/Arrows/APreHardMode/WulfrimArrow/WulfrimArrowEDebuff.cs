@@ -1,10 +1,4 @@
-﻿using Terraria;
-using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
-using CalamityMod.Projectiles.Melee;
-using CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow;
-
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
 {
     public class WulfrimArrowEDebuff : ModBuff
     {

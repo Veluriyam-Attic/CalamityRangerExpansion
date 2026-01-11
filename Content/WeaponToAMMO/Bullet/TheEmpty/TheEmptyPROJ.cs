@@ -1,14 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityRangerExpansion.LightingBolts;
-
-namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.TheEmpty
+﻿namespace CalamityRangerExpansion.Content.WeaponToAMMO.Bullet.TheEmpty
 {
     public class TheEmptyPROJ : ModProjectile, ILocalizedModType
     {

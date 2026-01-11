@@ -1,22 +1,4 @@
-﻿using CalamityMod;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.DataStructures;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using CalamityMod.Particles;
-using Terraria.ModLoader.IO;
-using Terraria.Audio;
-using CalamityMod.Buffs.StatDebuffs;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.EndothermicEnergyBullet
+﻿namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.EndothermicEnergyBullet
 {
     public class EndothermicEnergyBulletPROJ : ModProjectile, ILocalizedModType
     {

@@ -1,20 +1,12 @@
-﻿using CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.LAS17;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.R36;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.SG225IE;
-using CalamityRangerExpansion.Content.DeveloperItems.Weapon.HD2.VG70;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-
-namespace CalamityRangerExpansion
+﻿namespace CalamityRangerExpansion
 {
     internal class NPCSellSM : GlobalNPC
     {
+        // 优化了性能：只在后期实例化时应用
+        public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type == NPCID.ArmsDealer && lateInstantiation;
+
         public override void ModifyShop(NPCShop shop)
         {
-            // 只作用于军火商
-            if (shop.NpcType != NPCID.ArmsDealer)
-                return;
 
             // =========================
             // 击败克苏鲁之眼 → SG225IE（30 金）

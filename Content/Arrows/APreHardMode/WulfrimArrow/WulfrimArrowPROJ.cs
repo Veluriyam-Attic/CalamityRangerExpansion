@@ -1,17 +1,4 @@
-﻿using CalamityMod;
-using Microsoft.Xna.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-
-namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
 {
     internal class WulfrimArrowPROJ : ModProjectile, ILocalizedModType
     {

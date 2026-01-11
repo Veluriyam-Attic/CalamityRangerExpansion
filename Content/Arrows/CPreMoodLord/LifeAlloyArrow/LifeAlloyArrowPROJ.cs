@@ -1,27 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Melee;
-using Terraria;
-using Terraria.ID;
-using Terraria.ModLoader;
-using CalamityMod.Projectiles.Ranged;
-using Terraria.DataStructures;
-using CalamityMod;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
-using CalamityMod.Particles;
-using CalamityRangerExpansion.CREConfigs;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow;
-using CalamityRangerExpansion.Content.Arrows.CPreMoodLord.ScoriaArrow;
-
-namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.LifeAlloyArrow
+﻿namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.LifeAlloyArrow
 {
     public class LifeAlloyArrowPROJ : ModProjectile, ILocalizedModType
     {
