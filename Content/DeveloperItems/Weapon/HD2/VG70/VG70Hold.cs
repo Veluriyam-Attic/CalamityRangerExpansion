@@ -35,8 +35,8 @@
         }
 
         public Vector2 GunTipPosition =>
-            Projectile.Center + Vector2.UnitX.RotatedBy(Projectile.rotation) * (Projectile.width * 1.75f + 5f);
-
+            Projectile.Center + Vector2.UnitX.RotatedBy(Projectile.rotation) * (Projectile.width * 1.05f + 5f);
+        
         // =========================
         // AI 主逻辑
         // =========================

@@ -18,13 +18,13 @@
 
         private int stageOutlineTimer = 0;
         private const int StageOutlineDuration = 24; // 总时长（线性上升 + 下降）
-        public override void OnSpawn(IEntitySource source)
-        {
-            base.OnSpawn(source);
+        //public override void OnSpawn(IEntitySource source)
+        //{
+        //    base.OnSpawn(source);
 
-            // 仅缩放显示尺寸，不影响任何逻辑与碰撞
-            Projectile.scale = 1.00f;
-        }
+        //    // 仅缩放显示尺寸，不影响任何逻辑与碰撞
+        //    Projectile.scale = 1.00f;
+        //}
 
 
         public override void HoldoutAI()
