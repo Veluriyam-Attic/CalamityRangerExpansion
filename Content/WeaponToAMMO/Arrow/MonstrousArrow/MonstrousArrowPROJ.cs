@@ -88,7 +88,9 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.MonstrousArrow
             //if (Main.player[Main.myPlayer].lifeSteal <= 0f || heal <= 0 || target.lifeMax <= 5)
             //    return;
 
-            CalamityGlobalProjectile.SpawnLifeStealProjectile(Projectile, Main.player[Projectile.owner], heal, ProjectileID.VampireHeal, 3000f);
+            // 移动到了player的扩展
+            Main.player[Projectile.owner].SpawnLifeStealProjectile(target, Projectile, ProjectileID.VampireHeal, heal, 1, false, 3000f);
+            //CalamityGlobalProjectile.SpawnLifeStealProjectile(Projectile, Main.player[Projectile.owner], heal, ProjectileID.VampireHeal, 3000f);
         }
 
         public override void OnKill(int timeLeft)

@@ -9,6 +9,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Materials;
 using CalamityMod.Tiles.Furniture.CraftingStations;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel
 {
@@ -42,7 +43,7 @@ namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.AstralGel
             Recipe recipe = CreateRecipe(150);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupGel", 250);
             recipe.AddIngredient<AstralBar>(1);
-            recipe.AddTile<StaticRefiner>();
+            recipe.AddTile<StaticRefiner>(); //StaticRefiner
             recipe.Register();
         }
     }

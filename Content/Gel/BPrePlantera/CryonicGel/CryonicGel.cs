@@ -9,6 +9,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Materials;
 using CalamityMod.Tiles.Furniture.CraftingStations;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel
 {
@@ -42,7 +43,7 @@ namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel
             Recipe recipe = CreateRecipe(250);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupGel", 250);
             recipe.AddIngredient<CryonicBar>(1);
-            recipe.AddTile<StaticRefiner>();
+            recipe.AddTile<StaticRefiner>(); //StaticRefiner
             recipe.Register();
         }
     }

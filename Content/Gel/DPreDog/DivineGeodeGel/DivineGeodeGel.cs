@@ -9,6 +9,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Materials;
 using CalamityMod.Tiles.Furniture.CraftingStations;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.DPreDog.DivineGeodeGel
 {

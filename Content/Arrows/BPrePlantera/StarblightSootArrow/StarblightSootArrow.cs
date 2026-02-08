@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using CalamityMod.Items.Materials;
 using CalamityMod.Items.Placeables;
+using CalamityMod.Items.Placeables.FurnitureMonolith;
 using CalamityMod.Projectiles.Rogue;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -35,7 +36,7 @@ namespace CalamityRangerExpansion.Content.Arrows.BPrePlantera.StarblightSootArro
             Recipe recipe = CreateRecipe(100);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupArrow", 100);
             recipe.AddIngredient<StarblightSoot>(2);
-            recipe.AddIngredient<AstralMonolith>(2);
+            recipe.AddIngredient<AstralMonolith>(2); //AstralMonolith
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }

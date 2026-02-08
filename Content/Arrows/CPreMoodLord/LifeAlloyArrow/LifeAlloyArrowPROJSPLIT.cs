@@ -119,6 +119,6 @@ namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.LifeAlloyArrow
         }
         public override bool? CanDamage() => Projectile.localAI[0] < 20 ? false : null;
 
-        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers) => modifiers.SourceDamage.Flat += HyperiusBullet.SplitBulletBonusDamage;
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers) => modifiers.SourceDamage.Flat += 0;//HyperiusBullet.SplitBulletBonusDamage; 相关字段已经被删除
     }
 }

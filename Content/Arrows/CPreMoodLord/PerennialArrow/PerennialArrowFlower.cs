@@ -10,6 +10,8 @@ using Terraria.ID;
 using CalamityMod;
 using Terraria.Audio;
 using CalamityRangerExpansion.CREConfigs;
+using CalamityMod.Projectiles;
+using System.Runtime.CompilerServices;
 
 namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
 {
@@ -105,7 +107,7 @@ namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
             #endregion
 
             //Sticky Behaviour
-            Projectile.StickyProjAI(15);
+            Projectile.StickyProjAI(15); // 灾厄将此扩展类型设置为了受到保护的
             if (Projectile.ai[0] == 2f)
             {
                 Projectile.velocity *= 0f;
@@ -115,7 +117,7 @@ namespace CalamityRangerExpansion.Content.Arrows.CPreMoodLord.PerennialArrow
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
         {
             // 调用原始的ModifyHitNPCSticky方法，确保粘附逻辑正常
-            Projectile.ModifyHitNPCSticky(20);            
+            Projectile.ModifyHitNPCSticky(20);            // 原类型被内部化，CalamityRangerExpansion.Content.CommonProjectileAI
         }
 
 

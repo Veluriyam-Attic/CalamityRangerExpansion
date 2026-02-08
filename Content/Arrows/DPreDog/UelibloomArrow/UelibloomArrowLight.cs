@@ -99,7 +99,7 @@ namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
         //}
 
         #endregion
-        private float PrimitiveWidthFunction(float completionRatio) // 计算弹幕宽度变化
+        private float PrimitiveWidthFunction(float completionRatio, Vector2 vexpos) // 计算弹幕宽度变化
         {
             float arrowheadCutoff = 0.36f; // 箭头部分的截止点
             float width = 24f; // 设置默认宽度为24
@@ -110,7 +110,7 @@ namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
             return width; // 返回计算后的宽度
         }
 
-        private Color PrimitiveColorFunction(float completionRatio) // 计算弹幕颜色变化
+        private Color PrimitiveColorFunction(float completionRatio, Vector2 vexpos) // 计算弹幕颜色变化
         {
             float endFadeRatio = 0.41f; // 结束渐变比例
             float completionRatioFactor = 2.7f; // 完成比例因子
@@ -131,7 +131,7 @@ namespace CalamityRangerExpansion.Content.Arrows.DPreDog.UelibloomArrow
             Vector2 overallOffset = Projectile.Size * 0.5f; // 计算整体偏移量
             overallOffset += Projectile.velocity * 1.4f; // 调整偏移量
             int numPoints = 46; // 点的数量
-            PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_) => overallOffset, shader: GameShaders.Misc["CalamityMod:TrailStreak"]), numPoints); // 渲染拖尾效果
+            PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_, _) => overallOffset, shader: GameShaders.Misc["CalamityMod:TrailStreak"]), numPoints); // 渲染拖尾效果
             return false; // 不执行默认绘制
         }
 

@@ -10,6 +10,7 @@ using Terraria;
 using CalamityMod.Items.Materials;
 using Terraria.DataStructures;
 using CalamityMod.Tiles.Furniture.CraftingStations;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.DPreDog.PolterplasmGel
 {

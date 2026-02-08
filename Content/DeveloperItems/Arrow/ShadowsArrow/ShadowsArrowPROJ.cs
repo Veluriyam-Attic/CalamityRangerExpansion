@@ -68,11 +68,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Arrow.ShadowsArrow
             ModContent.ProjectileType<AstrealArrow>(),
             ModContent.ProjectileType<PrecisionBolt>(),
             ModContent.ProjectileType<TelluricGlareArrow>(),
-            ModContent.ProjectileType<Bolt>(),
+            ModContent.ProjectileType<BoltArrow>(), // Bolt
             ModContent.ProjectileType<TheMaelstromShark>(),
             ModContent.ProjectileType<TyphoonArrow>(),
             ModContent.ProjectileType<MiniSharkron>(),
-            ModContent.ProjectileType<DWArrow>(),
+            //ModContent.ProjectileType<DWArrow>(), // DWArrow 好像没了
             ModContent.ProjectileType<UltimaBolt>(),
             ModContent.ProjectileType<UltimaRay>(),
             ModContent.ProjectileType<UltimaSpark>(),

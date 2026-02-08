@@ -9,6 +9,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Placeables;
 using CalamityMod.Items.Materials;
+using CalamityMod.Items.Placeables.SunkenSea;
 
 namespace CalamityRangerExpansion.Content.Gel.APreHardMode.HurricaneGel
 {

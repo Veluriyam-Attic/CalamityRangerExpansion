@@ -12,6 +12,7 @@ using CalamityRangerExpansion.Content.Gel.CPreMoodLord.ScoriaGel;
 using CalamityRangerExpansion.Content.Gel.BPrePlantera.CryonicGel;
 using CalamityMod.Items.Materials;
 using CalamityMod.Tiles.Furniture.CraftingStations;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.LifeAlloyGel
 {

@@ -10,6 +10,8 @@ using Terraria;
 using CalamityMod.Items.Materials;
 using CalamityMod.Tiles.Furniture.CraftingStations;
 using CalamityMod.Items.Placeables;
+using CalamityMod.Items.Placeables.FurnitureMonolith;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel
 {
@@ -43,8 +45,8 @@ namespace CalamityRangerExpansion.Content.Gel.BPrePlantera.StarblightSootGel
             Recipe recipe = CreateRecipe(500);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupGel", 250);
             recipe.AddIngredient<StarblightSoot>(2);
-            recipe.AddIngredient<AstralMonolith>(2);
-            recipe.AddTile<StaticRefiner>();
+            recipe.AddIngredient<AstralMonolith>(2); //AstralMonolith
+            recipe.AddTile<StaticRefiner>(); // StaticRefiner
             recipe.Register();
         }
     }

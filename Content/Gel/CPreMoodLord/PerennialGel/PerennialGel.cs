@@ -9,6 +9,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Materials;
 using CalamityMod.Tiles.Furniture.CraftingStations;
+using CalamityMod.Tiles.FurnitureStatigel;
 
 namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel
 {
@@ -42,7 +43,7 @@ namespace CalamityRangerExpansion.Content.Gel.CPreMoodLord.PerennialGel
             Recipe recipe = CreateRecipe(500);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupGel", 500);
             recipe.AddIngredient<PerennialBar>(1);
-            recipe.AddTile<StaticRefiner>();
+            recipe.AddTile<StaticRefiner>(); //StaticRefiner
             recipe.Register();
         }
     }

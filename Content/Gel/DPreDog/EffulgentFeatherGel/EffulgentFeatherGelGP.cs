@@ -9,6 +9,8 @@ using Terraria;
 using Microsoft.Xna.Framework;
 using CalamityMod.Projectiles.Melee;
 using Terraria.ID;
+using CalamityMod.Projectiles.Pets;
+using CalamityMod.Projectiles.Magic;
 
 namespace CalamityRangerExpansion.Content.Gel.DPreDog.EffulgentFeatherGel
 {
@@ -40,7 +42,7 @@ namespace CalamityRangerExpansion.Content.Gel.DPreDog.EffulgentFeatherGel
                 int sparkCount = 0;
                 foreach (Projectile proj in Main.projectile)
                 {
-                    if (proj.active && proj.type == ModContent.ProjectileType<Spark>())
+                    if (proj.active && proj.type == ModContent.ProjectileType<SparkInfernal>()) //todo Spark 是啥？
                     {
                         sparkCount++;
                         if (sparkCount >= 6)
@@ -58,7 +60,7 @@ namespace CalamityRangerExpansion.Content.Gel.DPreDog.EffulgentFeatherGel
                         projectile.GetSource_FromThis(),
                         projectile.Center,
                         velocity,
-                        ModContent.ProjectileType<Spark>(),
+                        ModContent.ProjectileType<SparkInfernal>(), //todo Spark 是啥？
                         (int)(projectile.damage / 0.95 * 0.33f), // 伤害为原弹幕的 33%
                         projectile.knockBack,
                         projectile.owner

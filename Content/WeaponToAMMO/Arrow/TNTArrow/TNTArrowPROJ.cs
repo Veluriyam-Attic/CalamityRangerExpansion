@@ -45,7 +45,10 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.TNTArrow
             Projectile.penetrate = 6;
             Projectile.timeLeft = 180;
             Projectile.aiStyle = ProjAIStyleID.Arrow;
-            Projectile.Calamity().pointBlankShotDuration = CalamityGlobalProjectile.DefaultPointBlankDuration;
+
+            //已被移除
+            ///https://github.com/CalamityTeam/CalamityModPublic/blob/74ef86027dc5d63b70edc0838807441346efb01a/Projectiles/CalamityGlobalProjectile.cs#L415-L419
+            //Projectile.Calamity().pointBlankShotDuration = CalamityGlobalProjectile.DefaultPointBlankDuration;
         }
         private bool hasHitEnemy = false; // 标记是否击中过敌人
         public override void AI()

@@ -9,6 +9,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Placeables;
+using CalamityMod.Items.Placeables.SunkenSea;
 
 namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBullet
 {
@@ -36,7 +37,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.APreHardMode.TinkleshardBul
         {
             Recipe recipe = CreateRecipe(200);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupBullet", 200);
-            recipe.AddIngredient<SeaPrism>(1);
+            recipe.AddIngredient<SeaPrism>(1); // 更新引用 海棱晶
             recipe.AddIngredient<PearlShard>(1);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

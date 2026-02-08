@@ -9,6 +9,7 @@ using Terraria.ModLoader;
 using Terraria;
 using CalamityMod.Items.Materials;
 using CalamityMod.Items.Placeables;
+using CalamityMod.Items.Placeables.FurnitureMonolith;
 
 namespace CalamityRangerExpansion.Content.Ammunition.BPrePlantera.StarblightSootBullet
 {

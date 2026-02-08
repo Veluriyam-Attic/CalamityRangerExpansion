@@ -11,6 +11,8 @@ using Terraria.ModLoader;
 using Terraria;
 using Microsoft.Xna.Framework;
 using CalamityMod.Items.Weapons.Magic;
+using CalamityMod.Enums;
+using CalamityMod.Utilities.Daybreak.Buffers;
 
 namespace CalamityRangerExpansion.LightingBolts.Metaballs
 {
@@ -62,15 +64,15 @@ namespace CalamityRangerExpansion.LightingBolts.Metaballs
             get { yield return LayerAsset.Value; }
         }
 
-        // 定义 Metaball 在哪一层绘制
-        // `AfterProjectiles` 代表它会在所有弹幕之后绘制
-        // 你可以改成 `BeforeProjectiles` 让它在弹幕之前绘制
-        public override MetaballDrawLayer DrawContext => MetaballDrawLayer.AfterProjectiles;
-
         // 定义 Metaball 的边缘颜色
         // `Color.Lerp(Color.Black, Color.Purple, 0.7f)` 让边缘呈现暗紫色渐变
         // 你可以改成 `Color.Lerp(Color.Black, Color.Gray, 0.7f)` 来让它更偏黑白风格
         public override Color EdgeColor => Color.Lerp(Color.Black, Color.Purple, 0.7f);
+
+        // 定义 Metaball 在哪一层绘制
+        // `AfterProjectiles` 代表它会在所有弹幕之后绘制
+        // 你可以改成 `BeforeProjectiles` 让它在弹幕之前绘制
+        public override GeneralDrawLayer DrawLayer => GeneralDrawLayer.AfterProjectiles;
 
         // 这个方法在 Mod 加载时执行，负责加载 Metaball 纹理
         public override void Load()

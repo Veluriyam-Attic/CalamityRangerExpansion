@@ -253,18 +253,28 @@ namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.MiracleMatterBull
         }
 
 
-        private float PrimitiveWidthFunction(float completionRatio)
+        //public delegate float VertexWidthFunction(float trailLengthInterpolant, Vector2 vertexPosition);
+        /// <summary>
+        /// <see cref="CalamityMod.Graphics.Primitives.PrimitiveSettings.VertexWidthFunction"/>
+        /// </summary>
+        /// <returns></returns>
+        private float PrimitiveWidthFunction(float completionRatio, Vector2 vertexPosition)
         {
             float arrowheadCutoff = 0.36f;
             float width = 24f;
             float minHeadWidth = 0.03f;
             float maxHeadWidth = width;
             if (completionRatio <= arrowheadCutoff)
-                width = MathHelper.Lerp(minHeadWidth, maxHeadWidth, Utils.GetLerpValue(0f, arrowheadCutoff, completionRatio, true));
+                width = MathHelper.Lerp(minHeadWidth, maxHeadWidth, Utils.GetLerpValue(from: 0f, arrowheadCutoff, completionRatio, true));
             return width;
         }
 
-        private Color PrimitiveColorFunction(float completionRatio)
+        //public delegate Color VertexColorFunction(float trailLengthInterpolant, Vector2 vertexPosition);
+        /// <summary>
+        /// <see cref="CalamityMod.Graphics.Primitives.PrimitiveSettings.VertexColorFunction"/>
+        /// </summary>
+        /// <returns></returns>
+        private Color PrimitiveColorFunction(float completionRatio, Vector2 vertexPosition)
         {
             float endFadeRatio = 0.41f;
             float completionRatioFactor = 2.7f;
@@ -288,7 +298,7 @@ namespace CalamityRangerExpansion.Content.Ammunition.EAfterDog.MiracleMatterBull
                 Vector2 overallOffset = Projectile.Size * 0.5f;
                 overallOffset += Projectile.velocity * 1.4f;
                 int numPoints = 46;
-                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_) => overallOffset, shader: GameShaders.Misc["CalamityMod:TrailStreak"]), numPoints);
+                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_, _) => overallOffset, shader: GameShaders.Misc["CalamityMod:TrailStreak"]), numPoints);
                 return false;
             }
             return false;

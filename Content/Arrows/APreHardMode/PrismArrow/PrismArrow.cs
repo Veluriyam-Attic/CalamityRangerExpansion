@@ -9,6 +9,7 @@ using Terraria;
 using CalamityMod.Projectiles.Melee;
 using CalamityMod.Items.Placeables;
 using CalamityMod.Items.Materials;
+using CalamityMod.Items.Placeables.SunkenSea;
 namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow
 {
     internal class PrismArrow : ModItem, ILocalizedModType
@@ -35,7 +36,7 @@ namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.PrismArrow
         {
             Recipe recipe = CreateRecipe(150);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupArrow", 150);
-            recipe.AddIngredient<SeaPrism>(1);
+            recipe.AddIngredient<SeaPrism>(1); // SeaPrism
             recipe.AddIngredient<PearlShard>(1);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

@@ -27,9 +27,9 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
             ProjectileID.Sets.TrailingMode[Projectile.type] = 2;
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 50;
         }
-        public float SlashWidthFunction(float _) => Projectile.width * Projectile.scale * Utils.GetLerpValue(0f, 0.1f, _, true);
+        public float SlashWidthFunction(float _, Vector2 vexpos) => Projectile.width * Projectile.scale * Utils.GetLerpValue(0f, 0.1f, _, true);
 
-        public Color SlashColorFunction(float _) => Color.Turquoise;
+        public Color SlashColorFunction(float _, Vector2 vexpos) => Color.Turquoise;
 
         public override bool PreDraw(ref Color lightColor)
         {
@@ -39,7 +39,7 @@ namespace CalamityRangerExpansion.Content.WeaponToAMMO.Arrow.Terratoarrow
             GameShaders.Misc["CalamityMod:ExobladePierce"].UseSecondaryColor(Terratomere.TerraColor2);
 
             // 17MAY2024: Ozzatron: remove Terratomere rendering its trails multiple times
-            PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(SlashWidthFunction, SlashColorFunction, (_) => Projectile.Size * 0.5f, shader: GameShaders.Misc["CalamityMod:ExobladePierce"]), 30);
+            PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(SlashWidthFunction, SlashColorFunction, (_, _) => Projectile.Size * 0.5f, shader: GameShaders.Misc["CalamityMod:ExobladePierce"]), 30);
 
             return false;
         }
