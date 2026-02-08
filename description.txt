@@ -18,7 +18,6 @@ Mod平衡并未经过极其严谨的测试，如有超模请加反馈群进行�
 如果您有意向进行多语言内置，也请联系虞悖[QQ:3412615165 or Steam好友]来沟通
 
 [h1]反馈与建议[/h1]
-Discord:https://discord.gg/H9n4PgFGhb
 QQ群:909428503
 在线文档:[url=https://docs.qq.com/doc/DUGxUTHJuc2JBb0Zz]点击以跳转[/url]
 反馈邮箱:3412615165@qq.com
@@ -43,7 +42,6 @@ Changed some items from [url=https://steamcommunity.com/sharedfiles/filedetails/
 Untested balance
 
 [h1]FeedBack[/h1]
-Discord Link:https://discord.gg/H9n4PgFGhb
 QQ Group:909428503
 Online document:[url=https://docs.qq.com/doc/DUGxUTHJuc2JBb0Zz] Click [/url]
 Feedback Email:3412615165@qq.com
@@ -51,5 +49,4 @@ Source Code:[url=https://github.com/Veluriyam-Attic/CalamityRangerExpansion] Cli
 
 [h1]Thanks[/h1]
 Main Dev: 剃刀刃台风  虞悖  至尊永冻
-Contributor: zjm  蓝幽  Tailccc  梯子  Q群管家[quote=tModLoader CalamityRangerExpansion]
-Developed By 虞悖&至尊永冻&剃刀刃台风[/quote]
+Contributor: zjm  蓝幽  Tailccc  梯子  Q群管家

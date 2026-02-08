@@ -113,19 +113,9 @@
 	  <None Remove="Content\DeveloperItems\Gel\魔影凝胶.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\AlloyRailgun\AlloyRailgun.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\AlloyRailgun\AlloyRailgunHold.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17a.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17b.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17c.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17EDebuff.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17Proj.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\PyroblastRocketScorpio.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\HD2\R36\R36.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\HD2\SG225IE\SG225IEProj.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\HD2\SG225IE\高然破裂者【这个不好】.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TenderElegy\TenderElegyi.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TheGoldenFire\FireProj.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\TheGoldenFire\TheGoldenFire - 复制.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\TheGoldenFire\TheGoldenFire.png" />
 	  <None Remove="Content\Gel\APreHardMode\GeliticGel\GeliticGel.png" />
 	  <None Remove="Content\Gel\CPreMoodLord\PlagueGel\PlagueGel.png" />
@@ -298,11 +288,7 @@
 	  <Folder Include="Content\Arrows\CPreMoodLord\AstralArrow\废案\" />
 	  <Folder Include="Content\Arrows\EAfterDog\AuricArrow\废弃\" />
 	  <Folder Include="Content\DeveloperItems\Gel\新文件夹\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\HD2\LAS17\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\HD2\VG70\" />
 	  <Folder Include="Content\DeveloperItems\Weapon\Pyroblast\新文件夹\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\HD2\AR32\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\HD2\SG8P\" />
 	  <Folder Include="Content\DeveloperItems\Weapon\新文件夹\" />
 	</ItemGroup>
 	<ItemGroup>
