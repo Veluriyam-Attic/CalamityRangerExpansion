@@ -909,46 +909,37 @@ DeveloperItems: {
 
 	TheGoldenFire: {
 		TheGoldenFire: {
-			CommonTooltip:
-				'''
-				曾记否？
-				往昔的辉煌，和那于翻天覆地的变革叱咤的身影？
-				辉煌得以延续，沉寂的土地在岁月的洗礼中，悄然焕发出新的生机
-				[c/FFDB39:而今，凤凰涅槃，重获新生……]
-
-				[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:{0}]
-				'''
-			DisplayName: Lamp of Illusion
+			DisplayName: Rekindled Glory
 			Tooltip: "[Stage]"
 			TooltipS0:
 				'''
 				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				The glory of the past, they who dominated the earth-shaking revolutions?
+				That glory continues, and this silenced land regains vitality through the baptism of time.
+				[c/FFDB39: Now, the phoenix has risen again from the ashes...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅰ]
-				[c/FFD700: The vicissitudes of life, the wheel of history rolls forward...]
-				[c/FFD700: Even after a long time has passed, they still fear you!]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅰ]
+				[c/FFD700: Time brought change to the world, the wheel of history rolls forever forward...]
+				[c/FFD700: Even after so long, they still fear your name!]
 				[c/FFD700: A bloody eye has been sent to spy on you]
-				[c/D00000: Will you choose to continue to endure, or raise your sword of rebellion high and shout to the sky?]
-				[c/CB0000: "I have seen that God has abandoned this world"]
+				[c/D00000: Will you choose to tolerate this, or will you raise your sword of rebellion high and shout to the sky?]
+				[c/CB0000: "I saw God abandon this world."]
 				'''
 			TooltipS1S:
 				'''
 				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
+				The glory of the past, and the figure that dominated the earth-shaking revolutions?
+				That glory continues, and the silenced land regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
 				[c/FFD700: The former rulers have fallen to such a pitiful state]
-				[c/FFD700: The once fierce battles have become but a fleeting moment]
-				[c/FFD700: In a world where good and evil are reversed, those who share the same plight find solace in each other]
-				[c/FFD700: Let go of the old grudges!]
+				[c/FFD700: The once fierce battles have become but a fleeting line in stories]
+				[c/FFD700: In a world where good and evil are reversed, to those who share the same plight, find solace in each other]
+				[c/FFD700: Let go of old grudges!]
 				[c/FFD700: Now, that bloody brain seeks revenge for its brother!]
 				[c/FFD700: The threat is here, don't dwell in the past]
-				[c/D00000: Will you step up to resolve all this?]
+				[c/D00000: Will you step up to resolve it all?]
 				'''
 			TooltipS1F:
 				'''
@@ -957,10 +948,10 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
 				[c/FFD700: The former rulers have fallen to such a pitiful state]
 				[c/FFD700: The once fierce battles have become but a fleeting moment]
-				[c/FFD700: In a world where good and evil are reversed, those who share the same plight find solace in each other]
+				[c/FFD700: In a world where good and evil are reversed, those who share the same plight, find solace in each other]
 				[c/FFD700: Let go of the old grudges!]
 				[c/FFD700: Now, that black python seeks revenge for its brother!]
 				[c/FFD700: The threat is here, don't dwell in the past]
@@ -973,13 +964,13 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
-				[c/FFD700: Your actions have offended the lord who rules over Crimson]
-				[c/FFD700: A lord is merely a puppet tied to the top of the hierarchy]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
+				[c/FFD700: Your actions have offended the sovereign of the Crimson]
+				[c/FFD700: But a lord is merely a puppet tied to the top of the hierarchy]
 				[c/FFD700: And a puppet who cannot control their own destiny]
-				[c/FFD700: Attempt to destroy its eyes and ears in the land of Crimson]
+				[c/FFD700: Attempt to destroy its eyes and ears in the land of the Crimson]
 				[c/FFD700: This might be the best way to set it free]
-				[c/FFD700: The path of betraying the lord and straying from the righteous way, the farther you go, the more tragic it becomes...]
+				[c/FFD700: The path of treason, straying from the righteous way. The farther you go, the more tragic it becomes...]
 				[c/D00000: Will you go and end this tragedy?]
 				'''
 			TooltipS2F:
@@ -990,12 +981,12 @@ DeveloperItems: {
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
 				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
-				[c/FFD700: Your actions have offended the lord who rules over Corruption]
-				[c/FFD700: A lord is merely a puppet tied to the top of the hierarchy]
+				[c/FFD700: Your actions have offended the sovereign of the Corruption]
+				[c/FFD700: But a lord is merely a puppet tied to the top of the hierarchy]
 				[c/FFD700: And a puppet who cannot control their own destiny]
 				[c/FFD700: Attempt to destroy its eyes and ears in the land of Corruption]
 				[c/FFD700: This might be the best way to set it free]
-				[c/FFD700: The path of betraying the lord and straying from the righteous way, the farther you go, the more tragic it becomes...]
+				[c/FFD700: The path of treason, straying from the righteous way. The farther you go, the more tragic it becomes...]
 				[c/D00000: Will you go and end this tragedy?]
 				'''
 			TooltipS3:
@@ -1005,15 +996,15 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅳ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅳ]
 				[c/FFD700: To survive amidst the turmoil of the world]
 				[c/FFD700: A former wanderer fled to an ancient ruin]
-				[c/FFD700: Starving and withered, he left behind only hollow bones]
+				[c/FFD700: Starving and withered, he left behind only his hollow husk]
 				[c/FFD700: Gradually, he became an earthbound spirit of this place]
-				[c/FFD700: Until a fugitive tailor arrived here]
-				[c/FFD700: The tailor wished to open this place up, providing a home for the homeless]
+				[c/FFD700: Until a fugitive tailor arrived]
+				[c/FFD700: The tailor wished to open this place up, to provide a home for the homeless]
 				[c/FFD700: The wanderer did not approve of the tailor's actions]
-				[c/FFD700: The tailor ultimately bore the wanderer's curse and forcibly opened the ruin]
+				[c/FFD700: The tailor ultimately bore the wanderer's curse and forcibly opened the gates]
 				[c/FFD700: Now, the tailor guards the entrance of the ruin]
 				[c/D00000: Will you venture to uncover the secrets of the skeleton soldiers?]
 				'''
@@ -1024,11 +1015,11 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅴ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅴ]
 				[c/FFD700: Absurdity! This is sheer absurdity!]
 				[c/FFD700: To elevate a slime to the status of a deity?]
 				[c/FFD700: The ever-growing fanatical beliefs of people are gradually transforming this slime...]
-				[c/FFD700: The purer of heart seek extremes under the oppression of reality...]
+				[c/FFD700: The purer of heart seek greater extremes under the oppression of reality...]
 				[c/D00000: Will you allow such a thing to occur?]
 				'''
 			TooltipS5:
@@ -1038,14 +1029,14 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅵ]
-				[c/FFD700: Billions of flesh converge here]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅵ]
+				[c/FFD700: Billions of mounds of flesh converge here]
 				[c/FFD700: They come to Hell, seeking only more filth and corruption]
 				[c/FFD700: The ancient spirits of light and dark]
 				[c/FFD700: A star has fallen from the heavens!]
 				[c/FFD700: The Sunken Sea trembles in fear...]
 				[c/FFD700: I shall usher Night into the grave]
-				[c/FFD700: And you, Light, shall reach out to the future]
+				[c/FFD700: And because of you, Light shall reach out to the future]
 				[c/D00000: Just like that cruel angel]
 				[c/D00000: Young one! Become a myth!]
 				'''
@@ -1056,12 +1047,12 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅶ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅶ]
 				[c/FFD700: The mechanical creations of Draedon bring endless headaches]
 				[c/FFD700: They were troublesome thousands of years ago, and remain so today, without any improvement]
 				[c/FFD700: Now, these mechanical monstrosities are wreaking havoc upon the land]
 				[c/D00000: Defeat them one by one!]
-				[c/D00000: Or, summon your courage and unleash a fiery Mecha Mayhem!]
+				[c/D00000: Or, summon your courage and unleash a fiery Mecha Mayhem, ending them all at once!]
 				'''
 			TooltipS7:
 				'''
@@ -1070,11 +1061,11 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅷ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅷ]
 				[c/FFD700: Merely one of the failed clones of The Brimstone Witch]
 				[c/FFD700: It is not worthy of your fear]
 				[c/FFD700: Life shall evolve through death, and thus be reborn]
-				[c/D00000: Seize the moment before another clone succeeds in its experiment]
+				[c/D00000: Seize the moment before a clone truly successful clone births from experiments]
 				[c/D00000: Strike it down now! Unleash your power upon this failed creation!]
 				'''
 			TooltipS8:
@@ -1084,14 +1075,14 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅸ]
-				[c/FFD700: Sprouting from the farmland, a misshapen monster flower creeping deep within the jungle]
-				[c/FFD700: It is not the fault of the people to cultivate upon the divine soil]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅸ]
+				[c/FFD700: Sprouting from the farmland, a misshapen monster of a flower creeps deep within the jungle]
+				[c/FFD700: It is not the fault of the people to cultivate upon divine soil]
 				[c/FFD700: The cunning of the gods has birthed this monster]
 				[c/FFD700: The world is chaotic, neither fair nor reasonable]
-				[c/FFD700: This flower has henceforth sealed off the jungle]
+				[c/FFD700: This flower has since sealed off the jungle]
 				[c/FFD700: The people have lost their land]
-				[c/D00000: Will you dare to destroy this monster flower for the sake of the people?]
+				[c/D00000: Do you dare to destroy this monster flower for the sake of the people?]
 				'''
 			TooltipS9:
 				'''
@@ -1100,13 +1091,13 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅹ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅹ]
 				[c/FFD700:As if by fate]
 				[c/FFD700:Shortly after the birth of the terrifying flower]
-				[c/FFD700:In the depths of the jungle, mutations occur continuously]
-				[c/FFD700:The people dare not venture forth, cowed by the power of the flower within]
-				[c/FFD700:After you vanquish that monster, a key appears in your hand]
-				[c/FFD700:Guiding you to the former forbidden zone, to unlock the dust-laden secrets]
+				[c/FFD700:In the depths of the jungle, mutations occured continuously]
+				[c/FFD700:The people dare not venture forth, cowed by the power of that flower beyond their walls]
+				[c/FFD700:After you vanquished that monster, a key appears in your hand]
+				[c/FFD700:Guiding you to the former forbidden zone, to unlock the dusted, buried secrets]
 				[c/D00000:Will you tear away the last veil of shame from the Lihzahrd?]
 				'''
 			TooltipS10:
@@ -1116,16 +1107,16 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅺ]
-				[c/FFD700:Cast aside after losing all its worth]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅺ]
+				[c/FFD700:Cast aside after losing all their worth]
 				[c/FFD700:It became known as the Lunatic Cultist]
 				[c/FFD700:Yet, the deeds of this mortal remain unforgettable]
-				[c/FFD700:Even in abandonment, its faith in the bright moon never wavered]
-				[c/FFD700:Wandering the world, it chanced upon your battle with the wanderer]
-				[c/FFD700:After your departure, it swiftly took over this place]
-				[c/FFD700:It holds the only means to contact the moon]
+				[c/FFD700:Even after being abandoned, their faith in the bright moon never once wavered]
+				[c/FFD700:Wandering the world, they chanced upon your battle with the wanderer]
+				[c/FFD700:After your departure, they swiftly took over this place]
+				[c/FFD700:they hold the only method to contact the moon]
 				[c/FFD700:Only by embracing cruelty can one hope to retain their own gentleness]
-				[c/CB0000:Will you slay this one???]
+				[c/CB0000:Will you slay this... person???]
 				'''
 			TooltipS11:
 				'''
@@ -1134,13 +1125,13 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅻ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅻ]
 				[c/FFD700:Tonight's moon is harsh and cold, like a chilling blade, illuminating the face of the dying]
-				[c/FFD700:The Moon Lord cares not for the][c/CB0000:demise]
+				[c/FFD700:The Moon Lord cares not for their][c/CB0000:demise]
 				[c/CB0000:But, does the death of this one affect you?]
 				[c/FFD700:Now, celestial beings have invaded]
 				[c/FFD700:When the world trembles, how can you turn a blind eye?]
-				[c/FFD700:You cannot let the death of this one affect you now!]
+				[c/FFD700:You cannot let their death affect you now!]
 				[c/FFD700:Only through the darkest of nights can one gaze upon the dawn's light]
 				[c/D00000:Summon your fiercest flames and repel the invaders!]
 				'''
@@ -1151,15 +1142,15 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅢ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅢ]
 				[c/FFD700:The demise of the Moon Lord has drawn the gaze of the universe...]
-				[c/FFD700:You cannot comprehend, for the countless changes of this planet have never been noticed by others.]
-				[c/FFD700:And the moon of this planet!]
-				[c/FFD700:The master of the moon has been defeated!]
-				[c/FFD700:Yet this has drawn great attention!]
-				[c/FFD700:Defeating the Unholy Lord may be the easiest task now.]
+				[c/FFD700:You cannot comprehend how, for the countless changes of this planet have never been noticed by others.]
+				[c/FFD700:Yet the moon of this planet!]
+				[c/FFD700:The defeat of the moon's master!]
+				[c/FFD700:Has drawn great attention!]
+				[c/FFD700:Defeating the Lord of Unholy Flames may be the easiest task now.]
 				[c/FFD700:Here lies too much history, too many secrets.]
-				[c/FFD700:But fear not, no matter how long the road, the Lamp of Illusion will always be by your side...]
+				[c/FFD700:But fear not, no matter how long the ride, the Rekindled Glory will always be by your side...]
 				[c/D00000:Will the rewards ahead be more enticing, or will they be a deeper abyss of pain?]
 				'''
 			TooltipS13:
@@ -1169,11 +1160,11 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅣ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅣ]
 				[c/FFD700: Cosmic beings have come here and placed many restrictions on you.]
 				[c/FFD700: They seal ruins, monitor the skies, and guard the underworld.]
 				[c/FFD700: They follow that colossal interstellar worm.]
-				[c/D00000: If you want to drive away the enemies of the universe, this is the path you must take...]
+				[c/D00000: If you want to drive away the enemies of this universe, this is the path you must take...]
 				'''
 			TooltipS14:
 				'''
@@ -1182,11 +1173,11 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅤ]
-				[c/FFD700: The entrance of void has caused many skeleton soldiers in the ruins to perish.]
-				[c/FFD700: The souls of these grievance-laden dead have accumulated more and more.]
-				[c/FFD700: Eventually, they have become the vengeful beast-souls you see now.]
-				[c/FFD700: Is endless revenge just?]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅤ]
+				[c/FFD700: The appearance of this void has caused many skeleton soldiers in the ruins to perish.]
+				[c/FFD700: The souls of these grievance-laden dead have accumulated over time.]
+				[c/FFD700: Eventually, they have become the vengeful souls you see now.]
+				[c/FFD700: Is endless revenge justified?]
 				[c/FFD700: You don't know.]
 				[c/D00000: Will you allow the skeleton soldiers to rest in peace?]
 				'''
@@ -1197,12 +1188,12 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅥ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅥ]
 				[c/FFD700:A cosmic giant worm]
 				[c/FFD700:Countless adjectives such as arrogant, untamed, and powerful must surely fit it]
-				[c/FFD700:Civilization is built upon the bones and dying words of generations]
+				[c/FFD700:Civilization is built upon bones and dying words over generations of sacrifice]
 				[c/FFD700:If you do not advance, then you cannot progress]
-				[c/D00000:Attempt to hunt and slay this giant worm]
+				[c/D00000:Hunt and slay this giant worm]
 				'''
 			TooltipS16:
 				'''
@@ -1211,11 +1202,11 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅦ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅦ]
 				[c/FFD700:Amidst endless darkness and solitude]
 				[c/FFD700:Constantly reminiscing about past love and hope]
-				[c/FFD700:Yet, her soul gradually loses its golden hue]
-				[c/FFD700:In the end, the dragon slayer becomes the dragon...]
+				[c/FFD700:Yet, her soul gradually lost its golden hue]
+				[c/FFD700:In the end, the dragon slayer became the dragon...]
 				[c/D00000:Embark on the quest to slay the treacherous dragon]
 				'''
 			TooltipS17:
@@ -1225,17 +1216,17 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅧ]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅧ]
 				[c/FFD700: What remain now are Draedon and The Brimstone Witch]
 
-				                [c/9F9F9F: Draedon, an excellent craftsman]
-				    [c/FFD700: But he is completely a beast without morality]
-				    [c/FFD700: Humanity? Sympathy? You can't see any of them from him!]
-				                [c/FFA500: Calamitas, a wizard of doom]
+				    [c/9F9F9F: Draedon, an excellent craftsman]
+				    [c/FFD700: But he is but a beast without morality]
+				    [c/FFD700: Humanity? Sympathy? You can't see any from him!]
+				    [c/FFA500: Calamitas, a sorcerer of doom]
 				    [c/FFD700: Once upon a time, she was also a lovely girl]
 				    [c/FFD700: Now she has become a complete witch]
 
-				[c/D00000: Please give a performance with them]
+				[c/D00000: Please complete a performance with them]
 				'''
 			TooltipS18:
 				'''
@@ -1244,26 +1235,26 @@ DeveloperItems: {
 				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅨ]
-				[c/FFD700: The Chaos Elemental is not a creature of this world]
-				[c/FFD700: Unable to contain their power, they stumbled upon this realm by chance]
-				[c/FFD700: For some inexplicable reason, the sole living being amidst the icy chill of the frigid spring responds greatly to their presence]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅨ]
+				[c/FFD700: Chaos Elementals are not creatures of this world]
+				[c/FFD700: Unable to control their power, they stumbled into this realm by chance]
+				[c/FFD700: For some inexplicable reason, the sole living being amidst the icy chill of the frigid depths responds greatly to their essence]
 				[c/D00000: It is thy duty to unravel this final mystery]
 				'''
 			TooltipS19:
 				'''
 				[c/FF0000: Wilt thou continue thy journey forward?]
-				[c/FF0000: I am a believer in fate, and if such is fate's decree, then I harbor no complaints.]
+				[c/FF0000: I am a disciple of fate, and if such is fate's decree, then I shall harbor no complaints.]
 
-				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Finale]
+				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Finale]
 				[c/FFD700: To bid farewell to the past is to embrace the future.]
-				[c/FFD700: Henceforth, stars shall shine brightly, for I have walked among them.]
-				[c/FFD700: Henceforth, flowers shall bloom resplendently, for I have never truly left.]
+				[c/FFD700: Henceforth, stars shall shine bright, for I have walked among them.]
+				[c/FFD700: Henceforth, flowers shall bloom resplendent, for I have never truly left.]
 				[c/CB0000: "And today, even the gods shall bow before me."]
 				'''
 		}
 
-		TheGoldenFirePROJ.DisplayName: Lamp of Illusion
+		TheGoldenFirePROJ.DisplayName: Rekindled Glory
 		TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
 
 		TheGoldenFireNoGrow: {
