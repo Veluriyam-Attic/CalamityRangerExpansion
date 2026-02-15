@@ -909,14 +909,18 @@ DeveloperItems: {
 
 	TheGoldenFire: {
 		TheGoldenFire: {
-			DisplayName: Rekindled Glory
-			Tooltip: "[Stage]"
-			TooltipS0:
+			CommonTooltip:
 				'''
 				Do you remember?
 				The glory of the past, they who dominated the earth-shaking revolutions?
 				That glory continues, and this silenced land regains vitality through the baptism of time.
 				[c/FFDB39: Now, the phoenix has risen again from the ashes...]
+				'''
+			DisplayName: Rekindled Glory
+			Tooltip: "[Stage]"
+			TooltipS0:
+				'''
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅰ]
 				[c/FFD700: Time brought change to the world, the wheel of history rolls forever forward...]
@@ -927,10 +931,7 @@ DeveloperItems: {
 				'''
 			TooltipS1S:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking revolutions?
-				That glory continues, and the silenced land regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
 				[c/FFD700: The former rulers have fallen to such a pitiful state]
@@ -943,10 +944,7 @@ DeveloperItems: {
 				'''
 			TooltipS1F:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
 				[c/FFD700: The former rulers have fallen to such a pitiful state]
@@ -959,10 +957,7 @@ DeveloperItems: {
 				'''
 			TooltipS2S:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
 				[c/FFD700: Your actions have offended the sovereign of the Crimson]
@@ -975,10 +970,7 @@ DeveloperItems: {
 				'''
 			TooltipS2F:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
 				[c/FFD700: Your actions have offended the sovereign of the Corruption]
@@ -991,10 +983,7 @@ DeveloperItems: {
 				'''
 			TooltipS3:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅳ]
 				[c/FFD700: To survive amidst the turmoil of the world]
@@ -1010,10 +999,7 @@ DeveloperItems: {
 				'''
 			TooltipS4:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅴ]
 				[c/FFD700: Absurdity! This is sheer absurdity!]
@@ -1024,10 +1010,7 @@ DeveloperItems: {
 				'''
 			TooltipS5:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅵ]
 				[c/FFD700: Billions of mounds of flesh converge here]
@@ -1042,10 +1025,7 @@ DeveloperItems: {
 				'''
 			TooltipS6:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅶ]
 				[c/FFD700: The mechanical creations of Draedon bring endless headaches]
@@ -1056,10 +1036,7 @@ DeveloperItems: {
 				'''
 			TooltipS7:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅷ]
 				[c/FFD700: Merely one of the failed clones of The Brimstone Witch]
@@ -1070,10 +1047,7 @@ DeveloperItems: {
 				'''
 			TooltipS8:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅸ]
 				[c/FFD700: Sprouting from the farmland, a misshapen monster of a flower creeps deep within the jungle]
@@ -1086,10 +1060,7 @@ DeveloperItems: {
 				'''
 			TooltipS9:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅹ]
 				[c/FFD700:As if by fate]
@@ -1102,10 +1073,7 @@ DeveloperItems: {
 				'''
 			TooltipS10:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅺ]
 				[c/FFD700:Cast aside after losing all their worth]
@@ -1120,10 +1088,7 @@ DeveloperItems: {
 				'''
 			TooltipS11:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅻ]
 				[c/FFD700:Tonight's moon is harsh and cold, like a chilling blade, illuminating the face of the dying]
@@ -1137,10 +1102,7 @@ DeveloperItems: {
 				'''
 			TooltipS12:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅢ]
 				[c/FFD700:The demise of the Moon Lord has drawn the gaze of the universe...]
@@ -1155,10 +1117,7 @@ DeveloperItems: {
 				'''
 			TooltipS13:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅣ]
 				[c/FFD700: Cosmic beings have come here and placed many restrictions on you.]
@@ -1168,10 +1127,7 @@ DeveloperItems: {
 				'''
 			TooltipS14:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅤ]
 				[c/FFD700: The appearance of this void has caused many skeleton soldiers in the ruins to perish.]
@@ -1183,10 +1139,7 @@ DeveloperItems: {
 				'''
 			TooltipS15:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅥ]
 				[c/FFD700:A cosmic giant worm]
@@ -1197,10 +1150,7 @@ DeveloperItems: {
 				'''
 			TooltipS16:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅦ]
 				[c/FFD700:Amidst endless darkness and solitude]
@@ -1211,10 +1161,7 @@ DeveloperItems: {
 				'''
 			TooltipS17:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅧ]
 				[c/FFD700: What remain now are Draedon and The Brimstone Witch]
@@ -1230,10 +1177,7 @@ DeveloperItems: {
 				'''
 			TooltipS18:
 				'''
-				Do you remember?
-				The glory of the past, and the figure that dominated the earth-shaking reforms?
-				The glory continues, and the silent land quietly regains new vitality through the baptism of time.
-				[c/FFDB39: Now, the phoenix has risen from the ashes and gained new life...]
+				{$CommonTooltip}
 
 				[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅨ]
 				[c/FFD700: Chaos Elementals are not creatures of this world]
