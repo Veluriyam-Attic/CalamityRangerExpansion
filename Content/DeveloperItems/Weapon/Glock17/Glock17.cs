@@ -1,10 +1,26 @@
-﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
+﻿
+
+
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 {
     public class Glock17 : ModItem, ILocalizedModType
     {
-        public static Texture2D TextureA;
-        public static Texture2D TextureB;
-        public static Texture2D TextureC;
+        private static Texture2D TextureA;
+        private static Texture2D TextureB;
+        private static Texture2D TextureC;
+
+        private int CoolDown = 0;
+
+        public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs([B.Weapons.Glock17.CoolDownSecond, B.Weapons.Glock17.DamageMultiplier, B.Weapons.Glock17.EffectTimeSecond, B.Weapons.Glock17.StageThirdExtraDamage]);
+
+        private void ApplyEffect(Dictionary<string, int> effects, NPC npc, ref NPC.HitModifiers modifiers)
+        {
+            if (effects["YCRE:Glock17"] > 0)
+            {
+                modifiers.FinalDamage *= 1.25f;
+            }
+        }
+
 
         public override void Load()
         {
@@ -14,22 +30,16 @@
                 TextureB = ModContent.Request<Texture2D>("CalamityRangerExpansion/Content/DeveloperItems/Weapon/Glock17/Glock17b").Value;
                 TextureC = ModContent.Request<Texture2D>("CalamityRangerExpansion/Content/DeveloperItems/Weapon/Glock17/Glock17c").Value;
             }
-        }
-
-        private Texture2D ChooseTextureByGameProgress()
-        {
-            if (NPC.downedMoonlord)
-                return TextureC;
-            else if (Main.hardMode)
-                return TextureB;
-            else
-                return TextureA;
+            VeluriyamGlobalNPC.Signed.Add("YCRE:Glock17", 0);
+            VeluriyamGlobalNPC.ModifyIncomingHitEvent += ApplyEffect;
         }
 
         public override bool PreDrawInInventory(SpriteBatch spriteBatch, Vector2 position, Rectangle frame, Color drawColor, Color itemColor, Vector2 origin, float scale)
         {
             Texture2D tex = GetTextureByStage();
             spriteBatch.Draw(tex, position, null, drawColor, 0f, origin, scale, SpriteEffects.None, 0f);
+            CoolDown -= CoolDown <= 0 ? 0 : 1;
+
             return false;
         }
 
@@ -64,7 +74,15 @@
                 Item.width = 68;
                 Item.height = 32;
             }
+            else
+            {
+                Item.width = 60;
+                Item.height = 24;
+                Item.damage = 8;
+            }
         }
+
+
         public new string LocalizationCategory => "DeveloperItems.Glock17";
         public override void SetDefaults()
         {
@@ -80,87 +98,41 @@
             Item.rare = ItemRarityID.Green;
             Item.UseSound = SoundID.Item41;
             Item.autoReuse = true;
-            Item.shoot = ProjectileID.BulletHighVelocity;
             Item.shootSpeed = 13f;
             Item.useAmmo = AmmoID.Bullet;
-            Item.Calamity().canFirePointBlankShots = true;
+            Item.shoot = ProjectileID.Bullet;
             Item.Calamity().donorItem = true;
-            
+
         }
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            // ✅ 计算持枪角度
-            float itemRotation = player.compositeFrontArm.rotation + MathHelper.PiOver2 * player.gravDir;
-
-            // ✅ 计算基础枪口位置（基于抬手）
-            Vector2 baseGunPos = player.MountedCenter + itemRotation.ToRotationVector2() * 7f;
-
-            // ✅ 进一步偏移：模拟枪口前伸 + 稍微偏转，确保贴图枪口位置准确
-            Vector2 gunPosition = baseGunPos + velocity.RotatedBy(-0.6f * player.direction) + velocity * 1.35f;
-
-            // ✅ 计算阶段（传入弹幕）
-            float stage = NPC.downedMoonlord ? 3f : Main.hardMode ? 2f : 1f;
-
-            // ✅ 发射弹幕，传入阶段
-            Projectile.NewProjectile(source, gunPosition, velocity, ModContent.ProjectileType<Glock17Proj>(), damage, knockback, player.whoAmI, stage);
-
-            // ✅ 发射时银光粒子特效（优雅混合）
-            Vector2 baseVel = velocity.SafeNormalize(Vector2.UnitX) * 2.5f;
-            Vector2 origin = gunPosition;
-
-            for (int i = 0; i < 13; i++)
-            {
-                Dust d = Dust.NewDustPerfect(origin, DustID.Silver, baseVel.RotatedByRandom(0.2f) * Main.rand.NextFloat(0.5f, 1.2f));
-                d.scale = Main.rand.NextFloat(0.5f, 0.8f);
-                d.noGravity = true;
+            int t = ModContent.ProjectileType<Glock17Proj>();
+            if (Main.hardMode && CoolDown <= 0)
+            { 
+                type = t;
+                CoolDown = B.Weapons.Glock17.CoolDownSecond * 60;
             }
-
-            for (int i = 0; i < 2; i++)
+            if(type == t)
             {
-                Color c = Color.Lerp(Color.White, Color.Silver, Main.rand.NextFloat());
-                Vector2 vel = baseVel.RotatedByRandom(0.3f) * Main.rand.NextFloat(0.4f, 1f);
-                var spark = new CalamityMod.Particles.SparkParticle(origin, vel, false, 12, 0.5f, c);
-                CalamityMod.Particles.GeneralParticleHandler.SpawnParticle(spark);
-            }
+                // ✅ 计算持枪角度
+                float itemRotation = player.compositeFrontArm.rotation + MathHelper.PiOver2 * player.gravDir;
 
-            for (int i = 0; i < 10; i++)
-            {
-                Vector2 vel = baseVel.RotatedByRandom(0.4f) * Main.rand.NextFloat(0.6f, 1.5f);
-                var critSpark = new CalamityMod.Particles.CritSpark(origin, vel, Color.White, Color.LightGray, 0.6f, 12);
-                CalamityMod.Particles.GeneralParticleHandler.SpawnParticle(critSpark);
-            }
+                // ✅ 计算基础枪口位置（基于抬手）
+                Vector2 baseGunPos = player.MountedCenter + itemRotation.ToRotationVector2() * 7f;
 
-            return false;
+                // ✅ 进一步偏移：模拟枪口前伸 + 稍微偏转，确保贴图枪口位置准确
+                Vector2 gunPosition = baseGunPos + velocity.RotatedBy(-0.6f * player.direction) + velocity * 1.35f;
+                Projectile.NewProjectile(source, gunPosition, velocity, type, damage, knockback);
+            }
+            return type != t;
         }
-
-
-
 
         public override void UseStyle(Player player, Rectangle heldItemFrame)
         {
-            player.ChangeDir(Math.Sign((player.Calamity().mouseWorld - player.Center).X));
-            float itemRotation = player.compositeFrontArm.rotation + MathHelper.PiOver2 * player.gravDir;
-
-            Vector2 gunPosition = player.MountedCenter + itemRotation.ToRotationVector2() * 7f;
-            Vector2 gunSize = new Vector2(60, 24);
-            Vector2 originOffset = new Vector2(-16, 4);
-
-            CalamityMod.CalamityUtils.CleanHoldStyle(player, itemRotation, gunPosition, gunSize, originOffset);
-
-            base.UseStyle(player, heldItemFrame);
         }
 
         public override void UseItemFrame(Player player)
         {
-            player.ChangeDir(Math.Sign((player.Calamity().mouseWorld - player.Center).X));
-
-            float animProgress = 0.5f - player.itemTime / (float)player.itemTimeMax;
-            float rotation = (player.Center - player.Calamity().mouseWorld).ToRotation() * player.gravDir + MathHelper.PiOver2;
-
-            if (animProgress < 0.4f)
-                rotation += -0.03f * (float)Math.Pow((0.6f - animProgress) / 0.6f, 2) * player.direction;
-
-            player.SetCompositeArmFront(true, Player.CompositeArmStretchAmount.Full, rotation);
         }
 
         public override void AddRecipes()

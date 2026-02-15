@@ -23,7 +23,6 @@
             Item.useAmmo = AmmoID.Bullet;
             Item.scale = 0.9f;
             Item.Calamity().devItem = true;
-            Item.Calamity().canFirePointBlankShots = true;
 
             Item.UseSound = new SoundStyle("CalamityRangerExpansion/Content/DeveloperItems/Weapon/HD2/R36/爆裂铳开火")
             {

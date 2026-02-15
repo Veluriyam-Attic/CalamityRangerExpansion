@@ -5,7 +5,7 @@
         /// <summary>
         /// 关于虞金引焱的一些数值
         /// </summary>
-        internal class TheGoldenFire
+        internal static class TheGoldenFire
         {
             internal static readonly int[] Damage =
             {
@@ -128,6 +128,14 @@
                 DownedBossSystem.downedPrimordialWyrm,//始源妖龙
                 false
             };
+        }
+
+        internal static class Glock17
+        {
+            internal const int CoolDownSecond = 20;
+            internal const int EffectTimeSecond = 10;
+            internal const int StageThirdExtraDamage = 30000;
+            internal const float DamageMultiplier = 1.25f;
         }
     }
 }

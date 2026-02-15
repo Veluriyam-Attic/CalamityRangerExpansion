@@ -1,8 +1,9 @@
-﻿namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
+﻿using System.Timers;
+
+namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 {
     internal class Glock17Proj : ModProjectile, ILocalizedModType
     {
-
         public new string LocalizationCategory => "DeveloperItems.Glock17";
 
         public override void SetStaticDefaults()
@@ -22,7 +23,7 @@
             return true;
         }
         // 子弹行为阶段（默认1：普通模式，2：困难，3：月后）
-        public int Stage => (int)(Projectile.ai[0] == 0 ? 1 : Projectile.ai[0]);
+        public int Stage => NPC.downedMoonlord ? 3 : (Main.hardMode ? 2 : 1);
 
         public override void SetDefaults()
         {
@@ -51,34 +52,10 @@
             // 子弹在出现之后很短一段时间会变得可见
             if (Projectile.timeLeft == 296)
                 Projectile.alpha = 0;
-
-            if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
-            {
-                float spread = 10f + Stage * 2f; // 🔼 螺旋偏移范围扩大
-                float frequency = Stage * 1.0f;  // 保留：备用频率变量（可用于动态节奏）
-
-                // 数学曲线模拟“螺旋发光”感
-                if (Main.rand.NextFloat() < 0.9f) // 🔼 基本每帧都会触发
-                {
-                    double angle = Projectile.ai[1] + Main.GameUpdateCount * 0.3 * Stage;
-                    Vector2 offset = new Vector2((float)Math.Cos(angle), (float)Math.Sin(angle)) * spread;
-
-                    Vector2 particlePos = Projectile.Center + offset.RotatedBy(Projectile.velocity.ToRotation());
-
-                    Dust d = Dust.NewDustPerfect(particlePos, DustID.SilverFlame, Vector2.Zero);
-                    d.noGravity = true;
-                    d.scale = 0.9f + 0.2f * Stage; // 🔼 粒子更大更明显
-                }
-            }
         }
 
-        public override void OnSpawn(IEntitySource source)
-        {
-         
 
-        }
-
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
         {
             // 混合银光喷射特效
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
@@ -95,39 +72,22 @@
 
             // 🔥 Stage 2+：附加 Glock17EDebuff
             if (Stage >= 2)
-                target.AddBuff(ModContent.BuffType<Glock17EDebuff>(), 900); // 15s
-
-            // 🌕 Stage 3：命中后额外从目标头顶射下一发追击弹
-            if (Stage >= 3 && Main.myPlayer == Projectile.owner && target.CanBeChasedBy())
             {
-                Vector2 spawnPos = target.Center - new Vector2(0, 300f); // 头顶偏上
-                Vector2 velocity = Vector2.UnitY * 20f;
+                target.GetGlobalNPC<VeluriyamGlobalNPC>().Effects["YCRE:Glock17"] = B.Weapons.Glock17.EffectTimeSecond * 60;
 
-                int proj = Projectile.NewProjectile(
-                    Projectile.GetSource_OnHit(target),
-                    spawnPos,
-                    velocity,
-                    2422, // 你需要创建这个追击弹幕
-                    Projectile.damage,
-                    Projectile.knockBack,
-                    Projectile.owner
-                );
-
-                if (proj.WithinBounds(Main.maxProjectiles))
+                if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
                 {
-                    Main.projectile[proj].tileCollide = false; // 穿墙
-                    Main.projectile[proj].usesLocalNPCImmunity = true;
-                    Main.projectile[proj].localNPCHitCooldown = 4; // 本地判定冷却
+                    for (double i = 0; i < 2 * Math.PI; i += Math.PI / 60)
+                    {
+                        var d = Dust.NewDust(Projectile.position, 1, 1, DustID.PurificationPowder, 15 * (float)Math.Cos(i), 15 * (float)Math.Sin(i), 255, Color.Red);
+                    }
                 }
             }
-        }
-
-
-
-
-        public override void OnKill(int timeLeft)
-        {
-
+            
+            if(Stage >= 3)
+            {
+                modifiers.FinalDamage.Flat += B.Weapons.Glock17.StageThirdExtraDamage;
+            }
         }
     }
 }

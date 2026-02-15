@@ -3,7 +3,7 @@
     public class PerennialArrowFlower : ModProjectile, ILocalizedModType
     {
         public new string LocalizationCategory => "Projectile.CPreMoodLord";
-        private bool stuck = false; // 标志弹幕是否已经粘附在目标身上
+
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Type] = 1;

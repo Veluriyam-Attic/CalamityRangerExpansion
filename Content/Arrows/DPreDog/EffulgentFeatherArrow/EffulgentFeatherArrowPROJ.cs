@@ -142,7 +142,7 @@
                     rotationAngle -= MathHelper.TwoPi;
                 }
 
-                int particleCount = 1; // 每次生成 1 个粒子
+
                 float[] angles = { 0f, MathHelper.Pi }; // 粒子间隔 180 度
 
                 foreach (float initialAngle in angles)

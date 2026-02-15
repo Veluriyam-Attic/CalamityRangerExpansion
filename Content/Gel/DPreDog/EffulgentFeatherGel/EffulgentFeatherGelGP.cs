@@ -28,7 +28,7 @@
                 int sparkCount = 0;
                 foreach (Projectile proj in Main.projectile)
                 {
-                    if (proj.active && proj.type == ModContent.ProjectileType<Spark>())
+                    if (proj.active && proj.type == ModContent.ProjectileType<SparkInfernal>())
                     {
                         sparkCount++;
                         if (sparkCount >= 6)
@@ -46,7 +46,7 @@
                         projectile.GetSource_FromThis(),
                         projectile.Center,
                         velocity,
-                        ModContent.ProjectileType<Spark>(),
+                        ModContent.ProjectileType<SparkInfernal>(),
                         (int)(projectile.damage / 0.95 * 0.33f), // 伤害为原弹幕的 33%
                         projectile.knockBack,
                         projectile.owner

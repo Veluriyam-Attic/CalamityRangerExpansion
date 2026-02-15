@@ -32,7 +32,8 @@
 
                 foreach (Projectile proj in Main.projectile)
                 {
-                    if (proj.active && proj.type == ModContent.ProjectileType<BlissfulBombardierDustProjectile>())
+                    // BlissfulBombardierSplitProjectile => 极乐升天炮火箭
+                    if (proj.active && proj.type == ModContent.ProjectileType<BlissfulBombardierSplitProjectile>()) //BlissfulBombardierDustProjectile  CalamityMod.Projectiles.Typeless hjson 已经移除
                     {
                         existingDustCount++;
 
@@ -62,7 +63,7 @@
                     projectile.GetSource_FromThis(),
                     projectile.Center,
                     Vector2.Zero, // 无速度
-                    ModContent.ProjectileType<BlissfulBombardierDustProjectile>(),
+                    ModContent.ProjectileType<BlissfulBombardierSplitProjectile>(),
                     (int)(projectile.damage / 0.25 * 0.05f), // 伤害为原始的 5%
                     0f,
                     projectile.owner

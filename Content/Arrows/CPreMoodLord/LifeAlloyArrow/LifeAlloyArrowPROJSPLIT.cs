@@ -7,7 +7,7 @@
         private Color currentColor = Color.Black;
         private int rotDirection = 1;
         private float rotIntensity;
-        private bool rotPhase2 = false;
+
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 20;
@@ -82,7 +82,7 @@
             for (int b = 0; b < 2; b++)
             {
                 
-                Dust dust = Dust.NewDustPerfect(Projectile.Center, 66, new Vector2(2, 2).RotatedByRandom(100) * Main.rand.NextFloat(0.2f, 1.5f));
+                Dust dust = Dust.NewDustPerfect(Projectile.Center, DustID.RainbowTorch, new Vector2(2, 2).RotatedByRandom(100) * Main.rand.NextFloat(0.2f, 1.5f));
                 dust.noGravity = true;
                 dust.scale = Main.rand.NextFloat(0.5f, 1.1f);
                 dust.color = currentColor;
@@ -105,6 +105,6 @@
         }
         public override bool? CanDamage() => Projectile.localAI[0] < 20 ? false : null;
 
-        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers) => modifiers.SourceDamage.Flat += HyperiusBullet.SplitBulletBonusDamage;
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers) => modifiers.SourceDamage.Flat += 0f;
     }
 }

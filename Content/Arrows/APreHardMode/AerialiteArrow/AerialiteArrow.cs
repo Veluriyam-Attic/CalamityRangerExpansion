@@ -5,17 +5,17 @@
         public new string LocalizationCategory => "Arrows.APreHardMode";
         public override void SetDefaults()
         {
-            Item.damage = B.Arrows.AerialiteDamage;
+            Item.damage = B.Arrows.Aerialite.Damage;
             Item.DamageType = DamageClass.Ranged;
             Item.width = 14;
             Item.height = 32;
             Item.maxStack = 9999;
             Item.consumable = true; // 弹药是消耗品
-            Item.knockBack = B.Arrows.AerialiteKnockback;
+            Item.knockBack = B.Arrows.Aerialite.Knockback;
             Item.value = 10;
             Item.rare = ItemRarityID.Blue;
             Item.shoot = ModContent.ProjectileType<AerialiteArrowPROJ>();
-            Item.shootSpeed = B.Arrows.AerialiteShootspeed;
+            Item.shootSpeed = B.Arrows.Aerialite.Shootspeed;
             Item.ammo = AmmoID.Arrow; // 这是箭矢类型的弹药
         }
 

@@ -31,7 +31,7 @@
             Item.noMelee = true;
             Item.noUseGraphic = false;
 
-            Item.rare = ModContent.RarityType<Violet>();
+            Item.rare = ModContent.RarityType<CalamityMod.Rarities.CosmicPurple>(); //Violet 已经没了，译名紫罗兰
             Item.value = CalamityGlobalItem.RarityVioletBuyPrice;
         }
 
@@ -194,7 +194,7 @@
         public override void AddRecipes()
         {
             CreateRecipe().
-                AddIngredient<ElementalEruption>().
+                AddIngredient<ChromaticEruption>(). //ElementalEruption todo => namespace CalamityMod.Items.Weapons.Ranged [LegacyName("ElementalEruption")]
                 AddIngredient<HalleysInferno>().
                 AddIngredient<DeadSunsWind>().
                 AddIngredient<MiracleMatter>().

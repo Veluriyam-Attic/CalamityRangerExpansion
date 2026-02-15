@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11312.210
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalamityRangerExpansion", "CalamityRangerExpansion.csproj", "{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeluriyamLib", "..\VeluriyamLib\VeluriyamLib.csproj", "{33DD028F-16AE-4AB9-45EB-B6265E8FEFC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84DEE31-4A9B-428E-A955-FDA01D4CEF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DD028F-16AE-4AB9-45EB-B6265E8FEFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DD028F-16AE-4AB9-45EB-B6265E8FEFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DD028F-16AE-4AB9-45EB-B6265E8FEFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DD028F-16AE-4AB9-45EB-B6265E8FEFC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

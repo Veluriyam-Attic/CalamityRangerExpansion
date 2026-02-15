@@ -70,7 +70,7 @@
 
         private void FireOnce(Vector2 muzzleDirection)
         {
-            if (!Owner.PickAmmo(Owner.ActiveItem(), out int pickedProjType, out float shootSpeed, out int damage, out float knockback, out int ammoItemType))
+            if (!Owner.PickAmmo(Owner.HeldItem, out int pickedProjType, out float shootSpeed, out int damage, out float knockback, out int ammoItemType))
                 return;
 
             Vector2 muzzle = GunTipPosition;

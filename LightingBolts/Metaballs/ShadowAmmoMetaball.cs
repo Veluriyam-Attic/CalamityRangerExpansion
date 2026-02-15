@@ -51,7 +51,7 @@
         // 定义 Metaball 在哪一层绘制
         // `AfterProjectiles` 代表它会在所有弹幕之后绘制
         // 你可以改成 `BeforeProjectiles` 让它在弹幕之前绘制
-        public override MetaballDrawLayer DrawContext => MetaballDrawLayer.AfterProjectiles;
+        public override GeneralDrawLayer DrawLayer => GeneralDrawLayer.AfterProjectiles;
 
         // 定义 Metaball 的边缘颜色
         // `Color.Lerp(Color.Black, Color.Purple, 0.7f)` 让边缘呈现暗紫色渐变

@@ -9,9 +9,9 @@
             ProjectileID.Sets.TrailingMode[Projectile.type] = 2; // 模式2拖尾
             //Main.projFrames[Projectile.type] = 2;
         }
-        internal float WidthFunction(float completionRatio) => (1f - completionRatio) * Projectile.scale * 9f;
+        internal float WidthFunction(float completionRatio, Vector2 vexpos) => (1f - completionRatio) * Projectile.scale * 9f;
 
-        internal Color ColorFunction(float completionRatio)
+        internal Color ColorFunction(float completionRatio, Vector2 vexpos)
         {
             float hue = 0.5f + 0.5f * completionRatio * MathF.Sin(Main.GlobalTimeWrappedHourly * 5f);
             Color trailColor = Main.hslToRgb(hue, 1f, 0.8f);
@@ -24,7 +24,7 @@
             if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
             {
                 // 使用与 MeowCreature 相同的拖尾渲染逻辑
-                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(WidthFunction, ColorFunction, (_) => Projectile.Size * 0.5f), 30);
+                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(WidthFunction, ColorFunction, (_, _) => Projectile.Size * 0.5f), 30);
 
                 // 绘制弹幕本体的发光效果
                 Texture2D glow = Terraria.GameContent.TextureAssets.Projectile[Projectile.type].Value;

@@ -142,7 +142,7 @@
         // =========================
         private void FireNormal(Player player, Vector2 dir)
         {
-            if (!player.PickAmmo(player.ActiveItem(), out int projType, out float speed, out int damage, out float kb, out int ammoType))
+            if (!player.PickAmmo(player.HeldItem, out int projType, out float speed, out int damage, out float kb, out int ammoType))
                 return;
 
             Vector2 muzzle = GunTipPosition;
@@ -172,7 +172,7 @@
         // =========================
         private void FireBurst(Player player, Vector2 dir)
         {
-            if (!player.PickAmmo(player.ActiveItem(), out int projType, out float speed, out int damage, out float kb, out int ammoType))
+            if (!player.PickAmmo(player.HeldItem, out int projType, out float speed, out int damage, out float kb, out int ammoType))
                 return;
 
             Vector2 muzzle = GunTipPosition;

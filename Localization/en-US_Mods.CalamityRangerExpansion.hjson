@@ -909,6 +909,15 @@ DeveloperItems: {
 
 	TheGoldenFire: {
 		TheGoldenFire: {
+			CommonTooltip:
+				'''
+				曾记否？
+				往昔的辉煌，和那于翻天覆地的变革叱咤的身影？
+				辉煌得以延续，沉寂的土地在岁月的洗礼中，悄然焕发出新的生机
+				[c/FFDB39:而今，凤凰涅槃，重获新生……]
+
+				[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:{0}]
+				'''
 			DisplayName: Lamp of Illusion
 			Tooltip: "[Stage]"
 			TooltipS0:

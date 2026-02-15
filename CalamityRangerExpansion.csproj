@@ -278,9 +278,6 @@
 	  <Reference Include="Fargowiltas">
 	    <HintPath>lib\Fargowiltas.dll</HintPath>
 	  </Reference>
-	  <Reference Include="VeluriyamLib">
-	    <HintPath>..\..\ModReader\VeluriyamLib\VeluriyamLib.dll</HintPath>
-	  </Reference>
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Content\Accessories\" />
@@ -292,6 +289,9 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.Build.Framework" Version="17.12.6" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\VeluriyamLib\VeluriyamLib.csproj" />
 	</ItemGroup>
 
 	<!-- References -->

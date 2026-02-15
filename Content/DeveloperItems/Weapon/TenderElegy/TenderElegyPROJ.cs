@@ -86,7 +86,7 @@
                 new(
                     ImpFlameWidthFunction,
                     ImpFlameColorFunction,
-                    (_) => Projectile.Size * 0.5f,
+                    (_,_) => Projectile.Size * 0.5f,
                     shader: GameShaders.Misc["CalamityMod:HeavenlyGaleTrail"]
                 ),
                 numPoints
@@ -148,14 +148,14 @@
             }
         }
 
-        private float ImpFlameWidthFunction(float completionRatio)
+        private float ImpFlameWidthFunction(float completionRatio, Vector2 vexpos)
         {
             float baseWidth = 30f;
             float taper = MathHelper.Lerp(1f, 0.2f, completionRatio);
             return baseWidth * taper;
         }
 
-        private Color ImpFlameColorFunction(float completionRatio)
+        private Color ImpFlameColorFunction(float completionRatio, Vector2 vexpos)
         {
             float localIdentityOffset = Main.rand.NextFloat(0.1f, 0.2f);
 

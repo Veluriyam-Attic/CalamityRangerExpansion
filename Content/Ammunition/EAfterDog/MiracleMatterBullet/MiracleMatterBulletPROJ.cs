@@ -235,18 +235,18 @@
         }
 
 
-        private float PrimitiveWidthFunction(float completionRatio)
+        private float PrimitiveWidthFunction(float completionRatio, Vector2 vertexPosition)
         {
             float arrowheadCutoff = 0.36f;
             float width = 24f;
             float minHeadWidth = 0.03f;
             float maxHeadWidth = width;
             if (completionRatio <= arrowheadCutoff)
-                width = MathHelper.Lerp(minHeadWidth, maxHeadWidth, Utils.GetLerpValue(0f, arrowheadCutoff, completionRatio, true));
+                width = MathHelper.Lerp(minHeadWidth, maxHeadWidth, Utils.GetLerpValue(from: 0f, arrowheadCutoff, completionRatio, true));
             return width;
         }
 
-        private Color PrimitiveColorFunction(float completionRatio)
+        private Color PrimitiveColorFunction(float completionRatio, Vector2 vertexPosition)
         {
             float endFadeRatio = 0.41f;
             float completionRatioFactor = 2.7f;
@@ -270,7 +270,7 @@
                 Vector2 overallOffset = Projectile.Size * 0.5f;
                 overallOffset += Projectile.velocity * 1.4f;
                 int numPoints = 46;
-                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_) => overallOffset, shader: GameShaders.Misc["CalamityMod:TrailStreak"]), numPoints);
+                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_, _) => overallOffset, shader: GameShaders.Misc["CalamityMod:TrailStreak"]), numPoints);
                 return false;
             }
             return false;

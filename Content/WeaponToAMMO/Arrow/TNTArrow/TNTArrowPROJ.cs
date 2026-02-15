@@ -30,7 +30,6 @@
             Projectile.penetrate = 6;
             Projectile.timeLeft = 180;
             Projectile.aiStyle = ProjAIStyleID.Arrow;
-            Projectile.Calamity().pointBlankShotDuration = CalamityGlobalProjectile.DefaultPointBlankDuration;
         }
         private bool hasHitEnemy = false; // 标记是否击中过敌人
         public override void AI()

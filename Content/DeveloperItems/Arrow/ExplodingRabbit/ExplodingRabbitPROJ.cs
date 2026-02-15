@@ -36,22 +36,10 @@
             // 默认状态
             Projectile.localNPCHitCooldown = 15;
             Projectile.penetrate = 2;
-
-            #region 旧代码
-
-            //// 根据模式动态调整
-            //if (Main.getGoodWorld)
-            //{
-            //    Projectile.localNPCHitCooldown = 1;
-            //    Projectile.penetrate = -1; // 无限穿透
-            //}
-
-            #endregion
-
             Projectile.aiStyle = ProjAIStyleID.Arrow; // 让弹幕受到重力影响
             Projectile.arrow = true;
         }
-        private int goodWorldTimer = 0; // 新增计时器变量
+
 
         public override void AI()
         {

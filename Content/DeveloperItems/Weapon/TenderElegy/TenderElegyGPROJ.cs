@@ -100,13 +100,13 @@
                 return;
             }
         }
-        private float ImpFlameWidthFunction(float completionRatio)
+        private float ImpFlameWidthFunction(float completionRatio, Vector2 vexpos)
         {
             float baseWidth = 30f; // **稍微加宽拖尾**
             float taper = MathHelper.Lerp(1f, 0.2f, completionRatio); // **让拖尾逐渐变细**
             return baseWidth * taper;
         }
-        private Color ImpFlameColorFunction(float completionRatio)
+        private Color ImpFlameColorFunction(float completionRatio, Vector2 vexpos)
         {
             float localIdentityOffset = Main.rand.NextFloat(0.1f, 0.2f); // **每个弹幕稍微不同**
 
@@ -160,7 +160,7 @@
                     new(
                         ImpFlameWidthFunction,
                         ImpFlameColorFunction,
-                        (_) => projectile.Size * 0.5f + new Vector2(0, 0), // 后面的值是左右偏移，前面的是前后
+                        (_,_) => projectile.Size * 0.5f + new Vector2(0, 0), // 后面的值是左右偏移，前面的是前后
                         shader: GameShaders.Misc["CalamityMod:HeavenlyGaleTrail"]
                     ),
                     numPoints

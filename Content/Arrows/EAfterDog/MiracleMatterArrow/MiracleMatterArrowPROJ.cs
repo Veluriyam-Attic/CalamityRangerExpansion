@@ -178,7 +178,7 @@
                 GameShaders.Misc["CalamityMod:HeavenlyGaleTrail"].Apply();
 
                 // 渲染尾迹，通过存储的弹幕位置数据渲染弹幕移动的尾巴
-                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_) => Projectile.Size * 0.5f, shader: GameShaders.Misc["CalamityMod:HeavenlyGaleTrail"]), 53);
+                PrimitiveRenderer.RenderTrail(Projectile.oldPos, new(PrimitiveWidthFunction, PrimitiveColorFunction, (_, _) => Projectile.Size * 0.5f, shader: GameShaders.Misc["CalamityMod:HeavenlyGaleTrail"]), 53);
 
                 // 渲染实际的投射物本体
                 Main.spriteBatch.Draw(texture, drawPosition, null, Projectile.GetAlpha(lightColor), rotation, origin, Projectile.scale, direction, 0f);
@@ -195,9 +195,9 @@
         }
 
 
-        public float PrimitiveWidthFunction(float completionRatio) => Projectile.scale * 30f;
+        public float PrimitiveWidthFunction(float completionRatio, Vector2 vexpos) => Projectile.scale * 30f;
 
-        public Color PrimitiveColorFunction(float _) => Color.Lime * Projectile.Opacity;
+        public Color PrimitiveColorFunction(float _, Vector2 vexpos) => Color.Lime * Projectile.Opacity; // 在方法传入参数中 _ 并不是丢弃，而是一个合法的参数名称
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {

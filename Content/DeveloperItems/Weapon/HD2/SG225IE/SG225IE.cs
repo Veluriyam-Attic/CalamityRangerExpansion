@@ -22,7 +22,6 @@
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.UseSound = new SoundStyle("CalamityMod/Sounds/Item/DudFire") with { Volume = 0.5f, Pitch = -0.6f };
             Item.Calamity().devItem = true;
-            Item.Calamity().canFirePointBlankShots = true;
 
         }
 
