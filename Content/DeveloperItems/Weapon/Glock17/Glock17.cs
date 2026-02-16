@@ -15,7 +15,9 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 
         private void ApplyEffect(Dictionary<string, int> effects, NPC npc, ref NPC.HitModifiers modifiers)
         {
-            if (effects["YCRE:Glock17"] > 0)
+            int x = 0;
+            effects.TryGetValue("YCRE:Glock17", out x);
+            if ( x > 0)
             {
                 modifiers.FinalDamage *= 1.25f;
             }

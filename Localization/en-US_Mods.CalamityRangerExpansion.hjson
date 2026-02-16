@@ -1406,8 +1406,11 @@ DeveloperItems: {
 		Glock17: {
 			Tooltip:
 				'''
-				After you defeated WoF,increase weapon damage and decrease target defense on hit
-				After you defeated ML,increase weapon damage again and can fire extra projectile
+				After you defeated the WoF,the damage will be increased and can fire extra projectile per {0} second
+				This Projectile can make the enemy take {1}x damage for {2} second
+				After you defeated The ML,the extra projectile's damage will increase {3}
+				"Beyond 7 steps, the gun is fast."
+				"Within 7 steps, it's fast and accurate."
 				'''
 			DisplayName: Miss Veluriyam's Glock17
 		}
