@@ -280,7 +280,6 @@
 	  </Reference>
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Content\Accessories\" />
 	  <Folder Include="Content\Arrows\CPreMoodLord\AstralArrow\废案\" />
 	  <Folder Include="Content\Arrows\EAfterDog\AuricArrow\废弃\" />
 	  <Folder Include="Content\DeveloperItems\Gel\新文件夹\" />
