@@ -73,7 +73,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
             // 🔥 Stage 2+：附加 Glock17EDebuff
             if (Stage >= 2)
             {
-                target.GetGlobalNPC<VeluriyamGlobalNPC>().Effects["YCRE:Glock17"] = B.Weapons.Glock17.EffectTimeSecond * 60;
+                VeluriyamGlobalNPCMethod.SafeAddEffectTime(ref target.GetGlobalNPC<VeluriyamGlobalNPC>().Effects,"YCRE:Glock17", B.Weapons.Glock17.EffectTimeSecond * 60);
 
                 if (ModContent.GetInstance<CREsConfigs>().EnableSpecialEffects)
                 {

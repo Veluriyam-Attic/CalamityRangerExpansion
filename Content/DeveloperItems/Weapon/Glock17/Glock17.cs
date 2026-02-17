@@ -13,14 +13,10 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
 
         public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs([B.Weapons.Glock17.CoolDownSecond, B.Weapons.Glock17.DamageMultiplier, B.Weapons.Glock17.EffectTimeSecond, B.Weapons.Glock17.StageThirdExtraDamage]);
 
-        private void ApplyEffect(Dictionary<string, int> effects, NPC npc, ref NPC.HitModifiers modifiers)
+        private void ApplyEffect(ref Dictionary<string, int> effects, NPC npc, ref NPC.HitModifiers modifiers)
         {
-            int x = 0;
-            effects.TryGetValue("YCRE:Glock17", out x);
-            if ( x > 0)
-            {
+            if (VeluriyamGlobalNPCMethod.SafeCanEnableEffect(ref effects, "YCRE:Glock17"))
                 modifiers.FinalDamage *= 1.25f;
-            }
         }
 
 
@@ -32,7 +28,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
                 TextureB = ModContent.Request<Texture2D>("CalamityRangerExpansion/Content/DeveloperItems/Weapon/Glock17/Glock17b").Value;
                 TextureC = ModContent.Request<Texture2D>("CalamityRangerExpansion/Content/DeveloperItems/Weapon/Glock17/Glock17c").Value;
             }
-            VeluriyamGlobalNPC.Signed.Add("YCRE:Glock17", 0);
+            VeluriyamGlobalNPCMethod.SafeSignEffectKey(ref VeluriyamGlobalNPC.Signed, "YCRE:Glock17");
             VeluriyamGlobalNPC.ModifyIncomingHitEvent += ApplyEffect;
         }
 
@@ -41,7 +37,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
             Texture2D tex = GetTextureByStage();
             spriteBatch.Draw(tex, position, null, drawColor, 0f, origin, scale, SpriteEffects.None, 0f);
             CoolDown -= CoolDown <= 0 ? 0 : 1;
-
             return false;
         }
 
@@ -127,14 +122,6 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.Glock17
                 Projectile.NewProjectile(source, gunPosition, velocity, type, damage, knockback);
             }
             return type != t;
-        }
-
-        public override void UseStyle(Player player, Rectangle heldItemFrame)
-        {
-        }
-
-        public override void UseItemFrame(Player player)
-        {
         }
 
         public override void AddRecipes()

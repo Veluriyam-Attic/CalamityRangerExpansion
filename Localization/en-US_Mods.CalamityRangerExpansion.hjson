@@ -1555,6 +1555,15 @@ Items: {
 			when you hit ememy will inflect Dragon Fire debuff
 			'''
 	}
+
+	CthulhusPupil: {
+		DisplayName: Cthulhu's Pupil
+		Tooltip:
+			'''
+			Increase 4% Range damage
+			reduce 25% ammo cost
+			'''
+	}
 }
 
 Weapons: {

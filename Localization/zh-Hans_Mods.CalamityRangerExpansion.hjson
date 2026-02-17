@@ -1555,6 +1555,15 @@ Items: {
 			命中时施加龙焰减益
 			'''
 	}
+
+	CthulhusPupil: {
+		DisplayName: 克苏鲁的眼瞳
+		Tooltip:
+			'''
+			提高4%远程伤害
+			减少25%弹药消耗
+			'''
+	}
 }
 
 Weapons: {
