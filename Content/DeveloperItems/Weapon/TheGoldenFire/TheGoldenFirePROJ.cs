@@ -37,12 +37,11 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.TheGoldenFire
             //    Projectile.usesLocalNPCImmunity = true;
             //    Projectile.localNPCHitCooldown = 8;
             //}
-
         }
 
         public override void OnSpawn(IEntitySource source)
         {
-            Projectile.damage /= 10;
+            //Projectile.damage /= 10;
         }
 
         public override void AI()
