@@ -28,28 +28,3 @@ QQ群:909428503
 主要开发者: 剃刀刃台风  虞悖  至尊永冻
 贡献者: zjm  蓝幽  Tailccc  梯子  Q群管家
 以及众多平衡测试员
-
-————————————————————————————————
-English Version
-
-[h1]Welcome play YuBell's Calamity Ranger Expansion[Stable](虞悖的灾厄射手拓展[稳定版])！[/h1]
-
-[h1]Mod Description[/h1]
-
-Thie Mod is base on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072&searchtext=Calamity+Mod]Calamity Mod[/url]'s Ranger class，Add a lot new ammo
-Changed some items from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072&searchtext=Calamity+Mod]Calamity Mod[/url] or Terraria
-
-[h1]About Mod[/h1]
-Untested balance
-
-[h1]FeedBack[/h1]
-Discord Link:https://discord.gg/H9n4PgFGhb
-QQ Group:909428503
-Online document:[url=https://docs.qq.com/doc/DUGxUTHJuc2JBb0Zz] Click [/url]
-Feedback Email:3412615165@qq.com
-Source Code:[url=https://github.com/Veluriyam-Attic/CalamityRangerExpansion] Click [/url]
-
-[h1]Thanks[/h1]
-Main Dev: 剃刀刃台风  虞悖  至尊永冻
-Contributor: zjm  蓝幽  Tailccc  梯子  Q群管家[quote=tModLoader CalamityRangerExpansion]
-Developed By 虞悖&至尊永冻&剃刀刃台风[/quote]
