@@ -35,7 +35,6 @@ global using CalamityMod.Projectiles.BaseProjectiles;
 global using CalamityMod.Projectiles.DraedonsArsenal;
 global using CalamityMod.Tiles.FurnitureStatigel;
 global using CalamityMod.Projectiles.Pets;
-global using CalamityMod.Enums;
 global using CalamityMod.Utilities.Daybreak.Buffers;
 global using CalamityMod.Enums;
 global using CalamityMod.Utilities.Daybreak.Buffers;

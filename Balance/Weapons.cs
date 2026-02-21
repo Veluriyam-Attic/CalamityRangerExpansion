@@ -98,36 +98,8 @@
                 1,
                 1,
             };
+            // 不能标记为readonly
 
-            internal static readonly bool[] DownNum =
-            {
-                NPC.downedBoss1,//克眼
-                NPC.downedBoss2,//世吞/克脑
-                    DownedBossSystem.downedHiveMind || //腐巢
-                    DownedBossSystem.downedPerforator,//宿主
-                NPC.downedBoss3,//骷髅王
-                DownedBossSystem.downedSlimeGod,//史神
-                Main.hardMode,//肉山
-                    NPC.downedMechBoss1 && //机械三王
-                    NPC.downedMechBoss2 &&
-                    NPC.downedMechBoss3,
-                DownedBossSystem.downedCalamitasClone,//灾影
-                NPC.downedPlantBoss,//世花
-                NPC.downedGolemBoss,//石巨人
-                NPC.downedAncientCultist,//拜月教
-                NPC.downedMoonlord,//月总
-                DownedBossSystem.downedProvidence,//亵渎天神
-                    DownedBossSystem.downedSignus && //西格纳斯
-                    DownedBossSystem.downedStormWeaver && //风编
-                    DownedBossSystem.downedCeaselessVoid,//无尽虚空
-                DownedBossSystem.downedPolterghast,//幽花
-                DownedBossSystem.downedDoG,//神吞
-                DownedBossSystem.downedYharon,//犽戎
-                    DownedBossSystem.downedExoMechs && //星流
-                    DownedBossSystem.downedCalamitas,//女巫
-                DownedBossSystem.downedPrimordialWyrm,//始源妖龙
-                false
-            };
         }
 
         internal static class Glock17

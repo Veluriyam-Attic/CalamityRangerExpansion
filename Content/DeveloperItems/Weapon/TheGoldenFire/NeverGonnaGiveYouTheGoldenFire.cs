@@ -20,6 +20,7 @@
                 itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<TheGoldenFire>(), 1));
                 itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<TheLetter>(), 1));
                 itemLoot.Add(ItemDropRule.Common(ItemID.Gel, 1,9999,9999));
+                itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<Glock17.Glock17>(), 1));
             }
         }
 

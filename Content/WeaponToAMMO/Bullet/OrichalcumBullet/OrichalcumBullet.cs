@@ -23,7 +23,7 @@
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe(1);
-            recipe.AddIngredient<OrichalcumSpikedGemstone>(3996);
+            recipe.AddIngredient<OrichalcumSpikedGemstone>(1);
             recipe.AddCondition(Condition.NearShimmer);
             //recipe.AddTile(TileID.Anvils);
             recipe.Register();

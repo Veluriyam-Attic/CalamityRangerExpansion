@@ -3,6 +3,8 @@
     public class TestDASH : ModItem
     {
 
+        public override bool IsLoadingEnabled(Mod mod) => false;
+
         public override void SetDefaults()
         {
             Item.width = 28;

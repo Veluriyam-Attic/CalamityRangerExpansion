@@ -16,7 +16,9 @@ namespace CalamityRangerExpansion.Content.Accessories
             Recipe recipe = CreateRecipe(1)
             .AddIngredient<AuricBar>(5)
             .AddIngredient<YharonSoulFragment>(3)
-            .AddIngredient<ReaperToothNecklace>(1);
+            .AddIngredient<ReaperToothNecklace>(1)
+            .AddTile<DraedonsForge>()
+            .Register();
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)

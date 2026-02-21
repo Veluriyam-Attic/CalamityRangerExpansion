@@ -3,10 +3,10 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 
     public class YuDash : PlayerDashEffect
     {
-        public static new string cooldownID => "YuDash";
+        public static string cooldownID => "YuDash";
         public static int cooldown = 30;
 
-        public static new string ID => "Test Dash";
+        public static new string ID { get; private set; }
 
         public override DashCollisionType CollisionType => DashCollisionType.NoCollision;
 
@@ -14,14 +14,17 @@ namespace CalamityRangerExpansion.Content.Ammunition.DPreDog.PolterplasmBullet
 
         public override float CalculateDashSpeed(Player player) => 40f;
 
+        public int Time = 0;
 
-        public int Time;
+        public override void Load()
+        {
+            ID = DashID;
+        }
 
         public override void OnDashEffects(Player player)
         {
             player.immuneTime = 30;
             Time = 0;
-            //player.AddCooldown(cooldownID, CalamityUtils.SecondsToFrames(cooldown));
         }
 
         public override void MidDashEffects(Player player, ref float dashSpeed, ref float dashSpeedDecelerationFactor, ref float runSpeedDecelerationFactor)

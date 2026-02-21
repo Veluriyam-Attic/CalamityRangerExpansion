@@ -30,8 +30,41 @@
 
         private int currentStage = 0; // 当前阶段
 
+        
+
+
         public override void ModifyWeaponDamage(Player player, ref StatModifier damage)
         {
+            bool[] DownNum =
+            {
+                NPC.downedBoss1,//克眼
+                NPC.downedBoss2,//世吞/克脑
+                    DownedBossSystem.downedHiveMind || //腐巢
+                    DownedBossSystem.downedPerforator,//宿主
+                NPC.downedBoss3,//骷髅王
+                DownedBossSystem.downedSlimeGod,//史神
+                Main.hardMode,//肉山
+                    NPC.downedMechBoss1 && //机械三王
+                    NPC.downedMechBoss2 &&
+                    NPC.downedMechBoss3,
+                DownedBossSystem.downedCalamitasClone,//灾影
+                NPC.downedPlantBoss,//世花
+                NPC.downedGolemBoss,//石巨人
+                NPC.downedAncientCultist,//拜月教
+                NPC.downedMoonlord,//月总
+                DownedBossSystem.downedProvidence,//亵渎天神
+                    DownedBossSystem.downedSignus && //西格纳斯
+                    DownedBossSystem.downedStormWeaver && //风编
+                    DownedBossSystem.downedCeaselessVoid,//无尽虚空
+                DownedBossSystem.downedPolterghast,//幽花
+                DownedBossSystem.downedDoG,//神吞
+                DownedBossSystem.downedYharon,//犽戎
+                    DownedBossSystem.downedExoMechs && //星流
+                    DownedBossSystem.downedCalamitas,//女巫
+                DownedBossSystem.downedPrimordialWyrm,//始源妖龙
+                false
+            };
+
             // 初始化面板基础值
             int baseDamage = 8;
             float baseShootSpeed = 3.5f;
@@ -50,7 +83,7 @@
 
             for (int i = 0; i <= 19; i++)
             {
-                if (B.Weapons.TheGoldenFire.DownNum[i])
+                if (DownNum[i])
                 {
                     finalDamage = B.Weapons.TheGoldenFire.Damage[i];
                     finalShootSpeed = B.Weapons.TheGoldenFire.ShootSpeed[i];
@@ -92,7 +125,7 @@
 
         public override void HoldItem(Player player) => player.Calamity().mouseRotationListener = true;
 
-        public static  Dictionary<int, Color> GelColors = new Dictionary<int, Color>
+        public static Dictionary<int, Color> GelColors = new Dictionary<int, Color>
         {
             { ItemID.Gel, Color.Gold }, // 原版凝胶
             { ModContent.ItemType<AerialiteGel>(), Color.LightSkyBlue }, // 模组中的天蓝色凝胶
