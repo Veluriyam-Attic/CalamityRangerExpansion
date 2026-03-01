@@ -57,7 +57,7 @@
             Projectile.spriteDirection = faceDir;
 
             Projectile.rotation = dir.ToRotation();
-            Projectile.Center = player.MountedCenter + dir * 72f;
+            Projectile.Center = player.MountedCenter + dir * 52f;
 
             player.SetCompositeArmFront(true, Player.CompositeArmStretchAmount.Full, Projectile.rotation - MathHelper.PiOver2);
 
@@ -154,7 +154,7 @@
             Projectile.NewProjectile(
                 Projectile.GetSource_FromThis(),
                 spawnPos,
-                dir * speed * 2.2f,
+                dir * speed * 44.2f,
                 projType,
                 damage,
                 kb,
@@ -270,9 +270,9 @@
             }
 
             // =========================
-            // 30 发散射
+            // 40 发散射
             // =========================
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 40; i++)
             {
                 float spread = MathHelper.ToRadians(Main.rand.NextFloat(-5f, 5f));
                 Vector2 shootDir = dir.RotatedBy(spread);
@@ -285,7 +285,7 @@
                 Projectile.NewProjectile(
                     Projectile.GetSource_FromThis(),
                     spawnPos,
-                    shootDir * speed * 2.2f,
+                    shootDir * speed * 4.2f,
                     finalProj,
                     (int)(damage * 1.2f),
                     kb,

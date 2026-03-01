@@ -1395,15 +1395,15 @@ DeveloperItems: {
 				'''
 		}
 
-		R36Proj.DisplayName: R36 Proj
+		R36Proj.DisplayName: R36 爆裂弹
 	}
 
 	SG225IE: {
-		SG225IEProj.DisplayName: S G225 I E Proj
+		SG225IEProj.DisplayName: SG225IE 燃烧弹
 
 		SG225IEEDebuff: {
-			// DisplayName: S G225 I E E Debuff
-			// Description: Mods.CalamityRangerExpansion.DeveloperItems.SG225IE.SG225IEEDebuff.Description
+			DisplayName: 高燃
+			Description: 随着时间的推移增强热效应
 		}
 
 		SG225IE: {
@@ -1424,8 +1424,8 @@ DeveloperItems: {
 
 	LAS17: {
 		LAS17PDebuff: {
-			// DisplayName: L A S17 P Debuff
-			// Description: Mods.CalamityRangerExpansion.DeveloperItems.LAS17.LAS17PDebuff.Description
+			DisplayName: LAS17 燃烧效果
+			Description: 凡事都有两面性
 		}
 
 		LAS17: {
@@ -1444,7 +1444,7 @@ DeveloperItems: {
 				'''
 		}
 
-		// LAS17Proj.DisplayName: L A S17 Proj
+		LAS17Proj.DisplayName: LAS17 能量激光
 	}
 
 	VG70: {
@@ -1455,7 +1455,7 @@ DeveloperItems: {
 				[c/FFB347:“清除那些不稳定的变量”]
 				[c/808080:超级地球批准的多枪管投票火力平台]
 				[c/AAAAAA:七根枪管既定顺序依次发射，确保每一发子弹都拥有发言权]
-				[c/FF3C3C:按下右键让所有枪管同时快速投票两轮，瞬间打出14发高能弹药]
+				[c/FF3C3C:按下右键让所有枪管同时快速投票两轮，瞬间打出80发高能弹药]
 				[c/DD5555:该过程将产生显著后坐力，并暂时中止进一步民主讨论]
 				[c/808080:冷却期间武器将保持在手中，供使用者反思刚才的决定]
 				[c/00BFFF:非常适合在长时间争论后突然达成高度一致的场合]
@@ -1535,16 +1535,6 @@ Items: {
 			这是个很敏感的Mod，希望大家能多给一些宽恕
 			'''
 		DisplayName: 虞悖的信
-	}
-
-	R36: {
-		DisplayName: R36
-		Tooltip: ""
-	}
-
-	SG225IE: {
-		DisplayName: S G225 I E
-		Tooltip: ""
 	}
 
 	DragonFangs: {

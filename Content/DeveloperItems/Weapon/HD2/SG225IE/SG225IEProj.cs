@@ -167,16 +167,40 @@
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
         {
             // ✂️ 每次命中目标后永久降低当前弹幕的伤害乘数
-            Projectile.damage = (int)(Projectile.damage * 0.3f);
+            int newDamage = (int)(Projectile.damage * 0.7f);
+
+            // 最低锁定为 5
+            if (newDamage < 5)
+                newDamage = 5;
+
+            Projectile.damage = newDamage;
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            // 施加 / 刷新专属灼烧
-            target.AddBuff(ModContent.BuffType<SG225IEEDebuff>(), 240);
 
-            // 叠层（实时影响每帧掉血速度）
-            SG225IEEGlobalNPC g = target.GetGlobalNPC<SG225IEEGlobalNPC>();
-            g.ApplyStack(240);
+            target.AddBuff(BuffID.OnFire3, 300);
+            target.AddBuff(BuffID.OnFire, 300);
+            //target.AddBuff(BuffID.Daybreak, 300);
+
+            target.AddBuff(ModContent.BuffType<SG225IEEDebuff>(), 240);
+            SG225IEEDebuff.AddStack(target);
+
+
+            //if (Main.netMode != NetmodeID.MultiplayerClient)
+            //{
+            //    target.AddBuff(ModContent.BuffType<SG225IEEDebuff>(), 240);
+
+            //    SG225IEEGlobalNPC g = target.GetGlobalNPC<SG225IEEGlobalNPC>();
+            //    g.ApplyStack(240);
+
+            //    target.netUpdate = true;
+            //}
+
+
+
+
+
+
 
             // 命中瞬间的“喷射 + 火花”冲击感
             // 火花：少量尖刺型点缀
@@ -199,51 +223,51 @@
 
         public override void OnKill(int timeLeft)
         {
-            // 🔥火焰尘埃四散
-            for (int i = 0; i < 12; i++)
+            Vector2 forward = Projectile.velocity.SafeNormalize(Vector2.UnitX);
+
+            // 🔥 数学有序前向扇形释放
+            int count = 16; // 粒子数量
+            float spread = MathHelper.Pi / 3f; // 60° 扇形范围
+
+            for (int i = 0; i < count; i++)
             {
-                Dust.NewDust(
+                // 等角度分布（有秩序）
+                float t = i / (float)(count - 1);
+                float angle = MathHelper.Lerp(-spread / 2f, spread / 2f, t);
+
+                // 轻微半径递增（形成弧线层次）
+                float speed = 2.5f + 2.5f * t;
+
+                Vector2 velocity = forward.RotatedBy(angle) * speed;
+
+                // 颜色沿用飞行阶段橙红科技色
+                Color squareColor = Color.Lerp(Color.OrangeRed, Color.Cyan, 0.18f) * 1.3f;
+
+                SquareParticle squareParticle = new SquareParticle(
                     Projectile.Center,
-                    10, 10,
+                    velocity,
+                    false,
+                    40,
+                    1.6f,
+                    squareColor
+                );
+
+                GeneralParticleHandler.SpawnParticle(squareParticle);
+            }
+
+            // 🔥 少量火焰 Dust 点缀
+            for (int i = 0; i < 8; i++)
+            {
+                Dust d = Dust.NewDustPerfect(
+                    Projectile.Center,
                     DustID.Torch,
-                    Main.rand.NextFloat(-2.4f, 2.4f),
-                    Main.rand.NextFloat(-2.4f, 2.4f));
-            }
-
-            // 🌫️外圈大烟雾（大而稀疏）
-            for (int i = 0; i < 5; i++)
-            {
-                Vector2 offset = Main.rand.NextVector2CircularEdge(12f, 12f);
-                Particle outerSmoke = new HeavySmokeParticle(
-                    Projectile.Center + offset,
-                    offset * 0.08f,
-                    Color.WhiteSmoke,
-                    20,
-                    Main.rand.NextFloat(1.2f, 1.8f),
-                    0.3f,
-                    Main.rand.NextFloat(-1f, 1f),
-                    false
+                    forward.RotatedBy(Main.rand.NextFloat(-0.6f, 0.6f)) * Main.rand.NextFloat(1.5f, 3.5f),
+                    120,
+                    Color.OrangeRed,
+                    1.2f
                 );
-                GeneralParticleHandler.SpawnParticle(outerSmoke);
+                d.noGravity = true;
             }
-
-            // 🌫️内圈小烟雾（紧贴弹幕中心）
-            for (int i = 0; i < 4; i++)
-            {
-                Vector2 offset = Main.rand.NextVector2Circular(5f, 5f);
-                Particle innerSmoke = new HeavySmokeParticle(
-                    Projectile.Center + offset,
-                    offset * 0.05f,
-                    Color.WhiteSmoke,
-                    18,
-                    Main.rand.NextFloat(0.9f, 1.3f),
-                    0.35f,
-                    Main.rand.NextFloat(-1f, 1f),
-                    false
-                );
-                GeneralParticleHandler.SpawnParticle(innerSmoke);
-            }
-
         }
 
 

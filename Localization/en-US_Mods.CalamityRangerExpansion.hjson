@@ -1418,55 +1418,85 @@ DeveloperItems: {
 
 	R36: {
 		R36: {
-			DisplayName: R36-Eruptor
+			DisplayName: R36 – Eruptor
 			Tooltip:
 				'''
-				"Peace is just one shot away."
-				A Super Earth-certified urban security device of exceptional class.
-				Capable of efficiently neutralizing all hostile threats.
-				[c/FF3C3C:Including uncooperative town residents.]
-				[c/FFA500:Fires a burst grenade consuming 2 rounds, dispersing a cloud of neutral shrapnel.]
-				[c/808080:Friendly fire? That’s just insufficient training. You’re welcome to revisit ZEGEMA PARADISE for an elite Helldiver refresher.]
-				[c/00BFFF:Ideal for spreading managed democracy.]
-				[c/DDCC88:Killing 10 enemies with this weapon automatically enlists you into the Helldivers.]
+				[c/FFB347:"Peace is only one bullet away."]
+				[c/808080:A Super Earth–approved premium urban security solution.]
+				[c/FF3C3C:Effectively neutralizes all hostile entities, including uncooperative civilian participants.]
+				[c/FFA500:Consumes two rounds to deploy an explosive payload that disperses a generous quantity of neutral fragments.]
+				[c/808080:Collateral impact? That indicates insufficient training. Please return to Zegma Paradise to re-experience the finest Helldiver instruction.]
+				[c/00BFFF:Highly suitable for distributing managed democracy.]
+				[c/DDCC88:Eliminate 10 hostile targets with this device to be automatically recognized as a Helldiver.]
 				'''
 		}
 
-		R36Proj.DisplayName: R36 Proj
+		R36Proj.DisplayName: R36 Burst Round
 	}
 
 	SG225IE: {
-		SG225IEProj.DisplayName: S G225 I E Proj
+		SG225IEProj.DisplayName: SG225IE Incendiary Round
 
 		SG225IEEDebuff: {
-			DisplayName: S G225 I E E Debuff
-			Description: Mods.CalamityRangerExpansion.DeveloperItems.SG225IE.SG225IEEDebuff.Description
+			DisplayName: High Combustion
+			Description: Repeated impacts intensify thermal persuasion over time.
 		}
 
 		SG225IE: {
-			DisplayName: S G225 I E
-			Tooltip: ""
+			DisplayName: SG225IE – Breaker Incendiary
+			Tooltip:
+				'''
+				[c/FFB347:"Deliver sustained enthusiasm in the name of Democracy."]
+				[c/808080:A Super Earth–certified low-maintenance incendiary dispersion device.]
+				[c/FFA500:Scatters multiple incendiary projectiles with unlimited penetration capability.]
+				[c/AAAAAA:Direct damage has been optimized for prolonged operational engagement.]
+				[c/FF6A00:The more times the same target is struck, the more persuasive the burning becomes — until voluntary compliance is achieved.]
+				[c/FF3C3C:Particularly convincing against dense enemy formations — including similarly dense friendly formations.]
+				[c/00BFFF:Highly suitable for long-term administrative democracy deployment on the battlefield.]
+				[c/808080:If the target is still moving, continue delivering enthusiasm. If you cannot distinguish friend from foe, continue delivering enthusiasm.]
+				'''
 		}
 	}
 
 	LAS17: {
 		LAS17PDebuff: {
-			DisplayName: L A S17 P Debuff
-			Description: Mods.CalamityRangerExpansion.DeveloperItems.LAS17.LAS17PDebuff.Description
+			DisplayName: LAS17 Thermal Overload
+			Description: Every advantage carries a cost.
 		}
 
 		LAS17: {
-			DisplayName: L A S17
-			Tooltip: ""
+			DisplayName: LAS17 – Double-Edge Sickle
+			Tooltip:
+				'''
+				[c/FFB347:"Thermodynamics has always been part of the solution."]
+				[c/808080:A Super Earth–approved high-performance energy cutting platform.]
+				[c/AAAAAA:This model has removed all cooling systems to eliminate unnecessary performance compromises.]
+				[c/FFA500:Sustained operation progressively increases heat levels, each tier significantly enhancing damage and penetration.]
+				[c/FF8C00:At Heat Level III, operators may experience reduced operational efficiency.]
+				[c/FF3C3C:At Heat Level IV, operators will be reclassified as acceptable heat sources.]
+				[c/DD2222:At Level V, thermal output is converted into maximum combat effectiveness and collateral contribution.]
+				[c/808080:All adverse reactions indicate the weapon is functioning at peak efficiency.]
+				[c/00BFFF:Ideal for Helldivers willing to keep the temperature rising for Freedom.]
+				'''
 		}
 
-		LAS17Proj.DisplayName: L A S17 Proj
+		LAS17Proj.DisplayName: LAS17 Energy Beam
 	}
 
 	VG70: {
 		VG70: {
-			DisplayName: V G70
-			Tooltip: ""
+			DisplayName: VG70 – Variable
+			Tooltip:
+				'''
+				[c/FFB347:"Eliminate unstable variables."]
+				[c/808080:A Super Earth–approved multi-barrel voting platform.]
+				[c/AAAAAA:Seven barrels fire in a predetermined sequence, ensuring every round has its say.]
+				[c/FF3C3C:Right-click to conduct two rapid rounds of unanimous voting, delivering 80 high-energy ballots instantly.]
+				[c/DD5555:This procedure generates significant recoil and temporarily suspends further democratic discourse.]
+				[c/808080:During cooldown, the weapon remains in hand for the operator to reflect on their recent decision.]
+				[c/00BFFF:Ideal for achieving overwhelming consensus after prolonged debate.]
+				[c/808080:History has repeatedly deemed such designs inefficient. We remain optimistic.]
+				'''
 		}
 
 		VG70Proj.DisplayName: V G70 Proj
@@ -1535,16 +1565,6 @@ Items: {
 			**Don't roast me too badly
 			'''
 		DisplayName: Yu Bell's Letter
-	}
-
-	R36: {
-		DisplayName: R36
-		Tooltip: ""
-	}
-
-	SG225IE: {
-		DisplayName: S G225 I E
-		Tooltip: ""
 	}
 
 	DragonFangs: {
