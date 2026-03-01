@@ -1428,6 +1428,7 @@ DeveloperItems: {
 				[c/808080:Collateral impact? That indicates insufficient training. Please return to Zegma Paradise to re-experience the finest Helldiver instruction.]
 				[c/00BFFF:Highly suitable for distributing managed democracy.]
 				[c/DDCC88:Eliminate 10 hostile targets with this device to be automatically recognized as a Helldiver.]
+				[c/EAF6FF: Sold by arms dealers at Hardmode]
 				'''
 		}
 
@@ -1454,6 +1455,7 @@ DeveloperItems: {
 				[c/FF3C3C:Particularly convincing against dense enemy formations — including similarly dense friendly formations.]
 				[c/00BFFF:Highly suitable for long-term administrative democracy deployment on the battlefield.]
 				[c/808080:If the target is still moving, continue delivering enthusiasm. If you cannot distinguish friend from foe, continue delivering enthusiasm.]
+				[c/EAF6FF: Sold by arms dealers at any time]
 				'''
 		}
 	}
@@ -1477,6 +1479,7 @@ DeveloperItems: {
 				[c/DD2222:At Level V, thermal output is converted into maximum combat effectiveness and collateral contribution.]
 				[c/808080:All adverse reactions indicate the weapon is functioning at peak efficiency.]
 				[c/00BFFF:Ideal for Helldivers willing to keep the temperature rising for Freedom.]
+				[c/EAF6FF: Sold by arms dealers at Post-plantera]
 				'''
 		}
 
@@ -1496,6 +1499,7 @@ DeveloperItems: {
 				[c/808080:During cooldown, the weapon remains in hand for the operator to reflect on their recent decision.]
 				[c/00BFFF:Ideal for achieving overwhelming consensus after prolonged debate.]
 				[c/808080:History has repeatedly deemed such designs inefficient. We remain optimistic.]
+				[c/EAF6FF: Sold by arms dealers at Post-lunatic cultist]
 				'''
 		}
 
