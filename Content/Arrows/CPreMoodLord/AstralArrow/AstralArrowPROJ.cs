@@ -4,7 +4,7 @@
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/CPreMoodLord/AstralArrow/AstralArrow";
 
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         public override void SetStaticDefaults()
         {
             // 设置拖尾长度和模式

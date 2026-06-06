@@ -3,7 +3,7 @@
     public class AuricBuletPROJ : ModProjectile, ILocalizedModType
     {
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Ammunition.EAfterDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 8;

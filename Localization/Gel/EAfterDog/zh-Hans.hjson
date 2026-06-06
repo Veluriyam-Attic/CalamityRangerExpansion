@@ -1,0 +1,51 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			EAfterDog: {
+				CosmosGel: {
+					DisplayName: 宇宙凝胶
+					Tooltip:
+						'''
+						喷射出追踪敌人的宇宙小吞噬者
+						“很明显，它会让你喷射出的火焰对某些生物来说非常美味”
+						'''
+				}
+		
+				AuricGel: {
+					DisplayName: 圣金源凝胶
+					Tooltip:
+						'''
+						每隔一小段时间从屏幕边缘打出金色闪电
+						“什么，出金了？让我看看看看看看看看”
+						'''
+				}
+		
+				MiracleMatterGel: {
+					DisplayName: 奇迹凝胶
+					Tooltip:
+						'''
+						弹幕造成的超位崩解
+						命中敌人时从天降下一道闪电
+						闪电只能存在一道
+						“一次性能提供一艘航空母舰的电量”
+						'''
+				}
+		
+				EndothermicEnergyGel: {
+					DisplayName: 霜华凝胶
+					Tooltip:
+						'''
+						对第1个敌人造成极高伤害
+						“无限接近于绝对零度”
+						'''
+				}
+
+				AuricGelLighting.DisplayName: 闪电
+				MiracleMatterGelLighting.DisplayName: 闪电
+				CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
+				CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
+				CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
+			}
+		}
+	}
+}

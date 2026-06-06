@@ -1,0 +1,57 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			BPrePlantera: {
+				ArbalestRe: {
+					DisplayName: Arbalest Re
+					Tooltip: ""
+				}
+		
+				BarinauticalRe: {
+					DisplayName: Barinautical Re
+					Tooltip: ""
+				}
+		
+				BrimstoneFuryRe: {
+					DisplayName: Brimstone Fury Re
+					Tooltip: ""
+				}
+		
+				CorrodedCaustibowRe: {
+					DisplayName: Corroded Caustibow Re
+					Tooltip: ""
+				}
+		
+				DarkechoGreatbowRe: {
+					DisplayName: Darkecho Greatbow Re
+					Tooltip: ""
+				}
+		
+				PearlwoodBowRe: {
+					DisplayName: Pearlwood Bow Re
+					Tooltip: ""
+				}
+
+				ArbalestGhostFire.DisplayName: Arbalest Ghost Fire
+				ArbalestSilverPROJ.DisplayName: Arbalest Silver P R O J
+				BarinauticalReLighting.DisplayName: Barinautical Re Lighting
+				BarinauticalRePROJ.DisplayName: Barinautical Re P R O J
+				BarinauticalReSpark.DisplayName: Barinautical Re Spark
+				BrimstoneFuryReBEAM.DisplayName: Brimstone Fury Re B E A M
+				BrimstoneFuryRePROJ.DisplayName: Brimstone Fury Re P R O J
+				CorrodedCaustFireWall.DisplayName: Corroded Caust Fire Wall
+				CorrodedCaustibowReASpark.DisplayName: Corroded Caustibow Re A Spark
+				CorrodedCaustibowReC.DisplayName: Corroded Caustibow Re C
+				CorrodedCaustibowRePROJ.DisplayName: Corroded Caustibow Re P R O J
+				DarkechoGreatbowReDarts.DisplayName: Darkecho Greatbow Re Darts
+				DarkechoGreatbowRePROJ.DisplayName: Darkecho Greatbow Re P R O J
+				DarkechoGreatbowReSlash.DisplayName: Darkecho Greatbow Re Slash
+				PearlwoodBowRePROJ.DisplayName: Pearlwood Bow Re P R O J
+				BarinauticalReDepthCharge.DisplayName: Barinautical Re Depth Charge
+				BrimstoneFuryReCinderNeedle.DisplayName: Brimstone Fury Re Cinder Needle
+				CorrodedCaustibowReAcidBloom.DisplayName: Corroded Caustibow Re Acid Bloom
+				DarkechoGreatbowReEchoShard.DisplayName: Darkecho Greatbow Re Echo Shard
+			}
+		}
+	}
+}

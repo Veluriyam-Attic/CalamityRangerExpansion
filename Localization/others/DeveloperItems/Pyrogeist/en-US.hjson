@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			Pyrogeist: {
+				Pyrogeist: {
+					DisplayName: Pyrogeist
+					Tooltip:
+						'''
+						Emits flames and ghastly wails. Chance to fire an explosive wraith.
+						“The residents of a remote and desolate world found geists to be a highly efficient fuel.”
+						'''
+				}
+		
+				PyrogeistPROJ.DisplayName: Pyrogeist
+			}
+		}
+	}
+}

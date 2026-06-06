@@ -1,0 +1,30 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			SG225IE: {
+				SG225IEProj.DisplayName: SG225IE 燃烧弹
+		
+				SG225IEEDebuff: {
+					DisplayName: 高燃
+					Description: 随着时间的推移增强热效应
+				}
+		
+				SG225IE: {
+					DisplayName: SG225IE-高燃破裂者
+					Tooltip:
+						'''
+						[c/FFB347:“为民主投送更持久的热情”]
+						[c/808080:超级地球认证的低维护燃烧散布装置]
+						[c/FFA500:散射多发火焰弹，具备无限贯穿能力]
+						[c/AAAAAA:直接伤害已被优化至更利于持续作战的水平]
+						[c/FF6A00:命中同一目标次数越多，灼烧越显著——直到其自愿停止抵抗]
+						[c/FF3C3C:对密集敌群的效果尤为“令人信服”--包括同样密集的友军编队]
+						[c/00BFFF:非常适合在战场上推广管理式民主的长期施政]
+						[c/808080:若目标仍能行动，请继续投送热情；若你无法分辨敌我，请继续投送热情]
+						[c/EAF6FF:由军火商在任意时期售卖]
+						'''
+				}
+			}
+		}
+	}
+}

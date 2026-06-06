@@ -2,7 +2,7 @@
 {
     public class EndothermicEnergyArrowPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Arrows.EAfterDog";
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/EAfterDog/EndothermicEnergyArrow/EndothermicEnergyArrow";
 
 

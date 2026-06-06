@@ -1,0 +1,25 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			BlindBirdCry: {
+				BlindBirdCry: {
+					DisplayName: Cry of the Blind Bird
+					Tooltip:
+						'''
+						Fowl flit, chitter and sway
+						And spurn solitude to cacophony.
+						I sing, I cry, in fleeting ecstasy
+						Care not be it ramble or heresy.
+						Fame, splendor, a gilded cage
+						Soul a-flight, for freedom I wage.
+						No grandest hall, nor highest rise
+						On moonlit winds I embrace mine stage.
+						'''
+				}
+		
+				BlindBirdCryCrods.DisplayName: Cry of the Blind Bird
+				BlindBirdCryINVPROJ.DisplayName: Cry of the Blind Bird
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			LAS17: {
+				LAS17PDebuff: {
+					DisplayName: LAS17 Thermal Overload
+					Description: Every advantage carries a cost.
+				}
+		
+				LAS17: {
+					DisplayName: LAS17 – Double-Edge Sickle
+					Tooltip:
+						'''
+						[c/FFB347:"Thermodynamics has always been part of the solution."]
+						[c/808080:A Super Earth–approved high-performance energy cutting platform.]
+						[c/AAAAAA:This model has removed all cooling systems to eliminate unnecessary performance compromises.]
+						[c/FFA500:Sustained operation progressively increases heat levels, each tier significantly enhancing damage and penetration.]
+						[c/FF8C00:At Heat Level III, operators may experience reduced operational efficiency.]
+						[c/FF3C3C:At Heat Level IV, operators will be reclassified as acceptable heat sources.]
+						[c/DD2222:At Level V, thermal output is converted into maximum combat effectiveness and collateral contribution.]
+						[c/808080:All adverse reactions indicate the weapon is functioning at peak efficiency.]
+						[c/00BFFF:Ideal for Helldivers willing to keep the temperature rising for Freedom.]
+						[c/EAF6FF: Sold by arms dealers at Post-plantera]
+						'''
+				}
+		
+				LAS17Proj.DisplayName: LAS17 Energy Beam
+			}
+		}
+	}
+}

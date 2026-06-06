@@ -2,7 +2,7 @@
 {
     internal class MiracleMatterGelLighting : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Gel.EAfterDog";
 
         public bool HasPlayedSound;
 

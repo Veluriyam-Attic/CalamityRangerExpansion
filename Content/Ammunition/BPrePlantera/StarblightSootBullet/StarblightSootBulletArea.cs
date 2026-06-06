@@ -2,7 +2,7 @@
 {
     public class StarblightSootBulletArea : ModProjectile
     {
-        public new string LocalizationCategory => "Projectile.BPrePlantera";
+        public new string LocalizationCategory => "Ammunition.BPrePlantera";
 
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 

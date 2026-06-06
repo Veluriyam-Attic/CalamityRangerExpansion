@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			MaoMaoChong: {
+				MaoMaoChong: {
+					DisplayName: Capoo
+					Tooltip:
+						'''
+						Meow!
+						Bounces off tiles and enemies
+						“Bugcat? Bugcat!”
+						'''
+				}
+		
+				MaoMaoChongPROJ.DisplayName: Capoo
+			}
+		}
+	}
+}

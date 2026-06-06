@@ -1,7 +1,9 @@
 ﻿namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
 {
-    public class STARProj : ModProjectile
+    public class STARProj : ModProjectile, ILocalizedModType
     {
+        public new string LocalizationCategory => "DonorItem";
+
         public override string Texture => "CalamityRangerExpansion/Content/DonorItem/StarDustBullet/STARS";
 
         public override void SetDefaults()

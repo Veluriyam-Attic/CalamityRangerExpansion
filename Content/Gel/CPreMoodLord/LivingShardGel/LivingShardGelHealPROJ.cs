@@ -2,7 +2,7 @@
 {
     internal class LivingShardGelHealPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Gel.CPreMoodLord";
 
         public override void SetStaticDefaults()
         {

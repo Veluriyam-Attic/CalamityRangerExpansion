@@ -1,0 +1,142 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Buffs: {
+			AstralArrowPBuff: {
+				DisplayName: Stellar Ward
+				Description:
+					'''
+					“A star falls...
+					wait, is that the [c/FFA500:Sun] and [c/87CEFF:Moon]？”
+					'''
+			}
+		
+			PerennialArrowEBuff: {
+				DisplayName: 永恒箭Buff
+				Description: This doesn't require translation，BYD粒子特效用的
+			}
+		
+			PolterplasmArrowEDeBuff2: {
+				DisplayName: 悲死者的怨念
+				Description: This doesn't require translation
+			}
+		
+			PolterplasmArrowEDeBuff: {
+				DisplayName: 灵质箭停滞
+				Description: This doesn't require translation
+			}
+		
+			AstralBulletEBuff: {
+				DisplayName: 炫星弹的星星
+				Description: This doesn't require translation
+			}
+		
+			PerennialBulletPBuff: {
+				DisplayName: Perennial Strength
+				Description: Defence empowered!
+			}
+		
+			EffulgentFeatherBulletPBuff: {
+				DisplayName: Faraday Cage
+				Description: Bzzzzzt
+			}
+		
+			PolterplasmBulletFlowerPBuff: {
+				DisplayName: Postmortem Charge
+				Description: Run, run, run, till it's done, done, done...
+			}
+		
+			WulfrimArrowEDebuff: {
+				DisplayName: Wulfrim shock
+				Description: I'm sparking!
+			}
+		
+			DivineGeodeArrowPBuff: {
+				DisplayName: Godess' Purification
+				Description: You won't be the next Icarus
+			}
+		
+			UelibloomArrowEBuff: {
+				DisplayName: 龙蒿箭
+				Description: This doesn't require translation，BYD这是写特效用的
+			}
+		
+			AuricArrowPBuff: {
+				DisplayName: Draconic soul
+				Description: Raises your damage!
+			}
+		
+			DestructionBulletDestruction: {
+				DisplayName: 血清弹Destruction
+				Description: This doesn't require translation，吗，我也不知道
+			}
+		
+			DestructionBulletPoisonIvy: {
+				DisplayName: 血清弹PoisonIvy
+				Description: This doesn't require translation，吗，我也不知道
+			}
+		
+			PerennialGelPBuff: {
+				DisplayName: Perennial Embrace
+				Description:
+					'''
+					increase life regen
+					Ever blossoming
+					'''
+			}
+		
+			CosmosGelEDebuff: {
+				DisplayName: 宇宙凝胶Debuff
+				Description: This doesn't require translation，每秒减血
+			}
+		
+			PolarisBuff: {
+				DisplayName: North Star's Guidance
+				Description: Slightly increases life regen
+			}
+		
+			PlagueGelEDebuff: {
+				DisplayName: 强化瘟疫
+				Description: This doesn't require translation，每秒减血
+			}
+		
+			BlindBirdCryEDebuff: {
+				DisplayName: 逆反之规
+				Description: This doesn't require translation，减少命中的敌人的伤害
+			}
+		
+			KaleidoscopeBuff: {
+				DisplayName: Kaleidoscope Buff
+				Description: Mods.CalamityRangerExpansion.Buffs.KaleidoscopeBuff.Description
+			}
+		
+			ScoriaBulletPBuff: {
+				Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
+				DisplayName: Scoria Bullet P Buff
+			}
+		
+			Glock17EDebuff: {
+				DisplayName: Glock17 E Debuff
+				Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
+			}
+		
+			PCEarthEDebuff: {
+				DisplayName: P C Earth E Debuff
+				Description: Mods.CalamityRangerExpansion.Buffs.PCEarthEDebuff.Description
+			}
+		}
+		
+		ModBuff: {
+			LAS17PDebuff: {
+				DisplayName: L A S17 P Debuff
+				Description: Mods.CalamityRangerExpansion.ModBuff.LAS17PDebuff.Description
+			}
+		
+			CondemnationPDebuff: {
+				DisplayName: Condemnation P Debuff
+				Description: Mods.CalamityRangerExpansion.ModBuff.CondemnationPDebuff.Description
+			}
+		}
+		
+		Keybinds.替换手上武器.DisplayName: 替换手上武器
+	}
+}

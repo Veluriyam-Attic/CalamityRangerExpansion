@@ -2,7 +2,7 @@
 {
     internal class CosmosGelEater3Tail : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Gel.EAfterDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.NeedsUUID[Projectile.type] = true;

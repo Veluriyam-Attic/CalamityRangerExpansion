@@ -1,0 +1,66 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			DPreDog: {
+				UelibloomBullet: {
+					DisplayName: Uelibloom Bullet
+					Tooltip:
+						'''
+						Releases powerful homing life lights
+						“What brings creation can also bring destruction.”
+						'''
+				}
+		
+				PolterplasmBullet: {
+					DisplayName: Polterplasm Bullet
+					Tooltip:
+						'''
+						Summons homing polterplasmic spirits on hit
+						which gives the player the Postmortem Charge buff
+						The buff grants a powerful dash
+						“Fast and furious!...and dead.”
+						'''
+				}
+		
+				EffulgentFeatherBullet: {
+					DisplayName: Effulgent Bullet
+					Tooltip:
+						'''
+						Gives the Farady Cage buff
+						Electrifies nearby enemies
+						“Physics.”
+						'''
+				}
+		
+				DivineGeodeBullet: {
+					DisplayName: Divine Geode Bullet
+					Tooltip:
+						'''
+						Lowers enemy defence by 10. Not stackable.
+						Has a 5% chance of healing the enemy in Expert mode or above.
+						“sus.”
+						'''
+				}
+		
+				ToothBullet: {
+					Tooltip:
+						'''
+						Deals 0.75% more damage with each 1 point of defence the enemy has
+						Capped at 75%
+						“Piercing rounds loaded!”
+						'''
+					DisplayName: Abyssal Piercer
+				}
+
+				DivineGeodeBulletPROJ.DisplayName: Divine Geode Bullet
+				EffulgentFeatherBulletAREA.DisplayName: Faraday Cage
+				EffulgentFeatherBulletPROJ.DisplayName: Effulgent Feather Bullet
+				PolterplasmBulletFlower.DisplayName: Polterplasm Bullet Flower
+				PolterplasmBulletPROJ.DisplayName: Polterplasm Bullet
+				ToothBulletPROJ.DisplayName: Tooth Bullet
+				UelibloomBulletLEAF.DisplayName: Leaf
+				UelibloomBulletPROJ.DisplayName: Uelibloom Bullet
+			}
+		}
+	}
+}

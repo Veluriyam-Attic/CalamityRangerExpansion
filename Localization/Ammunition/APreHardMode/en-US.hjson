@@ -1,0 +1,42 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			APreHardMode: {
+				AerialiteBullet: {
+					DisplayName: Aerialite Bullet
+					Tooltip:
+						'''
+						Has a slight recoil
+						Recoil lessens when player is moving at high speeds
+						Sucks lesser enemies in on hit
+						“May the winds guide you.”
+						'''
+				}
+		
+				WulfrimBullet: {
+					DisplayName: Wulfrim Bullet
+					Tooltip:
+						'''
+						Powerful at point-blank range
+						Effectiveness greatly affected by distance
+						“Come 'ere! I've got somethin' to show ya.”
+						'''
+				}
+		
+				TinkleshardBullet: {
+					DisplayName: Prism Round
+					Tooltip:
+						'''
+						Splites into prism shards on hit
+						“Aqua affinity.”
+						'''
+				}
+
+				AerialiteBulletPROJ.DisplayName: Aerialite Bullet
+				TinkleshardBulletPROJ.DisplayName: Tinkleshard Bullet
+				TinkleshardBulletSPIT.DisplayName: Prism Shard
+				WulfrimBulletPROJ.DisplayName: Wulfrim Bullet
+			}
+		}
+	}
+}

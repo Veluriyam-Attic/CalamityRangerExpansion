@@ -1,0 +1,76 @@
+   private int attackCycle = 0; // 当前攻击类型编号（1-5）
+        private int frameCounter = 0; // 帧计数器
+        private const int FireInterval = 16; // 每次攻击的间隔
+        private const int PauseInterval = 25; // 每5次攻击后的停顿间隔
+
+        private readonly int[] projectileTypes = {
+            ModContent.ProjectileType<LBCrimson>(),   // 第1种攻击
+            ModContent.ProjectileType<LBCorruption>(),// 第2种攻击
+            ProjectileID.BeeArrow,                    // 第3种攻击（原版469）
+            ModContent.ProjectileType<LBGasoline>(),// 第4种攻击
+            ModContent.ProjectileType<LunarBolt>()    // 第5种攻击
+        };
+
+        private readonly SoundStyle[] soundEffects = {
+            SoundID.Item21, // 第1种攻击音效
+            SoundID.Item39, // 第2种攻击音效
+            SoundID.Item97, // 第3种攻击音效
+            SoundID.Item73, // 第4种攻击音效
+            SoundID.Item75  // 第5种攻击音效
+        };
+
+        public override void HoldoutAI()
+        {
+            frameCounter++;
+
+            if (frameCounter >= FireInterval)
+            {
+                frameCounter = 0;
+
+                if (attackCycle < 5)
+                {
+                    FireProjectile(attackCycle);
+                    attackCycle++;
+                }
+                else
+                {
+                    // 进入停顿阶段
+                    attackCycle = 0;
+                    frameCounter = -PauseInterval; // 设置停顿时间
+                }
+            }
+        }
+
+        private void FireProjectile(int cycle)
+        {
+            Player player = Main.player[Projectile.owner];
+            Vector2 shootDirection = Projectile.velocity.SafeNormalize(Vector2.UnitX * player.direction);
+            Vector2 perpendicular = shootDirection.RotatedBy(MathHelper.PiOver2); // 垂直向量
+
+            // 左侧弹幕
+            Vector2 leftPosition = GunTipPosition - perpendicular * 10f; // 左侧偏移10像素
+            Projectile.NewProjectile(
+                Projectile.GetSource_FromThis(),
+                leftPosition,
+                shootDirection * 10f,
+                projectileTypes[cycle], // 根据攻击编号选择弹幕类型
+                Projectile.damage,
+                Projectile.knockBack,
+                player.whoAmI
+            );
+
+            // 右侧弹幕
+            Vector2 rightPosition = GunTipPosition + perpendicular * 10f; // 右侧偏移10像素
+            Projectile.NewProjectile(
+                Projectile.GetSource_FromThis(),
+                rightPosition,
+                shootDirection * 10f,
+                projectileTypes[cycle], // 根据攻击编号选择弹幕类型
+                Projectile.damage,
+                Projectile.knockBack,
+                player.whoAmI
+            );
+
+            // 播放对应的音效
+            SoundEngine.PlaySound(soundEffects[cycle], player.Center);
+        }

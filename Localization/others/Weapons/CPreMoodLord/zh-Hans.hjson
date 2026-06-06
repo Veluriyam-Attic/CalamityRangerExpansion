@@ -1,0 +1,27 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			CPreMoodLord: {
+				BlossomFluxRe: {
+					// DisplayName: Blossom Flux Re
+					// Tooltip: ""
+				}
+		
+				MalevolenceRe: {
+					// DisplayName: Malevolence Re
+					// Tooltip: ""
+				}
+		
+				TheBallistaRe: {
+					// DisplayName: The Ballista Re
+					// Tooltip: ""
+				}
+		
+				VernalBolterRe: {
+					// DisplayName: Vernal Bolter Re
+					// Tooltip: ""
+				}
+			}
+		}
+	}
+}

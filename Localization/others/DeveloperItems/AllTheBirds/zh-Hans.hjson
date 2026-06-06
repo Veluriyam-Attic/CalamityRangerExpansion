@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			AllTheBirds: {
+				AllTheBirds: {
+					DisplayName: 咕咕弹
+					Tooltip:
+						'''
+						较为自然的随机曲线转向飞行
+						但无论如何都会必定命中
+						“一大群鸟”
+						'''
+				}
+		
+				AllTheBirdsPROJ.DisplayName: 咕咕弹
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			AllTheBirds: {
+				AllTheBirds: {
+					DisplayName: All the Birds
+					Tooltip:
+						'''
+						Flies in curves
+						Will hit, no matter what
+						“A whole bunch of them.”
+						'''
+				}
+		
+				AllTheBirdsPROJ.DisplayName: All the Birds
+			}
+		}
+	}
+}

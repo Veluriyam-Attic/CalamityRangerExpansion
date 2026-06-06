@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ExplodingRabbit: {
+				ExplodingRabbit: {
+					DisplayName: 自爆兔
+					Tooltip:
+						'''
+						击中敌人时产生爆炸并弹飞
+						“想吃麻辣兔头吗？辣到爆炸（物理）的那种”
+						'''
+				}
+
+				ExplodingRabbitPROJ.DisplayName: 自爆兔
+			}
+		}
+	}
+}

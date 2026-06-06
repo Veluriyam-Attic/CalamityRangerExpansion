@@ -1,0 +1,20 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			AllinOneBulletBox: {
+				AllinOneBulletBox: {
+					Tooltip: ""
+					DisplayName: Allin One Bullet Box
+				}
+		
+				AOBB2_PROJ.DisplayName: A O B B2_ P R O J
+				AOBB1_PROJ.DisplayName: A O B B1_ P R O J
+				AOBB3_PROJ.DisplayName: A O B B3_ P R O J
+				AOBB3_Stay.DisplayName: A O B B3_ Stay
+				AOBB4_Lazer.DisplayName: A O B B4_ Lazer
+				AOBB4_PROJ.DisplayName: A O B B4_ P R O J
+				AOBB5_PROJ.DisplayName: A O B B5_ P R O J
+			}
+		}
+	}
+}

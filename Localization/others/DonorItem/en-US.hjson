@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DonorItem: {
+			STAR: {
+				DisplayName: Stardust Bullet
+				Tooltip:
+					'''
+					Let me think.....I don't know to write what
+					Anyway,duduududdadadaduudda
+					'''
+			}
+
+			STARProj.DisplayName: Star Dust Bullet
+			STAROnSpawn.DisplayName: S T A R On Spawn
+			IronDust.DisplayName: Star Dust
+		}
+	}
+}

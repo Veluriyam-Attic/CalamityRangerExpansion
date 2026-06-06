@@ -2,7 +2,7 @@
 {
     internal class TinkleshardBulletSPIT : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.APreHardMode";
+        public new string LocalizationCategory => "Ammunition.APreHardMode";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 1;

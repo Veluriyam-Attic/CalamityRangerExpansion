@@ -3,7 +3,7 @@
     public class PolterplasmBulletFlower : ModProjectile, ILocalizedModType
     {
         public override string Texture => "CalamityRangerExpansion/Content/Ammunition/DPreDog/PolterplasmBullet/PolterplasmBulletFlower";
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Ammunition.DPreDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

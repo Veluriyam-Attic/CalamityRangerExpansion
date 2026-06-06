@@ -1,0 +1,28 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Projectile.APreHardMode.BloodBeadsArrowPROJ.DisplayName: Blood Beads Arrow
+		Projectile.CPreMoodLord.ScoriaBulletFlameburst.DisplayName: Explosion
+		Projectile.CPreMoodLord.CoreofCalamityArrowPROJ.DisplayName: Coreof Calamity Arrow P R O J
+		Projectile.EAfterDog.AuricArrowBALL.DisplayName: Auric ball
+		Projectile.EAfterDog.CosmosGelEater.DisplayName: praise to DoG!
+		Projectile.FOldOnes.LAS17Proj.DisplayName: L A S17 Proj
+		Projectile.FOldOnes.CondemnationReProj.DisplayName: Condemnation Re Proj
+		Projectiles.Rogue.ScoriaBulletFlameburst.DisplayName: Scoria explosion
+		Projectiles.CPreMoodLord.LivingShardGelHealPROJ.DisplayName: Life shard
+		Projectiles.CPreMoodLord.ScoriaGelFireBall.DisplayName: Fireball
+		Projectiles.APreHardMode.AerialiteGelCloud.DisplayName: Cloud
+		Projectiles.APreHardMode.HurricaneGelSplit.DisplayName: Crystal shard
+		Projectiles.EAfterDog.AuricGelLighting.DisplayName: Auric lightning
+		Projectiles.EAfterDog.CosmosGelEater.DisplayName: praise to DoG!
+		Projectiles.EAfterDog.MiracleMatterGelLighting.DisplayName: Miracle lightning
+		Projectiles.TenderElegyBeil.DisplayName: Tender Elegy Beil
+		Projectiles.PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+		Projectiles.R36Proj.DisplayName: R36 Proj
+		Projectiles.IronDust.DisplayName: Iron Dust
+		Projectiles.STAROnSpawn.DisplayName: S T A R On Spawn
+		Projectiles.STARProj.DisplayName: S T A R Proj
+		Projectiles.DPreDog.DaemonsFlameProjBlue.DisplayName: Daemons Flame Proj Blue
+		Projectiles.DPreDog.DaemonsFlameProjRed.DisplayName: Daemons Flame Proj Red
+		Projectiles.DPreDog.DaemonsFlameProjWhite.DisplayName: Daemons Flame Proj White
+	}
+}

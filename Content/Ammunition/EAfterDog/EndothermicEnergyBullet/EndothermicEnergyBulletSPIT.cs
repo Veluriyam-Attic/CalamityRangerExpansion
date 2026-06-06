@@ -2,7 +2,7 @@
 {
     public class EndothermicEnergyBulletSPIT : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Ammunition.EAfterDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 8;

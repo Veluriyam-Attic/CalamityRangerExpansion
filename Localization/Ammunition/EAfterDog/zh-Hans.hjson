@@ -1,0 +1,42 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			EAfterDog: {
+				AuricBulet: {
+					DisplayName: 金源弹
+					Tooltip:
+						'''
+						击中敌人时爆发出多个不断在原地公转的金源珠
+						“我就说嘛！悠悠球得多了才行！”
+						'''
+				}
+		
+				MiracleMatterBullet: {
+					DisplayName: 星流弹
+					Tooltip:
+						'''
+						第1次碰撞不造成伤害
+						随后左右扭曲飞行一段距离后强力追踪
+						“好亮，实在太亮了”
+						'''
+				}
+		
+				EndothermicEnergyBullet: {
+					DisplayName: 霜华弹
+					Tooltip:
+						'''
+						击中后在外围释放分裂弹幕，造成冰河时代
+						命中水时将水冻结成冰块
+						“凝冰渡河真君”
+						'''
+				}
+
+				AuricBuletBALL.DisplayName: 金源珠
+				AuricBuletPROJ.DisplayName: 金源弹
+				EndothermicEnergyBulletPROJ.DisplayName: 霜华弹
+				EndothermicEnergyBulletSPIT.DisplayName: 霜华弹分裂弹幕
+				MiracleMatterBulletPROJ.DisplayName: 星流弹
+			}
+		}
+	}
+}

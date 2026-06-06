@@ -1,0 +1,35 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ChineseChess: {
+				Pao: {
+					Pao: {
+						DisplayName: 砲
+						Tooltip:
+							'''
+							击中敌人后仅造成很弱的伤害
+							如果后方存在敌人
+							将会传送到后方释放极为猛烈的爆炸
+							“他需要一个炮架”
+							'''
+					}
+		
+					PaoPROJ.DisplayName: 砲
+				}
+		
+				Che: {
+					Che: {
+						DisplayName: 車
+						Tooltip:
+							'''
+							横冲直撞，无限穿透
+							“最早的数值怪”
+							'''
+					}
+		
+					ChePROJ.DisplayName: 車
+				}
+			}
+		}
+	}
+}

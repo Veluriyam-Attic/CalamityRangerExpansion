@@ -1,0 +1,69 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			DPreDog: {
+				DivineGeodeArrow: {
+					DisplayName: 神圣晶石箭
+					Tooltip:
+						'''
+						小心电离辐射！
+						以神圣之力把敌人炸成碎片
+						赋予玩家「净化邪神」增益
+						这将大幅提升你的飞行时间
+						“不要重蹈覆辙……”
+						'''
+				}
+		
+				EffulgentFeatherArrow: {
+					DisplayName: 闪耀金羽箭
+					Tooltip:
+						'''
+						携带着不可见电场快速前进
+						无限穿透
+						'''
+				}
+		
+				PolterplasmArrow: {
+					DisplayName: 灵质箭
+					Tooltip:
+						'''
+						小概率鬼叫并削弱敌人防御
+						大概率什么也不会发生
+						'''
+				}
+		
+				UelibloomArrow: {
+					DisplayName: 龙蒿箭
+					Tooltip:
+						'''
+						击中敌人时产生追踪叶片和生命之光
+						叶片命中时造成藤蔓
+						'''
+				}
+		
+				ToothArrow: {
+					DisplayName: 渊牙箭
+					Tooltip:
+						'''
+						无视敌人防御力与伤害减免
+						直接造成本来应该造成的全部伤害
+						“敌人的护甲在它眼里如同一张纸”
+						'''
+				}
+
+				DivineGeodeArrowEXP.DisplayName: 圣晶石爆炸
+				DivineGeodeArrowPROJ.DisplayName: 圣晶石箭
+				EffulgentFeatherArrowAura.DisplayName: 电场
+				EffulgentFeatherArrowPROJ.DisplayName: 闪耀金羽箭
+				PolterplasmArrowPROJ.DisplayName: 灵质箭
+				PolterplasmArrowsSoul.DisplayName: 幻魂
+				ToothArrowPROJ.DisplayName: 渊牙箭
+				UelibloomArrowLeaf.DisplayName: 叶片
+				UelibloomArrowLight.DisplayName: 生命之光
+				UelibloomArrowPROJ.DisplayName: 龙蒿箭
+				UelibloomArrowVine.DisplayName: 藤蔓
+				PolterplasmArrowINV.DisplayName: 幻魂
+			}
+		}
+	}
+}

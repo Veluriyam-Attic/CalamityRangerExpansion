@@ -2,7 +2,7 @@
 {
     internal class AerialiteGelCloud : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.APreHardMode";
+        public new string LocalizationCategory => "Gel.APreHardMode";
         public override void SetStaticDefaults()
         {
             Main.projFrames[Projectile.type] = 6;

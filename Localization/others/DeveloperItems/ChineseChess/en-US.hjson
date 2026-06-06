@@ -1,0 +1,34 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ChineseChess: {
+				Pao: {
+					Pao: {
+						DisplayName: Pao
+						Tooltip:
+							'''
+							Deals little damage on the initial hit
+							Then teleports forward and explodes voilently
+							“You need something in between.”
+							'''
+					}
+		
+					PaoPROJ.DisplayName: Pao
+				}
+		
+				Che: {
+					Che: {
+						DisplayName: Ju
+						Tooltip:
+							'''
+							Smashes through enemies and pierces infinitely
+							“Unstoppable Juggernaut”
+							'''
+					}
+		
+					ChePROJ.DisplayName: Ju
+				}
+			}
+		}
+	}
+}

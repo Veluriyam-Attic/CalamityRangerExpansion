@@ -1,0 +1,20 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			BPrePlantera: {
+				StarblightSootArrow: {
+					DisplayName: Star Speckled Arrow
+					Tooltip:
+						'''
+						Inflicts Astral Infection
+						Sprays stars on use
+						“Witness the creation of life.”
+						'''
+				}
+
+				StarblightSootArrowPROJ.DisplayName: Starblight Soot Arrow
+				StarblightSootArrowSpark.DisplayName: Particle
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ShadowsArrow: {
+				ShadowsArrow: {
+					DisplayName: Demonshade Arrow
+					Tooltip:
+						'''
+						Splits into random arrows
+						“What the hell did you eat for breakfast?”
+						'''
+				}
+		
+				ShadowsArrowPROJ.DisplayName: Demonshade Arrow
+				SAPortalPROJ.DisplayName: S A Portal P R O J
+			}
+		}
+	}
+}

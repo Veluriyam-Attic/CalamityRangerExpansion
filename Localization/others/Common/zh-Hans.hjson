@@ -1,0 +1,48 @@
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+
+Mods: {
+	CalamityRangerExpansion: {
+		TooltipChanges: {
+			PreText: "[c/FF6666:「射手拓展更改」: ]"
+			Fabstaff: 绝学法杖
+		
+			Calamity: {
+				#暴政之终
+				TyrannysEnd: 狙击弹无视防御, 无视伤害减免
+				#迫击炮弹
+				MortarRound: 强制仅造成1点伤害
+				#橡胶迫击炮弹
+				RubberMortarRound: 强制仅造成1点伤害
+				#异象纳米枪
+				TheAnomalysNanogun: 左键的激光命中敌人后不会降低伤害
+				#神圣空尖弹
+				HallowPointRoundLine1: 在邪恶地形造成1.25倍伤害
+				HallowPointRoundLine2: 在神圣地形额外造成敌人碰撞伤害的50%
+				#海伯里斯弹
+				HyperiusBulletLine1: 速度变为原本的1.35倍
+				HyperiusBulletLine2: 60%概率射出下位三个材料对应子弹
+				#血炎箭
+				BloodfireArrow: 每次命中必定回复1点生命值
+				#血炎弹
+				BloodfireBullet: 每次命中必定回复1点生命值
+				#绝路Prime
+				RubicoPrime: 提高攻击速度
+				#满弹霰弹枪
+				BulletFilledShotgun: 提高攻击速度
+				#天堂之风搭配星流箭降低伤害
+				HeavenlyGale: 未击败至尊女巫，灾厄时搭配幻光斑景使用降低伤害
+				#使用血殒时伤害修改为百分之一
+				ArterialAssault: 使用时弹幕伤害为原来的百分之一
+			}
+		
+			#派对弹
+			Vanilla.PartyBullet: 在困难模式前强制仅造成1点伤害
+		}
+		
+		RecipeGroup: {
+			Arrow: 任意箭矢（原版、Calamity箭矢、本Mod箭矢）
+			Bullet: 任意子弹（原版、Calamity子弹、本Mod子弹）
+			Gel: 任意凝胶（原版、Calamity凝胶，本Mod凝胶）
+		}
+	}
+}

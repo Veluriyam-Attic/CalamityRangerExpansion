@@ -2,7 +2,7 @@
 {
     public class AerialiteArrowWIND : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.APreHardMode";
+        public new string LocalizationCategory => "Arrows.APreHardMode";
         public override void SetStaticDefaults()
         {
             // 设置拖尾效果和长度

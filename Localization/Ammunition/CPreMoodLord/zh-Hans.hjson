@@ -1,0 +1,49 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			CPreMoodLord: {
+				AstralBullet: {
+					DisplayName: 炫星弹
+					Tooltip:
+						'''
+						击中敌人时以敌人为中心不断的释放彗星砸向这个倒霉蛋
+						其射击频率和圆圈大小会越来越小和快
+						'''
+				}
+		
+				PerennialBullet: {
+					DisplayName: 永恒弹
+					Tooltip:
+						'''
+						不断的命中能使玩家提升最大生命值
+						让你的敌人狠狠的中毒
+						'''
+				}
+		
+				ScoriaBullet: {
+					DisplayName: 熔渣弹
+					Tooltip:
+						'''
+						产生爆炸，命中后给予玩家可堆叠的加速度与伤害提升
+						“比赛前得热热身，这就是一个很好的热身方式”
+						'''
+				}
+		
+				PlagueBullet: {
+					Tooltip:
+						'''
+						如果敌人受到了瘟疫效果，那么在暴击的时候造成额外的伤害
+						否则将减少暴击伤害
+						'''
+					DisplayName: 瘟疫铁甲弹
+				}
+
+				AstralBulletPROJ.DisplayName: 炫星弹
+				AstralBulletSTAR.DisplayName: 彗星
+				PerennialBulletPROJ.DisplayName: 永恒弹
+				PlagueBulletPROJ.DisplayName: 瘟疫铁甲弹
+				ScoriaBulletPROJ.DisplayName: 熔渣弹
+			}
+		}
+	}
+}

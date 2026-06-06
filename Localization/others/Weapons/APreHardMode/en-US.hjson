@@ -1,0 +1,26 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			APreHardMode: {
+				LunarianBowRe: {
+					DisplayName: Lunarian Bow Re
+					Tooltip: ""
+				}
+		
+				ToxibowRe: {
+					DisplayName: Toxibow Re
+					Tooltip: ""
+				}
+
+				LunarianBowRePROJ.DisplayName: Lunarian Bow Re P R O J
+				LBCorruption.DisplayName: L B Corruption
+				LBCrimson.DisplayName: L B Crimson
+				LBGasoline.DisplayName: L B Gasoline
+				ToxibowReEXP.DisplayName: Toxibow Re E X P
+				ToxibowRePROJ.DisplayName: Toxibow Re P R O J
+				LunarianBowReMoonSigil.DisplayName: Lunarian Bow Re Moon Sigil
+				ToxibowReToxinPod.DisplayName: Toxibow Re Toxin Pod
+			}
+		}
+	}
+}

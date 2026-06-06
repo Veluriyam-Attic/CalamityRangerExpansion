@@ -2,7 +2,7 @@
 {
     public class DivineGeodeArrowEXP : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 
         public override void SetDefaults()

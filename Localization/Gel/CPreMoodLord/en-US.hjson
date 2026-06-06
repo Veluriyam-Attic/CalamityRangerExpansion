@@ -1,0 +1,70 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			CPreMoodLord: {
+				AstralGel: {
+					DisplayName: Astralite Gel
+					Tooltip:
+						'''
+						Inflicts Astral Infection
+						Stays in place for 2 seconds before dissapearing
+						Deals low damage while staying in place
+						“The！World！”
+						'''
+				}
+		
+				PerennialGel: {
+					DisplayName: Perennial Gel
+					Tooltip:
+						'''
+						Boosts health regen by 3
+						“Vitalized blood”
+						'''
+				}
+		
+				ScoriaGel: {
+					DisplayName: Scoria Gel
+					Tooltip:
+						'''
+						Marks enemies
+						Marked enemies explode into bouncing fireballs on death
+						“Did you just put that inside them?”
+						'''
+				}
+		
+				LifeAlloyGel: {
+					DisplayName: Life Gel
+					Tooltip:
+						'''
+						Shoots orbs of light on hit
+						“Looks like they have some uses besides finding chests!”
+						'''
+				}
+		
+				LivingShardGel: {
+					DisplayName: Living Shard Gel
+					Tooltip:
+						'''
+						2% chance on hit to spawn a living shard
+						The shard will home in on the player, healing health
+						While dealing high damage to any enemy it touches
+						“Dunno, I think Life Fruits are better.”
+						'''
+				}
+		
+				PlagueGel: {
+					Tooltip:
+						'''
+						Inflicts a stronger version of the Plague in the jungle
+						Deals more damage
+						“Leave it to me.”
+						'''
+					DisplayName: Virus Gelatin Petri-can
+				}
+
+				LivingShardGelHealPROJ.DisplayName: Life shard
+				ScoriaGelFireBall.DisplayName: Fireball
+			}
+		}
+	}
+}

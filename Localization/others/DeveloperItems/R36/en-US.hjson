@@ -1,0 +1,24 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			R36: {
+				R36: {
+					DisplayName: R36 – Eruptor
+					Tooltip:
+						'''
+						[c/FFB347:"Peace is only one bullet away."]
+						[c/808080:A Super Earth–approved premium urban security solution.]
+						[c/FF3C3C:Effectively neutralizes all hostile entities, including uncooperative civilian participants.]
+						[c/FFA500:Consumes two rounds to deploy an explosive payload that disperses a generous quantity of neutral fragments.]
+						[c/808080:Collateral impact? That indicates insufficient training. Please return to Zegma Paradise to re-experience the finest Helldiver instruction.]
+						[c/00BFFF:Highly suitable for distributing managed democracy.]
+						[c/DDCC88:Eliminate 10 hostile targets with this device to be automatically recognized as a Helldiver.]
+						[c/EAF6FF: Sold by arms dealers at Hardmode]
+						'''
+				}
+		
+				R36Proj.DisplayName: R36 Burst Round
+			}
+		}
+	}
+}

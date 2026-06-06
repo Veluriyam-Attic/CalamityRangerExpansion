@@ -1,0 +1,41 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			EAfterDog: {
+				AuricBulet: {
+					DisplayName: Auric Bullet
+					Tooltip:
+						'''
+						On hit, releases Auric orbs that orbit their point of origin
+						“The Parade of Light.”
+						'''
+				}
+		
+				MiracleMatterBullet: {
+					DisplayName: Exo Round
+					Tooltip:
+						'''
+						Deals no damage on the initial hit
+						Pierces, then flies erratically and agressively homes in
+						'''
+				}
+		
+				EndothermicEnergyBullet: {
+					DisplayName: Endothermic Bullet
+					Tooltip:
+						'''
+						Splits into more projectiles on hit and inflicts Ice Age
+						Hitting water will freeze it into ice
+						“You know, there's a simpler way than parting the sea...”
+						'''
+				}
+
+				AuricBuletBALL.DisplayName: Auric orb
+				AuricBuletPROJ.DisplayName: Auric bullet
+				EndothermicEnergyBulletPROJ.DisplayName: Endothermic Bullet
+				EndothermicEnergyBulletSPIT.DisplayName: Endothermic Split Bullet
+				MiracleMatterBulletPROJ.DisplayName: Miracle Matter Bullet
+			}
+		}
+	}
+}

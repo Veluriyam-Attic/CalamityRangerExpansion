@@ -1,0 +1,16 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			RE: {
+				PhotovisceratorRE: {
+					DisplayName: 星火解离者重置版
+					Tooltip:
+						'''
+						左键射出激光和交叉追踪炸弹，右键直接射出追踪炸弹
+						该版本的星火解离者可以享受本模组的凝胶加成，而原灾的不行
+						'''
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Projectile.APreHardMode.BloodBeadsArrowPROJ.DisplayName: Blood Beads Arrow
+		Projectile.CPreMoodLord.ScoriaBulletFlameburst.DisplayName: 熔渣弹爆炸
+		Projectile.CPreMoodLord.CoreofCalamityArrowPROJ.DisplayName: Coreof Calamity Arrow P R O J
+		Projectile.EAfterDog.AuricArrowBALL.DisplayName: 火球
+		Projectile.EAfterDog.CosmosGelEater.DisplayName: 神明吞噬者
+		Projectiles.Rogue.ScoriaBulletFlameburst.DisplayName: 熔渣弹爆炸
+		Projectiles.CPreMoodLord.LivingShardGelHealPROJ.DisplayName: 生命碎片
+		Projectiles.CPreMoodLord.ScoriaGelFireBall.DisplayName: 火球
+		Projectiles.APreHardMode.AerialiteGelCloud.DisplayName: 筋斗云
+		Projectiles.APreHardMode.HurricaneGelSplit.DisplayName: 水晶碎片
+		Projectiles.EAfterDog.AuricGelLighting.DisplayName: 闪电
+		Projectiles.EAfterDog.CosmosGelEater.DisplayName: 神明吞噬者
+		Projectiles.EAfterDog.MiracleMatterGelLighting.DisplayName: 闪电
+		Projectiles.TenderElegyBeil.DisplayName: Tender Elegy Beil
+		Projectiles.PyroblastRocketScorpio.DisplayName: Pyroblast Rocket Scorpio
+		Projectiles.R36Proj.DisplayName: R36 Proj
+		Projectiles.IronDust.DisplayName: Iron Dust
+		Projectiles.STAROnSpawn.DisplayName: S T A R On Spawn
+		Projectiles.STARProj.DisplayName: S T A R Proj
+	}
+}

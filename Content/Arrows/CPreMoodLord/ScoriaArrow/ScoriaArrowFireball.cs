@@ -2,7 +2,7 @@
 {
     public class ScoriaArrowFireball : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         private bool hasLockedOn = false;  // 是否已经开始追踪
         private NPC target;  // 被追踪的目标
 

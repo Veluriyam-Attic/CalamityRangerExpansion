@@ -1,0 +1,61 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			DPreDog: {
+				ArterialAssaultRe: {
+					DisplayName: Arterial Assault Re
+					Tooltip: ""
+				}
+		
+				DaemonsFlameRe: {
+					DisplayName: Daemons Flame Re
+					Tooltip: ""
+				}
+		
+				NettlevineGreatbowRe: {
+					DisplayName: Nettlevine Greatbow Re
+					Tooltip: ""
+				}
+		
+				PlanetaryAnnihilationRe: {
+					DisplayName: Planetary Annihilation Re
+					Tooltip: ""
+				}
+		
+				TheStormRe: {
+					DisplayName: The Storm Re
+					Tooltip: ""
+				}
+
+				ArterialAssaultRePROJ.DisplayName: Arterial Assault Re P R O J
+				ArterialAssaultReRightPROJ.DisplayName: Arterial Assault Re Right P R O J
+				NettlevineGreatbowReLIGHT.DisplayName: Nettlevine Greatbow Re L I G H T
+				NettlevineGreatbowRePROJ.DisplayName: Nettlevine Greatbow Re P R O J
+				NettlevineGreatbowReRightPROJ.DisplayName: Nettlevine Greatbow Re Right P R O J
+				NettlevineGreatbowReVine.DisplayName: Nettlevine Greatbow Re Vine
+				PAMercury.DisplayName: P A Mercury
+				PBVenus.DisplayName: P B Venus
+				PCEarth.DisplayName: P C Earth
+				PDMars.DisplayName: P D Mars
+				PDMarsSPIT.DisplayName: P D Mars S P I T
+				PEJupiter.DisplayName: P E Jupiter
+				PFSaturn.DisplayName: P F Saturn
+				PFSaturnRing.DisplayName: P F Saturn Ring
+				PGUranus.DisplayName: P G Uranus
+				PHNeptune.DisplayName: P H Neptune
+				TheStormReEnergy.DisplayName: The Storm Re Energy
+				TheStromReCloud.DisplayName: The Strom Re Cloud
+				TheStromReWind.DisplayName: The Strom Re Wind
+				DaemonsFlameProjBlue.DisplayName: Daemons Flame Proj Blue
+				DaemonsFlameProjRed.DisplayName: Daemons Flame Proj Red
+				DaemonsFlameProjWhite.DisplayName: Daemons Flame Proj White
+				ArterialAssaultReBloodSiphon.DisplayName: Arterial Assault Re Blood Siphon
+				DaemonsFlameReHexSeal.DisplayName: Daemons Flame Re Hex Seal
+				NettlevineGreatbowReRootSnare.DisplayName: Nettlevine Greatbow Re Root Snare
+				PlanetaryAnnihilationReGravityWell.DisplayName: Planetary Annihilation Re Gravity Well
+				TheStormReStaticField.DisplayName: The Storm Re Static Field
+				PEJupiterSPIT.DisplayName: P E Jupiter S P I T
+			}
+		}
+	}
+}

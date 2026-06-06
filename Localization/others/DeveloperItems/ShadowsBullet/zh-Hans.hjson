@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ShadowsBullet: {
+				ShadowsBullet: {
+					DisplayName: 魔影弹
+					Tooltip:
+						'''
+						每次命中敌人都会召唤两发额外的随机弹幕往周围打过去
+						“我裂开来”
+						'''
+				}
+		
+				ShadowsBulletPROJ.DisplayName: 魔影弹
+			}
+		}
+	}
+}

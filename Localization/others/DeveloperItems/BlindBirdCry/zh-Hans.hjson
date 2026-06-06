@@ -1,0 +1,21 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			BlindBirdCry: {
+				BlindBirdCry: {
+					DisplayName: 无目鸟啼鸣
+					Tooltip:
+						'''
+						引吭清呖图一快，半文不白乐满怀
+						群鸱争讥嘈杂汰，片羽清幽竟成灾
+						名缰利锁偏不爱，生性逍遥贪自在
+						九重云台却嫌窄，风月舒喉谢款待
+						'''
+				}
+		
+				BlindBirdCryCrods.DisplayName: 无目鸟啼鸣
+				BlindBirdCryINVPROJ.DisplayName: 无目鸟啼鸣
+			}
+		}
+	}
+}

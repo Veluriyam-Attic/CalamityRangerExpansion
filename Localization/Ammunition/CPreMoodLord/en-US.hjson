@@ -1,0 +1,53 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			CPreMoodLord: {
+				AstralBullet: {
+					DisplayName: Astral Bullet
+					Tooltip:
+						'''
+						Stars and comets will bombard the struck enemy
+						They deal 250% base damage
+						Gradually increases frequency				
+						“The whole universe blinks for you.”
+						'''
+				}
+		
+				PerennialBullet: {
+					DisplayName: Perennial Bullet
+					Tooltip:
+						'''
+						Successive hits will raise the player's defence, up to +20
+						Inflicts Venom
+						“Brave the storm.”
+						'''
+				}
+		
+				ScoriaBullet: {
+					DisplayName: Scoria Bullet
+					Tooltip:
+						'''
+						Explodes and gives the player stackable speed and damage boost
+						“A good warmup.”
+						'''
+				}
+		
+				PlagueBullet: {
+					Tooltip:
+						'''
+						Deals 220% damage if the enemy is affected by the Plague
+						If not, deal 75% damage
+						“Effective on rats”
+						'''
+					DisplayName: Plague Plated Bullet
+				}
+
+				AstralBulletPROJ.DisplayName: Astral Bullet
+				AstralBulletSTAR.DisplayName: Comet
+				PerennialBulletPROJ.DisplayName: Perennial Bullet
+				PlagueBulletPROJ.DisplayName: Plague Bullet
+				ScoriaBulletPROJ.DisplayName: Scoria Bullet
+			}
+		}
+	}
+}

@@ -1,0 +1,142 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Buffs: {
+			AstralArrowPBuff: {
+				DisplayName: 明星之佑
+				Description:
+					'''
+					“一颗明星从天堂……
+					等等，这是[c/FFA500:太阳]和[c/87CEFF:月亮]？”
+					'''
+			}
+		
+			PerennialArrowEBuff: {
+				DisplayName: 拥抱永恒……
+				Description: 不用翻译，BYD粒子特效用的
+			}
+		
+			PolterplasmArrowEDeBuff2: {
+				DisplayName: 悲死者的怨念
+				Description: 不用翻译
+			}
+		
+			PolterplasmArrowEDeBuff: {
+				DisplayName: 灵质箭停滞
+				Description: 不用翻译
+			}
+		
+			AstralBulletEBuff: {
+				DisplayName: 炫星弹的星星
+				Description: 不用翻译
+			}
+		
+			PerennialBulletPBuff: {
+				DisplayName: 永恒之力
+				Description: 提升{0}防御力！
+			}
+		
+			EffulgentFeatherBulletPBuff: {
+				DisplayName: 法拉第笼
+				Description: AT立场！
+			}
+		
+			PolterplasmBulletFlowerPBuff: {
+				DisplayName: 末路狂花
+				Description: 冲刺！冲刺！冲刺！
+			}
+		
+			WulfrimArrowEDebuff: {
+				DisplayName: 钨钢震颤
+				Description: 身上冒出了电火花！
+			}
+		
+			DivineGeodeArrowPBuff: {
+				DisplayName: 净化邪神
+				Description: 不要成为下一个伊卡洛斯
+			}
+		
+			UelibloomArrowEBuff: {
+				DisplayName: 龙蒿箭
+				Description: 不用翻译，BYD这是写特效用的
+			}
+		
+			AuricArrowPBuff: {
+				DisplayName: 巨龙的魂魄
+				Description: 临时增加你的伤害！
+			}
+		
+			DestructionBulletDestruction: {
+				DisplayName: 血清弹Destruction
+				Description: 不用翻译，吗，我也不知道
+			}
+		
+			DestructionBulletPoisonIvy: {
+				DisplayName: 血清弹PoisonIvy
+				Description: 不用翻译，吗，我也不知道
+			}
+		
+			PerennialGelPBuff: {
+				DisplayName: 永恒凝胶
+				Description:
+					'''
+					给予你3点生命回复
+					“鬼知道呢？总不能是突变体给的吧？”
+					'''
+			}
+		
+			CosmosGelEDebuff: {
+				DisplayName: 宇宙凝胶Debuff
+				Description: 不用翻译，每秒减血
+			}
+		
+			PolarisBuff: {
+				DisplayName: 北极星之护佑
+				Description: 略微增加生命再生
+			}
+		
+			PlagueGelEDebuff: {
+				DisplayName: 强化瘟疫
+				Description: 不用翻译，每秒减血
+			}
+		
+			BlindBirdCryEDebuff: {
+				DisplayName: 逆反之规
+				Description: 不用翻译，减少命中的敌人的伤害
+			}
+		
+			KaleidoscopeBuff: {
+				DisplayName: Kaleidoscope Buff
+				Description: Mods.CalamityRangerExpansion.Buffs.KaleidoscopeBuff.Description
+			}
+		
+			ScoriaBulletPBuff: {
+				Description: Mods.CalamityRangerExpansion.Buffs.ScoriaBulletPBuff.Description
+				DisplayName: Scoria Bullet P Buff
+			}
+		
+			Glock17EDebuff: {
+				DisplayName: Glock17 E Debuff
+				Description: Mods.CalamityRangerExpansion.Buffs.Glock17EDebuff.Description
+			}
+		
+			PCEarthEDebuff: {
+				// DisplayName: P C Earth E Debuff
+				// Description: Mods.CalamityRangerExpansion.Buffs.PCEarthEDebuff.Description
+			}
+		}
+		
+		ModBuff: {
+			LAS17PDebuff: {
+				// DisplayName: L A S17 P Debuff
+				// Description: Mods.CalamityRangerExpansion.ModBuff.LAS17PDebuff.Description
+			}
+		
+			CondemnationPDebuff: {
+				// DisplayName: Condemnation P Debuff
+				// Description: Mods.CalamityRangerExpansion.ModBuff.CondemnationPDebuff.Description
+			}
+		}
+		
+		// Keybinds.替换手上武器.DisplayName: 替换手上武器
+	}
+}

@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			GlitchArrow: {
+				GlitchArrow: {
+					DisplayName: Glitch Arrow
+					Tooltip:
+						'''
+						It seems we have a "little" problem
+						Think you kan fix it?
+						'''
+				}
+		
+				GlitchArrowPROJ.DisplayName: Glitch Arrow
+			}
+		}
+	}
+}

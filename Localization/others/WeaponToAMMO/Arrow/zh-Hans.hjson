@@ -1,0 +1,108 @@
+Mods: {
+	CalamityRangerExpansion: {
+		WeaponToAMMO: {
+			Arrow: {
+				MonstrousArrow: {
+					MonstrousArrow: {
+						DisplayName: 畸变血箭
+						Tooltip:
+							'''
+							命中后回复生命值
+							“正是死亡的威胁让我感受到了生命的意义”
+							'''
+					}
+		
+					MonstrousArrowPROJ.DisplayName: 畸变血箭
+					EtherealArrowPROJ.DisplayName: 灭灵箭
+				}
+		
+				PlasmaDriveCorePrototypeArrow: {
+					PlasmaDriveCorePrototypeArrow: {
+						DisplayName: SHPA
+						Tooltip:
+							'''
+							命中时引发小型等离子爆炸
+							“你再说一遍你是把什么东西打了出来？”
+							'''
+					}
+		
+					PlasmaDriveCorePrototypeArrowEXP.DisplayName: SHPA爆炸
+					PlasmaDriveCorePrototypeArrowPROJ.DisplayName: SHPA
+				}
+		
+				Terratoarrow: {
+					Terratoarrow: {
+						DisplayName: 泰拉巨箭
+						Tooltip:
+							'''
+							快速飞行并分裂成多支强力追踪的分裂光束箭
+							直接命中敌人造成更高的群体伤害
+							“你是想近一点死呢，还是远一点死呢？”
+							'''
+					}
+		
+					TerratoarrowPROJ.DisplayName: 泰拉巨箭
+					TerratoarrowSlash.DisplayName: 光束箭
+					TerratoarrowSPIT.DisplayName: 泰拉巨粒
+				}
+		
+				TheDrill: {
+					TheDrill: {
+						DisplayName: 赤金切削工具
+						Tooltip:
+							'''
+							可破坏方块
+							Boss存活或玩家持有创意震撼时无效
+							无论何时何地，只要摁下鼠标右键就可以直接清除所有场上的钻头
+							“是否厌倦了建造场地？该产品正适合您！”
+							'''
+					}
+		
+					TheDrillPROJ.DisplayName: 赤金切削工具
+				}
+		
+				TimeLeaper: {
+					TimeLeaper: {
+						DisplayName: 时空交叉箭
+						Tooltip:
+							'''
+							无限穿透，但在鼠标位置生成
+							往玩家处回收，没有击中敌人时给玩家回血
+							击中的敌人越多越是会扣除玩家更多的血量
+							玩家可能会因为其而死亡
+							“生存还是毁灭，这是一个问题”
+							'''
+					}
+		
+					TimeLeaperPROJ.DisplayName: 时空交叉箭
+				}
+		
+				TNTArrow: {
+					TNTArrow: {
+						DisplayName: 炸药箭
+						Tooltip:
+							'''
+							反弹并炸出火星子，反弹次数越多，炸出的越多
+							“师傅你是做什么工作的”
+							'''
+					}
+		
+					TNTArrowPROJ.DisplayName: 炸药箭
+				}
+		
+				EtherealArrow: {
+					EtherealArrow: {
+						DisplayName: 灭灵箭
+						Tooltip:
+							'''
+							翻滚，瞄准，追踪
+							根据召唤栏的数量决定追踪强度
+							根据炮台栏的数量提升最终伤害
+							“他身上插满了旗，不对，这好像都是超速罚单”
+							'''
+					}
+				}
+			}
+		}
+	}
+}

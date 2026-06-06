@@ -1,0 +1,27 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Configs: {
+			CREsConfigs: {
+				DisplayName: CREs中心
+		
+				EnableSpecialEffects: {
+					Label: 特效总控
+					Tooltip:
+						'''
+						可以一键开启或关闭所有特效
+						部分特效不可关闭
+						'''
+				}
+		
+				EnableAmmoChecking: {
+					Label: 弹药检查
+					Tooltip:
+						'''
+						开启后会在左下角显示当前使用的弹药
+						(目前没做)
+						'''
+				}
+			}
+		}
+	}
+}

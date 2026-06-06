@@ -1,0 +1,26 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			Pyroblast: {
+				Pyroblast: {
+					DisplayName: 炎爆
+					Tooltip:
+						'''
+						握在手中倾泻出独特的爆炸子弹
+						持续射击5秒获得增强，发射激光或者火箭弹等
+						继续持续射击以陆续强化这三种弹幕
+						切换武器将会清除所有等级
+						右键以玩家为中心射出8颗不断旋转的爆裂光球
+						一段时间后光球会追踪敌人
+						“把他们炸成碎片！”
+						'''
+				}
+		
+				PyroblastPROJ.DisplayName: 炎爆
+				PyroblastRocket.DisplayName: 火箭弹
+				PyroblastRocketEXP.DisplayName: 火箭弹爆炸
+				PyroblastSolarBeam.DisplayName: 光球
+			}
+		}
+	}
+}

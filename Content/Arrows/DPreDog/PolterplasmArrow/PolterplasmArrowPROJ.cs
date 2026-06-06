@@ -3,7 +3,7 @@
     public class PolterplasmArrowPROJ : ModProjectile, ILocalizedModType
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/DPreDog/PolterplasmArrow/PolterplasmArrow";
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

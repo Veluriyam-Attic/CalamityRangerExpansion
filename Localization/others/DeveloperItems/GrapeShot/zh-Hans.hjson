@@ -1,0 +1,22 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			GrapeShot: {
+				GrapeShot: {
+					DisplayName: 霰散弹
+					Tooltip:
+						'''
+						爆裂出碎片
+						每攻击一定次数就会提高一个碎片数量等级
+						停止攻击会逐渐下降一个碎片等级
+						碎片数量等级达到上限之后不会再提升
+						“如风暴般撕裂你的敌人！”
+						'''
+				}
+		
+				GrapeShotPROJ.DisplayName: 霰散弹
+				GrapeShotPROJSPIT.DisplayName: 霰散弹
+			}
+		}
+	}
+}

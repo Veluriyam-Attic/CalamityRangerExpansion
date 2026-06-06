@@ -1,0 +1,49 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			EAfterDog: {
+				AuricArrow: {
+					DisplayName: Auric Arrow
+					Tooltip:
+						'''
+						Releases an electromagnetic explosion on hit
+						Small chance to spawn a ball of living flame where the player is
+						It will chase enemies and explode
+						Then drops an item that boosts damage
+						“This is the boon of the gods. ”
+						'''
+				}
+		
+				MiracleMatterArrow: {
+					DisplayName: Kaleidoscopic Phantasmagoria
+					Tooltip:
+						'''
+						Explodes when an enemy is near
+						Releases homing energy bolts on death
+						The Witch doesn't like this...
+						Best not to use this with Heaven's Wind against her.
+						Try something else!
+						“Shine brighter than the stars in the sky.”
+						'''
+				}
+		
+				EndothermicEnergyArrow: {
+					DisplayName: Endothermic Arrow
+					Tooltip:
+						'''
+						Flies on hit and rains down icicles
+						“For the Rock Emperor!”
+						'''
+				}
+
+				DropThing.DisplayName: Drop Thing
+				AuricArrowPROJ.DisplayName: Auric Arrow
+				EndothermicEnergyArrowPROJ.DisplayName: Endothermic Arrow
+				EndothermicEnergyArrowSPLIT.DisplayName: Icicle
+				MiracleMatterArrowFire.DisplayName: Light ball
+				MiracleMatterArrowPROJ.DisplayName: Kaleidoscopic Phantasmagoria
+				AuricArrowNPC.DisplayName: fireball
+			}
+		}
+	}
+}

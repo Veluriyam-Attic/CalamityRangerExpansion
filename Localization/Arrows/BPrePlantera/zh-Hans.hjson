@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			BPrePlantera: {
+				StarblightSootArrow: {
+					DisplayName: 星沫箭
+					Tooltip:
+						'''
+						造成幻星感染
+						出现时往前喷射一些星空粒子，不可穿透
+						'''
+				}
+
+				StarblightSootArrowPROJ.DisplayName: 凋星箭
+				StarblightSootArrowSpark.DisplayName: 凋星箭粒子
+			}
+		}
+	}
+}

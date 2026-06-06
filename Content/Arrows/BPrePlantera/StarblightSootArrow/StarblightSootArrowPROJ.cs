@@ -4,7 +4,7 @@
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/BPrePlantera/StarblightSootArrow/StarblightSootArrow";
 
-        public new string LocalizationCategory => "Projectile.BPrePlantera";
+        public new string LocalizationCategory => "Arrows.BPrePlantera";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

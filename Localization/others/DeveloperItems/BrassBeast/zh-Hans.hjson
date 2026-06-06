@@ -1,0 +1,22 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			BrassBeast: {
+				BrassBeast: {
+					DisplayName: 黄铜野兽
+					Tooltip:
+						'''
+						左键快速喷发出蒸汽束燃烧敌人
+						右键在枪口引发进攻性散热爆炸
+						对范围内的所有敌人均造成伤害
+						月球领主的存在限制了他的能力
+						“这头野兽彻底愤怒了”
+						'''
+				}
+		
+				BrassBeastHeavySmoke.DisplayName: 蒸汽束
+				BrassBeastPROJ.DisplayName: 黄铜野兽
+			}
+		}
+	}
+}

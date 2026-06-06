@@ -2,7 +2,7 @@
 {
     public class ExplodingRabbitPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "DeveloperItems.ExplodingRabbit";
         public override string Texture => "CalamityRangerExpansion/Content/DeveloperItems/Arrow/ExplodingRabbit/ExplodingRabbit";
         private int bounceCount = 0;
 

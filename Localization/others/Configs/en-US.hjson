@@ -1,0 +1,27 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Configs: {
+			CREsConfigs: {
+				DisplayName: Ranger Expansion Configs
+		
+				EnableSpecialEffects: {
+					Label: Special Effects
+					Tooltip:
+						'''
+						Make special effects visible/invisible
+						Some special effects are not affected
+						'''
+				}
+		
+				EnableAmmoChecking: {
+					Label: Ammo Checking
+					Tooltip:
+						'''
+						Displays the ammo you're currently using on the left corner
+						(Doesn't work yet)
+						'''
+				}
+			}
+		}
+	}
+}

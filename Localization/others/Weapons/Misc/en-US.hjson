@@ -1,0 +1,9 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			Misc: {
+				TeachingProjectile.DisplayName: Teaching Projectile
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ShadowsBullet: {
+				ShadowsBullet: {
+					DisplayName: Demonshade Bullet
+					Tooltip:
+						'''
+						Splits into random bullets
+						“Oh my pccccccc!”
+						'''
+				}
+		
+				ShadowsBulletPROJ.DisplayName: Demonshade Bullet
+			}
+		}
+	}
+}

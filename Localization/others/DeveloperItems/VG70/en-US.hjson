@@ -1,0 +1,26 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			VG70: {
+				VG70: {
+					DisplayName: VG70 – Variable
+					Tooltip:
+						'''
+						[c/FFB347:"Eliminate unstable variables."]
+						[c/808080:A Super Earth–approved multi-barrel voting platform.]
+						[c/AAAAAA:Seven barrels fire in a predetermined sequence, ensuring every round has its say.]
+						[c/FF3C3C:Right-click to conduct two rapid rounds of unanimous voting, delivering 80 high-energy ballots instantly.]
+						[c/DD5555:This procedure generates significant recoil and temporarily suspends further democratic discourse.]
+						[c/808080:During cooldown, the weapon remains in hand for the operator to reflect on their recent decision.]
+						[c/00BFFF:Ideal for achieving overwhelming consensus after prolonged debate.]
+						[c/808080:History has repeatedly deemed such designs inefficient. We remain optimistic.]
+						[c/EAF6FF: Sold by arms dealers at Post-lunatic cultist]
+						'''
+				}
+		
+				VG70Proj.DisplayName: V G70 Proj
+				VG70Hold.DisplayName: V G70 Hold
+			}
+		}
+	}
+}

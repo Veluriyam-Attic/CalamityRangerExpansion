@@ -1,0 +1,112 @@
+Mods: {
+	CalamityRangerExpansion: {
+		WeaponToAMMO: {
+			Bullet: {
+				ApoctosisMagicBullet: {
+					ApoctosisMagicBullet: {
+						Tooltip:
+							'''
+							Each bullet costs 5 mana
+							Each 1 point of remaining mana you have provides 0.5% more damage
+							“You think I am Mage, but I am Ranger da!”
+							'''
+						DisplayName: Apoctosis Bullet
+					}
+		
+					ApoctosisMagicBulletPROJ.DisplayName: Apoctosis Bullet
+				}
+		
+				DestructionBullet: {
+					DestructionBullet: {
+						DisplayName: Destruction Bullet
+						Tooltip:
+							'''
+							Creates a small alchemical explosion and inflict a variety of debuffs
+							“So I broke a green tube, so what? Why are you running away?”
+							'''
+					}
+		
+					DestructionBulletEXP.DisplayName: alchemical explosion
+					DestructionBulletPROJ.DisplayName: Destruction Bullet
+				}
+		
+				NorthStar: {
+					TheNorthStar: {
+						Tooltip:
+							'''
+							Fires a lazer, accumulating energy as it hits
+							After 50 successful hits, fires splitting beams
+							After another 50 successful hits, the beams home in
+							“Throw your bullets away. This is much better.”
+							'''
+						DisplayName: The North Star
+					}
+		
+					PolarStarO.DisplayName: The North Star
+				}
+		
+				OrichalcumBullet: {
+					OrichalcumBullet: {
+						Tooltip:
+							'''
+							Summons Orichalcum petals on hit
+							“It was so good.”
+							'''
+						DisplayName: Orichalcum Bullet
+					}
+		
+					OrichalcumBulletPROJ.DisplayName: Orichalcum Bullet
+				}
+		
+				TheEmpty: {
+					TheEmpty: {
+						DisplayName: Empty
+						Tooltip:
+							'''
+							Change enemies' size when hit
+							Works on bosses
+							“May crash the game.”
+							'''
+					}
+		
+					TheEmptyPROJ.DisplayName: Empty
+				}
+		
+				YuanZiDan: {
+					YuanZiDan: {
+						DisplayName: Particle
+						Tooltip:
+							'''
+							Ricochets between enemies, multiplying damage by 1.25 on each hit
+							The power of mocroatomics and quantum mechanics
+							“It's light enough!”
+							'''
+					}
+		
+					YuanZiDanPROJ.DisplayName: Particle
+				}
+		
+				AdamantiteAcceleratorBullet: {
+					AdamantiteAcceleratorBulletPROJ.DisplayName: Adamantite Amplifier
+		
+					AdamantiteAcceleratorBullet: {
+						DisplayName: Adamantite Amplifier (Boxed)
+						TooltipNormal:
+							'''
+							Starts at a slow speed but guadually accelerates
+							Damage scales with speed
+							“A portable particle collider is a surprisingly potent weapon.”
+							'''
+						Tooltip: "[HavePLA]"
+						TooltipHavePLA:
+							'''
+							Starts at a slow speed but guadually accelerates
+							Damage scales with speed
+							“Have I seen you before?”
+							'''
+					}
+				}
+			}
+		}
+	}
+}

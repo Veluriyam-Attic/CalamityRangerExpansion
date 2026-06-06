@@ -2,7 +2,7 @@
 {
     public class EndothermicEnergyBulletPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Ammunition.EAfterDog";
         public override string Texture => "CalamityMod/Projectiles/LaserProj"; // 引用原始纹理
 
         public Color baseColor = Color.Cyan; // 冰元素的蓝色

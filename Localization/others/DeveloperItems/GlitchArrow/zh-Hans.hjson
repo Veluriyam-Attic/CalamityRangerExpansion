@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			GlitchArrow: {
+				GlitchArrow: {
+					DisplayName: 故障箭
+					Tooltip:
+						'''
+						它好像出了亿点点小问题
+						你能把它修好吗？
+						'''
+				}
+		
+				GlitchArrowPROJ.DisplayName: 故障箭
+			}
+		}
+	}
+}

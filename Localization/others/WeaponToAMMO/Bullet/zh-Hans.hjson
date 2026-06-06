@@ -1,0 +1,113 @@
+Mods: {
+	CalamityRangerExpansion: {
+		WeaponToAMMO: {
+			Bullet: {
+				ApoctosisMagicBullet: {
+					ApoctosisMagicBullet: {
+						Tooltip:
+							'''
+							消耗5魔力射出子弹，命中后根据现有魔力值提供伤害增幅
+							每一点魔力值提供0.5%的伤害增幅，无上限
+							“一个不会用魔法发射子弹的持枪射手不是一名好法师”
+							'''
+						DisplayName: 凋亡弹
+					}
+		
+					ApoctosisMagicBulletPROJ.DisplayName: 凋亡弹
+				}
+		
+				DestructionBullet: {
+					DestructionBullet: {
+						DisplayName: 混合血清弹
+						Tooltip:
+							'''
+							它的粒子与冲击波似乎因为炼金术而导致了混乱
+							产生小范围炼金爆炸并对敌人施加大量Debuff
+							“我也就打碎了一个绿色的螺旋玻璃管，你们怎么都跑走了，这很贵吗？”
+							'''
+					}
+		
+					DestructionBulletEXP.DisplayName: 炼金爆炸
+					DestructionBulletPROJ.DisplayName: 混合血清弹
+				}
+		
+				NorthStar: {
+					TheNorthStar: {
+						Tooltip:
+							'''
+							射出不穿透的激光，击中敌人时积攒能量
+							命中50次后升级自身弹幕，释放分裂光束
+							继续命中50次后升到最高级以获得强追踪
+							“松 鼠 撅 鱼”
+							'''
+						DisplayName: 北极星之佑
+					}
+		
+					PolarStarO.DisplayName: 北极星之佑
+				}
+		
+				OrichalcumBullet: {
+					OrichalcumBullet: {
+						Tooltip:
+							'''
+							击中敌人后从周围召唤山铜花瓣
+							“有没有石楠花的”
+							'''
+						DisplayName: 山铜空尖弹
+					}
+		
+					OrichalcumBulletPROJ.DisplayName: 山铜空尖弹
+				}
+		
+				TheEmpty: {
+					TheEmpty: {
+						DisplayName: 空弹
+						Tooltip:
+							'''
+							停下，思考，追踪，随地大小变
+							可改变碰撞箱，对Boss也有效
+							“容易让游戏崩溃”
+							'''
+					}
+		
+					TheEmptyPROJ.DisplayName: 空弹
+				}
+		
+				YuanZiDan: {
+					YuanZiDan: {
+						DisplayName: 狂野气凝胶弹
+						Tooltip:
+							'''
+							撞击后弹至周围敌人并将自己的伤害乘以1.25
+							凝聚了微观原子学以及量子力学的力量
+							“你不需要搞懂它的原理，因为这解释起来需要花上三天三夜！”
+							'''
+					}
+		
+					YuanZiDanPROJ.DisplayName: 狂野气凝胶弹
+				}
+		
+				AdamantiteAcceleratorBullet: {
+					AdamantiteAcceleratorBulletPROJ.DisplayName: 精金超加速环形粒子
+		
+					AdamantiteAcceleratorBullet: {
+						DisplayName: 精金超加速环形粒子 [盒装]
+						TooltipNormal:
+							'''
+							刚开始时速度很慢，但会逐渐加速
+							击中敌人时自身速度越快，越是能造成更高伤害
+							“粒子轰击器的杰作”
+							'''
+						Tooltip: "[HavePLA]"
+						TooltipHavePLA:
+							'''
+							刚开始时速度很慢，但会逐渐加速
+							击中敌人时自身速度越快，越是能造成更高伤害
+							“等一等，我好像在哪里见过你？”
+							'''
+					}
+				}
+			}
+		}
+	}
+}

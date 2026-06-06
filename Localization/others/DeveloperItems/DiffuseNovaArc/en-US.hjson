@@ -1,0 +1,17 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			DiffuseNovaArc: {
+				DiffuseNovaArc: {
+					DisplayName: Diffuse Nova Arc
+					Tooltip:
+						'''
+						Charges up and rapidly fires Nova Bolts
+						If fully charged, fires a destructive Nova Wave
+						If doubly charged, fires even more bolts
+						'''
+				}
+			}
+		}
+	}
+}

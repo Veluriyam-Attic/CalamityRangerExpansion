@@ -2,7 +2,7 @@
 {
     public class PerennialArrowFlower : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
 
         public override void SetStaticDefaults()
         {

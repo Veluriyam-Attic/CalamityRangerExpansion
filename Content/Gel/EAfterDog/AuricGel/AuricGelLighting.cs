@@ -2,7 +2,7 @@
 {
     internal class AuricGelLighting : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Gel.EAfterDog";
 
         public const int MaximumBranchingIterations = 3;
         public const float LightningTurnRandomnessFactor = 1.7f;

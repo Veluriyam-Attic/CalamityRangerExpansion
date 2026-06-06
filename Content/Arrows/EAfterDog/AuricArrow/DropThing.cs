@@ -2,7 +2,7 @@
 {
     internal class DropThing : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.EAfterDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

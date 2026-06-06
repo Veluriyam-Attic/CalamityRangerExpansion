@@ -1,0 +1,22 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			BrassBeast: {
+				BrassBeast: {
+					DisplayName: Brass Beast
+					Tooltip:
+						'''
+						Left click to fire a stream of steam and scald enemies
+						Right click to expel a heat explosion
+						Deals damage to all enemies around you
+						Abilities limited by Moon Lord
+						“The beast is angered.”
+						'''
+				}
+		
+				BrassBeastHeavySmoke.DisplayName: Steam
+				BrassBeastPROJ.DisplayName: Brass Beast
+			}
+		}
+	}
+}

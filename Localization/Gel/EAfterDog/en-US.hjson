@@ -1,0 +1,53 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			EAfterDog: {
+				CosmosGel: {
+					DisplayName: Cosmic Gel
+					Tooltip:
+						'''
+						Lures in mini cosmos eaters to chase afer your enemies
+						“More delicious than regular gel!”
+						'''
+				}
+		
+				AuricGel: {
+					DisplayName: Auric Gel
+					Tooltip:
+						'''
+						Every 2 seconds, summon a total of 10 Auric lightning bolts
+						They deal 75% damage each
+						“Struck gold.”
+						'''
+				}
+		
+				MiracleMatterGel: {
+					DisplayName: Miracle Gel
+					Tooltip:
+						'''
+						Inflicts Miracle Blight for 5s
+						On hit, calls down a lightning bolt for 200% damage
+						Only one bolt can exist at a time
+						“Each of them is enough to power an entire aircraft carrier.”
+						'''
+				}
+		
+				EndothermicEnergyGel: {
+					DisplayName: Endothermic Gel
+					Tooltip:
+						'''
+						Does not pierce
+						Deals extremely high damage
+						“To put it bluntly, it's liquid nitrogen.”
+						'''
+				}
+
+				AuricGelLighting.DisplayName: Auric lightning
+				MiracleMatterGelLighting.DisplayName: Miracle lightning
+				CosmosGelEater1Head.DisplayName: Cosmos Gel Eater1 Head
+				CosmosGelEater2Body.DisplayName: Cosmos Gel Eater2 Body
+				CosmosGelEater3Tail.DisplayName: Cosmos Gel Eater3 Tail
+			}
+		}
+	}
+}

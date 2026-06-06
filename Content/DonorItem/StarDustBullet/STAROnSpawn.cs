@@ -1,7 +1,9 @@
 ﻿namespace CalamityRangerExpansion.Content.DonorItem.StarDustBullet
 {
-    public class STAROnSpawn : ModProjectile
+    public class STAROnSpawn : ModProjectile, ILocalizedModType
     {
+        public new string LocalizationCategory => "DonorItem";
+
         public int p1;
         public int p2;
 

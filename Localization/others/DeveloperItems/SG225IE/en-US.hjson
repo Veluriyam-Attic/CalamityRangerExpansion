@@ -1,0 +1,30 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			SG225IE: {
+				SG225IEProj.DisplayName: SG225IE Incendiary Round
+		
+				SG225IEEDebuff: {
+					DisplayName: High Combustion
+					Description: Repeated impacts intensify thermal persuasion over time.
+				}
+		
+				SG225IE: {
+					DisplayName: SG225IE – Breaker Incendiary
+					Tooltip:
+						'''
+						[c/FFB347:"Deliver sustained enthusiasm in the name of Democracy."]
+						[c/808080:A Super Earth–certified low-maintenance incendiary dispersion device.]
+						[c/FFA500:Scatters multiple incendiary projectiles with unlimited penetration capability.]
+						[c/AAAAAA:Direct damage has been optimized for prolonged operational engagement.]
+						[c/FF6A00:The more times the same target is struck, the more persuasive the burning becomes — until voluntary compliance is achieved.]
+						[c/FF3C3C:Particularly convincing against dense enemy formations — including similarly dense friendly formations.]
+						[c/00BFFF:Highly suitable for long-term administrative democracy deployment on the battlefield.]
+						[c/808080:If the target is still moving, continue delivering enthusiasm. If you cannot distinguish friend from foe, continue delivering enthusiasm.]
+						[c/EAF6FF: Sold by arms dealers at any time]
+						'''
+				}
+			}
+		}
+	}
+}

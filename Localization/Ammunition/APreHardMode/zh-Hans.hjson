@@ -1,0 +1,39 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			APreHardMode: {
+				AerialiteBullet: {
+					DisplayName: 天蓝弹
+					Tooltip:
+						'''
+						被发射的时候给玩家一个“氢氢”的后坐力
+						后座力有最大速度限制
+						'''
+				}
+		
+				WulfrimBullet: {
+					DisplayName: 钨钢弹
+					Tooltip:
+						'''
+						距离敌人越近，越是能爆发出更大的能量
+						距离超过一定值则会降低这次命中的伤害
+						'''
+				}
+		
+				TinkleshardBullet: {
+					DisplayName: 棱晶弹
+					Tooltip:
+						'''
+						射出一段距离后散出一些棱晶碎片
+						不要试图控制它的散射方向
+						'''
+				}
+
+				AerialiteBulletPROJ.DisplayName: 天蓝弹
+				TinkleshardBulletPROJ.DisplayName: 棱晶弹
+				TinkleshardBulletSPIT.DisplayName: 棱晶碎片
+				WulfrimBulletPROJ.DisplayName: 钨钢弹
+			}
+		}
+	}
+}

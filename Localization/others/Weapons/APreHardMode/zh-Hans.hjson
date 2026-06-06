@@ -1,0 +1,17 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			APreHardMode: {
+				LunarianBowRe: {
+					// DisplayName: Lunarian Bow Re
+					// Tooltip: ""
+				}
+		
+				ToxibowRe: {
+					// DisplayName: Toxibow Re
+					// Tooltip: ""
+				}
+			}
+		}
+	}
+}

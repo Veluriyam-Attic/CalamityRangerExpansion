@@ -4,7 +4,7 @@
     {
         private static int killCounter = 0; // 计数器
 
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Ammunition.CPreMoodLord";
 
         public override void SetStaticDefaults()
         {

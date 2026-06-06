@@ -2,7 +2,7 @@
 {
     internal class PlagueBulletPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Ammunition.CPreMoodLord";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 8;

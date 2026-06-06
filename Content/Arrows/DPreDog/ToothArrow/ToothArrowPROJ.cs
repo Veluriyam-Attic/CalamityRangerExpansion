@@ -2,7 +2,7 @@
 {
     internal class ToothArrowPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/DPreDog/ToothArrow/ToothArrow";
 
         public override void SetStaticDefaults()

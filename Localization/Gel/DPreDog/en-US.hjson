@@ -1,0 +1,72 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			DPreDog: {
+				UelibloomGel: {
+					DisplayName: Uelibloom Gel
+					Tooltip:
+						'''
+						Summons life lights from all over on hit
+						“How dare you!”
+						'''
+				}
+		
+				BloodstoneCoreGel: {
+					DisplayName: Blood Gel
+					Tooltip:
+						'''
+						Heals you on hit
+						“The Dummy's Guide to Healing - Book Three”
+						'''
+				}
+		
+				DivineGeodeGel: {
+					DisplayName: Divine Gel
+					Tooltip:
+						'''
+						Inflicts Holy Fire for a long duration
+						Pierces Infinitely
+						Explodes on hit
+						“One roasted DoG, coming right up!”
+						'''
+				}
+		
+				EffulgentFeatherGel: {
+					DisplayName: Effulgent Gel
+					Tooltip:
+						'''
+						Releases sparks on hit
+						“Static!”
+						'''
+				}
+		
+				PolterplasmGel: {
+					DisplayName: Polterplasm Gel
+					Tooltip:
+						'''
+						Dungeon spirits within gives this slight homing!
+						“Kamikaze spirits. Soga.”
+						'''
+				}
+		
+				UnholyEssenceGel: {
+					DisplayName: Unholy Gel
+					Tooltip:
+						'''
+						Inflicts Holy Fire
+						“We will purge the world.”
+						'''
+				}
+		
+				ToothGel: {
+					DisplayName: Abyssal Coagulator
+					Tooltip:
+						'''
+						Decreases enemy defence by 30. Does not stack.
+						“Congeal, freeze, shatter.”
+						'''
+				}
+			}
+		}
+	}
+}

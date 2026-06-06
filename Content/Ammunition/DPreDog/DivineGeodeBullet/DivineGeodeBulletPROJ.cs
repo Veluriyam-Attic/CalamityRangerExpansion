@@ -2,7 +2,7 @@
 {
     public class DivineGeodeBulletPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Ammunition.DPreDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 16;

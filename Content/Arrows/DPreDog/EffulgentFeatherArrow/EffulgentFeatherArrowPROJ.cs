@@ -3,7 +3,7 @@
     public class EffulgentFeatherArrowPROJ : ModProjectile, ILocalizedModType
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/DPreDog/EffulgentFeatherArrow/EffulgentFeatherArrow";
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         private float rotationSpeed = 0.05f; // 设置旋转速度
         private float rotationAngle = 0f;    // 初始化旋转角度
 

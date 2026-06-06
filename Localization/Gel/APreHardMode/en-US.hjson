@@ -1,0 +1,50 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			APreHardMode: {
+				GeliticGel: {
+					DisplayName: Duality Gel
+					Tooltip:
+						'''
+						Inflicts Slimed
+						Inflicts Boiling Flesh and Brain Rot in evil biomes
+						Inflicts Holy Fire in the Hallow
+						“The colors, duke, the colors!”
+						'''
+				}
+		
+				HurricaneGel: {
+					DisplayName: Prism Gel
+					Tooltip:
+						'''
+						Decreases attack speed by 10%
+						Sprays prism shards on hit
+						“Like when you put a rock into a snowball...”
+						'''
+				}
+		
+				WulfrimGel: {
+					DisplayName: Wulfrim Gel
+					Tooltip:
+						'''
+						Deals an additional 5 damage every second
+						“Doubles as lubricant.”
+						'''
+				}
+		
+				AerialiteGel: {
+					DisplayName: Aero Gel
+					Tooltip:
+						'''
+						Fires a cloud every 5 seconds for great damage
+						Will also push the player back when it happens
+						“The Great Sage has come!”
+						'''
+				}
+
+				AerialiteGelCloud.DisplayName: Cloud
+				HurricaneGelSplit.DisplayName: Crystal shard
+			}
+		}
+	}
+}

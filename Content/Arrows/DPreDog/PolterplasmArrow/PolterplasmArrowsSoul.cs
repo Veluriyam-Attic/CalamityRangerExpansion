@@ -2,7 +2,7 @@
 {
     public class PolterplasmArrowsSoul : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
 
         private const int TimeLeft = 660;
         private float HomingBuff = 1;

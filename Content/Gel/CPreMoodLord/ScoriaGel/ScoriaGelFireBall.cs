@@ -2,7 +2,7 @@
 {
     internal class ScoriaGelFireBall : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Gel.CPreMoodLord";
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 
         public float Time

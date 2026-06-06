@@ -1,0 +1,16 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			RE: {
+				PhotovisceratorRE: {
+					DisplayName: Photoviscerator Reconstructed
+					Tooltip:
+						'''
+						Just Photoviscerator
+						But it can get the special effects of gels from this mod now!
+						'''
+				}
+			}
+		}
+	}
+}

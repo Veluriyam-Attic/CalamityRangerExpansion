@@ -1,0 +1,67 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			DPreDog: {
+				UelibloomBullet: {
+					DisplayName: 龙蒿弹
+					Tooltip:
+						'''
+						爆发出强大并且具有追踪性的生命光球
+						“它是生命，也是毁灭”
+						'''
+				}
+		
+				PolterplasmBullet: {
+					DisplayName: 花灵弹
+					Tooltip:
+						'''
+						命中后释放多个弧线飞行并强力追踪的花灵
+						花灵再次命中敌人后给予玩家「末路狂花」效果
+						存在期间，玩家可以单击进行强而有力的冲刺
+						“你说当天你夜闯秋名山看见的就是这家伙？”
+						'''
+				}
+		
+				EffulgentFeatherBullet: {
+					DisplayName: 闪耀金羽弹
+					Tooltip:
+						'''
+						击中后让玩家获得2秒的法拉第笼效果
+						可以产生高压电场伤害周围的敌人
+						“你为什么自己没事？”
+						'''
+				}
+		
+				DivineGeodeBullet: {
+					DisplayName: 圣晶石子弹
+					Tooltip:
+						'''
+						削弱敌人的防御
+						在专家模式及以上有概率回复敌人生命值
+						“天神也干了”
+						'''
+				}
+		
+				ToothBullet: {
+					Tooltip:
+						'''
+						敌人每拥有1点防御力，都能为这次伤害额外提供0.75%的增幅
+						敌人每拥有1点伤害减免，都能为这次伤害额外提供0.25%的增幅
+						最大加成为125%
+						“破甲弹，现已装填！”
+						'''
+					DisplayName: 渊牙弹
+				}
+
+				DivineGeodeBulletPROJ.DisplayName: 圣晶石子弹
+				EffulgentFeatherBulletAREA.DisplayName: 法拉第笼
+				EffulgentFeatherBulletPROJ.DisplayName: 闪耀金羽箭
+				PolterplasmBulletFlower.DisplayName: 花灵
+				PolterplasmBulletPROJ.DisplayName: 花灵弹
+				ToothBulletPROJ.DisplayName: 渊牙弹
+				UelibloomBulletLEAF.DisplayName: 叶子
+				UelibloomBulletPROJ.DisplayName: 龙蒿弹
+			}
+		}
+	}
+}

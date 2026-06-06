@@ -1,0 +1,40 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			APreHardMode: {
+				AerialiteArrow: {
+					DisplayName: Hurricane Arrow
+					Tooltip:
+						'''
+						Summons wirlwinds on hit
+						Wirlwinds home in after a moment.
+						'''
+				}
+		
+				WulfrimArrow: {
+					DisplayName: Wulfrim Arrow
+					Tooltip:
+						'''
+						Relaeses sparks on hit.
+						“Worthy of Draedon's creations...”
+						'''
+				}
+		
+				PrismArrow: {
+					DisplayName: Prism Arrow
+					Tooltip:
+						'''
+						Unaffected by gravity in water, but falls faster in air.
+						“Because Archimedes said so.”
+						'''
+				}
+
+				AerialiteArrowPROJ.DisplayName: Aerialite Arrow
+				AerialiteArrowWIND.DisplayName: Wirlwind
+				PrismArrowPROJ.DisplayName: Prism Arrow
+				WulfrimArrowPROJ.DisplayName: Wulfrim Arrow
+				WulfrimSpark.DisplayName: electric spark
+			}
+		}
+	}
+}

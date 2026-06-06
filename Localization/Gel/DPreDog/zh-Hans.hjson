@@ -1,0 +1,72 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			DPreDog: {
+				UelibloomGel: {
+					DisplayName: 龙蒿凝胶
+					Tooltip:
+						'''
+						命中敌人时释放四面八方来的生命之光
+						“生~态~环~保~绿↗↘”
+						'''
+				}
+		
+				BloodstoneCoreGel: {
+					DisplayName: 血石核心凝胶
+					Tooltip:
+						'''
+						每次命中敌人都会回复许多血量
+						“深度治疗-专精三”
+						'''
+				}
+		
+				DivineGeodeGel: {
+					DisplayName: 神圣晶石凝胶
+					Tooltip:
+						'''
+						造成更长时间的神圣之火
+						令弹幕获得无限穿透能力
+						每次击中敌人还会在原地释放较大的爆炸
+						“感受天罚！”
+						'''
+				}
+		
+				EffulgentFeatherGel: {
+					DisplayName: 闪耀金羽凝胶
+					Tooltip:
+						'''
+						击中后爆发出电火花弹幕
+						“电能产生火，火也能生电”
+						'''
+				}
+		
+				PolterplasmGel: {
+					DisplayName: 灵质凝胶
+					Tooltip:
+						'''
+						奴役那些地牢灵魂让他们使弹幕具备弱追踪能力
+						“哟西，回天型载人鱼雷，大大滴好”
+						'''
+				}
+		
+				UnholyEssenceGel: {
+					DisplayName: 烛火精华凝胶
+					Tooltip:
+						'''
+						造成神圣之火
+						“净化世界是我们的最终目标”
+						'''
+				}
+		
+				ToothGel: {
+					DisplayName: 渊牙凝胶
+					Tooltip:
+						'''
+						削弱敌人的防御力
+						“都挤碎了，还这么害羞”
+						'''
+				}
+			}
+		}
+	}
+}

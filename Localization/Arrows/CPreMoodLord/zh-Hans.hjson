@@ -1,0 +1,67 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			CPreMoodLord: {
+				AstralArrow: {
+					DisplayName: 明星箭
+					Tooltip:
+						'''
+						击中敌人时给予玩家持续的「[c/CAE1FF:明星之佑]」效果
+						存在期间召唤[c/FFA500:太阳]和[c/87CEFF:月亮]并围绕玩家旋转
+						穿过[c/FFA500:太阳]将造成聚变爆炸，
+						穿过[c/87CEFF:月亮]将获得强追踪效果
+						日月强化仅对炫星箭有效
+						'''
+				}
+		
+				LifeAlloyArrow: {
+					DisplayName: 生命合金箭
+					Tooltip:
+						'''
+						三份力量收敛了自己的光芒后凝聚成的物质……
+						“一即全，全即一. ”
+						'''
+				}
+		
+				PerennialArrow: {
+					DisplayName: 永恒箭
+					Tooltip:
+						'''
+						标记敌人，长出一朵丛林之花
+						丛林之花持续造成伤害并粘附在敌人身上
+						一段时间后治疗玩家
+						'''
+				}
+		
+				ScoriaArrow: {
+					DisplayName: 熔渣箭
+					Tooltip:
+						'''
+						击中时产生爆炸并快速下落
+						最后释放追踪熔岩
+						'''
+				}
+		
+				PlagueArrow: {
+					DisplayName: 瘟疫重甲箭
+					Tooltip:
+						'''
+						凋零枯花在场时自己会被强化，拥有追踪能力
+						造成瘟疫效果
+						'''
+				}
+
+				AstralArrowMOON.DisplayName: 月亮
+				AstralArrowPROJ.DisplayName: 炫星箭
+				AstralArrowSUN.DisplayName: 太阳
+				LifeAlloyArrowPROJ.DisplayName: 生命合金箭
+				PerennialArrowFlower.DisplayName: 永恒花
+				PerennialArrowPROJ.DisplayName: 永恒箭
+				PlagueArrowPROJ.DisplayName: 瘟疫重甲箭
+				ScoriaArrowFireball.DisplayName: 火球
+				ScoriaArrowPROJ.DisplayName: 熔渣箭
+				LifeAlloyArrowPROJSPLIT.DisplayName: 生命合金箭
+			}
+		}
+	}
+}

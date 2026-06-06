@@ -2,7 +2,7 @@
 {
     internal class PrismArrowPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.APreHardMode";
+        public new string LocalizationCategory => "Arrows.APreHardMode";
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/APreHardMode/PrismArrow/PrismArrow";
         public override void SetStaticDefaults()
         {

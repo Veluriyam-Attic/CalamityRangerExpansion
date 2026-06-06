@@ -4,7 +4,7 @@
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/EAfterDog/AuricArrow/AuricArrow";
 
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Arrows.EAfterDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

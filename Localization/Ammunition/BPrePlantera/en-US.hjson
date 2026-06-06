@@ -1,0 +1,33 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			BPrePlantera: {
+				CryonicBullet: {
+					DisplayName: Cryonic Bullet
+					Tooltip:
+						'''
+						Marks enemies and make them take more damage
+						Shoots icicles midair
+						“Winter is here.”
+						'''
+				}
+		
+				StarblightSootBullet: {
+					DisplayName: Blight Star Round
+					Tooltip:
+						'''
+						Marks enemies
+						When a marked enemy dies, an astral field will appear
+						Enemies in the field share all damage they take with other enemies
+						“A dying star's last breath.”
+						'''
+				}
+
+				CryonicBulletFragment.DisplayName: Icicle
+				CryonicBulletPROJ.DisplayName: Cryonic Bullet
+				StarblightSootBulletPROJ.DisplayName: Starblight Soot Bullet
+				StarblightSootBulletArea.DisplayName: Starblight field
+			}
+		}
+	}
+}

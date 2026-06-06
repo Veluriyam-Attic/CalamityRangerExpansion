@@ -4,7 +4,7 @@
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/CPreMoodLord/LifeAlloyArrow/LifeAlloyArrow";
 
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         private Color currentColor = Color.Black; // 初始化为黑色
         private float bendAngle = 0f;
         private bool growing = false;

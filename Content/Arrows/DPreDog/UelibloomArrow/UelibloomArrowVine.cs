@@ -2,7 +2,7 @@
 {
     internal class UelibloomArrowVine : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         public static int TotalSegments = 10;
 
         public override void SetDefaults()

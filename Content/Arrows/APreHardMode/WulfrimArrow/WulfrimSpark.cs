@@ -2,7 +2,7 @@ namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
 {
     public class WulfrimSpark : ModProjectile, ILocalizedModType, IModType
     {
-        public new string LocalizationCategory => "Projectiles.Melee";
+        public new string LocalizationCategory => "Arrows.APreHardMode";
 
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 
@@ -85,7 +85,7 @@ namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.WulfrimArrow
 
         public ref float Time => ref Projectile.ai[1];
 
-        public override bool? CanDamage() => Time >= 10f; // ³õÊ¼µÄÊ±ºò²»»áÔì³ÉÉËº¦£¬Ö±µ½xÎªÖ¹
+        public override bool? CanDamage() => Time >= 10f; // ï¿½ï¿½Ê¼ï¿½ï¿½Ê±ï¿½ò²»»ï¿½ï¿½ï¿½ï¿½ï¿½Ëºï¿½ï¿½ï¿½Ö±ï¿½ï¿½xÎªÖ¹
         public override bool OnTileCollide(Vector2 oldVelocity)
         {
             return false;

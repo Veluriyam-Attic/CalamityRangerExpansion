@@ -1,0 +1,32 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Ammunition: {
+			BPrePlantera: {
+				CryonicBullet: {
+					DisplayName: 寒元弹
+					Tooltip:
+						'''
+						赋予敌人冰冷的标记并增加伤害
+						弹射出逐渐在空中停下来的冰刺
+						“北国风光，千里冰封，万里雪飘. ”
+						'''
+				}
+		
+				StarblightSootBullet: {
+					DisplayName: 凋星弹
+					Tooltip:
+						'''
+						击中敌人后，给予敌人即将灭亡的标记
+						等待敌人死亡，随后释放强大的幻星立场
+						幻星立场里的任意一个敌人受到伤害都会将伤害转移给其他敌人
+						'''
+				}
+
+				CryonicBulletFragment.DisplayName: 冰刺
+				CryonicBulletPROJ.DisplayName: 寒元弹
+				StarblightSootBulletPROJ.DisplayName: 凋星弹
+				StarblightSootBulletArea.DisplayName: 凋星弹立场
+			}
+		}
+	}
+}

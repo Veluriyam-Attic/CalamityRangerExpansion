@@ -2,7 +2,7 @@
 {
     public class CryonicBulletPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.BPrePlantera";
+        public new string LocalizationCategory => "Ammunition.BPrePlantera";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 8;

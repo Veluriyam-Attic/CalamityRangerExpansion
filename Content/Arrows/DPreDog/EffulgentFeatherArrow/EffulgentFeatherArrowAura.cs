@@ -2,7 +2,7 @@
 {
     public class EffulgentFeatherArrowAura : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         private const float radius = 98f;
         private const int framesX = 3;
         private const int framesY = 6;

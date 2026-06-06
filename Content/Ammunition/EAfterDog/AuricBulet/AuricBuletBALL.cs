@@ -2,7 +2,7 @@
 {
     public class AuricBuletBALL : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Ammunition.EAfterDog";
         private const int NoDamageTime = 2;  // 0.15秒不造成伤害（60帧/秒）
 
         public override void SetDefaults()

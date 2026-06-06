@@ -2,7 +2,7 @@
 {
     internal class PlagueArrowPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/CPreMoodLord/PlagueArrow/PlagueArrow";
 
         public override void SetStaticDefaults()

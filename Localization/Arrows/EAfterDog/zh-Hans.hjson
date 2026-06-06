@@ -1,0 +1,48 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			EAfterDog: {
+				AuricArrow: {
+					DisplayName: 圣金源箭
+					Tooltip:
+						'''
+						对你的敌人释放电磁爆炸
+						小概率在玩家处产生一个拥有生命力的火球
+						火球会尝试碰撞敌人并造成自爆伤害
+						随后留下一个给予大幅伤害提升的宝物
+						“策勋十二转，赏赐百千强. ”
+						'''
+				}
+		
+				MiracleMatterArrow: {
+					DisplayName: 幻光斑景
+					Tooltip:
+						'''
+						命中后释放强力追踪的光球能量弹
+						星流箭本体距离敌人较近时可被提前引爆
+						那名掌握至尊死灵术的魔女似乎不喜欢这个和一把来自天堂的神器
+						所以你不应该在战斗中同时使用这两个？
+						试试更差的武器吧！
+						'''
+				}
+		
+				EndothermicEnergyArrow: {
+					DisplayName: 霜华矢
+					Tooltip:
+						'''
+						击中后往上飞行，然后往下释放五道冰锥
+						“为了岩王帝君”
+						'''
+				}
+
+				DropThing.DisplayName: Drop Thing
+				AuricArrowPROJ.DisplayName: 金源箭
+				EndothermicEnergyArrowPROJ.DisplayName: 霜华矢
+				EndothermicEnergyArrowSPLIT.DisplayName: 冰锥
+				MiracleMatterArrowFire.DisplayName: 光球能量弹
+				MiracleMatterArrowPROJ.DisplayName: 幻光斑景
+				AuricArrowNPC.DisplayName: 火球
+			}
+		}
+	}
+}

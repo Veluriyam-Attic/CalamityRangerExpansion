@@ -4,7 +4,7 @@
     {
         //public override string Texture => "CalamityRangerExpansion/Content/Arrows/DPreDog/DivineGeodeArrow/DivineGeodeArrow";
 
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;

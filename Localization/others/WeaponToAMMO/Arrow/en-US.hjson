@@ -1,0 +1,109 @@
+Mods: {
+	CalamityRangerExpansion: {
+		WeaponToAMMO: {
+			Arrow: {
+				MonstrousArrow: {
+					MonstrousArrow: {
+						DisplayName: Monstrous Arrow
+						Tooltip:
+							'''
+							Heals you on hit
+							“You make my heart beat.”
+							'''
+					}
+		
+					MonstrousArrowPROJ.DisplayName: Monstrous Arrow
+					EtherealArrowPROJ.DisplayName: Annihilation Arrow
+				}
+		
+				PlasmaDriveCorePrototypeArrow: {
+					PlasmaDriveCorePrototypeArrow: {
+						DisplayName: SHPA
+						Tooltip:
+							'''
+							Releases a small plasma explosion on hit
+							“What did you just fire?!”
+							'''
+					}
+		
+					PlasmaDriveCorePrototypeArrowEXP.DisplayName: SHPA爆炸
+					PlasmaDriveCorePrototypeArrowPROJ.DisplayName: SHPA
+				}
+		
+				Terratoarrow: {
+					Terratoarrow: {
+						DisplayName: Terratoarrow
+						Tooltip:
+							'''
+							Flies fast and splits into homing bolts after a while
+							Striking an enemy before it splits deals more damage
+							“An old legend...”
+							'''
+					}
+		
+					TerratoarrowPROJ.DisplayName: Terratoarrow
+					TerratoarrowSlash.DisplayName: Terratoarrow
+					TerratoarrowSPIT.DisplayName: Terratoarrow
+				}
+		
+				TheDrill: {
+					TheDrill: {
+						DisplayName: Gilded Omnidrill
+						Tooltip:
+							'''
+							Can break blocks
+							Doesn't work when a boss is alive or when you have Creative Shock
+							Right click to erase al drills from existence
+							“Tired of clearing out arenas by hand?”
+							'''
+					}
+		
+					TheDrillPROJ.DisplayName: Gilded Omnidrill
+				}
+		
+				TimeLeaper: {
+					TimeLeaper: {
+						DisplayName: Time Leaper
+						Tooltip:
+							'''
+							Appears at mouse position
+							Flies toward the player, pierces infinitely
+							Heals the player, but also damages the player depending on how many enemies it hit
+							You may be killed by it
+							“To be or not to be...”
+							'''
+					}
+		
+					TimeLeaperPROJ.DisplayName: Time Leaper
+				}
+		
+				TNTArrow: {
+					TNTArrow: {
+						DisplayName: TNT Arrow
+						Tooltip:
+							'''
+							Explodes into sparks on hit
+							Calls down grenedes from the sky
+							“A barbaric mix of medieval and modern technology”
+							'''
+					}
+		
+					TNTArrowPROJ.DisplayName: TNT Arrow
+				}
+		
+				EtherealArrow: {
+					EtherealArrow: {
+						DisplayName: Annihilation Arrow
+						Tooltip:
+							'''
+							Dodge, aim and shoot!
+							The number of your minion slots will affect how quickly it homes
+							The number of your sentry slots will affect its damage
+							“Are those flags, or over-speed fines?”
+							'''
+					}
+				}
+			}
+		}
+	}
+}

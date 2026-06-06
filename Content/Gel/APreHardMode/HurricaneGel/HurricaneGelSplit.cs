@@ -2,7 +2,7 @@
 {
     public class HurricaneGelSplit : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.APreHardMode";
+        public new string LocalizationCategory => "Gel.APreHardMode";
         public override string Texture => "CalamityMod/Projectiles/Ranged/Aquashard";
 
         public override void SetDefaults()

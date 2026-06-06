@@ -1,0 +1,27 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			BPrePlantera: {
+				CryonicGel: {
+					DisplayName: Cryonic Gel
+					Tooltip:
+						'''
+						Lowers enemy defence by 30. Does not stack.
+						“Feel the cold creep inside your armor.”
+						'''
+				}
+		
+				StarblightSootGel: {
+					DisplayName: Startuner Gel
+					Tooltip:
+						'''
+						Increase ranged damage guadually
+						Stacks up to 60%
+						Loses the buff after 5 seconds of not hitting enemies or swiching weapons
+						“Full perfect!”
+						'''
+				}
+			}
+		}
+	}
+}

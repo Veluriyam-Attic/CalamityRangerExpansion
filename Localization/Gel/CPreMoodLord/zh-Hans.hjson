@@ -1,0 +1,71 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			CPreMoodLord: {
+				AstralGel: {
+					DisplayName: 炫星凝胶
+					Tooltip:
+						'''
+						造成幻星感染减益
+						飞行一段固定距离后令弹幕停滞在空中一段时间
+						时停期间造成较低伤害
+						“The！World！”
+						'''
+				}
+		
+				PerennialGel: {
+					DisplayName: 永恒凝胶
+					Tooltip:
+						'''
+						命中提高玩家的生命恢复
+						“提高血液流动速度”
+						'''
+				}
+		
+				ScoriaGel: {
+					DisplayName: 熔渣凝胶
+					Tooltip:
+						'''
+						命中敌人后产生标记
+						被标记的敌人死亡时会炸出弹跳火球
+						“所以你是把火球放到了敌人的体内吗？”
+						'''
+				}
+		
+				LifeAlloyGel: {
+					DisplayName: 生命合金凝胶
+					Tooltip:
+						'''
+						命中敌人之后会弹射出各种颜色的小光球
+						“你应该不是把那三个仙灵请了过来吧”
+						'''
+				}
+		
+				LivingShardGel: {
+					DisplayName: 生命碎片凝胶
+					Tooltip:
+						'''
+						命中敌人时有概率生成生命碎片
+						生命碎片可以追踪玩家并给玩家回复不稳定的血量
+						追踪期间无限穿透敌人并造成较高的伤害
+						“我缺的生命果这一块谁给我补啊？”
+						'''
+				}
+		
+				PlagueGel: {
+					Tooltip:
+						'''
+						如果玩家处于丛林中，那么对敌人施加强化版本的瘟疫
+						强化版本的瘟疫能比普通的瘟疫更强
+						相互之间不冲突，并且能造成更大的伤害
+						“有点毒”
+						'''
+					DisplayName: 瘟疫病毒凝胶储罐
+				}
+
+				LivingShardGelHealPROJ.DisplayName: 生命碎片
+				ScoriaGelFireBall.DisplayName: 火球
+			}
+		}
+	}
+}

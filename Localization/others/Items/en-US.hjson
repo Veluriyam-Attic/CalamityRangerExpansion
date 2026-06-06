@@ -1,0 +1,61 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Items: {
+			TestDASH: {
+				Tooltip: Grants the effects of Postmortem Dash
+				DisplayName: Test Dash
+			}
+		
+			AuricArrowNPCDrop: {
+				Tooltip: Picking this up will multiply your damage by 1.4 for a short while
+				DisplayName: Auric Boon
+			}
+		
+			TenderElegy: {
+				DisplayName: Tender Elegy
+				Tooltip: ""
+			}
+		
+			TheLetter: {
+				Tooltip:
+					'''
+					Hi! This is Yu Bell 
+					I am the author of this mod
+					It is currently not very balanced and I apologize for that.
+					WE NEED SOMEONE HELP US TRANSLATE CHINESE LOCALIZATION INTO ENGLISH
+					My Discord:zlzhaidou_
+					About this mod:
+					Due to my own irresponsibility the mod remains about half-finished
+					Most of the code is done by 「剃刀刃台风」
+					Do not bring their issues into this
+					It also has nothing to do with 「Calamity Ranger Expansion」by「承影_chengying」
+					I just made this because I like rangers
+					If there are bugs I haven't noticed, please contact me
+					All in all, thanks for playing!
+		
+					*This letter is worth 100 platinum because I hate grinding for money :)
+					**Don't roast me too badly
+					'''
+				DisplayName: Yu Bell's Letter
+			}
+		
+			DragonFangs: {
+				DisplayName: Dragon Fangs
+				Tooltip:
+					'''
+					Increase armor penetration 100
+					when you hit ememy will inflect Dragon Fire debuff
+					'''
+			}
+		
+			CthulhusPupil: {
+				DisplayName: Cthulhu's Pupil
+				Tooltip:
+					'''
+					Increase 4% Range damage
+					reduce 25% ammo cost
+					'''
+			}
+		}
+	}
+}

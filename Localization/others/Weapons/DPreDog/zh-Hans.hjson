@@ -1,0 +1,32 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			DPreDog: {
+				ArterialAssaultRe: {
+					// DisplayName: Arterial Assault Re
+					// Tooltip: ""
+				}
+		
+				DaemonsFlameRe: {
+					// DisplayName: Daemons Flame Re
+					// Tooltip: ""
+				}
+		
+				NettlevineGreatbowRe: {
+					// DisplayName: Nettlevine Greatbow Re
+					// Tooltip: ""
+				}
+		
+				PlanetaryAnnihilationRe: {
+					// DisplayName: Planetary Annihilation Re
+					// Tooltip: ""
+				}
+		
+				TheStormRe: {
+					// DisplayName: The Storm Re
+					// Tooltip: ""
+				}
+			}
+		}
+	}
+}

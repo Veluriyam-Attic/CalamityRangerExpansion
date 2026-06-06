@@ -2,7 +2,7 @@
 {
     public class MiracleMatterArrowFire : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Arrows.EAfterDog";
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
         public bool ableToHit = true;
         public NPC target;

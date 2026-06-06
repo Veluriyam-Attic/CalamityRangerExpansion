@@ -1,0 +1,17 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			DiffuseNovaArc: {
+				DiffuseNovaArc: {
+					DisplayName: 散漫星弧
+					Tooltip:
+						'''
+						充能并快速发射新星能量矢
+						一级充能可以直接发射毁灭性的新星冲击波
+						二级充能将提升能量矢发射速率
+						'''
+				}
+			}
+		}
+	}
+}

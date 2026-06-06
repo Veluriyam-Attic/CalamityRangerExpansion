@@ -1,0 +1,48 @@
+#If anyone wants to translate this mod into other languages, please contact the author虞悖 to build it!
+
+Mods: {
+	CalamityRangerExpansion: {
+		TooltipChanges: {
+			PreText: "[c/FF6666:「Ranger Expansion」: ]"
+			Fabstaff: Fabstaff
+		
+			Calamity: {
+				#暴政之终
+				TyrannysEnd: Ignores defence and damage reduction
+				#迫击炮弹
+				MortarRound: Deals 1 damage only
+				#橡胶迫击炮弹
+				RubberMortarRound: Deals 1 damage only
+				#异象纳米枪
+				TheAnomalysNanogun: The left-click lazer won't lower your damage
+				#神圣空尖弹
+				HallowPointRoundLine1: Deals 125% damage in evil biomes
+				HallowPointRoundLine2: Deals extra damage equals to 50% of enemy contact damage in the Hallow
+				#海伯里斯弹
+				HyperiusBulletLine1: Velocity is raised to 135%
+				HyperiusBulletLine2: 60% chance to fire lesser bullets
+				#血炎箭
+				BloodfireArrow: Guaranteed 1 hp recovery on hit
+				#血炎弹
+				BloodfireBullet: Guaranteed 1 hp recovery on hit
+				#绝路Prime
+				RubicoPrime: Raised attack speed
+				#满弹霰弹枪
+				BulletFilledShotgun: Raised attack speed
+				#天堂之风搭配星流箭降低伤害
+				HeavenlyGale: Lowers damage when used with Kaleidoscopic Phantasmagoria before defeating Calamitas
+				#使用血殒时伤害修改为百分之一
+				ArterialAssault: When using set projectile damage to one percent of the original
+			}
+		
+			#派对弹
+			Vanilla.PartyBullet: Deals 1 damage only in pre-hardmode
+		}
+		
+		RecipeGroup: {
+			Arrow: Any Arrow（Vanilla、Calamity、This Mod）
+			Bullet: any Bullet（Vanilla、Calamity、This Mod）
+			Gel: Any Gel（Vanilla、Calamity，This Mod）
+		}
+	}
+}

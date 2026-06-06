@@ -1,0 +1,21 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			Glock17: {
+				Glock17Proj.DisplayName: Glock17 Proj
+		
+				Glock17: {
+					Tooltip:
+						'''
+						击败血肉墙后，增加伤害且每{0}秒可以发射一发削韧敌人的弹幕
+						可以使敌人受到的伤害变为原来的{1}倍,持续{2}秒
+						击败月亮领主后，易伤弹幕伤害增加{3}
+						"七步之外，枪快"
+						"七步之内，又准又快"
+						'''
+					DisplayName: 玲珑小姐姐的Glock17
+				}
+			}
+		}
+	}
+}

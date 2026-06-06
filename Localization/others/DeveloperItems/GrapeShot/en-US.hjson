@@ -1,0 +1,22 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			GrapeShot: {
+				GrapeShot: {
+					DisplayName: Grapeshot
+					Tooltip:
+						'''
+						Explodes into shards
+						After 50 hits, gain a Storm Count, capped at 10
+						Storm Counts increases the number of shards
+						Lose Storm Counts by 1 per second when you stop attacking
+						“We need Mindbreak Trap”
+						'''
+				}
+		
+				GrapeShotPROJ.DisplayName: Grapeshot
+				GrapeShotPROJSPIT.DisplayName: Grapeshot
+			}
+		}
+	}
+}

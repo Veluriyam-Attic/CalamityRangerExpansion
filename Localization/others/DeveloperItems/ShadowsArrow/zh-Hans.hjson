@@ -1,0 +1,20 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ShadowsArrow: {
+				ShadowsArrow: {
+					DisplayName: 魔影箭
+					Tooltip:
+						'''
+						飞行一段时间之后遁入虚空
+						从敌人附近重新出现，带着一发新的随机弹幕砸向这个敌人
+						“有点快”
+						'''
+				}
+		
+				ShadowsArrowPROJ.DisplayName: 魔影箭
+				SAPortalPROJ.DisplayName: S A Portal P R O J
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+Mods: {
+	CalamityRangerExpansion: {
+		NPCs.AuricArrowNPC.DisplayName: Fireball
+	}
+}

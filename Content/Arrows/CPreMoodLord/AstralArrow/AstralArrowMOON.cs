@@ -2,7 +2,7 @@
 {
     public class AstralArrowMOON : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         private bool start = true;
 
         public override void SetStaticDefaults()

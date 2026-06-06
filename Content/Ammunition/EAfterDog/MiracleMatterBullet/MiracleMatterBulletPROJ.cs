@@ -2,7 +2,7 @@
 {
     public class MiracleMatterBulletPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Ammunition.EAfterDog";
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 
         public static int MaxUpdate = 5; // 定义一个静态变量，表示弹幕每次更新的最大次数

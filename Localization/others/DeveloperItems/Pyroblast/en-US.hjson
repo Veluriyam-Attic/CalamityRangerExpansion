@@ -1,0 +1,26 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			Pyroblast: {
+				Pyroblast: {
+					DisplayName: Pyroblast
+					Tooltip:
+						'''
+						Fires an array of unique explosive projectiles
+						Empowers after firing for 5 seconds, and fires lazers and rockets
+						Keep firing to strengthen these attacks
+						Swiching weapons will cause you to lose all buildup
+						Right click to fire 8 lingt bombs that orbit the player
+						Homes in on enemies after a while
+						“Blow them to pieces!”
+						'''
+				}
+		
+				PyroblastPROJ.DisplayName: Pyroblast
+				PyroblastRocket.DisplayName: Pyroblast Rocket
+				PyroblastRocketEXP.DisplayName: Explosion
+				PyroblastSolarBeam.DisplayName: Solar beam
+			}
+		}
+	}
+}

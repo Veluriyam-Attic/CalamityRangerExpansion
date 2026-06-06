@@ -1,0 +1,62 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			TenderElegy: {
+				TenderElegy: {
+					Tooltip:
+						'''
+						    First Visit to the Red Cliff
+						   In the autumn of the year Renxu, at the time of the full moon in the seventh month, I went by boat with some friends
+						to the Red Cliff. There was a fresh, gentle breeze, but the water was unruffled. I raised my winecup to drink to my 
+						friends, and we chanted the poem on the bright moon, singing the stanza about the fair maid.Soon the moon rose above the
+						eastern mountain, hovering between the Dipper and the Cowherd. The river stretched white, sparkling as if with dew, its
+						glimmering water merging with the sky. We let our craft drift over the boundless expanse of water, feeling as free as if
+						we were riding the wind bound for some unknown destination, as light as if we had left the human world and become 
+						winged immortals. 
+						   Drinking, we became very merry; and we sang a song, beating time on the side of the boat. This was the song:
+						‘Our rudder and oars, redolent of cassia and orchids;
+						Strike the moon's reflection, cleaving the glimmering water;’
+						But my heart is far away,Longing for my dear one under a different sky.One friend, who was a good flutist, played an
+						accompaniment to this song. The notes rang out nostalgic, mournful and plaintive, trailing on and on like a thread of
+						gossamer, arousing the serpents lurking in dark caverns, drawing tears from a widow in her lonely boat. 
+						   Sad at heart, I sat up straight to ask my friend why the music was so mournful.
+						He replied, “Didn't Cao Cao describe ascene like this in his poem: 'The moon is bright, the stars are scattered, the
+						crows fly south...?' And isn't this the place where he was defeated by Zhou Yu? See how the mountains and streams 
+						intertwine, and how darkly imposing they are with Xiakou to the west and Wuchang to the east. When Cao Cao took Jingzhou 
+						by storm and conquered Jiangling, then advanced eastward along the river, his battleships stretched for a thousand li, 
+						his armies' pennons and banners filled the sky. When he offered a libation of wine on the river and lance in hand chanted
+						his poem, he was the hero of his times. But where is he now? We are mere fishermen and woodcutters, keeping company with
+						fish and prawns and befriending deer. We sail our skiff, frail as a leaf, and toast each other by drinking wine from a 
+						gourd. We are nothing but insects who live in this world but one day, mere specks of grain in the vastness of the ocean. I
+						am grieved because our life is so transient, and envy the mighty river which flows on forever. I long to clasp winged 
+						fairies and roam freely, or to embrace the bright moon for all eternity. But knowing that this cannot be attained at once,
+						I give vent to my feelings in these notes which pass with the sad breeze.”
+						   Then I asked him, “Have you considered the water and the moon? Water flows away but is never lost; the moon waxes and 
+						wanes, but neither increases nor diminished. If you look at its changing aspect, the universe passes in the twinkling of 
+						an eye; but if you look at its changeless aspect, all creatures including ourselves are imperishable. What reason have you 
+						to envy other things? Besides, everything in this universe has its owner; and if it does not belong to me nor a tiny speck
+						can I take. The sole exceptions are the cool breeze on the river, the bright moon over the hills. These serve as music to 
+						our ears, as colour to our eyes; these we can take freely and enjoy forever; these are inexhaustible treasures supplied by
+						the Creator, and things in which we can delight together.
+						   My friend was pleased and laughed. Then we rinsed our cups and filled them with wine again. When we had finished the 
+						dishes, and cups and plates lay about us in disorder, we stretched out in the boat and did not notice the coming of dawn in the east.
+						'''
+					DisplayName: Tender Elegy, Lonely Song
+				}
+		
+				TenderElegyBeil.DisplayName: Tender Elegy Beil
+				TenderElegyPROJ.DisplayName: Tender Elegy P R O J
+				TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
+		
+				TenderElegyi: {
+					DisplayName: Tender Elegy
+					Tooltip:
+						'''
+						a common bow with high damage
+						Can be enchanted
+						'''
+				}
+			}
+		}
+	}
+}

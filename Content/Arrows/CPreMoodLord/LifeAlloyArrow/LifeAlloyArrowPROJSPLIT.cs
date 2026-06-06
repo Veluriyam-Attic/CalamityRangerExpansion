@@ -2,7 +2,7 @@
 {
     public class LifeAlloyArrowPROJSPLIT : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectiles.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
         private Color currentColor = Color.Black;
         private int rotDirection = 1;

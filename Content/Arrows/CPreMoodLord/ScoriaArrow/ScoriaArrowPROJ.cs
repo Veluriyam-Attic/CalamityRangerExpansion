@@ -2,7 +2,7 @@
 {
     public class ScoriaArrowPROJ : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Arrows.CPreMoodLord";
         private bool hasTriggeredUpwardMovement = false; // 添加变量来标记是否触发过向上飞行效果
 
         public override void SetStaticDefaults()

@@ -1,0 +1,71 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Arrows: {
+			DPreDog: {
+				DivineGeodeArrow: {
+					DisplayName: Divine Geode Arrow
+					Tooltip:
+						'''
+						Blow your enemies apart with holy power!
+						Grants the Goddess' Purification buff
+						Which greately lengthens your flight time.
+						“Divine flames will no longer ignite your wings...”
+						'''
+				}
+		
+				EffulgentFeatherArrow: {
+					DisplayName: Effulgent Arrow
+					Tooltip:
+						'''
+						Streaks forward in a tesla electromagnetic field
+						Pierces infinitely
+						“The Flash.”
+						'''
+				}
+		
+				PolterplasmArrow: {
+					DisplayName: Polterplasm Arrow
+					Tooltip:
+						'''
+						Chance to release a shriek and deal huge damage
+						Most of the time it just does nothing tho
+						“It deals psychic damage to you, too.”
+						'''
+				}
+		
+				UelibloomArrow: {
+					DisplayName: Uelibloom Arrow
+					Tooltip:
+						'''
+						Releases homing leaves and life lights on hit
+						Leaves grow into thorned vines
+						“Don't try to figure out the biologicals...”
+						'''
+				}
+		
+				ToothArrow: {
+					DisplayName: Abyssal Slicer
+					Tooltip:
+						'''
+						Ignores defence and damage reduction
+						Deals true damage
+						“Armor? What's that?”
+						'''
+				}
+
+				DivineGeodeArrowEXP.DisplayName: Divine explosion
+				DivineGeodeArrowPROJ.DisplayName: Divine Geode Arrow
+				EffulgentFeatherArrowAura.DisplayName: Electric field
+				EffulgentFeatherArrowPROJ.DisplayName: Effulgent Feather Arrow
+				PolterplasmArrowPROJ.DisplayName: Polterplasm Arrow
+				PolterplasmArrowsSoul.DisplayName: Soul
+				ToothArrowPROJ.DisplayName: Tooth Arrow
+				UelibloomArrowLeaf.DisplayName: Leaf
+				UelibloomArrowLight.DisplayName: Lifelight
+				UelibloomArrowPROJ.DisplayName: Uelibloom Arrow
+				UelibloomArrowVine.DisplayName: Vines
+				PolterplasmArrowINV.DisplayName: Polterplasm
+			}
+		}
+	}
+}

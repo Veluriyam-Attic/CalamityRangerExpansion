@@ -1,0 +1,18 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			ExplodingRabbit: {
+				ExplodingRabbit: {
+					DisplayName: High-Explosive Bunny
+					Tooltip:
+						'''
+						Explodes and launches enemies into the air!
+						“That's one dynamic rabbit.”
+						'''
+				}
+
+				ExplodingRabbitPROJ.DisplayName: High-explosive bunny
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			Pyrogeist: {
+				Pyrogeist: {
+					DisplayName: 游魂焰
+					Tooltip:
+						'''
+						喷出火焰伴随着灵魂的哀嚎
+						有几率发射造成剧烈爆炸的游魂
+						“某个偏远贫瘠世界的人们发现了游魂的怨念是一种极其高效的燃料”
+						'''
+				}
+		
+				PyrogeistPROJ.DisplayName: 游魂焰
+			}
+		}
+	}
+}

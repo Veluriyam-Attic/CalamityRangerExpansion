@@ -3,7 +3,7 @@
     public class PolterplasmArrowINV : ModProjectile
     {
         // 使用透明贴图
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 
         public override void SetStaticDefaults()

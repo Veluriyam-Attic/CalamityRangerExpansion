@@ -2,7 +2,7 @@
 {
     public class AuricArrowNPC : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectiles.NewWeapons.EAfterDog";
+        public new string LocalizationCategory => "Arrows.EAfterDog";
         private bool hasDashed = false; // 是否已冲刺
         private int dashStartDelay = 35; // 开始冲刺的延迟
         private NPC targetNPC; // 追踪的目标敌人

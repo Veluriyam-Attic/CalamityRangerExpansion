@@ -1,0 +1,27 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Gel: {
+			BPrePlantera: {
+				CryonicGel: {
+					DisplayName: 寒元凝胶
+					Tooltip:
+						'''
+						击中敌人后降低敌人的防御力
+						“不要被火冻伤！”
+						'''
+				}
+		
+				StarblightSootGel: {
+					DisplayName: 凋星凝胶
+					Tooltip:
+						'''
+						命中敌人一定次数后将提高伤害
+						命中的越多增伤越厉害
+						一段时间未击中敌人或者切换手中武器将清空等级
+						“不要停止打给我”
+						'''
+				}
+			}
+		}
+	}
+}

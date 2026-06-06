@@ -2,7 +2,7 @@
 {
     public class UelibloomArrowLeaf : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.DPreDog";
+        public new string LocalizationCategory => "Arrows.DPreDog";
 
         private bool hasLockedOn = false;  // 是否已经开始追踪
         private NPC target;  // 被追踪的目标

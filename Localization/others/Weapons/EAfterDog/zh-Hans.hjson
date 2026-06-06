@@ -1,0 +1,32 @@
+Mods: {
+	CalamityRangerExpansion: {
+		Weapons: {
+			EAfterDog: {
+				LAS17: {
+					// DisplayName: L A S17
+					// Tooltip: ""
+				}
+		
+				CondemnationRe: {
+					// DisplayName: Condemnation Re
+					// Tooltip: ""
+				}
+		
+				DeathwindRe: {
+					// DisplayName: Deathwind Re
+					// Tooltip: ""
+				}
+		
+				PhangasmRe: {
+					// DisplayName: Phangasm Re
+					// Tooltip: ""
+				}
+		
+				UltimaRe: {
+					// DisplayName: Ultima Re
+					// Tooltip: ""
+				}
+			}
+		}
+	}
+}

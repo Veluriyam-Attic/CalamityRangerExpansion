@@ -2,7 +2,7 @@
 {
     internal class CosmosGelEater1Head : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.EAfterDog";
+        public new string LocalizationCategory => "Gel.EAfterDog";
 
         public override void SetStaticDefaults()
         {

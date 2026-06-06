@@ -2,7 +2,7 @@
 {
     public class AstralBulletSTAR : ModProjectile, ILocalizedModType
     {
-        public new string LocalizationCategory => "Projectile.CPreMoodLord";
+        public new string LocalizationCategory => "Ammunition.CPreMoodLord";
         private int noTileHitCounter = 90;
 
         public override void SetStaticDefaults()

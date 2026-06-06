@@ -1,0 +1,19 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			MaoMaoChong: {
+				MaoMaoChong: {
+					DisplayName: 猫猫虫咖波
+					Tooltip:
+						'''
+						发出猫叫
+						碰到敌人或方块时反弹
+						“猫猫虫？ 猫猫虫！”
+						'''
+				}
+		
+				MaoMaoChongPROJ.DisplayName: 猫猫虫咖波
+			}
+		}
+	}
+}

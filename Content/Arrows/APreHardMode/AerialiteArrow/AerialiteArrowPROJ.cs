@@ -7,7 +7,7 @@ namespace CalamityRangerExpansion.Content.Arrows.APreHardMode.AerialiteArrow
     {
         public override string Texture => "CalamityRangerExpansion/Content/Arrows/APreHardMode/AerialiteArrow/AerialiteArrow";
 
-        public new string LocalizationCategory => "Projectile.APreHardMode";
+        public new string LocalizationCategory => "Arrows.APreHardMode";
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 10;
