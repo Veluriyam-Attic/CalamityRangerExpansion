@@ -3,7 +3,7 @@ Mods: {
 		Configs: {
 			CREsConfigs: {
 				DisplayName: Ranger Expansion Configs
-		
+
 				EnableSpecialEffects: {
 					Label: Special Effects
 					Tooltip:
@@ -12,7 +12,7 @@ Mods: {
 						Some special effects are not affected
 						'''
 				}
-		
+
 				EnableAmmoChecking: {
 					Label: Ammo Checking
 					Tooltip:

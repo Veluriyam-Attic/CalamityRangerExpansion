@@ -13,7 +13,7 @@ Mods: {
 						“This is the boon of the gods. ”
 						'''
 				}
-		
+
 				MiracleMatterArrow: {
 					DisplayName: Kaleidoscopic Phantasmagoria
 					Tooltip:
@@ -26,7 +26,7 @@ Mods: {
 						“Shine brighter than the stars in the sky.”
 						'''
 				}
-		
+
 				EndothermicEnergyArrow: {
 					DisplayName: Endothermic Arrow
 					Tooltip:

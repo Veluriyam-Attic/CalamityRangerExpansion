@@ -13,7 +13,7 @@ Mods: {
 						“The beast is angered.”
 						'''
 				}
-		
+
 				BrassBeastHeavySmoke.DisplayName: Steam
 				BrassBeastPROJ.DisplayName: Brass Beast
 			}

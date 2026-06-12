@@ -11,11 +11,11 @@ Mods: {
 							“正是死亡的威胁让我感受到了生命的意义”
 							'''
 					}
-		
+
 					MonstrousArrowPROJ.DisplayName: 畸变血箭
 					EtherealArrowPROJ.DisplayName: 灭灵箭
 				}
-		
+
 				PlasmaDriveCorePrototypeArrow: {
 					PlasmaDriveCorePrototypeArrow: {
 						DisplayName: SHPA
@@ -25,11 +25,11 @@ Mods: {
 							“你再说一遍你是把什么东西打了出来？”
 							'''
 					}
-		
+
 					PlasmaDriveCorePrototypeArrowEXP.DisplayName: SHPA爆炸
 					PlasmaDriveCorePrototypeArrowPROJ.DisplayName: SHPA
 				}
-		
+
 				Terratoarrow: {
 					Terratoarrow: {
 						DisplayName: 泰拉巨箭
@@ -40,12 +40,12 @@ Mods: {
 							“你是想近一点死呢，还是远一点死呢？”
 							'''
 					}
-		
+
 					TerratoarrowPROJ.DisplayName: 泰拉巨箭
 					TerratoarrowSlash.DisplayName: 光束箭
 					TerratoarrowSPIT.DisplayName: 泰拉巨粒
 				}
-		
+
 				TheDrill: {
 					TheDrill: {
 						DisplayName: 赤金切削工具
@@ -57,10 +57,10 @@ Mods: {
 							“是否厌倦了建造场地？该产品正适合您！”
 							'''
 					}
-		
+
 					TheDrillPROJ.DisplayName: 赤金切削工具
 				}
-		
+
 				TimeLeaper: {
 					TimeLeaper: {
 						DisplayName: 时空交叉箭
@@ -73,10 +73,10 @@ Mods: {
 							“生存还是毁灭，这是一个问题”
 							'''
 					}
-		
+
 					TimeLeaperPROJ.DisplayName: 时空交叉箭
 				}
-		
+
 				TNTArrow: {
 					TNTArrow: {
 						DisplayName: 炸药箭
@@ -86,10 +86,10 @@ Mods: {
 							“师傅你是做什么工作的”
 							'''
 					}
-		
+
 					TNTArrowPROJ.DisplayName: 炸药箭
 				}
-		
+
 				EtherealArrow: {
 					EtherealArrow: {
 						DisplayName: 灭灵箭

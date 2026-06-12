@@ -65,7 +65,7 @@ namespace CalamityRangerExpansion.Content.BOWChange.DPreDog.PlanetaryAnnihilatio
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            target.AddBuff(ModContent.BuffType<GlacialState>(), 20); // 冰河时代
+            target.AddBuff(BuffID.Frozen, 20); // 冰河时代
         }
         public override void OnKill(int timeLeft)
         {

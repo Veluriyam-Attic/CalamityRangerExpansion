@@ -15,7 +15,7 @@ Mods: {
 					TooltipS0:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:壹]
 						[c/FFD700:世事沧桑，历史的车轮滚滚向前……]
 						[c/FFD700:即便已经过去了许久，它们仍在畏惧着你！]
@@ -26,7 +26,7 @@ Mods: {
 					TooltipS1S:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:貳]
 						[c/FFD700:昔日的主宰已经沦落至如此不堪之境]
 						[c/FFD700:曾经的争斗已成为过眼云烟]
@@ -39,7 +39,7 @@ Mods: {
 					TooltipS1F:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:貳]
 						[c/FFD700:昔日的主宰已经沦落至如此不堪之境]
 						[c/FFD700:曾经的争斗已成为过眼云烟]
@@ -52,7 +52,7 @@ Mods: {
 					TooltipS2S:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:弎]
 						[c/FFD700:你的行为触犯了管理猩红的领主]
 						[c/FFD700:所谓领主，不过是被绑在势力最高点的走狗而已]
@@ -65,7 +65,7 @@ Mods: {
 					TooltipS2F:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:弎]
 						[c/FFD700:你的行为触犯了管理腐化的领主]
 						[c/FFD700:所谓领主，不过是被绑在势力最高点的走狗而已]
@@ -78,7 +78,7 @@ Mods: {
 					TooltipS3:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:肆]
 						[c/FFD700:为了在世事争纷中存活下来]
 						[c/FFD700:曾经的浪客逃到了一处遗迹]
@@ -94,7 +94,7 @@ Mods: {
 					TooltipS4:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:伍]
 						[c/FFD700:胡闹！这简直就是一场胡闹！]
 						[c/FFD700:让一个史莱姆成为神明？]
@@ -105,7 +105,7 @@ Mods: {
 					TooltipS5:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:陆]
 						[c/FFD700:数亿的血肉凝聚于此]
 						[c/FFD700:它们来到地狱，只为了获得更多的肮脏物质]
@@ -120,7 +120,7 @@ Mods: {
 					TooltipS6:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:柒]
 						[c/FFD700:嘉登创造出的机械造物无不令人头疼]
 						[c/FFD700:几千年前便是如此，几千年后仍没有一点长进]
@@ -131,7 +131,7 @@ Mods: {
 					TooltipS7:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:捌]
 						[c/FFD700:硫火女巫失败的克隆体之一罢了]
 						[c/FFD700:它还不足以让你畏惧]
@@ -142,7 +142,7 @@ Mods: {
 					TooltipS8:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:玖]
 						[c/FFD700:从农田中抽枝发芽，蔓生在丛林深处的畸形怪花]
 						[c/FFD700:在神明的惠土上耕种并非人民的错误]
@@ -155,7 +155,7 @@ Mods: {
 					TooltipS9:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾]
 						[c/FFD700:就像是命运]
 						[c/FFD700:在可怖之花诞生后不久]
@@ -168,7 +168,7 @@ Mods: {
 					TooltipS10:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾壹]
 						[c/FFD700:在它失去了一切价值后被彻底的抛去了]
 						[c/FFD700:它被传成异端的邪教徒]
@@ -183,7 +183,7 @@ Mods: {
 					TooltipS11:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾貳]
 						[c/FFD700:今夜的月色严厉而冰冷，一如寒彻的锋刃，照耀将死之人的面孔]
 						[c/FFD700:月亮领主并不在乎那个人的][c/CB0000:死亡]
@@ -197,7 +197,7 @@ Mods: {
 					TooltipS12:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾弎]
 						[c/FFD700:月亮领主的消亡引起了宇宙的注视……]
 						[c/FFD700:你无法理解，这个星球的无数次变迁从来没被它人注意过]
@@ -212,7 +212,7 @@ Mods: {
 					TooltipS13:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾肆]
 						[c/FFD700:宇宙生物们来到这里做了很多对你的限制]
 						[c/FFD700:封印遗迹、监视天空、把守地狱]
@@ -222,7 +222,7 @@ Mods: {
 					TooltipS14:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾伍]
 						[c/FFD700:虚无的进入让遗迹中的骷髅兵消亡了很多]
 						[c/FFD700:这些怨死者的亡魂越积越多]
@@ -234,7 +234,7 @@ Mods: {
 					TooltipS15:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾陆]
 						[c/FFD700:一条寰宇巨虫]
 						[c/FFD700:自傲、不驯、强大等无数的形容词都一定符合它]
@@ -245,7 +245,7 @@ Mods: {
 					TooltipS16:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾柒]
 						[c/FFD700:无穷尽的黑暗和孤独之中]
 						[c/FFD700:不断回忆着往日的爱和希望]
@@ -256,10 +256,10 @@ Mods: {
 					TooltipS17:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾捌]
 						[c/FFD700:如今剩下的，便是嘉登和硫火女巫]
-		
+
 						   [c/9F9F9F:嘉登，一位卓越的匠人]
 						   [c/FFD700:但是它完全就是一个全无道德的野兽]
 						   [c/FFD700:人性？同情？你根本不可能从他身上看到丝毫！]
@@ -272,7 +272,7 @@ Mods: {
 					TooltipS18:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:拾玖]
 						[c/FFD700:混沌精本不是这个世界的生物]
 						[c/FFD700:它们不能控制自己的力量，偶然来到此地]
@@ -283,7 +283,7 @@ Mods: {
 						'''
 						[c/FF0000:你还要继续前行吗？]
 						[c/FF0000:我是命运的信徒，命运如此，那我便无怨言]
-		
+
 						[c/EE00FF:〔登神长阶〕] - [c/FFE8E8:终]
 						[c/FFD700:告别过去，是为了走向未来]
 						[c/FFD700:此后，将有群星闪耀，因为我如今来过]
@@ -291,15 +291,15 @@ Mods: {
 						[c/CB0000:“而今天，神也将臣服于我”]
 						'''
 				}
-		
+
 				TheGoldenFirePROJ.DisplayName: 虞金引焱
 				TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
-		
+
 				TheGoldenFireNoGrow: {
 					DisplayName: The Golden Fire No Grow
 					Tooltip: ""
 				}
-		
+
 				TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 			}
 		}

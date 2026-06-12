@@ -10,7 +10,7 @@ Mods: {
 						其射击频率和圆圈大小会越来越小和快
 						'''
 				}
-		
+
 				PerennialBullet: {
 					DisplayName: 永恒弹
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						让你的敌人狠狠的中毒
 						'''
 				}
-		
+
 				ScoriaBullet: {
 					DisplayName: 熔渣弹
 					Tooltip:
@@ -28,7 +28,7 @@ Mods: {
 						“比赛前得热热身，这就是一个很好的热身方式”
 						'''
 				}
-		
+
 				PlagueBullet: {
 					Tooltip:
 						'''

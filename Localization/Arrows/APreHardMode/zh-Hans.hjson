@@ -10,7 +10,7 @@ Mods: {
 						旋风会停滞一段时间后开始追踪
 						'''
 				}
-		
+
 				WulfrimArrow: {
 					DisplayName: 钨钢矢
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						“不，这和卧龙海马毫无关系！”
 						'''
 				}
-		
+
 				PrismArrow: {
 					DisplayName: 棱晶箭
 					Tooltip:

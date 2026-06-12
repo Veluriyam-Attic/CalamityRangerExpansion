@@ -1,5 +1,1 @@
-Mods: {
-	CalamityRangerExpansion: {
-		NPCs.AuricArrowNPC.DisplayName: 火球
-	}
-}
+Mods.CalamityRangerExpansion.NPCs.AuricArrowNPC.DisplayName: 火球

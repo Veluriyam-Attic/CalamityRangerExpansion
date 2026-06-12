@@ -10,7 +10,7 @@ Mods: {
 						“Feel the cold creep inside your armor.”
 						'''
 				}
-		
+
 				StarblightSootGel: {
 					DisplayName: Startuner Gel
 					Tooltip:

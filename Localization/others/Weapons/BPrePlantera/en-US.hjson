@@ -6,27 +6,27 @@ Mods: {
 					DisplayName: Arbalest Re
 					Tooltip: ""
 				}
-		
+
 				BarinauticalRe: {
 					DisplayName: Barinautical Re
 					Tooltip: ""
 				}
-		
+
 				BrimstoneFuryRe: {
 					DisplayName: Brimstone Fury Re
 					Tooltip: ""
 				}
-		
+
 				CorrodedCaustibowRe: {
 					DisplayName: Corroded Caustibow Re
 					Tooltip: ""
 				}
-		
+
 				DarkechoGreatbowRe: {
 					DisplayName: Darkecho Greatbow Re
 					Tooltip: ""
 				}
-		
+
 				PearlwoodBowRe: {
 					DisplayName: Pearlwood Bow Re
 					Tooltip: ""

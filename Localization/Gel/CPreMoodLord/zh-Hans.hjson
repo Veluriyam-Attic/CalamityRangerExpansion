@@ -12,7 +12,7 @@ Mods: {
 						“The！World！”
 						'''
 				}
-		
+
 				PerennialGel: {
 					DisplayName: 永恒凝胶
 					Tooltip:
@@ -21,7 +21,7 @@ Mods: {
 						“提高血液流动速度”
 						'''
 				}
-		
+
 				ScoriaGel: {
 					DisplayName: 熔渣凝胶
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“所以你是把火球放到了敌人的体内吗？”
 						'''
 				}
-		
+
 				LifeAlloyGel: {
 					DisplayName: 生命合金凝胶
 					Tooltip:
@@ -40,7 +40,7 @@ Mods: {
 						“你应该不是把那三个仙灵请了过来吧”
 						'''
 				}
-		
+
 				LivingShardGel: {
 					DisplayName: 生命碎片凝胶
 					Tooltip:
@@ -51,7 +51,7 @@ Mods: {
 						“我缺的生命果这一块谁给我补啊？”
 						'''
 				}
-		
+
 				PlagueGel: {
 					Tooltip:
 						'''

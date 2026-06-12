@@ -10,7 +10,7 @@ Mods: {
 						“生~态~环~保~绿↗↘”
 						'''
 				}
-		
+
 				BloodstoneCoreGel: {
 					DisplayName: 血石核心凝胶
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						“深度治疗-专精三”
 						'''
 				}
-		
+
 				DivineGeodeGel: {
 					DisplayName: 神圣晶石凝胶
 					Tooltip:
@@ -30,7 +30,7 @@ Mods: {
 						“感受天罚！”
 						'''
 				}
-		
+
 				EffulgentFeatherGel: {
 					DisplayName: 闪耀金羽凝胶
 					Tooltip:
@@ -39,7 +39,7 @@ Mods: {
 						“电能产生火，火也能生电”
 						'''
 				}
-		
+
 				PolterplasmGel: {
 					DisplayName: 灵质凝胶
 					Tooltip:
@@ -48,7 +48,7 @@ Mods: {
 						“哟西，回天型载人鱼雷，大大滴好”
 						'''
 				}
-		
+
 				UnholyEssenceGel: {
 					DisplayName: 烛火精华凝胶
 					Tooltip:
@@ -57,7 +57,7 @@ Mods: {
 						“净化世界是我们的最终目标”
 						'''
 				}
-		
+
 				ToothGel: {
 					DisplayName: 渊牙凝胶
 					Tooltip:

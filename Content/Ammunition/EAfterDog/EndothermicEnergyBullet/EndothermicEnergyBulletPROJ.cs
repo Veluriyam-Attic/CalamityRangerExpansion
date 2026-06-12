@@ -114,7 +114,7 @@
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            target.AddBuff(ModContent.BuffType<GlacialState>(), 120); // 冰河时代
+            target.AddBuff(BuffID.Frozen, 120); // 冰河时代
         }
         public override void OnKill(int timeLeft)
         {

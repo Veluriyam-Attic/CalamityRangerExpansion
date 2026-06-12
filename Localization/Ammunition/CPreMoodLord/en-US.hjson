@@ -12,7 +12,7 @@ Mods: {
 						“The whole universe blinks for you.”
 						'''
 				}
-		
+
 				PerennialBullet: {
 					DisplayName: Perennial Bullet
 					Tooltip:
@@ -22,7 +22,7 @@ Mods: {
 						“Brave the storm.”
 						'''
 				}
-		
+
 				ScoriaBullet: {
 					DisplayName: Scoria Bullet
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“A good warmup.”
 						'''
 				}
-		
+
 				PlagueBullet: {
 					Tooltip:
 						'''

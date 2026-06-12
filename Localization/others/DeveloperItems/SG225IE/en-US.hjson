@@ -3,12 +3,12 @@ Mods: {
 		DeveloperItems: {
 			SG225IE: {
 				SG225IEProj.DisplayName: SG225IE Incendiary Round
-		
+
 				SG225IEEDebuff: {
 					DisplayName: High Combustion
 					Description: Repeated impacts intensify thermal persuasion over time.
 				}
-		
+
 				SG225IE: {
 					DisplayName: SG225IE – Breaker Incendiary
 					Tooltip:

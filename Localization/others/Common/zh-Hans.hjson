@@ -5,7 +5,7 @@ Mods: {
 		TooltipChanges: {
 			PreText: "[c/FF6666:「射手拓展更改」: ]"
 			Fabstaff: 绝学法杖
-		
+
 			Calamity: {
 				#暴政之终
 				TyrannysEnd: 狙击弹无视防御, 无视伤害减免
@@ -34,11 +34,11 @@ Mods: {
 				#使用血殒时伤害修改为百分之一
 				ArterialAssault: 使用时弹幕伤害为原来的百分之一
 			}
-		
+
 			#派对弹
 			Vanilla.PartyBullet: 在困难模式前强制仅造成1点伤害
 		}
-		
+
 		RecipeGroup: {
 			Arrow: 任意箭矢（原版、Calamity箭矢、本Mod箭矢）
 			Bullet: 任意子弹（原版、Calamity子弹、本Mod子弹）

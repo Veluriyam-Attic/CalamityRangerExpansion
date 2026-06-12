@@ -10,7 +10,7 @@ Mods: {
 						“我就说嘛！悠悠球得多了才行！”
 						'''
 				}
-		
+
 				MiracleMatterBullet: {
 					DisplayName: 星流弹
 					Tooltip:
@@ -20,7 +20,7 @@ Mods: {
 						“好亮，实在太亮了”
 						'''
 				}
-		
+
 				EndothermicEnergyBullet: {
 					DisplayName: 霜华弹
 					Tooltip:

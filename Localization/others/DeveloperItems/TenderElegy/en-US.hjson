@@ -43,11 +43,11 @@ Mods: {
 						'''
 					DisplayName: Tender Elegy, Lonely Song
 				}
-		
+
 				TenderElegyBeil.DisplayName: Tender Elegy Beil
 				TenderElegyPROJ.DisplayName: Tender Elegy P R O J
 				TenderElegyBeilDamage.DisplayName: Tender Elegy Beil Damage
-		
+
 				TenderElegyi: {
 					DisplayName: Tender Elegy
 					Tooltip:

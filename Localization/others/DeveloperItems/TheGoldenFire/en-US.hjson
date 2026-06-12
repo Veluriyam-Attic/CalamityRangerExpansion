@@ -15,7 +15,7 @@ Mods: {
 					TooltipS0:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅰ]
 						[c/FFD700: Time brought change to the world, the wheel of history rolls forever forward...]
 						[c/FFD700: Even after so long, they still fear your name!]
@@ -26,7 +26,7 @@ Mods: {
 					TooltipS1S:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
 						[c/FFD700: The former rulers have fallen to such a pitiful state]
 						[c/FFD700: The once fierce battles have become but a fleeting line in stories]
@@ -39,7 +39,7 @@ Mods: {
 					TooltipS1F:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅱ]
 						[c/FFD700: The former rulers have fallen to such a pitiful state]
 						[c/FFD700: The once fierce battles have become but a fleeting moment]
@@ -52,7 +52,7 @@ Mods: {
 					TooltipS2S:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
 						[c/FFD700: Your actions have offended the sovereign of the Crimson]
 						[c/FFD700: But a lord is merely a puppet tied to the top of the hierarchy]
@@ -65,7 +65,7 @@ Mods: {
 					TooltipS2F:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Ascending the Long Stairs to Divinity〕] - [c/FFE8E8:Ⅲ]
 						[c/FFD700: Your actions have offended the sovereign of the Corruption]
 						[c/FFD700: But a lord is merely a puppet tied to the top of the hierarchy]
@@ -78,7 +78,7 @@ Mods: {
 					TooltipS3:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅳ]
 						[c/FFD700: To survive amidst the turmoil of the world]
 						[c/FFD700: A former wanderer fled to an ancient ruin]
@@ -94,7 +94,7 @@ Mods: {
 					TooltipS4:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅴ]
 						[c/FFD700: Absurdity! This is sheer absurdity!]
 						[c/FFD700: To elevate a slime to the status of a deity?]
@@ -105,7 +105,7 @@ Mods: {
 					TooltipS5:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅵ]
 						[c/FFD700: Billions of mounds of flesh converge here]
 						[c/FFD700: They come to Hell, seeking only more filth and corruption]
@@ -120,7 +120,7 @@ Mods: {
 					TooltipS6:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅶ]
 						[c/FFD700: The mechanical creations of Draedon bring endless headaches]
 						[c/FFD700: They were troublesome thousands of years ago, and remain so today, without any improvement]
@@ -131,7 +131,7 @@ Mods: {
 					TooltipS7:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅷ]
 						[c/FFD700: Merely one of the failed clones of The Brimstone Witch]
 						[c/FFD700: It is not worthy of your fear]
@@ -142,7 +142,7 @@ Mods: {
 					TooltipS8:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅸ]
 						[c/FFD700: Sprouting from the farmland, a misshapen monster of a flower creeps deep within the jungle]
 						[c/FFD700: It is not the fault of the people to cultivate upon divine soil]
@@ -155,7 +155,7 @@ Mods: {
 					TooltipS9:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅹ]
 						[c/FFD700:As if by fate]
 						[c/FFD700:Shortly after the birth of the terrifying flower]
@@ -168,7 +168,7 @@ Mods: {
 					TooltipS10:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅺ]
 						[c/FFD700:Cast aside after losing all their worth]
 						[c/FFD700:It became known as the Lunatic Cultist]
@@ -183,7 +183,7 @@ Mods: {
 					TooltipS11:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Ⅻ]
 						[c/FFD700:Tonight's moon is harsh and cold, like a chilling blade, illuminating the face of the dying]
 						[c/FFD700:The Moon Lord cares not for their][c/CB0000:demise]
@@ -197,7 +197,7 @@ Mods: {
 					TooltipS12:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅢ]
 						[c/FFD700:The demise of the Moon Lord has drawn the gaze of the universe...]
 						[c/FFD700:You cannot comprehend how, for the countless changes of this planet have never been noticed by others.]
@@ -212,7 +212,7 @@ Mods: {
 					TooltipS13:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅣ]
 						[c/FFD700: Cosmic beings have come here and placed many restrictions on you.]
 						[c/FFD700: They seal ruins, monitor the skies, and guard the underworld.]
@@ -222,7 +222,7 @@ Mods: {
 					TooltipS14:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅤ]
 						[c/FFD700: The appearance of this void has caused many skeleton soldiers in the ruins to perish.]
 						[c/FFD700: The souls of these grievance-laden dead have accumulated over time.]
@@ -234,7 +234,7 @@ Mods: {
 					TooltipS15:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅥ]
 						[c/FFD700:A cosmic giant worm]
 						[c/FFD700:Countless adjectives such as arrogant, untamed, and powerful must surely fit it]
@@ -245,7 +245,7 @@ Mods: {
 					TooltipS16:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅦ]
 						[c/FFD700:Amidst endless darkness and solitude]
 						[c/FFD700:Constantly reminiscing about past love and hope]
@@ -256,23 +256,23 @@ Mods: {
 					TooltipS17:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅧ]
 						[c/FFD700: What remain now are Draedon and The Brimstone Witch]
-		
+
 						    [c/9F9F9F: Draedon, an excellent craftsman]
 						    [c/FFD700: But he is but a beast without morality]
 						    [c/FFD700: Humanity? Sympathy? You can't see any from him!]
 						    [c/FFA500: Calamitas, a sorcerer of doom]
 						    [c/FFD700: Once upon a time, she was also a lovely girl]
 						    [c/FFD700: Now she has become a complete witch]
-		
+
 						[c/D00000: Please complete a performance with them]
 						'''
 					TooltipS18:
 						'''
 						{$CommonTooltip}
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:ⅩⅨ]
 						[c/FFD700: Chaos Elementals are not creatures of this world]
 						[c/FFD700: Unable to control their power, they stumbled into this realm by chance]
@@ -283,7 +283,7 @@ Mods: {
 						'''
 						[c/FF0000: Wilt thou continue thy journey forward?]
 						[c/FF0000: I am a disciple of fate, and if such is fate's decree, then I shall harbor no complaints.]
-		
+
 						[c/EE00FF:〔Long Stairs to Divinity〕] - [c/FFE8E8:Finale]
 						[c/FFD700: To bid farewell to the past is to embrace the future.]
 						[c/FFD700: Henceforth, stars shall shine bright, for I have walked among them.]
@@ -291,15 +291,15 @@ Mods: {
 						[c/CB0000: "And today, even the gods shall bow before me."]
 						'''
 				}
-		
+
 				TheGoldenFirePROJ.DisplayName: Rekindled Glory
 				TheGoldenFirePROJAG.DisplayName: The Golden Fire P R O J A G
-		
+
 				TheGoldenFireNoGrow: {
 					DisplayName: The Golden Fire No Grow
 					Tooltip: ""
 				}
-		
+
 				TheGoldenFirePROJGrow.DisplayName: The Golden Fire P R O J Grow
 			}
 		}

@@ -10,7 +10,7 @@ Mods: {
 						“How dare you!”
 						'''
 				}
-		
+
 				BloodstoneCoreGel: {
 					DisplayName: Blood Gel
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						“The Dummy's Guide to Healing - Book Three”
 						'''
 				}
-		
+
 				DivineGeodeGel: {
 					DisplayName: Divine Gel
 					Tooltip:
@@ -30,7 +30,7 @@ Mods: {
 						“One roasted DoG, coming right up!”
 						'''
 				}
-		
+
 				EffulgentFeatherGel: {
 					DisplayName: Effulgent Gel
 					Tooltip:
@@ -39,7 +39,7 @@ Mods: {
 						“Static!”
 						'''
 				}
-		
+
 				PolterplasmGel: {
 					DisplayName: Polterplasm Gel
 					Tooltip:
@@ -48,7 +48,7 @@ Mods: {
 						“Kamikaze spirits. Soga.”
 						'''
 				}
-		
+
 				UnholyEssenceGel: {
 					DisplayName: Unholy Gel
 					Tooltip:
@@ -57,7 +57,7 @@ Mods: {
 						“We will purge the world.”
 						'''
 				}
-		
+
 				ToothGel: {
 					DisplayName: Abyssal Coagulator
 					Tooltip:

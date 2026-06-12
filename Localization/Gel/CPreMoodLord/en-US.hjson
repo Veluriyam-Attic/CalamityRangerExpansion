@@ -12,7 +12,7 @@ Mods: {
 						“The！World！”
 						'''
 				}
-		
+
 				PerennialGel: {
 					DisplayName: Perennial Gel
 					Tooltip:
@@ -21,7 +21,7 @@ Mods: {
 						“Vitalized blood”
 						'''
 				}
-		
+
 				ScoriaGel: {
 					DisplayName: Scoria Gel
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“Did you just put that inside them?”
 						'''
 				}
-		
+
 				LifeAlloyGel: {
 					DisplayName: Life Gel
 					Tooltip:
@@ -40,7 +40,7 @@ Mods: {
 						“Looks like they have some uses besides finding chests!”
 						'''
 				}
-		
+
 				LivingShardGel: {
 					DisplayName: Living Shard Gel
 					Tooltip:
@@ -51,7 +51,7 @@ Mods: {
 						“Dunno, I think Life Fruits are better.”
 						'''
 				}
-		
+
 				PlagueGel: {
 					Tooltip:
 						'''

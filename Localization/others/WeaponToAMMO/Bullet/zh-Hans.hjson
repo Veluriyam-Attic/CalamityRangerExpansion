@@ -12,10 +12,10 @@ Mods: {
 							'''
 						DisplayName: 凋亡弹
 					}
-		
+
 					ApoctosisMagicBulletPROJ.DisplayName: 凋亡弹
 				}
-		
+
 				DestructionBullet: {
 					DestructionBullet: {
 						DisplayName: 混合血清弹
@@ -26,11 +26,11 @@ Mods: {
 							“我也就打碎了一个绿色的螺旋玻璃管，你们怎么都跑走了，这很贵吗？”
 							'''
 					}
-		
+
 					DestructionBulletEXP.DisplayName: 炼金爆炸
 					DestructionBulletPROJ.DisplayName: 混合血清弹
 				}
-		
+
 				NorthStar: {
 					TheNorthStar: {
 						Tooltip:
@@ -42,10 +42,10 @@ Mods: {
 							'''
 						DisplayName: 北极星之佑
 					}
-		
+
 					PolarStarO.DisplayName: 北极星之佑
 				}
-		
+
 				OrichalcumBullet: {
 					OrichalcumBullet: {
 						Tooltip:
@@ -55,10 +55,10 @@ Mods: {
 							'''
 						DisplayName: 山铜空尖弹
 					}
-		
+
 					OrichalcumBulletPROJ.DisplayName: 山铜空尖弹
 				}
-		
+
 				TheEmpty: {
 					TheEmpty: {
 						DisplayName: 空弹
@@ -69,10 +69,10 @@ Mods: {
 							“容易让游戏崩溃”
 							'''
 					}
-		
+
 					TheEmptyPROJ.DisplayName: 空弹
 				}
-		
+
 				YuanZiDan: {
 					YuanZiDan: {
 						DisplayName: 狂野气凝胶弹
@@ -83,13 +83,13 @@ Mods: {
 							“你不需要搞懂它的原理，因为这解释起来需要花上三天三夜！”
 							'''
 					}
-		
+
 					YuanZiDanPROJ.DisplayName: 狂野气凝胶弹
 				}
-		
+
 				AdamantiteAcceleratorBullet: {
 					AdamantiteAcceleratorBulletPROJ.DisplayName: 精金超加速环形粒子
-		
+
 					AdamantiteAcceleratorBullet: {
 						DisplayName: 精金超加速环形粒子 [盒装]
 						TooltipNormal:

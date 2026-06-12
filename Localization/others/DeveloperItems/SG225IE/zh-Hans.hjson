@@ -3,12 +3,12 @@ Mods: {
 		DeveloperItems: {
 			SG225IE: {
 				SG225IEProj.DisplayName: SG225IE 燃烧弹
-		
+
 				SG225IEEDebuff: {
 					DisplayName: 高燃
 					Description: 随着时间的推移增强热效应
 				}
-		
+
 				SG225IE: {
 					DisplayName: SG225IE-高燃破裂者
 					Tooltip:

@@ -6,21 +6,35 @@ Mods: {
 					// DisplayName: Blossom Flux Re
 					// Tooltip: ""
 				}
-		
+
 				MalevolenceRe: {
 					// DisplayName: Malevolence Re
 					// Tooltip: ""
 				}
-		
+
 				TheBallistaRe: {
 					// DisplayName: The Ballista Re
 					// Tooltip: ""
 				}
-		
+
 				VernalBolterRe: {
 					// DisplayName: Vernal Bolter Re
 					// Tooltip: ""
 				}
+
+				// BlossomFluxReBOMB.DisplayName: Blossom Flux Re B O M B
+				// BlossomFluxReEXP.DisplayName: Blossom Flux Re E X P
+				// MalevolenceReARROW.DisplayName: Malevolence Re A R R O W
+				// MalevolenceRePROJ.DisplayName: Malevolence Re P R O J
+				// TheBallistaRePROJ.DisplayName: The Ballista Re P R O J
+				// TheBallistaReSuperPROJ.DisplayName: The Ballista Re Super P R O J
+				// VernalBolterRePROJ.DisplayName: Vernal Bolter Re P R O J
+				// MalevolenceRePlagueNest.DisplayName: Malevolence Re Plague Nest
+				// TheBallistaReSiegeCrater.DisplayName: The Ballista Re Siege Crater
+				// VernalBolterReBloom.DisplayName: Vernal Bolter Re Bloom
+				// VernalBolterReBrambleSeed.DisplayName: Vernal Bolter Re Bramble Seed
+				// BlossomFluxReLEAF.DisplayName: Blossom Flux Re L E A F
+				// BlossomFluxReArrow.DisplayName: Blossom Flux Re Arrow
 			}
 		}
 	}

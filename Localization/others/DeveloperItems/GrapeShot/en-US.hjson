@@ -13,7 +13,7 @@ Mods: {
 						“We need Mindbreak Trap”
 						'''
 				}
-		
+
 				GrapeShotPROJ.DisplayName: Grapeshot
 				GrapeShotPROJSPIT.DisplayName: Grapeshot
 			}

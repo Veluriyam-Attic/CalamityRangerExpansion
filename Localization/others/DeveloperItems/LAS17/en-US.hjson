@@ -6,7 +6,7 @@ Mods: {
 					DisplayName: LAS17 Thermal Overload
 					Description: Every advantage carries a cost.
 				}
-		
+
 				LAS17: {
 					DisplayName: LAS17 – Double-Edge Sickle
 					Tooltip:
@@ -23,7 +23,7 @@ Mods: {
 						[c/EAF6FF: Sold by arms dealers at Post-plantera]
 						'''
 				}
-		
+
 				LAS17Proj.DisplayName: LAS17 Energy Beam
 			}
 		}

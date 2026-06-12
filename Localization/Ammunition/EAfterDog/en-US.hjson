@@ -10,7 +10,7 @@ Mods: {
 						“The Parade of Light.”
 						'''
 				}
-		
+
 				MiracleMatterBullet: {
 					DisplayName: Exo Round
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						Pierces, then flies erratically and agressively homes in
 						'''
 				}
-		
+
 				EndothermicEnergyBullet: {
 					DisplayName: Endothermic Bullet
 					Tooltip:

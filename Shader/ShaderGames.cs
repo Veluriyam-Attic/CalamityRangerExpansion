@@ -151,7 +151,7 @@ namespace CalamityLegendsComeBack.Shader
             }
             catch (Exception ex)
             {
-                ModContent.GetInstance<CalamityLegendsComeBack>().Logger.Warn($"Failed to load shader '{name}' at '{path}'.", ex);
+                //ModContent.GetInstance<CalamityLegendsComeBack>().Logger.Warn($"Failed to load shader '{name}' at '{path}'.", ex);
             }
         }
 

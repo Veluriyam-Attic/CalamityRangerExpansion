@@ -3,7 +3,7 @@ Mods: {
 		Configs: {
 			CREsConfigs: {
 				DisplayName: CREs中心
-		
+
 				EnableSpecialEffects: {
 					Label: 特效总控
 					Tooltip:
@@ -12,7 +12,7 @@ Mods: {
 						部分特效不可关闭
 						'''
 				}
-		
+
 				EnableAmmoChecking: {
 					Label: 弹药检查
 					Tooltip:

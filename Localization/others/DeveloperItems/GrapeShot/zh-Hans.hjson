@@ -13,7 +13,7 @@ Mods: {
 						“如风暴般撕裂你的敌人！”
 						'''
 				}
-		
+
 				GrapeShotPROJ.DisplayName: 霰散弹
 				GrapeShotPROJSPIT.DisplayName: 霰散弹
 			}

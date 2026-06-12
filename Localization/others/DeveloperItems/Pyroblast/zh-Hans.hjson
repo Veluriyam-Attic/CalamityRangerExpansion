@@ -15,7 +15,7 @@ Mods: {
 						“把他们炸成碎片！”
 						'''
 				}
-		
+
 				PyroblastPROJ.DisplayName: 炎爆
 				PyroblastRocket.DisplayName: 火箭弹
 				PyroblastRocketEXP.DisplayName: 火箭弹爆炸

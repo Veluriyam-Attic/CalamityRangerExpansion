@@ -15,7 +15,7 @@ Mods: {
 						“Blow them to pieces!”
 						'''
 				}
-		
+
 				PyroblastPROJ.DisplayName: Pyroblast
 				PyroblastRocket.DisplayName: Pyroblast Rocket
 				PyroblastRocketEXP.DisplayName: Explosion

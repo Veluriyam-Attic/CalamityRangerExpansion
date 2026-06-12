@@ -10,7 +10,7 @@ Mods: {
 						“What brings creation can also bring destruction.”
 						'''
 				}
-		
+
 				PolterplasmBullet: {
 					DisplayName: Polterplasm Bullet
 					Tooltip:
@@ -21,7 +21,7 @@ Mods: {
 						“Fast and furious!...and dead.”
 						'''
 				}
-		
+
 				EffulgentFeatherBullet: {
 					DisplayName: Effulgent Bullet
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“Physics.”
 						'''
 				}
-		
+
 				DivineGeodeBullet: {
 					DisplayName: Divine Geode Bullet
 					Tooltip:
@@ -41,7 +41,7 @@ Mods: {
 						“sus.”
 						'''
 				}
-		
+
 				ToothBullet: {
 					Tooltip:
 						'''

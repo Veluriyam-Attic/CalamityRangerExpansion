@@ -13,7 +13,7 @@ Mods: {
 						“策勋十二转，赏赐百千强. ”
 						'''
 				}
-		
+
 				MiracleMatterArrow: {
 					DisplayName: 幻光斑景
 					Tooltip:
@@ -25,7 +25,7 @@ Mods: {
 						试试更差的武器吧！
 						'''
 				}
-		
+
 				EndothermicEnergyArrow: {
 					DisplayName: 霜华矢
 					Tooltip:

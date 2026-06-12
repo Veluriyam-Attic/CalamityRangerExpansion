@@ -10,7 +10,7 @@ Mods: {
 						“很明显，它会让你喷射出的火焰对某些生物来说非常美味”
 						'''
 				}
-		
+
 				AuricGel: {
 					DisplayName: 圣金源凝胶
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						“什么，出金了？让我看看看看看看看看”
 						'''
 				}
-		
+
 				MiracleMatterGel: {
 					DisplayName: 奇迹凝胶
 					Tooltip:
@@ -30,7 +30,7 @@ Mods: {
 						“一次性能提供一艘航空母舰的电量”
 						'''
 				}
-		
+
 				EndothermicEnergyGel: {
 					DisplayName: 霜华凝胶
 					Tooltip:

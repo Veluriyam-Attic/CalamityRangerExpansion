@@ -12,7 +12,7 @@ Mods: {
 						“给你的敌人两种颜色（物理）瞧瞧”
 						'''
 				}
-		
+
 				HurricaneGel: {
 					DisplayName: 棱晶凝胶
 					Tooltip:
@@ -22,7 +22,7 @@ Mods: {
 						“什么？你说这是他们的肾结石？”
 						'''
 				}
-		
+
 				WulfrimGel: {
 					DisplayName: 钨钢凝胶
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“你什么时候奖励自己”
 						'''
 				}
-		
+
 				AerialiteGel: {
 					DisplayName: 天蓝凝胶
 					Tooltip:

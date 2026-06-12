@@ -5,25 +5,25 @@ Mods: {
 				Tooltip: 带上它来直接体验末路狂花的冲刺效果
 				DisplayName: 末路狂花测试冲刺装置
 			}
-		
+
 			AuricArrowNPCDrop: {
 				Tooltip: 捡起后立刻消失并将伤害乘以1.4倍，持续一段时间
 				DisplayName: 金源箭增益果实
 			}
-		
+
 			TenderElegy: {
 				DisplayName: Tender Elegy
 				Tooltip: ""
 			}
-		
+
 			TheLetter: {
 				Tooltip:
 					'''
 					嗨! 我是虞悖
 					本Mod是「虞悖的灾厄射手拓展」
-		
+
 					>>质量并不高<<
-		
+
 					关于Mod平衡不是很好，如果有人愿意来重新调整平衡的话我很乐意
 					平衡目前已经正在调整
 					大概等到暑假左右会逐步更新上来
@@ -44,7 +44,7 @@ Mods: {
 					'''
 				DisplayName: 虞悖的信
 			}
-		
+
 			DragonFangs: {
 				DisplayName: 龙獠
 				Tooltip:
@@ -53,7 +53,7 @@ Mods: {
 					命中时施加龙焰减益
 					'''
 			}
-		
+
 			CthulhusPupil: {
 				DisplayName: 克苏鲁的眼瞳
 				Tooltip:

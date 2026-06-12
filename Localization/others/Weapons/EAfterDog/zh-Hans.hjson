@@ -6,26 +6,41 @@ Mods: {
 					// DisplayName: L A S17
 					// Tooltip: ""
 				}
-		
+
 				CondemnationRe: {
 					// DisplayName: Condemnation Re
 					// Tooltip: ""
 				}
-		
+
 				DeathwindRe: {
 					// DisplayName: Deathwind Re
 					// Tooltip: ""
 				}
-		
+
 				PhangasmRe: {
 					// DisplayName: Phangasm Re
 					// Tooltip: ""
 				}
-		
+
 				UltimaRe: {
 					// DisplayName: Ultima Re
 					// Tooltip: ""
 				}
+
+				// DeathwindCJB.DisplayName: Deathwind C J B
+				// DeathwindRePROJ.DisplayName: Deathwind Re P R O J
+				// DeathwindRePROJAround.DisplayName: Deathwind Re P R O J Around
+				// PhangasmReGOEST.DisplayName: Phangasm Re G O E S T
+				// PhangasmReIlluExplosion.DisplayName: Phangasm Re Illu Explosion
+				// PhangasmReIlluMark.DisplayName: Phangasm Re Illu Mark
+				// PhangasmReTrueSlash.DisplayName: Phangasm Re True Slash
+				// PhangasmReUFO.DisplayName: Phangasm Re U F O
+				// UltimaWingMAN.DisplayName: Ultima Wing M A N
+				// CondemnationReProj.DisplayName: Condemnation Re Proj
+				// CondemnationReJudgementBrand.DisplayName: Condemnation Re Judgement Brand
+				// DeathwindReColorPrism.DisplayName: Deathwind Re Color Prism
+				// PhangasmReMirageRift.DisplayName: Phangasm Re Mirage Rift
+				// UltimaReConstellationNode.DisplayName: Ultima Re Constellation Node
 			}
 		}
 	}

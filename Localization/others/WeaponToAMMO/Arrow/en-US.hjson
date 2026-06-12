@@ -11,11 +11,11 @@ Mods: {
 							“You make my heart beat.”
 							'''
 					}
-		
+
 					MonstrousArrowPROJ.DisplayName: Monstrous Arrow
 					EtherealArrowPROJ.DisplayName: Annihilation Arrow
 				}
-		
+
 				PlasmaDriveCorePrototypeArrow: {
 					PlasmaDriveCorePrototypeArrow: {
 						DisplayName: SHPA
@@ -25,11 +25,11 @@ Mods: {
 							“What did you just fire?!”
 							'''
 					}
-		
+
 					PlasmaDriveCorePrototypeArrowEXP.DisplayName: SHPA爆炸
 					PlasmaDriveCorePrototypeArrowPROJ.DisplayName: SHPA
 				}
-		
+
 				Terratoarrow: {
 					Terratoarrow: {
 						DisplayName: Terratoarrow
@@ -40,12 +40,12 @@ Mods: {
 							“An old legend...”
 							'''
 					}
-		
+
 					TerratoarrowPROJ.DisplayName: Terratoarrow
 					TerratoarrowSlash.DisplayName: Terratoarrow
 					TerratoarrowSPIT.DisplayName: Terratoarrow
 				}
-		
+
 				TheDrill: {
 					TheDrill: {
 						DisplayName: Gilded Omnidrill
@@ -57,10 +57,10 @@ Mods: {
 							“Tired of clearing out arenas by hand?”
 							'''
 					}
-		
+
 					TheDrillPROJ.DisplayName: Gilded Omnidrill
 				}
-		
+
 				TimeLeaper: {
 					TimeLeaper: {
 						DisplayName: Time Leaper
@@ -73,10 +73,10 @@ Mods: {
 							“To be or not to be...”
 							'''
 					}
-		
+
 					TimeLeaperPROJ.DisplayName: Time Leaper
 				}
-		
+
 				TNTArrow: {
 					TNTArrow: {
 						DisplayName: TNT Arrow
@@ -87,10 +87,10 @@ Mods: {
 							“A barbaric mix of medieval and modern technology”
 							'''
 					}
-		
+
 					TNTArrowPROJ.DisplayName: TNT Arrow
 				}
-		
+
 				EtherealArrow: {
 					EtherealArrow: {
 						DisplayName: Annihilation Arrow

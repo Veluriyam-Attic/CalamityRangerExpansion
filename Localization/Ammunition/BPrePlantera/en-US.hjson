@@ -11,7 +11,7 @@ Mods: {
 						“Winter is here.”
 						'''
 				}
-		
+
 				StarblightSootBullet: {
 					DisplayName: Blight Star Round
 					Tooltip:

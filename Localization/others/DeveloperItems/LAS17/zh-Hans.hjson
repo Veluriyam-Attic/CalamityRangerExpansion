@@ -6,7 +6,7 @@ Mods: {
 					DisplayName: LAS17 燃烧效果
 					Description: 凡事都有两面性
 				}
-		
+
 				LAS17: {
 					DisplayName: LAS17-双刃镰刀
 					Tooltip:
@@ -23,7 +23,7 @@ Mods: {
 						[c/EAF6FF:由军火商在世纪之花后售卖]
 						'''
 				}
-		
+
 				LAS17Proj.DisplayName: LAS17 能量激光
 			}
 		}

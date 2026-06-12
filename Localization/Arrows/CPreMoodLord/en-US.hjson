@@ -14,7 +14,7 @@ Mods: {
 						“A star in the palm of your hand.”
 						'''
 				}
-		
+
 				LifeAlloyArrow: {
 					DisplayName: Life Arrow
 					Tooltip:
@@ -23,7 +23,7 @@ Mods: {
 						“One is All and All is One. ”
 						'''
 				}
-		
+
 				PerennialArrow: {
 					DisplayName: Perennial Arrow
 					Tooltip:
@@ -34,7 +34,7 @@ Mods: {
 						“Medics and gardeners would kill for this. ”
 						'''
 				}
-		
+
 				ScoriaArrow: {
 					DisplayName: Scoria Arrow
 					Tooltip:
@@ -45,7 +45,7 @@ Mods: {
 						“Rumbling with the force of a volcano. ”
 						'''
 				}
-		
+
 				PlagueArrow: {
 					DisplayName: Plague Arrow
 					Tooltip:

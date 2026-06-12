@@ -13,10 +13,10 @@ Mods: {
 							“他需要一个炮架”
 							'''
 					}
-		
+
 					PaoPROJ.DisplayName: 砲
 				}
-		
+
 				Che: {
 					Che: {
 						DisplayName: 車
@@ -26,7 +26,7 @@ Mods: {
 							“最早的数值怪”
 							'''
 					}
-		
+
 					ChePROJ.DisplayName: 車
 				}
 			}

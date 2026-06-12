@@ -1,7 +1,1 @@
-Mods: {
-	CalamityRangerExpansion: {
-		DeveloperItems: {
-			NorthStar.ChargedBlast2PS.DisplayName: 北极星之佑
-		}
-	}
-}
+Mods.CalamityRangerExpansion.DeveloperItems.NorthStar.ChargedBlast2PS.DisplayName: 北极星之佑

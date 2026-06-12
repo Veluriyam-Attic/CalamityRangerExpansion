@@ -12,10 +12,10 @@ Mods: {
 							'''
 						DisplayName: Apoctosis Bullet
 					}
-		
+
 					ApoctosisMagicBulletPROJ.DisplayName: Apoctosis Bullet
 				}
-		
+
 				DestructionBullet: {
 					DestructionBullet: {
 						DisplayName: Destruction Bullet
@@ -25,11 +25,11 @@ Mods: {
 							“So I broke a green tube, so what? Why are you running away?”
 							'''
 					}
-		
+
 					DestructionBulletEXP.DisplayName: alchemical explosion
 					DestructionBulletPROJ.DisplayName: Destruction Bullet
 				}
-		
+
 				NorthStar: {
 					TheNorthStar: {
 						Tooltip:
@@ -41,10 +41,10 @@ Mods: {
 							'''
 						DisplayName: The North Star
 					}
-		
+
 					PolarStarO.DisplayName: The North Star
 				}
-		
+
 				OrichalcumBullet: {
 					OrichalcumBullet: {
 						Tooltip:
@@ -54,10 +54,10 @@ Mods: {
 							'''
 						DisplayName: Orichalcum Bullet
 					}
-		
+
 					OrichalcumBulletPROJ.DisplayName: Orichalcum Bullet
 				}
-		
+
 				TheEmpty: {
 					TheEmpty: {
 						DisplayName: Empty
@@ -68,10 +68,10 @@ Mods: {
 							“May crash the game.”
 							'''
 					}
-		
+
 					TheEmptyPROJ.DisplayName: Empty
 				}
-		
+
 				YuanZiDan: {
 					YuanZiDan: {
 						DisplayName: Particle
@@ -82,13 +82,13 @@ Mods: {
 							“It's light enough!”
 							'''
 					}
-		
+
 					YuanZiDanPROJ.DisplayName: Particle
 				}
-		
+
 				AdamantiteAcceleratorBullet: {
 					AdamantiteAcceleratorBulletPROJ.DisplayName: Adamantite Amplifier
-		
+
 					AdamantiteAcceleratorBullet: {
 						DisplayName: Adamantite Amplifier (Boxed)
 						TooltipNormal:

@@ -10,7 +10,7 @@ Mods: {
 						“More delicious than regular gel!”
 						'''
 				}
-		
+
 				AuricGel: {
 					DisplayName: Auric Gel
 					Tooltip:
@@ -20,7 +20,7 @@ Mods: {
 						“Struck gold.”
 						'''
 				}
-		
+
 				MiracleMatterGel: {
 					DisplayName: Miracle Gel
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“Each of them is enough to power an entire aircraft carrier.”
 						'''
 				}
-		
+
 				EndothermicEnergyGel: {
 					DisplayName: Endothermic Gel
 					Tooltip:

@@ -13,7 +13,7 @@ Mods: {
 						“不要重蹈覆辙……”
 						'''
 				}
-		
+
 				EffulgentFeatherArrow: {
 					DisplayName: 闪耀金羽箭
 					Tooltip:
@@ -22,7 +22,7 @@ Mods: {
 						无限穿透
 						'''
 				}
-		
+
 				PolterplasmArrow: {
 					DisplayName: 灵质箭
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						大概率什么也不会发生
 						'''
 				}
-		
+
 				UelibloomArrow: {
 					DisplayName: 龙蒿箭
 					Tooltip:
@@ -40,7 +40,7 @@ Mods: {
 						叶片命中时造成藤蔓
 						'''
 				}
-		
+
 				ToothArrow: {
 					DisplayName: 渊牙箭
 					Tooltip:

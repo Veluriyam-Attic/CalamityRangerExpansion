@@ -10,7 +10,7 @@ Mods: {
 						“它是生命，也是毁灭”
 						'''
 				}
-		
+
 				PolterplasmBullet: {
 					DisplayName: 花灵弹
 					Tooltip:
@@ -21,7 +21,7 @@ Mods: {
 						“你说当天你夜闯秋名山看见的就是这家伙？”
 						'''
 				}
-		
+
 				EffulgentFeatherBullet: {
 					DisplayName: 闪耀金羽弹
 					Tooltip:
@@ -31,7 +31,7 @@ Mods: {
 						“你为什么自己没事？”
 						'''
 				}
-		
+
 				DivineGeodeBullet: {
 					DisplayName: 圣晶石子弹
 					Tooltip:
@@ -41,7 +41,7 @@ Mods: {
 						“天神也干了”
 						'''
 				}
-		
+
 				ToothBullet: {
 					Tooltip:
 						'''

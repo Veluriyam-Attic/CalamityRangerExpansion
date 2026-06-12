@@ -10,7 +10,7 @@ Mods: {
 						后座力有最大速度限制
 						'''
 				}
-		
+
 				WulfrimBullet: {
 					DisplayName: 钨钢弹
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						距离超过一定值则会降低这次命中的伤害
 						'''
 				}
-		
+
 				TinkleshardBullet: {
 					DisplayName: 棱晶弹
 					Tooltip:

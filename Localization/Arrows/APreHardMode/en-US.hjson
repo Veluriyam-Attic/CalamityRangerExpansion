@@ -10,7 +10,7 @@ Mods: {
 						Wirlwinds home in after a moment.
 						'''
 				}
-		
+
 				WulfrimArrow: {
 					DisplayName: Wulfrim Arrow
 					Tooltip:
@@ -19,7 +19,7 @@ Mods: {
 						“Worthy of Draedon's creations...”
 						'''
 				}
-		
+
 				PrismArrow: {
 					DisplayName: Prism Arrow
 					Tooltip:

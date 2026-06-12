@@ -12,7 +12,7 @@ Mods: {
 						“Divine flames will no longer ignite your wings...”
 						'''
 				}
-		
+
 				EffulgentFeatherArrow: {
 					DisplayName: Effulgent Arrow
 					Tooltip:
@@ -22,7 +22,7 @@ Mods: {
 						“The Flash.”
 						'''
 				}
-		
+
 				PolterplasmArrow: {
 					DisplayName: Polterplasm Arrow
 					Tooltip:
@@ -32,7 +32,7 @@ Mods: {
 						“It deals psychic damage to you, too.”
 						'''
 				}
-		
+
 				UelibloomArrow: {
 					DisplayName: Uelibloom Arrow
 					Tooltip:
@@ -42,7 +42,7 @@ Mods: {
 						“Don't try to figure out the biologicals...”
 						'''
 				}
-		
+
 				ToothArrow: {
 					DisplayName: Abyssal Slicer
 					Tooltip:

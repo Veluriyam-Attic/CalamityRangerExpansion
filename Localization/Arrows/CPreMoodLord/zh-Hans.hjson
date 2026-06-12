@@ -13,7 +13,7 @@ Mods: {
 						日月强化仅对炫星箭有效
 						'''
 				}
-		
+
 				LifeAlloyArrow: {
 					DisplayName: 生命合金箭
 					Tooltip:
@@ -22,7 +22,7 @@ Mods: {
 						“一即全，全即一. ”
 						'''
 				}
-		
+
 				PerennialArrow: {
 					DisplayName: 永恒箭
 					Tooltip:
@@ -32,7 +32,7 @@ Mods: {
 						一段时间后治疗玩家
 						'''
 				}
-		
+
 				ScoriaArrow: {
 					DisplayName: 熔渣箭
 					Tooltip:
@@ -41,7 +41,7 @@ Mods: {
 						最后释放追踪熔岩
 						'''
 				}
-		
+
 				PlagueArrow: {
 					DisplayName: 瘟疫重甲箭
 					Tooltip:
