@@ -56,6 +56,13 @@ Mods: {
 					reduce 25% ammo cost
 					'''
 			}
+
+			Weapons: {
+				ShaderTestItem: {
+					DisplayName: Shader Test Item
+					Tooltip: ""
+				}
+			}
 		}
 	}
 }

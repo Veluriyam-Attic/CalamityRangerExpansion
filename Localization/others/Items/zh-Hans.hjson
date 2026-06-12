@@ -62,6 +62,13 @@ Mods: {
 					减少25%弹药消耗
 					'''
 			}
+
+			Weapons: {
+				ShaderTestItem: {
+					// DisplayName: Shader Test Item
+					// Tooltip: ""
+				}
+			}
 		}
 	}
 }
