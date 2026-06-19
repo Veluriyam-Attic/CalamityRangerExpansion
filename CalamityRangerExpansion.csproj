@@ -8,9 +8,17 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
+	  <AdditionalFiles Remove="Content\DeveloperItems\Weapon\Pyroblast\**" />
+	  <AdditionalFiles Remove="Content\DeveloperItems\Weapon\新文件夹\**" />
 	  <AdditionalFiles Remove="LightingBolts\Shader\**" />
+	  <Compile Remove="Content\DeveloperItems\Weapon\Pyroblast\**" />
+	  <Compile Remove="Content\DeveloperItems\Weapon\新文件夹\**" />
 	  <Compile Remove="LightingBolts\Shader\**" />
+	  <EmbeddedResource Remove="Content\DeveloperItems\Weapon\Pyroblast\**" />
+	  <EmbeddedResource Remove="Content\DeveloperItems\Weapon\新文件夹\**" />
 	  <EmbeddedResource Remove="LightingBolts\Shader\**" />
+	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\**" />
+	  <None Remove="Content\DeveloperItems\Weapon\新文件夹\**" />
 	  <None Remove="LightingBolts\Shader\**" />
 	</ItemGroup>
 	<ItemGroup>
@@ -110,7 +118,6 @@
 	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17c.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17EDebuff.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\Glock17\Glock17Proj.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\PyroblastRocketScorpio.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\HD2\R36\R36.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\HD2\SG225IE\SG225IEProj.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\HD2\SG225IE\高然破裂者【这个不好】.png" />
@@ -211,9 +218,6 @@
 	  <None Remove="Content\DeveloperItems\Weapon\BlindBirdCry\BlindBirdCry.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\BrassBeast\BrassBeast.png" />
 	  <None Remove="Content\DeveloperItems\Weapon\PhotovisceratorRE\PhotovisceratorRE.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\DPYROItem.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\PyroblastPROJ.png" />
-	  <None Remove="Content\DeveloperItems\Weapon\Pyroblast\PyroblastRocket.png" />
 	  <None Remove="Content\DeveloperItems\炎爆.png" />
 	  <None Remove="Content\Gel\APreHardMode\AerialiteGel\AerialiteGelCloud.png" />
 	  <None Remove="Content\Gel\APreHardMode\AerialiteGel\天蓝凝胶.txt" />
@@ -283,8 +287,6 @@
 	  <Folder Include="Content\Arrows\CPreMoodLord\AstralArrow\废案\" />
 	  <Folder Include="Content\Arrows\EAfterDog\AuricArrow\废弃\" />
 	  <Folder Include="Content\DeveloperItems\Gel\新文件夹\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\Pyroblast\新文件夹\" />
-	  <Folder Include="Content\DeveloperItems\Weapon\新文件夹\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.Build.Framework" Version="17.12.6" />

@@ -151,11 +151,8 @@ namespace CalamityRangerExpansion.Shader
             }
             catch (Exception ex)
             {
-<<<<<<< Updated upstream
-                //ModContent.GetInstance<CalamityLegendsComeBack>().Logger.Warn($"Failed to load shader '{name}' at '{path}'.", ex);
-=======
+
                 ModContent.GetInstance<ShaderGames>().Mod.Logger.Warn($"Failed to load shader '{name}' at '{path}'.", ex);
->>>>>>> Stashed changes
             }
         }
 

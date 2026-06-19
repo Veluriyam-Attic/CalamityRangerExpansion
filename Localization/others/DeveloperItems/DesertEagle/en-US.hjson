@@ -1,0 +1,22 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			DesertEagle: {
+				DesertEagle: {
+					DisplayName: Desert Eagle
+					Tooltip:
+						'''
+						Left-click alternates between scattering kinetic bullets and firing powerful life-stealing rounds
+						The silver scatter volley grows from 2 to 5 shots as the world progresses
+						Hold right-click to spin the Desert Eagle, shredding enemies on contact
+						When fully charged, left-click unleashes a powerful piercing round
+						"Used by legendary marksmen"
+						'''
+				}
+
+				DesertEagleHeavyRound.DisplayName: Desert Eagle Heavy Round
+				DesertEagleLifeRound.DisplayName: Desert Eagle Life Round
+			}
+		}
+	}
+}

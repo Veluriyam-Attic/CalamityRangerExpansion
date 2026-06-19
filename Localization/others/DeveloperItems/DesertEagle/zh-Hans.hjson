@@ -1,0 +1,22 @@
+Mods: {
+	CalamityRangerExpansion: {
+		DeveloperItems: {
+			DesertEagle: {
+				DesertEagle: {
+					DisplayName: 沙漠之鹰
+					Tooltip:
+						'''
+						左键轮流散射动能灌注弹，以及强力吸血弹
+						银色散射弹幕会随流程从2发成长到5发
+						按住右键将高速旋转手里的沙漠之鹰，切碎撞到它的敌人
+						充能满时点击左键将释放一枚强力的闪光爆弹
+						“传奇神射手同款”
+						'''
+				}
+
+				DesertEagleHeavyRound.DisplayName: 沙漠之鹰重弹
+				DesertEagleLifeRound.DisplayName: 沙漠之鹰吸血弹
+			}
+		}
+	}
+}
