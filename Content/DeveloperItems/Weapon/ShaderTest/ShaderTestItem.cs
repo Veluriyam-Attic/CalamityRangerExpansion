@@ -206,7 +206,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.ShaderTest
 
     internal sealed class ShaderTestProjectile : ModProjectile, ILocalizedModType, IPixelatedPrimitiveRenderer
     {
-        public new string LocalizationCategory => "Projectiles.A_Dev";
+        public new string LocalizationCategory => "Projectiles.ADev";
         public override string Texture => ShaderTestItem.DemoTexture;
 
         private int CatalogIndex => (int)Projectile.ai[0];
@@ -452,7 +452,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.ShaderTest
         private bool panelPositionInitialized;
 
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
-        public new string LocalizationCategory => "Projectiles.A_Dev";
+        public new string LocalizationCategory => "Projectiles.ADev";
 
         private bool FadeOut
         {

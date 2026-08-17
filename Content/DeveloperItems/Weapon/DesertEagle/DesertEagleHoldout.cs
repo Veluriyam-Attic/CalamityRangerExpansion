@@ -18,7 +18,7 @@ namespace CalamityRangerExpansion.Content.DeveloperItems.Weapon.DesertEagle
         private static readonly Color SilverMain = new(214, 224, 236);
         private static readonly Color SilverAccent = new(255, 255, 255);
         private static readonly Color SilverDark = new(140, 152, 170);
-        public override bool UseBaseDraw => false;
+        //public override bool UseBaseDraw => false;
         public override string Texture => DesertEagle.TextureAssetPath;
         public override int AssociatedItemID => ModContent.ItemType<DesertEagle>();
         public override float MaxOffsetLengthFromArm => 24f;

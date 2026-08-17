@@ -53,14 +53,18 @@ Mods: {
 
 			// StarblightSootBulletArea.DisplayName: Starblight Soot Bullet Area
 			// PolterplasmArrowINV.DisplayName: Polterplasm Arrow I N V
-<<<<<<< Updated upstream
-=======
 
 			A_Dev: {
 				// ShaderTestPanel.DisplayName: Shader Test Panel
 				// ShaderTestProjectile.DisplayName: Shader Test Projectile
 			}
->>>>>>> Stashed changes
+
+			// DesertEagleHoldout.DisplayName: Desert Eagle Holdout
+
+			ADev: {
+				// ShaderTestPanel.DisplayName: Shader Test Panel
+				// ShaderTestProjectile.DisplayName: Shader Test Projectile
+			}
 		}
 	}
 }
