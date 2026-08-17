@@ -1,4 +1,6 @@
-﻿namespace CalamityRangerExpansion.Content.Gel.DPreDog.BloodstoneCoreGel
+﻿using CalamityMod.Projectiles.Melee;
+
+namespace CalamityRangerExpansion.Content.Gel.DPreDog.BloodstoneCoreGel
 {
     internal class BloodstoneCoreGel : ModItem, ILocalizedModType
     {
@@ -29,7 +31,9 @@
         {
             Recipe recipe = CreateRecipe(333);
             recipe.AddRecipeGroup("CalamityRangerExpansion:RecipeGroupGel", 333);
-            recipe.AddIngredient<BloodstoneCore>(1);
+            recipe.AddIngredient<Bloodstone>(1);
+            recipe.AddIngredient<BloodOrb>(1);
+            recipe.AddIngredient<RuinousSoul>(1);
             recipe.AddTile<StaticRefiner>();
             recipe.Register();
         }
